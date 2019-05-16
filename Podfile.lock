@@ -1,0 +1,32 @@
+PODS:
+  - Alamofire (4.8.2)
+  - CarbonKit (2.2.2)
+  - LayoutKit (10.1.0)
+  - R.swift (5.0.3):
+    - R.swift.Library (~> 5.0.0)
+  - R.swift.Library (5.0.1)
+
+DEPENDENCIES:
+  - Alamofire
+  - CarbonKit
+  - LayoutKit
+  - R.swift
+
+SPEC REPOS:
+  https://github.com/cocoapods/specs.git:
+    - Alamofire
+    - CarbonKit
+    - LayoutKit
+    - R.swift
+    - R.swift.Library
+
+SPEC CHECKSUMS:
+  Alamofire: ae5c501addb7afdbb13687d7f2f722c78734c2d3
+  CarbonKit: 0dec4738fa489b4c043a5f850c27fd0dbefb57cc
+  LayoutKit: 66478bb3af5ce4519a056d9465bc4c7585d2350b
+  R.swift: f5a87643b91ea569d23d6afb3eee9c743edde239
+  R.swift.Library: cfe85d569d9bae6cb262922db130e7c3a7a5fad1
+
+PODFILE CHECKSUM: 40b2aad649a90eab1f6b6d10da5e2a22b75809ea
+
+COCOAPODS: 1.6.2

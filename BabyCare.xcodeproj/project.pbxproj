@@ -1,0 +1,712 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		8C6D906C228D634900CA4C8D /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8C6D906B228D634900CA4C8D /* AppDelegate.swift */; };
+		8C6D906E228D634900CA4C8D /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8C6D906D228D634900CA4C8D /* ViewController.swift */; };
+		8C6D9071228D634900CA4C8D /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8C6D906F228D634900CA4C8D /* Main.storyboard */; };
+		8C6D9073228D634B00CA4C8D /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 8C6D9072228D634B00CA4C8D /* Assets.xcassets */; };
+		8C6D9076228D634B00CA4C8D /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8C6D9074228D634B00CA4C8D /* LaunchScreen.storyboard */; };
+		8C6D9081228D634B00CA4C8D /* BabyCareTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8C6D9080228D634B00CA4C8D /* BabyCareTests.swift */; };
+		8C6D908C228D634B00CA4C8D /* BabyCareUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8C6D908B228D634B00CA4C8D /* BabyCareUITests.swift */; };
+		8CFB0676228D71970063D160 /* Icons.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 8CFB0675228D71970063D160 /* Icons.xcassets */; };
+		8CFB0679228D74950063D160 /* R.generated.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8CFB0678228D74950063D160 /* R.generated.swift */; };
+		BE748D9D3007D31FEFF59E64 /* Pods_BabyCare.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 976278CCCE39EBC8D5BD0A0C /* Pods_BabyCare.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		8C6D907D228D634B00CA4C8D /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 8C6D9060228D634900CA4C8D /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 8C6D9067228D634900CA4C8D;
+			remoteInfo = BabyCare;
+		};
+		8C6D9088228D634B00CA4C8D /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 8C6D9060228D634900CA4C8D /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 8C6D9067228D634900CA4C8D;
+			remoteInfo = BabyCare;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		8C6D9068228D634900CA4C8D /* BabyCare.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = BabyCare.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		8C6D906B228D634900CA4C8D /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		8C6D906D228D634900CA4C8D /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		8C6D9070228D634900CA4C8D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		8C6D9072228D634B00CA4C8D /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		8C6D9075228D634B00CA4C8D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		8C6D9077228D634B00CA4C8D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		8C6D907C228D634B00CA4C8D /* BabyCareTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = BabyCareTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		8C6D9080228D634B00CA4C8D /* BabyCareTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BabyCareTests.swift; sourceTree = "<group>"; };
+		8C6D9082228D634B00CA4C8D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		8C6D9087228D634B00CA4C8D /* BabyCareUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = BabyCareUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		8C6D908B228D634B00CA4C8D /* BabyCareUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BabyCareUITests.swift; sourceTree = "<group>"; };
+		8C6D908D228D634B00CA4C8D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		8CFB0675228D71970063D160 /* Icons.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Icons.xcassets; sourceTree = "<group>"; };
+		8CFB0678228D74950063D160 /* R.generated.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = R.generated.swift; sourceTree = SOURCE_ROOT; };
+		976278CCCE39EBC8D5BD0A0C /* Pods_BabyCare.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_BabyCare.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		A4C1F497664CD5E203D47FAB /* Pods-BabyCare.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-BabyCare.debug.xcconfig"; path = "Target Support Files/Pods-BabyCare/Pods-BabyCare.debug.xcconfig"; sourceTree = "<group>"; };
+		E13BC735A68A6E662A590497 /* Pods-BabyCare.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-BabyCare.release.xcconfig"; path = "Target Support Files/Pods-BabyCare/Pods-BabyCare.release.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		8C6D9065228D634900CA4C8D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BE748D9D3007D31FEFF59E64 /* Pods_BabyCare.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8C6D9079228D634B00CA4C8D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8C6D9084228D634B00CA4C8D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		7F4BFF03D75ACB13334D5D4C /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				A4C1F497664CD5E203D47FAB /* Pods-BabyCare.debug.xcconfig */,
+				E13BC735A68A6E662A590497 /* Pods-BabyCare.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		8C6D905F228D634900CA4C8D = {
+			isa = PBXGroup;
+			children = (
+				8C6D906A228D634900CA4C8D /* BabyCare */,
+				8C6D907F228D634B00CA4C8D /* BabyCareTests */,
+				8C6D908A228D634B00CA4C8D /* BabyCareUITests */,
+				8C6D9069228D634900CA4C8D /* Products */,
+				7F4BFF03D75ACB13334D5D4C /* Pods */,
+				B2598B59FFA3C0041CAB3699 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		8C6D9069228D634900CA4C8D /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				8C6D9068228D634900CA4C8D /* BabyCare.app */,
+				8C6D907C228D634B00CA4C8D /* BabyCareTests.xctest */,
+				8C6D9087228D634B00CA4C8D /* BabyCareUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		8C6D906A228D634900CA4C8D /* BabyCare */ = {
+			isa = PBXGroup;
+			children = (
+				8CFB067A228D750D0063D160 /* Resource */,
+				8CFB0678228D74950063D160 /* R.generated.swift */,
+				8C6D906B228D634900CA4C8D /* AppDelegate.swift */,
+				8C6D906D228D634900CA4C8D /* ViewController.swift */,
+				8C6D906F228D634900CA4C8D /* Main.storyboard */,
+				8C6D9072228D634B00CA4C8D /* Assets.xcassets */,
+				8CFB0675228D71970063D160 /* Icons.xcassets */,
+				8C6D9074228D634B00CA4C8D /* LaunchScreen.storyboard */,
+				8C6D9077228D634B00CA4C8D /* Info.plist */,
+			);
+			path = BabyCare;
+			sourceTree = "<group>";
+		};
+		8C6D907F228D634B00CA4C8D /* BabyCareTests */ = {
+			isa = PBXGroup;
+			children = (
+				8C6D9080228D634B00CA4C8D /* BabyCareTests.swift */,
+				8C6D9082228D634B00CA4C8D /* Info.plist */,
+			);
+			path = BabyCareTests;
+			sourceTree = "<group>";
+		};
+		8C6D908A228D634B00CA4C8D /* BabyCareUITests */ = {
+			isa = PBXGroup;
+			children = (
+				8C6D908B228D634B00CA4C8D /* BabyCareUITests.swift */,
+				8C6D908D228D634B00CA4C8D /* Info.plist */,
+			);
+			path = BabyCareUITests;
+			sourceTree = "<group>";
+		};
+		8CFB067A228D750D0063D160 /* Resource */ = {
+			isa = PBXGroup;
+			children = (
+				8CFB067B228D75160063D160 /* Font */,
+			);
+			path = Resource;
+			sourceTree = "<group>";
+		};
+		8CFB067B228D75160063D160 /* Font */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Font;
+			sourceTree = "<group>";
+		};
+		B2598B59FFA3C0041CAB3699 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				976278CCCE39EBC8D5BD0A0C /* Pods_BabyCare.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		8C6D9067228D634900CA4C8D /* BabyCare */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 8C6D9090228D634B00CA4C8D /* Build configuration list for PBXNativeTarget "BabyCare" */;
+			buildPhases = (
+				8CFB0677228D722C0063D160 /* ShellScript */,
+				A7E06A228E894352652FD855 /* [CP] Check Pods Manifest.lock */,
+				8C6D9064228D634900CA4C8D /* Sources */,
+				8C6D9065228D634900CA4C8D /* Frameworks */,
+				8C6D9066228D634900CA4C8D /* Resources */,
+				3868004C0D06A4EB794F4EB0 /* [CP] Embed Pods Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = BabyCare;
+			productName = BabyCare;
+			productReference = 8C6D9068228D634900CA4C8D /* BabyCare.app */;
+			productType = "com.apple.product-type.application";
+		};
+		8C6D907B228D634B00CA4C8D /* BabyCareTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 8C6D9093228D634B00CA4C8D /* Build configuration list for PBXNativeTarget "BabyCareTests" */;
+			buildPhases = (
+				8C6D9078228D634B00CA4C8D /* Sources */,
+				8C6D9079228D634B00CA4C8D /* Frameworks */,
+				8C6D907A228D634B00CA4C8D /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				8C6D907E228D634B00CA4C8D /* PBXTargetDependency */,
+			);
+			name = BabyCareTests;
+			productName = BabyCareTests;
+			productReference = 8C6D907C228D634B00CA4C8D /* BabyCareTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		8C6D9086228D634B00CA4C8D /* BabyCareUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 8C6D9096228D634B00CA4C8D /* Build configuration list for PBXNativeTarget "BabyCareUITests" */;
+			buildPhases = (
+				8C6D9083228D634B00CA4C8D /* Sources */,
+				8C6D9084228D634B00CA4C8D /* Frameworks */,
+				8C6D9085228D634B00CA4C8D /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				8C6D9089228D634B00CA4C8D /* PBXTargetDependency */,
+			);
+			name = BabyCareUITests;
+			productName = BabyCareUITests;
+			productReference = 8C6D9087228D634B00CA4C8D /* BabyCareUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		8C6D9060228D634900CA4C8D /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1020;
+				LastUpgradeCheck = 1020;
+				ORGANIZATIONNAME = tuananhi;
+				TargetAttributes = {
+					8C6D9067228D634900CA4C8D = {
+						CreatedOnToolsVersion = 10.2.1;
+					};
+					8C6D907B228D634B00CA4C8D = {
+						CreatedOnToolsVersion = 10.2.1;
+						TestTargetID = 8C6D9067228D634900CA4C8D;
+					};
+					8C6D9086228D634B00CA4C8D = {
+						CreatedOnToolsVersion = 10.2.1;
+						TestTargetID = 8C6D9067228D634900CA4C8D;
+					};
+				};
+			};
+			buildConfigurationList = 8C6D9063228D634900CA4C8D /* Build configuration list for PBXProject "BabyCare" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 8C6D905F228D634900CA4C8D;
+			productRefGroup = 8C6D9069228D634900CA4C8D /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				8C6D9067228D634900CA4C8D /* BabyCare */,
+				8C6D907B228D634B00CA4C8D /* BabyCareTests */,
+				8C6D9086228D634B00CA4C8D /* BabyCareUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		8C6D9066228D634900CA4C8D /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8C6D9076228D634B00CA4C8D /* LaunchScreen.storyboard in Resources */,
+				8C6D9073228D634B00CA4C8D /* Assets.xcassets in Resources */,
+				8CFB0676228D71970063D160 /* Icons.xcassets in Resources */,
+				8C6D9071228D634900CA4C8D /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8C6D907A228D634B00CA4C8D /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8C6D9085228D634B00CA4C8D /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		3868004C0D06A4EB794F4EB0 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-BabyCare/Pods-BabyCare-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/Alamofire/Alamofire.framework",
+				"${BUILT_PRODUCTS_DIR}/CarbonKit/CarbonKit.framework",
+				"${BUILT_PRODUCTS_DIR}/LayoutKit/LayoutKit.framework",
+				"${BUILT_PRODUCTS_DIR}/R.swift.Library/Rswift.framework",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Alamofire.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/CarbonKit.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/LayoutKit.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Rswift.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-BabyCare/Pods-BabyCare-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		8CFB0677228D722C0063D160 /* ShellScript */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 12;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"$TEMP_DIR/rswift-lastrun",
+			);
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				$SRCROOT/R.generated.swift,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"$PODS_ROOT/R.swift/rswift\" generate \"$SRCROOT/R.generated.swift\"\n";
+		};
+		A7E06A228E894352652FD855 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-BabyCare-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		8C6D9064228D634900CA4C8D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8C6D906E228D634900CA4C8D /* ViewController.swift in Sources */,
+				8C6D906C228D634900CA4C8D /* AppDelegate.swift in Sources */,
+				8CFB0679228D74950063D160 /* R.generated.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8C6D9078228D634B00CA4C8D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8C6D9081228D634B00CA4C8D /* BabyCareTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8C6D9083228D634B00CA4C8D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8C6D908C228D634B00CA4C8D /* BabyCareUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		8C6D907E228D634B00CA4C8D /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 8C6D9067228D634900CA4C8D /* BabyCare */;
+			targetProxy = 8C6D907D228D634B00CA4C8D /* PBXContainerItemProxy */;
+		};
+		8C6D9089228D634B00CA4C8D /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 8C6D9067228D634900CA4C8D /* BabyCare */;
+			targetProxy = 8C6D9088228D634B00CA4C8D /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		8C6D906F228D634900CA4C8D /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				8C6D9070228D634900CA4C8D /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		8C6D9074228D634B00CA4C8D /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				8C6D9075228D634B00CA4C8D /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		8C6D908E228D634B00CA4C8D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.2;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		8C6D908F228D634B00CA4C8D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		8C6D9091228D634B00CA4C8D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = A4C1F497664CD5E203D47FAB /* Pods-BabyCare.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = BKF8N939U5;
+				INFOPLIST_FILE = BabyCare/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = me.amno.BabyCare;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		8C6D9092228D634B00CA4C8D /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = E13BC735A68A6E662A590497 /* Pods-BabyCare.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = BKF8N939U5;
+				INFOPLIST_FILE = BabyCare/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = me.amno.BabyCare;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		8C6D9094228D634B00CA4C8D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = BabyCareTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = me.amno.BabyCareTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/BabyCare.app/BabyCare";
+			};
+			name = Debug;
+		};
+		8C6D9095228D634B00CA4C8D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = BabyCareTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = me.amno.BabyCareTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/BabyCare.app/BabyCare";
+			};
+			name = Release;
+		};
+		8C6D9097228D634B00CA4C8D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = BabyCareUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = me.amno.BabyCareUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = BabyCare;
+			};
+			name = Debug;
+		};
+		8C6D9098228D634B00CA4C8D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = BabyCareUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = me.amno.BabyCareUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = BabyCare;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		8C6D9063228D634900CA4C8D /* Build configuration list for PBXProject "BabyCare" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8C6D908E228D634B00CA4C8D /* Debug */,
+				8C6D908F228D634B00CA4C8D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		8C6D9090228D634B00CA4C8D /* Build configuration list for PBXNativeTarget "BabyCare" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8C6D9091228D634B00CA4C8D /* Debug */,
+				8C6D9092228D634B00CA4C8D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		8C6D9093228D634B00CA4C8D /* Build configuration list for PBXNativeTarget "BabyCareTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8C6D9094228D634B00CA4C8D /* Debug */,
+				8C6D9095228D634B00CA4C8D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		8C6D9096228D634B00CA4C8D /* Build configuration list for PBXNativeTarget "BabyCareUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8C6D9097228D634B00CA4C8D /* Debug */,
+				8C6D9098228D634B00CA4C8D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 8C6D9060228D634900CA4C8D /* Project object */;
+}
