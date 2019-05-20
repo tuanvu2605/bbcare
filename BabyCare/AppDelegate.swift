@@ -15,6 +15,10 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
 
 
     func application(_ application: UIApplication, didFinishLaunchingWithOptions launchOptions: [UIApplication.LaunchOptionsKey: Any]?) -> Bool {
+//        let vc = UIStoryboard.initial(storyboard:.conversations)
+        FirestoreService().configure()
+        window?.rootViewController = AppTabBarController()
+        window?.makeKeyAndVisible()
         // Override point for customization after application launch.
         return true
     }

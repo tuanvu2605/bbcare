@@ -13,28 +13,412 @@ struct R: Rswift.Validatable {
   fileprivate static let hostingBundle = Bundle(for: R.Class.self)
   
   static func validate() throws {
+    try font.validate()
     try intern.validate()
   }
   
-  /// This `R.image` struct is generated, and contains static references to 1 images.
+  /// This `R.color` struct is generated, and contains static references to 2 colors.
+  struct color {
+    /// Color `garadient_start`.
+    static let garadient_start = Rswift.ColorResource(bundle: R.hostingBundle, name: "garadient_start")
+    /// Color `gradient_end`.
+    static let gradient_end = Rswift.ColorResource(bundle: R.hostingBundle, name: "gradient_end")
+    
+    /// `UIColor(named: "garadient_start", bundle: ..., traitCollection: ...)`
+    @available(tvOS 11.0, *)
+    @available(iOS 11.0, *)
+    static func garadient_start(compatibleWith traitCollection: UIKit.UITraitCollection? = nil) -> UIKit.UIColor? {
+      return UIKit.UIColor(resource: R.color.garadient_start, compatibleWith: traitCollection)
+    }
+    
+    /// `UIColor(named: "gradient_end", bundle: ..., traitCollection: ...)`
+    @available(tvOS 11.0, *)
+    @available(iOS 11.0, *)
+    static func gradient_end(compatibleWith traitCollection: UIKit.UITraitCollection? = nil) -> UIKit.UIColor? {
+      return UIKit.UIColor(resource: R.color.gradient_end, compatibleWith: traitCollection)
+    }
+    
+    fileprivate init() {}
+  }
+  
+  /// This `R.file` struct is generated, and contains static references to 4 files.
+  struct file {
+    /// Resource file `GoogleService-Info.plist`.
+    static let googleServiceInfoPlist = Rswift.FileResource(bundle: R.hostingBundle, name: "GoogleService-Info", pathExtension: "plist")
+    /// Resource file `baby.jpg`.
+    static let babyJpg = Rswift.FileResource(bundle: R.hostingBundle, name: "baby", pathExtension: "jpg")
+    /// Resource file `doctor.jpg`.
+    static let doctorJpg = Rswift.FileResource(bundle: R.hostingBundle, name: "doctor", pathExtension: "jpg")
+    /// Resource file `newMessage.wav`.
+    static let newMessageWav = Rswift.FileResource(bundle: R.hostingBundle, name: "newMessage", pathExtension: "wav")
+    
+    /// `bundle.url(forResource: "GoogleService-Info", withExtension: "plist")`
+    static func googleServiceInfoPlist(_: Void = ()) -> Foundation.URL? {
+      let fileResource = R.file.googleServiceInfoPlist
+      return fileResource.bundle.url(forResource: fileResource)
+    }
+    
+    /// `bundle.url(forResource: "baby", withExtension: "jpg")`
+    static func babyJpg(_: Void = ()) -> Foundation.URL? {
+      let fileResource = R.file.babyJpg
+      return fileResource.bundle.url(forResource: fileResource)
+    }
+    
+    /// `bundle.url(forResource: "doctor", withExtension: "jpg")`
+    static func doctorJpg(_: Void = ()) -> Foundation.URL? {
+      let fileResource = R.file.doctorJpg
+      return fileResource.bundle.url(forResource: fileResource)
+    }
+    
+    /// `bundle.url(forResource: "newMessage", withExtension: "wav")`
+    static func newMessageWav(_: Void = ()) -> Foundation.URL? {
+      let fileResource = R.file.newMessageWav
+      return fileResource.bundle.url(forResource: fileResource)
+    }
+    
+    fileprivate init() {}
+  }
+  
+  /// This `R.font` struct is generated, and contains static references to 4 fonts.
+  struct font: Rswift.Validatable {
+    /// Font `SFProText-Bold`.
+    static let sfProTextBold = Rswift.FontResource(fontName: "SFProText-Bold")
+    /// Font `SFProText-Medium`.
+    static let sfProTextMedium = Rswift.FontResource(fontName: "SFProText-Medium")
+    /// Font `SFProText-Regular`.
+    static let sfProTextRegular = Rswift.FontResource(fontName: "SFProText-Regular")
+    /// Font `SFProText-Semibold`.
+    static let sfProTextSemibold = Rswift.FontResource(fontName: "SFProText-Semibold")
+    
+    /// `UIFont(name: "SFProText-Bold", size: ...)`
+    static func sfProTextBold(size: CGFloat) -> UIKit.UIFont? {
+      return UIKit.UIFont(resource: sfProTextBold, size: size)
+    }
+    
+    /// `UIFont(name: "SFProText-Medium", size: ...)`
+    static func sfProTextMedium(size: CGFloat) -> UIKit.UIFont? {
+      return UIKit.UIFont(resource: sfProTextMedium, size: size)
+    }
+    
+    /// `UIFont(name: "SFProText-Regular", size: ...)`
+    static func sfProTextRegular(size: CGFloat) -> UIKit.UIFont? {
+      return UIKit.UIFont(resource: sfProTextRegular, size: size)
+    }
+    
+    /// `UIFont(name: "SFProText-Semibold", size: ...)`
+    static func sfProTextSemibold(size: CGFloat) -> UIKit.UIFont? {
+      return UIKit.UIFont(resource: sfProTextSemibold, size: size)
+    }
+    
+    static func validate() throws {
+      if R.font.sfProTextBold(size: 42) == nil { throw Rswift.ValidationError(description:"[R.swift] Font 'SFProText-Bold' could not be loaded, is 'SF-Pro-Text-Bold.otf' added to the UIAppFonts array in this targets Info.plist?") }
+      if R.font.sfProTextMedium(size: 42) == nil { throw Rswift.ValidationError(description:"[R.swift] Font 'SFProText-Medium' could not be loaded, is 'SF-Pro-Text-Medium.otf' added to the UIAppFonts array in this targets Info.plist?") }
+      if R.font.sfProTextRegular(size: 42) == nil { throw Rswift.ValidationError(description:"[R.swift] Font 'SFProText-Regular' could not be loaded, is 'SF-Pro-Text-Regular.otf' added to the UIAppFonts array in this targets Info.plist?") }
+      if R.font.sfProTextSemibold(size: 42) == nil { throw Rswift.ValidationError(description:"[R.swift] Font 'SFProText-Semibold' could not be loaded, is 'SF-Pro-Text-Semibold.otf' added to the UIAppFonts array in this targets Info.plist?") }
+    }
+    
+    fileprivate init() {}
+  }
+  
+  /// This `R.image` struct is generated, and contains static references to 32 images.
   struct image {
+    /// Image `baby.jpg`.
+    static let babyJpg = Rswift.ImageResource(bundle: R.hostingBundle, name: "baby.jpg")
+    /// Image `back`.
+    static let back = Rswift.ImageResource(bundle: R.hostingBundle, name: "back")
+    /// Image `background`.
+    static let background = Rswift.ImageResource(bundle: R.hostingBundle, name: "background")
+    /// Image `button`.
+    static let button = Rswift.ImageResource(bundle: R.hostingBundle, name: "button")
+    /// Image `close`.
+    static let close = Rswift.ImageResource(bundle: R.hostingBundle, name: "close")
+    /// Image `clouds`.
+    static let clouds = Rswift.ImageResource(bundle: R.hostingBundle, name: "clouds")
+    /// Image `compose`.
+    static let compose = Rswift.ImageResource(bundle: R.hostingBundle, name: "compose")
+    /// Image `doctor.jpg`.
+    static let doctorJpg = Rswift.ImageResource(bundle: R.hostingBundle, name: "doctor.jpg")
+    /// Image `email`.
+    static let email = Rswift.ImageResource(bundle: R.hostingBundle, name: "email")
+    /// Image `empty`.
+    static let empty = Rswift.ImageResource(bundle: R.hostingBundle, name: "empty")
+    /// Image `ic-chat-tabbar`.
+    static let icChatTabbar = Rswift.ImageResource(bundle: R.hostingBundle, name: "ic-chat-tabbar")
+    /// Image `ic_Back`.
+    static let ic_Back = Rswift.ImageResource(bundle: R.hostingBundle, name: "ic_Back")
+    /// Image `ic_account_tabbar`.
+    static let ic_account_tabbar = Rswift.ImageResource(bundle: R.hostingBundle, name: "ic_account_tabbar")
+    /// Image `ic_baby_feet_tabbar`.
+    static let ic_baby_feet_tabbar = Rswift.ImageResource(bundle: R.hostingBundle, name: "ic_baby_feet_tabbar")
+    /// Image `ic_blog_hl_tabbar`.
+    static let ic_blog_hl_tabbar = Rswift.ImageResource(bundle: R.hostingBundle, name: "ic_blog_hl_tabbar")
+    /// Image `ic_blog_tabbar`.
+    static let ic_blog_tabbar = Rswift.ImageResource(bundle: R.hostingBundle, name: "ic_blog_tabbar")
+    /// Image `ic_help`.
+    static let ic_help = Rswift.ImageResource(bundle: R.hostingBundle, name: "ic_help")
+    /// Image `ic_logout`.
+    static let ic_logout = Rswift.ImageResource(bundle: R.hostingBundle, name: "ic_logout")
+    /// Image `ic_plus_header`.
+    static let ic_plus_header = Rswift.ImageResource(bundle: R.hostingBundle, name: "ic_plus_header")
+    /// Image `ic_report_error`.
+    static let ic_report_error = Rswift.ImageResource(bundle: R.hostingBundle, name: "ic_report_error")
+    /// Image `ic_ruler`.
+    static let ic_ruler = Rswift.ImageResource(bundle: R.hostingBundle, name: "ic_ruler")
+    /// Image `ic_share`.
+    static let ic_share = Rswift.ImageResource(bundle: R.hostingBundle, name: "ic_share")
     /// Image `ic_weight`.
     static let ic_weight = Rswift.ImageResource(bundle: R.hostingBundle, name: "ic_weight")
+    /// Image `locationThumbnail`.
+    static let locationThumbnail = Rswift.ImageResource(bundle: R.hostingBundle, name: "locationThumbnail")
+    /// Image `logo`.
+    static let logo = Rswift.ImageResource(bundle: R.hostingBundle, name: "logo")
+    /// Image `name`.
+    static let name = Rswift.ImageResource(bundle: R.hostingBundle, name: "name")
+    /// Image `password`.
+    static let password = Rswift.ImageResource(bundle: R.hostingBundle, name: "password")
+    /// Image `profile pic`.
+    static let profilePic = Rswift.ImageResource(bundle: R.hostingBundle, name: "profile pic")
+    /// Image `selectCamera`.
+    static let selectCamera = Rswift.ImageResource(bundle: R.hostingBundle, name: "selectCamera")
+    /// Image `selectLocation`.
+    static let selectLocation = Rswift.ImageResource(bundle: R.hostingBundle, name: "selectLocation")
+    /// Image `selectPhoto`.
+    static let selectPhoto = Rswift.ImageResource(bundle: R.hostingBundle, name: "selectPhoto")
+    /// Image `send`.
+    static let send = Rswift.ImageResource(bundle: R.hostingBundle, name: "send")
+    
+    /// `UIImage(named: "baby.jpg", bundle: ..., traitCollection: ...)`
+    static func babyJpg(compatibleWith traitCollection: UIKit.UITraitCollection? = nil) -> UIKit.UIImage? {
+      return UIKit.UIImage(resource: R.image.babyJpg, compatibleWith: traitCollection)
+    }
+    
+    /// `UIImage(named: "back", bundle: ..., traitCollection: ...)`
+    static func back(compatibleWith traitCollection: UIKit.UITraitCollection? = nil) -> UIKit.UIImage? {
+      return UIKit.UIImage(resource: R.image.back, compatibleWith: traitCollection)
+    }
+    
+    /// `UIImage(named: "background", bundle: ..., traitCollection: ...)`
+    static func background(compatibleWith traitCollection: UIKit.UITraitCollection? = nil) -> UIKit.UIImage? {
+      return UIKit.UIImage(resource: R.image.background, compatibleWith: traitCollection)
+    }
+    
+    /// `UIImage(named: "button", bundle: ..., traitCollection: ...)`
+    static func button(compatibleWith traitCollection: UIKit.UITraitCollection? = nil) -> UIKit.UIImage? {
+      return UIKit.UIImage(resource: R.image.button, compatibleWith: traitCollection)
+    }
+    
+    /// `UIImage(named: "close", bundle: ..., traitCollection: ...)`
+    static func close(compatibleWith traitCollection: UIKit.UITraitCollection? = nil) -> UIKit.UIImage? {
+      return UIKit.UIImage(resource: R.image.close, compatibleWith: traitCollection)
+    }
+    
+    /// `UIImage(named: "clouds", bundle: ..., traitCollection: ...)`
+    static func clouds(compatibleWith traitCollection: UIKit.UITraitCollection? = nil) -> UIKit.UIImage? {
+      return UIKit.UIImage(resource: R.image.clouds, compatibleWith: traitCollection)
+    }
+    
+    /// `UIImage(named: "compose", bundle: ..., traitCollection: ...)`
+    static func compose(compatibleWith traitCollection: UIKit.UITraitCollection? = nil) -> UIKit.UIImage? {
+      return UIKit.UIImage(resource: R.image.compose, compatibleWith: traitCollection)
+    }
+    
+    /// `UIImage(named: "doctor.jpg", bundle: ..., traitCollection: ...)`
+    static func doctorJpg(compatibleWith traitCollection: UIKit.UITraitCollection? = nil) -> UIKit.UIImage? {
+      return UIKit.UIImage(resource: R.image.doctorJpg, compatibleWith: traitCollection)
+    }
+    
+    /// `UIImage(named: "email", bundle: ..., traitCollection: ...)`
+    static func email(compatibleWith traitCollection: UIKit.UITraitCollection? = nil) -> UIKit.UIImage? {
+      return UIKit.UIImage(resource: R.image.email, compatibleWith: traitCollection)
+    }
+    
+    /// `UIImage(named: "empty", bundle: ..., traitCollection: ...)`
+    static func empty(compatibleWith traitCollection: UIKit.UITraitCollection? = nil) -> UIKit.UIImage? {
+      return UIKit.UIImage(resource: R.image.empty, compatibleWith: traitCollection)
+    }
+    
+    /// `UIImage(named: "ic-chat-tabbar", bundle: ..., traitCollection: ...)`
+    static func icChatTabbar(compatibleWith traitCollection: UIKit.UITraitCollection? = nil) -> UIKit.UIImage? {
+      return UIKit.UIImage(resource: R.image.icChatTabbar, compatibleWith: traitCollection)
+    }
+    
+    /// `UIImage(named: "ic_Back", bundle: ..., traitCollection: ...)`
+    static func ic_Back(compatibleWith traitCollection: UIKit.UITraitCollection? = nil) -> UIKit.UIImage? {
+      return UIKit.UIImage(resource: R.image.ic_Back, compatibleWith: traitCollection)
+    }
+    
+    /// `UIImage(named: "ic_account_tabbar", bundle: ..., traitCollection: ...)`
+    static func ic_account_tabbar(compatibleWith traitCollection: UIKit.UITraitCollection? = nil) -> UIKit.UIImage? {
+      return UIKit.UIImage(resource: R.image.ic_account_tabbar, compatibleWith: traitCollection)
+    }
+    
+    /// `UIImage(named: "ic_baby_feet_tabbar", bundle: ..., traitCollection: ...)`
+    static func ic_baby_feet_tabbar(compatibleWith traitCollection: UIKit.UITraitCollection? = nil) -> UIKit.UIImage? {
+      return UIKit.UIImage(resource: R.image.ic_baby_feet_tabbar, compatibleWith: traitCollection)
+    }
+    
+    /// `UIImage(named: "ic_blog_hl_tabbar", bundle: ..., traitCollection: ...)`
+    static func ic_blog_hl_tabbar(compatibleWith traitCollection: UIKit.UITraitCollection? = nil) -> UIKit.UIImage? {
+      return UIKit.UIImage(resource: R.image.ic_blog_hl_tabbar, compatibleWith: traitCollection)
+    }
+    
+    /// `UIImage(named: "ic_blog_tabbar", bundle: ..., traitCollection: ...)`
+    static func ic_blog_tabbar(compatibleWith traitCollection: UIKit.UITraitCollection? = nil) -> UIKit.UIImage? {
+      return UIKit.UIImage(resource: R.image.ic_blog_tabbar, compatibleWith: traitCollection)
+    }
+    
+    /// `UIImage(named: "ic_help", bundle: ..., traitCollection: ...)`
+    static func ic_help(compatibleWith traitCollection: UIKit.UITraitCollection? = nil) -> UIKit.UIImage? {
+      return UIKit.UIImage(resource: R.image.ic_help, compatibleWith: traitCollection)
+    }
+    
+    /// `UIImage(named: "ic_logout", bundle: ..., traitCollection: ...)`
+    static func ic_logout(compatibleWith traitCollection: UIKit.UITraitCollection? = nil) -> UIKit.UIImage? {
+      return UIKit.UIImage(resource: R.image.ic_logout, compatibleWith: traitCollection)
+    }
+    
+    /// `UIImage(named: "ic_plus_header", bundle: ..., traitCollection: ...)`
+    static func ic_plus_header(compatibleWith traitCollection: UIKit.UITraitCollection? = nil) -> UIKit.UIImage? {
+      return UIKit.UIImage(resource: R.image.ic_plus_header, compatibleWith: traitCollection)
+    }
+    
+    /// `UIImage(named: "ic_report_error", bundle: ..., traitCollection: ...)`
+    static func ic_report_error(compatibleWith traitCollection: UIKit.UITraitCollection? = nil) -> UIKit.UIImage? {
+      return UIKit.UIImage(resource: R.image.ic_report_error, compatibleWith: traitCollection)
+    }
+    
+    /// `UIImage(named: "ic_ruler", bundle: ..., traitCollection: ...)`
+    static func ic_ruler(compatibleWith traitCollection: UIKit.UITraitCollection? = nil) -> UIKit.UIImage? {
+      return UIKit.UIImage(resource: R.image.ic_ruler, compatibleWith: traitCollection)
+    }
+    
+    /// `UIImage(named: "ic_share", bundle: ..., traitCollection: ...)`
+    static func ic_share(compatibleWith traitCollection: UIKit.UITraitCollection? = nil) -> UIKit.UIImage? {
+      return UIKit.UIImage(resource: R.image.ic_share, compatibleWith: traitCollection)
+    }
     
     /// `UIImage(named: "ic_weight", bundle: ..., traitCollection: ...)`
     static func ic_weight(compatibleWith traitCollection: UIKit.UITraitCollection? = nil) -> UIKit.UIImage? {
       return UIKit.UIImage(resource: R.image.ic_weight, compatibleWith: traitCollection)
     }
     
+    /// `UIImage(named: "locationThumbnail", bundle: ..., traitCollection: ...)`
+    static func locationThumbnail(compatibleWith traitCollection: UIKit.UITraitCollection? = nil) -> UIKit.UIImage? {
+      return UIKit.UIImage(resource: R.image.locationThumbnail, compatibleWith: traitCollection)
+    }
+    
+    /// `UIImage(named: "logo", bundle: ..., traitCollection: ...)`
+    static func logo(compatibleWith traitCollection: UIKit.UITraitCollection? = nil) -> UIKit.UIImage? {
+      return UIKit.UIImage(resource: R.image.logo, compatibleWith: traitCollection)
+    }
+    
+    /// `UIImage(named: "name", bundle: ..., traitCollection: ...)`
+    static func name(compatibleWith traitCollection: UIKit.UITraitCollection? = nil) -> UIKit.UIImage? {
+      return UIKit.UIImage(resource: R.image.name, compatibleWith: traitCollection)
+    }
+    
+    /// `UIImage(named: "password", bundle: ..., traitCollection: ...)`
+    static func password(compatibleWith traitCollection: UIKit.UITraitCollection? = nil) -> UIKit.UIImage? {
+      return UIKit.UIImage(resource: R.image.password, compatibleWith: traitCollection)
+    }
+    
+    /// `UIImage(named: "profile pic", bundle: ..., traitCollection: ...)`
+    static func profilePic(compatibleWith traitCollection: UIKit.UITraitCollection? = nil) -> UIKit.UIImage? {
+      return UIKit.UIImage(resource: R.image.profilePic, compatibleWith: traitCollection)
+    }
+    
+    /// `UIImage(named: "selectCamera", bundle: ..., traitCollection: ...)`
+    static func selectCamera(compatibleWith traitCollection: UIKit.UITraitCollection? = nil) -> UIKit.UIImage? {
+      return UIKit.UIImage(resource: R.image.selectCamera, compatibleWith: traitCollection)
+    }
+    
+    /// `UIImage(named: "selectLocation", bundle: ..., traitCollection: ...)`
+    static func selectLocation(compatibleWith traitCollection: UIKit.UITraitCollection? = nil) -> UIKit.UIImage? {
+      return UIKit.UIImage(resource: R.image.selectLocation, compatibleWith: traitCollection)
+    }
+    
+    /// `UIImage(named: "selectPhoto", bundle: ..., traitCollection: ...)`
+    static func selectPhoto(compatibleWith traitCollection: UIKit.UITraitCollection? = nil) -> UIKit.UIImage? {
+      return UIKit.UIImage(resource: R.image.selectPhoto, compatibleWith: traitCollection)
+    }
+    
+    /// `UIImage(named: "send", bundle: ..., traitCollection: ...)`
+    static func send(compatibleWith traitCollection: UIKit.UITraitCollection? = nil) -> UIKit.UIImage? {
+      return UIKit.UIImage(resource: R.image.send, compatibleWith: traitCollection)
+    }
+    
     fileprivate init() {}
   }
   
-  /// This `R.storyboard` struct is generated, and contains static references to 2 storyboards.
+  /// This `R.nib` struct is generated, and contains static references to 1 nibs.
+  struct nib {
+    /// Nib `BlogCell`.
+    static let blogCell = _R.nib._BlogCell()
+    
+    /// `UINib(name: "BlogCell", in: bundle)`
+    @available(*, deprecated, message: "Use UINib(resource: R.nib.blogCell) instead")
+    static func blogCell(_: Void = ()) -> UIKit.UINib {
+      return UIKit.UINib(resource: R.nib.blogCell)
+    }
+    
+    static func blogCell(owner ownerOrNil: AnyObject?, options optionsOrNil: [UINib.OptionsKey : Any]? = nil) -> BlogCell? {
+      return R.nib.blogCell.instantiate(withOwner: ownerOrNil, options: optionsOrNil)[0] as? BlogCell
+    }
+    
+    fileprivate init() {}
+  }
+  
+  /// This `R.reuseIdentifier` struct is generated, and contains static references to 6 reuse identifiers.
+  struct reuseIdentifier {
+    /// Reuse identifier `ContactsCell`.
+    static let contactsCell: Rswift.ReuseIdentifier<ContactsCell> = Rswift.ReuseIdentifier(identifier: "ContactsCell")
+    /// Reuse identifier `ConversationCell`.
+    static let conversationCell: Rswift.ReuseIdentifier<ConversationCell> = Rswift.ReuseIdentifier(identifier: "ConversationCell")
+    /// Reuse identifier `MessageAttachmentTableViewCell`.
+    static let messageAttachmentTableViewCell: Rswift.ReuseIdentifier<MessageAttachmentTableViewCell> = Rswift.ReuseIdentifier(identifier: "MessageAttachmentTableViewCell")
+    /// Reuse identifier `MessageTableViewCell`.
+    static let messageTableViewCell: Rswift.ReuseIdentifier<MessageTableViewCell> = Rswift.ReuseIdentifier(identifier: "MessageTableViewCell")
+    /// Reuse identifier `UserMessageAttachmentTableViewCell`.
+    static let userMessageAttachmentTableViewCell: Rswift.ReuseIdentifier<MessageAttachmentTableViewCell> = Rswift.ReuseIdentifier(identifier: "UserMessageAttachmentTableViewCell")
+    /// Reuse identifier `UserMessageTableViewCell`.
+    static let userMessageTableViewCell: Rswift.ReuseIdentifier<MessageTableViewCell> = Rswift.ReuseIdentifier(identifier: "UserMessageTableViewCell")
+    
+    fileprivate init() {}
+  }
+  
+  /// This `R.storyboard` struct is generated, and contains static references to 8 storyboards.
   struct storyboard {
+    /// Storyboard `Auth`.
+    static let auth = _R.storyboard.auth()
+    /// Storyboard `Conversations`.
+    static let conversations = _R.storyboard.conversations()
+    /// Storyboard `Initial`.
+    static let initial = _R.storyboard.initial()
     /// Storyboard `LaunchScreen`.
     static let launchScreen = _R.storyboard.launchScreen()
     /// Storyboard `Main`.
     static let main = _R.storyboard.main()
+    /// Storyboard `Messages`.
+    static let messages = _R.storyboard.messages()
+    /// Storyboard `Previews`.
+    static let previews = _R.storyboard.previews()
+    /// Storyboard `Profile`.
+    static let profile = _R.storyboard.profile()
+    
+    /// `UIStoryboard(name: "Auth", bundle: ...)`
+    static func auth(_: Void = ()) -> UIKit.UIStoryboard {
+      return UIKit.UIStoryboard(resource: R.storyboard.auth)
+    }
+    
+    /// `UIStoryboard(name: "Conversations", bundle: ...)`
+    static func conversations(_: Void = ()) -> UIKit.UIStoryboard {
+      return UIKit.UIStoryboard(resource: R.storyboard.conversations)
+    }
+    
+    /// `UIStoryboard(name: "Initial", bundle: ...)`
+    static func initial(_: Void = ()) -> UIKit.UIStoryboard {
+      return UIKit.UIStoryboard(resource: R.storyboard.initial)
+    }
     
     /// `UIStoryboard(name: "LaunchScreen", bundle: ...)`
     static func launchScreen(_: Void = ()) -> UIKit.UIStoryboard {
@@ -44,6 +428,21 @@ struct R: Rswift.Validatable {
     /// `UIStoryboard(name: "Main", bundle: ...)`
     static func main(_: Void = ()) -> UIKit.UIStoryboard {
       return UIKit.UIStoryboard(resource: R.storyboard.main)
+    }
+    
+    /// `UIStoryboard(name: "Messages", bundle: ...)`
+    static func messages(_: Void = ()) -> UIKit.UIStoryboard {
+      return UIKit.UIStoryboard(resource: R.storyboard.messages)
+    }
+    
+    /// `UIStoryboard(name: "Previews", bundle: ...)`
+    static func previews(_: Void = ()) -> UIKit.UIStoryboard {
+      return UIKit.UIStoryboard(resource: R.storyboard.previews)
+    }
+    
+    /// `UIStoryboard(name: "Profile", bundle: ...)`
+    static func profile(_: Void = ()) -> UIKit.UIStoryboard {
+      return UIKit.UIStoryboard(resource: R.storyboard.profile)
     }
     
     fileprivate init() {}
@@ -65,12 +464,96 @@ struct R: Rswift.Validatable {
 struct _R: Rswift.Validatable {
   static func validate() throws {
     try storyboard.validate()
+    try nib.validate()
+  }
+  
+  struct nib: Rswift.Validatable {
+    static func validate() throws {
+      try _BlogCell.validate()
+    }
+    
+    struct _BlogCell: Rswift.NibResourceType, Rswift.Validatable {
+      let bundle = R.hostingBundle
+      let name = "BlogCell"
+      
+      func firstView(owner ownerOrNil: AnyObject?, options optionsOrNil: [UINib.OptionsKey : Any]? = nil) -> BlogCell? {
+        return instantiate(withOwner: ownerOrNil, options: optionsOrNil)[0] as? BlogCell
+      }
+      
+      static func validate() throws {
+        if UIKit.UIImage(named: "baby.jpg", in: R.hostingBundle, compatibleWith: nil) == nil { throw Rswift.ValidationError(description: "[R.swift] Image named 'baby.jpg' is used in nib 'BlogCell', but couldn't be loaded.") }
+        if #available(iOS 11.0, *) {
+        }
+      }
+      
+      fileprivate init() {}
+    }
+    
+    fileprivate init() {}
   }
   
   struct storyboard: Rswift.Validatable {
     static func validate() throws {
+      try auth.validate()
+      try conversations.validate()
+      try initial.validate()
       try launchScreen.validate()
       try main.validate()
+      try messages.validate()
+      try previews.validate()
+      try profile.validate()
+    }
+    
+    struct auth: Rswift.StoryboardResourceWithInitialControllerType, Rswift.Validatable {
+      typealias InitialController = AuthViewController
+      
+      let bundle = R.hostingBundle
+      let name = "Auth"
+      
+      static func validate() throws {
+        if UIKit.UIImage(named: "background", in: R.hostingBundle, compatibleWith: nil) == nil { throw Rswift.ValidationError(description: "[R.swift] Image named 'background' is used in storyboard 'Auth', but couldn't be loaded.") }
+        if UIKit.UIImage(named: "button", in: R.hostingBundle, compatibleWith: nil) == nil { throw Rswift.ValidationError(description: "[R.swift] Image named 'button' is used in storyboard 'Auth', but couldn't be loaded.") }
+        if UIKit.UIImage(named: "clouds", in: R.hostingBundle, compatibleWith: nil) == nil { throw Rswift.ValidationError(description: "[R.swift] Image named 'clouds' is used in storyboard 'Auth', but couldn't be loaded.") }
+        if UIKit.UIImage(named: "email", in: R.hostingBundle, compatibleWith: nil) == nil { throw Rswift.ValidationError(description: "[R.swift] Image named 'email' is used in storyboard 'Auth', but couldn't be loaded.") }
+        if UIKit.UIImage(named: "name", in: R.hostingBundle, compatibleWith: nil) == nil { throw Rswift.ValidationError(description: "[R.swift] Image named 'name' is used in storyboard 'Auth', but couldn't be loaded.") }
+        if UIKit.UIImage(named: "password", in: R.hostingBundle, compatibleWith: nil) == nil { throw Rswift.ValidationError(description: "[R.swift] Image named 'password' is used in storyboard 'Auth', but couldn't be loaded.") }
+        if UIKit.UIImage(named: "profile pic", in: R.hostingBundle, compatibleWith: nil) == nil { throw Rswift.ValidationError(description: "[R.swift] Image named 'profile pic' is used in storyboard 'Auth', but couldn't be loaded.") }
+        if #available(iOS 11.0, *) {
+        }
+      }
+      
+      fileprivate init() {}
+    }
+    
+    struct conversations: Rswift.StoryboardResourceWithInitialControllerType, Rswift.Validatable {
+      typealias InitialController = UIKit.UINavigationController
+      
+      let bundle = R.hostingBundle
+      let name = "Conversations"
+      
+      static func validate() throws {
+        if UIKit.UIImage(named: "compose", in: R.hostingBundle, compatibleWith: nil) == nil { throw Rswift.ValidationError(description: "[R.swift] Image named 'compose' is used in storyboard 'Conversations', but couldn't be loaded.") }
+        if UIKit.UIImage(named: "empty", in: R.hostingBundle, compatibleWith: nil) == nil { throw Rswift.ValidationError(description: "[R.swift] Image named 'empty' is used in storyboard 'Conversations', but couldn't be loaded.") }
+        if UIKit.UIImage(named: "profile pic", in: R.hostingBundle, compatibleWith: nil) == nil { throw Rswift.ValidationError(description: "[R.swift] Image named 'profile pic' is used in storyboard 'Conversations', but couldn't be loaded.") }
+        if #available(iOS 11.0, *) {
+        }
+      }
+      
+      fileprivate init() {}
+    }
+    
+    struct initial: Rswift.StoryboardResourceType, Rswift.Validatable {
+      let bundle = R.hostingBundle
+      let name = "Initial"
+      
+      static func validate() throws {
+        if UIKit.UIImage(named: "background", in: R.hostingBundle, compatibleWith: nil) == nil { throw Rswift.ValidationError(description: "[R.swift] Image named 'background' is used in storyboard 'Initial', but couldn't be loaded.") }
+        if UIKit.UIImage(named: "logo", in: R.hostingBundle, compatibleWith: nil) == nil { throw Rswift.ValidationError(description: "[R.swift] Image named 'logo' is used in storyboard 'Initial', but couldn't be loaded.") }
+        if #available(iOS 11.0, *) {
+        }
+      }
+      
+      fileprivate init() {}
     }
     
     struct launchScreen: Rswift.StoryboardResourceWithInitialControllerType, Rswift.Validatable {
@@ -94,6 +577,76 @@ struct _R: Rswift.Validatable {
       let name = "Main"
       
       static func validate() throws {
+        if #available(iOS 11.0, *) {
+        }
+      }
+      
+      fileprivate init() {}
+    }
+    
+    struct messages: Rswift.StoryboardResourceWithInitialControllerType, Rswift.Validatable {
+      typealias InitialController = MessagesViewController
+      
+      let bundle = R.hostingBundle
+      let name = "Messages"
+      
+      static func validate() throws {
+        if UIKit.UIImage(named: "back", in: R.hostingBundle, compatibleWith: nil) == nil { throw Rswift.ValidationError(description: "[R.swift] Image named 'back' is used in storyboard 'Messages', but couldn't be loaded.") }
+        if UIKit.UIImage(named: "doctor.jpg", in: R.hostingBundle, compatibleWith: nil) == nil { throw Rswift.ValidationError(description: "[R.swift] Image named 'doctor.jpg' is used in storyboard 'Messages', but couldn't be loaded.") }
+        if UIKit.UIImage(named: "selectCamera", in: R.hostingBundle, compatibleWith: nil) == nil { throw Rswift.ValidationError(description: "[R.swift] Image named 'selectCamera' is used in storyboard 'Messages', but couldn't be loaded.") }
+        if UIKit.UIImage(named: "selectLocation", in: R.hostingBundle, compatibleWith: nil) == nil { throw Rswift.ValidationError(description: "[R.swift] Image named 'selectLocation' is used in storyboard 'Messages', but couldn't be loaded.") }
+        if UIKit.UIImage(named: "selectPhoto", in: R.hostingBundle, compatibleWith: nil) == nil { throw Rswift.ValidationError(description: "[R.swift] Image named 'selectPhoto' is used in storyboard 'Messages', but couldn't be loaded.") }
+        if UIKit.UIImage(named: "send", in: R.hostingBundle, compatibleWith: nil) == nil { throw Rswift.ValidationError(description: "[R.swift] Image named 'send' is used in storyboard 'Messages', but couldn't be loaded.") }
+        if #available(iOS 11.0, *) {
+        }
+      }
+      
+      fileprivate init() {}
+    }
+    
+    struct previews: Rswift.StoryboardResourceType, Rswift.Validatable {
+      let bundle = R.hostingBundle
+      let contactsPreviewController = StoryboardViewControllerResource<ContactsPreviewController>(identifier: "ContactsPreviewController")
+      let imagePreviewController = StoryboardViewControllerResource<ImagePreviewController>(identifier: "ImagePreviewController")
+      let mapPreviewController = StoryboardViewControllerResource<MapPreviewController>(identifier: "MapPreviewController")
+      let name = "Previews"
+      
+      func contactsPreviewController(_: Void = ()) -> ContactsPreviewController? {
+        return UIKit.UIStoryboard(resource: self).instantiateViewController(withResource: contactsPreviewController)
+      }
+      
+      func imagePreviewController(_: Void = ()) -> ImagePreviewController? {
+        return UIKit.UIStoryboard(resource: self).instantiateViewController(withResource: imagePreviewController)
+      }
+      
+      func mapPreviewController(_: Void = ()) -> MapPreviewController? {
+        return UIKit.UIStoryboard(resource: self).instantiateViewController(withResource: mapPreviewController)
+      }
+      
+      static func validate() throws {
+        if UIKit.UIImage(named: "button", in: R.hostingBundle, compatibleWith: nil) == nil { throw Rswift.ValidationError(description: "[R.swift] Image named 'button' is used in storyboard 'Previews', but couldn't be loaded.") }
+        if UIKit.UIImage(named: "close", in: R.hostingBundle, compatibleWith: nil) == nil { throw Rswift.ValidationError(description: "[R.swift] Image named 'close' is used in storyboard 'Previews', but couldn't be loaded.") }
+        if UIKit.UIImage(named: "profile pic", in: R.hostingBundle, compatibleWith: nil) == nil { throw Rswift.ValidationError(description: "[R.swift] Image named 'profile pic' is used in storyboard 'Previews', but couldn't be loaded.") }
+        if #available(iOS 11.0, *) {
+        }
+        if _R.storyboard.previews().contactsPreviewController() == nil { throw Rswift.ValidationError(description:"[R.swift] ViewController with identifier 'contactsPreviewController' could not be loaded from storyboard 'Previews' as 'ContactsPreviewController'.") }
+        if _R.storyboard.previews().imagePreviewController() == nil { throw Rswift.ValidationError(description:"[R.swift] ViewController with identifier 'imagePreviewController' could not be loaded from storyboard 'Previews' as 'ImagePreviewController'.") }
+        if _R.storyboard.previews().mapPreviewController() == nil { throw Rswift.ValidationError(description:"[R.swift] ViewController with identifier 'mapPreviewController' could not be loaded from storyboard 'Previews' as 'MapPreviewController'.") }
+      }
+      
+      fileprivate init() {}
+    }
+    
+    struct profile: Rswift.StoryboardResourceWithInitialControllerType, Rswift.Validatable {
+      typealias InitialController = ProfileViewController
+      
+      let bundle = R.hostingBundle
+      let name = "Profile"
+      
+      static func validate() throws {
+        if UIKit.UIImage(named: "button", in: R.hostingBundle, compatibleWith: nil) == nil { throw Rswift.ValidationError(description: "[R.swift] Image named 'button' is used in storyboard 'Profile', but couldn't be loaded.") }
+        if UIKit.UIImage(named: "close", in: R.hostingBundle, compatibleWith: nil) == nil { throw Rswift.ValidationError(description: "[R.swift] Image named 'close' is used in storyboard 'Profile', but couldn't be loaded.") }
+        if UIKit.UIImage(named: "profile pic", in: R.hostingBundle, compatibleWith: nil) == nil { throw Rswift.ValidationError(description: "[R.swift] Image named 'profile pic' is used in storyboard 'Profile', but couldn't be loaded.") }
         if #available(iOS 11.0, *) {
         }
       }

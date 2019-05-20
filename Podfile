@@ -8,6 +8,18 @@ pod 'CarbonKit'
 pod 'Alamofire'
 pod 'R.swift'
 pod 'LayoutKit'
+pod 'DeviceKit'
+pod 'MBProgressHUD'
+pod 'KLCPopup'
+pod 'RxSwift', '~> 5'
+pod 'RxCocoa', '~> 5'
+
+pod 'Firebase/Core'
+pod 'Firebase/Auth'
+pod 'Firebase/Storage'
+pod 'Kingfisher'
+pod 'Firebase/Firestore'
+pod 'ALLoadingView'
 
 post_install do |installer|
   installer.pods_project.targets.each do |target|
