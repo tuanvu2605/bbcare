@@ -17,12 +17,30 @@ struct R: Rswift.Validatable {
     try intern.validate()
   }
   
-  /// This `R.color` struct is generated, and contains static references to 2 colors.
+  /// This `R.color` struct is generated, and contains static references to 4 colors.
   struct color {
+    /// Color `article_body`.
+    static let article_body = Rswift.ColorResource(bundle: R.hostingBundle, name: "article_body")
+    /// Color `article_title`.
+    static let article_title = Rswift.ColorResource(bundle: R.hostingBundle, name: "article_title")
     /// Color `garadient_start`.
     static let garadient_start = Rswift.ColorResource(bundle: R.hostingBundle, name: "garadient_start")
     /// Color `gradient_end`.
     static let gradient_end = Rswift.ColorResource(bundle: R.hostingBundle, name: "gradient_end")
+    
+    /// `UIColor(named: "article_body", bundle: ..., traitCollection: ...)`
+    @available(tvOS 11.0, *)
+    @available(iOS 11.0, *)
+    static func article_body(compatibleWith traitCollection: UIKit.UITraitCollection? = nil) -> UIKit.UIColor? {
+      return UIKit.UIColor(resource: R.color.article_body, compatibleWith: traitCollection)
+    }
+    
+    /// `UIColor(named: "article_title", bundle: ..., traitCollection: ...)`
+    @available(tvOS 11.0, *)
+    @available(iOS 11.0, *)
+    static func article_title(compatibleWith traitCollection: UIKit.UITraitCollection? = nil) -> UIKit.UIColor? {
+      return UIKit.UIColor(resource: R.color.article_title, compatibleWith: traitCollection)
+    }
     
     /// `UIColor(named: "garadient_start", bundle: ..., traitCollection: ...)`
     @available(tvOS 11.0, *)
@@ -41,7 +59,7 @@ struct R: Rswift.Validatable {
     fileprivate init() {}
   }
   
-  /// This `R.file` struct is generated, and contains static references to 4 files.
+  /// This `R.file` struct is generated, and contains static references to 5 files.
   struct file {
     /// Resource file `GoogleService-Info.plist`.
     static let googleServiceInfoPlist = Rswift.FileResource(bundle: R.hostingBundle, name: "GoogleService-Info", pathExtension: "plist")
@@ -51,6 +69,8 @@ struct R: Rswift.Validatable {
     static let doctorJpg = Rswift.FileResource(bundle: R.hostingBundle, name: "doctor", pathExtension: "jpg")
     /// Resource file `newMessage.wav`.
     static let newMessageWav = Rswift.FileResource(bundle: R.hostingBundle, name: "newMessage", pathExtension: "wav")
+    /// Resource file `placeholder.png`.
+    static let placeholderPng = Rswift.FileResource(bundle: R.hostingBundle, name: "placeholder", pathExtension: "png")
     
     /// `bundle.url(forResource: "GoogleService-Info", withExtension: "plist")`
     static func googleServiceInfoPlist(_: Void = ()) -> Foundation.URL? {
@@ -73,6 +93,12 @@ struct R: Rswift.Validatable {
     /// `bundle.url(forResource: "newMessage", withExtension: "wav")`
     static func newMessageWav(_: Void = ()) -> Foundation.URL? {
       let fileResource = R.file.newMessageWav
+      return fileResource.bundle.url(forResource: fileResource)
+    }
+    
+    /// `bundle.url(forResource: "placeholder", withExtension: "png")`
+    static func placeholderPng(_: Void = ()) -> Foundation.URL? {
+      let fileResource = R.file.placeholderPng
       return fileResource.bundle.url(forResource: fileResource)
     }
     
@@ -120,7 +146,7 @@ struct R: Rswift.Validatable {
     fileprivate init() {}
   }
   
-  /// This `R.image` struct is generated, and contains static references to 32 images.
+  /// This `R.image` struct is generated, and contains static references to 38 images.
   struct image {
     /// Image `baby.jpg`.
     static let babyJpg = Rswift.ImageResource(bundle: R.hostingBundle, name: "baby.jpg")
@@ -154,8 +180,12 @@ struct R: Rswift.Validatable {
     static let ic_blog_hl_tabbar = Rswift.ImageResource(bundle: R.hostingBundle, name: "ic_blog_hl_tabbar")
     /// Image `ic_blog_tabbar`.
     static let ic_blog_tabbar = Rswift.ImageResource(bundle: R.hostingBundle, name: "ic_blog_tabbar")
+    /// Image `ic_checked`.
+    static let ic_checked = Rswift.ImageResource(bundle: R.hostingBundle, name: "ic_checked")
     /// Image `ic_help`.
     static let ic_help = Rswift.ImageResource(bundle: R.hostingBundle, name: "ic_help")
+    /// Image `ic_line_chart`.
+    static let ic_line_chart = Rswift.ImageResource(bundle: R.hostingBundle, name: "ic_line_chart")
     /// Image `ic_logout`.
     static let ic_logout = Rswift.ImageResource(bundle: R.hostingBundle, name: "ic_logout")
     /// Image `ic_plus_header`.
@@ -166,6 +196,12 @@ struct R: Rswift.Validatable {
     static let ic_ruler = Rswift.ImageResource(bundle: R.hostingBundle, name: "ic_ruler")
     /// Image `ic_share`.
     static let ic_share = Rswift.ImageResource(bundle: R.hostingBundle, name: "ic_share")
+    /// Image `ic_statistics`.
+    static let ic_statistics = Rswift.ImageResource(bundle: R.hostingBundle, name: "ic_statistics")
+    /// Image `ic_unchecked`.
+    static let ic_unchecked = Rswift.ImageResource(bundle: R.hostingBundle, name: "ic_unchecked")
+    /// Image `ic_vegetarian`.
+    static let ic_vegetarian = Rswift.ImageResource(bundle: R.hostingBundle, name: "ic_vegetarian")
     /// Image `ic_weight`.
     static let ic_weight = Rswift.ImageResource(bundle: R.hostingBundle, name: "ic_weight")
     /// Image `locationThumbnail`.
@@ -176,6 +212,8 @@ struct R: Rswift.Validatable {
     static let name = Rswift.ImageResource(bundle: R.hostingBundle, name: "name")
     /// Image `password`.
     static let password = Rswift.ImageResource(bundle: R.hostingBundle, name: "password")
+    /// Image `placeholder`.
+    static let placeholder = Rswift.ImageResource(bundle: R.hostingBundle, name: "placeholder")
     /// Image `profile pic`.
     static let profilePic = Rswift.ImageResource(bundle: R.hostingBundle, name: "profile pic")
     /// Image `selectCamera`.
@@ -267,9 +305,19 @@ struct R: Rswift.Validatable {
       return UIKit.UIImage(resource: R.image.ic_blog_tabbar, compatibleWith: traitCollection)
     }
     
+    /// `UIImage(named: "ic_checked", bundle: ..., traitCollection: ...)`
+    static func ic_checked(compatibleWith traitCollection: UIKit.UITraitCollection? = nil) -> UIKit.UIImage? {
+      return UIKit.UIImage(resource: R.image.ic_checked, compatibleWith: traitCollection)
+    }
+    
     /// `UIImage(named: "ic_help", bundle: ..., traitCollection: ...)`
     static func ic_help(compatibleWith traitCollection: UIKit.UITraitCollection? = nil) -> UIKit.UIImage? {
       return UIKit.UIImage(resource: R.image.ic_help, compatibleWith: traitCollection)
+    }
+    
+    /// `UIImage(named: "ic_line_chart", bundle: ..., traitCollection: ...)`
+    static func ic_line_chart(compatibleWith traitCollection: UIKit.UITraitCollection? = nil) -> UIKit.UIImage? {
+      return UIKit.UIImage(resource: R.image.ic_line_chart, compatibleWith: traitCollection)
     }
     
     /// `UIImage(named: "ic_logout", bundle: ..., traitCollection: ...)`
@@ -297,6 +345,21 @@ struct R: Rswift.Validatable {
       return UIKit.UIImage(resource: R.image.ic_share, compatibleWith: traitCollection)
     }
     
+    /// `UIImage(named: "ic_statistics", bundle: ..., traitCollection: ...)`
+    static func ic_statistics(compatibleWith traitCollection: UIKit.UITraitCollection? = nil) -> UIKit.UIImage? {
+      return UIKit.UIImage(resource: R.image.ic_statistics, compatibleWith: traitCollection)
+    }
+    
+    /// `UIImage(named: "ic_unchecked", bundle: ..., traitCollection: ...)`
+    static func ic_unchecked(compatibleWith traitCollection: UIKit.UITraitCollection? = nil) -> UIKit.UIImage? {
+      return UIKit.UIImage(resource: R.image.ic_unchecked, compatibleWith: traitCollection)
+    }
+    
+    /// `UIImage(named: "ic_vegetarian", bundle: ..., traitCollection: ...)`
+    static func ic_vegetarian(compatibleWith traitCollection: UIKit.UITraitCollection? = nil) -> UIKit.UIImage? {
+      return UIKit.UIImage(resource: R.image.ic_vegetarian, compatibleWith: traitCollection)
+    }
+    
     /// `UIImage(named: "ic_weight", bundle: ..., traitCollection: ...)`
     static func ic_weight(compatibleWith traitCollection: UIKit.UITraitCollection? = nil) -> UIKit.UIImage? {
       return UIKit.UIImage(resource: R.image.ic_weight, compatibleWith: traitCollection)
@@ -320,6 +383,11 @@ struct R: Rswift.Validatable {
     /// `UIImage(named: "password", bundle: ..., traitCollection: ...)`
     static func password(compatibleWith traitCollection: UIKit.UITraitCollection? = nil) -> UIKit.UIImage? {
       return UIKit.UIImage(resource: R.image.password, compatibleWith: traitCollection)
+    }
+    
+    /// `UIImage(named: "placeholder", bundle: ..., traitCollection: ...)`
+    static func placeholder(compatibleWith traitCollection: UIKit.UITraitCollection? = nil) -> UIKit.UIImage? {
+      return UIKit.UIImage(resource: R.image.placeholder, compatibleWith: traitCollection)
     }
     
     /// `UIImage(named: "profile pic", bundle: ..., traitCollection: ...)`
@@ -481,7 +549,7 @@ struct _R: Rswift.Validatable {
       }
       
       static func validate() throws {
-        if UIKit.UIImage(named: "baby.jpg", in: R.hostingBundle, compatibleWith: nil) == nil { throw Rswift.ValidationError(description: "[R.swift] Image named 'baby.jpg' is used in nib 'BlogCell', but couldn't be loaded.") }
+        if UIKit.UIImage(named: "placeholder.png", in: R.hostingBundle, compatibleWith: nil) == nil { throw Rswift.ValidationError(description: "[R.swift] Image named 'placeholder.png' is used in nib 'BlogCell', but couldn't be loaded.") }
         if #available(iOS 11.0, *) {
         }
       }

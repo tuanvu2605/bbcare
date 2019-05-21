@@ -13,8 +13,10 @@ class AppTabBarController: UITabBarController {
     override func viewDidLoad() {
         super.viewDidLoad()
         view.backgroundColor = .white
+        
         let home = HomeController()
-        home.tabBarItem = UITabBarItem(title: "Theo dõi", image: R.image.ic_baby_feet_tabbar(), tag: 2)
+        let navHome = AppNavigationController(rootViewController: home)
+        navHome.tabBarItem = UITabBarItem(title: "Theo dõi", image: R.image.ic_baby_feet_tabbar(), tag: 0)
         
         
         let blog = BlogController()
@@ -27,7 +29,7 @@ class AppTabBarController: UITabBarController {
         let setting = SettingController()
         setting.tabBarItem = UITabBarItem(title: "Tài khoản", image: R.image.ic_account_tabbar(), tag: 2)
         
-        viewControllers = [home,navBlog,chat,setting]
+        viewControllers = [navHome,navBlog,chat,setting]
         tabBar.tintColor = R.color.garadient_start()
         
     }

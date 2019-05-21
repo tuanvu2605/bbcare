@@ -12,20 +12,21 @@ import WebKit
 class BlogDetailController: ScrollableViewController {
 
     var webView : WKWebView!
+    var blog : Blog!
     override func viewDidLoad() {
         super.viewDidLoad()
         
     }
     
     override func makeUI() {
-        let header = AppHeaderLayout(title: "Đang cho con bú...", leftImageBtn: R.image.ic_Back()!).defautlMakeView()
+        let header = AppHeaderLayout(title: "Blog", leftImageBtn: R.image.ic_Back()!).defautlMakeView()
         let btn = header.viewWithTag(AppHeaderLayout.leftButtonTag) as? UIButton
         btn?.addTarget(self, action: #selector(self.back) , for: .touchUpInside)
         addHeader(headerView: header)
         webView = WKWebView(frame: CGRect(x: 0, y: 0, width: Size.screen.width, height: Size.screen.height - header.height - (self.tabBarController?.tabBar.height ?? 0)))
         scrollView.addMoreView(view: webView)
         scrollView.isScrollEnabled = false
-        let url = URL(string: "http://localhost:5000/blog/choconbu")!
+        let url = URL(string: "\(AppRouter.baseURLPath)\(blog.url)")!
         webView.load(URLRequest(url: url))
 //        webView.allowsBackForwardNavigationGestures = true
         

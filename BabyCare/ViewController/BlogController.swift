@@ -7,14 +7,26 @@
 //
 
 import UIKit
+import SDWebImage
 
 class BlogController: ScrollableViewController {
 
     var tableView : UITableView!
     var cellId = "cellId"
+    var data = [Blog]()
     
     override func viewDidLoad() {
         super.viewDidLoad()
+        AppService.getAllPost { (res) in
+            if let list = res["data"] as? [[String:Any]] {
+                for dict in list {
+                    let blog = Blog(dict: dict)
+                    self.data.append(blog)
+                    self.tableView.reloadData()
+                    
+                }
+            }
+        }
 
         // Do any additional setup after loading the view.
     }
@@ -41,11 +53,14 @@ extension BlogController : UITableViewDelegate , UITableViewDataSource
     
     func tableView(_ tableView: UITableView, cellForRowAt indexPath: IndexPath) -> UITableViewCell {
         let cell = tableView.dequeueReusableCell(withIdentifier: cellId, for: indexPath) as! BlogCell
+        let b = data[indexPath.row]
+        cell.title.text = b.title
+        cell.thumbnail.sd_setImage(with: URL(string: b.thumbnail), completed: nil)
         return cell
     }
     
     func tableView(_ tableView: UITableView, numberOfRowsInSection section: Int) -> Int {
-        return 10
+        return data.count
     }
     func tableView(_ tableView: UITableView, heightForRowAt indexPath: IndexPath) -> CGFloat {
         return 120
@@ -53,6 +68,9 @@ extension BlogController : UITableViewDelegate , UITableViewDataSource
     
     func tableView(_ tableView: UITableView, didSelectRowAt indexPath: IndexPath) {
         tableView.deselectRow(at: indexPath, animated: true)
-        self.navigationController?.pushViewController(BlogDetailController(), animated: true)
+        let b = data[indexPath.row]
+        let blogDetail = BlogDetailController()
+        blogDetail.blog = b
+        self.navigationController?.pushViewController(blogDetail, animated: true)
     }
 }

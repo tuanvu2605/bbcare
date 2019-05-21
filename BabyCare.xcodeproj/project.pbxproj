@@ -30,6 +30,12 @@
 		8C2B3C85228E859300AAA8FA /* SF-Pro-Text-Medium.otf in Resources */ = {isa = PBXBuildFile; fileRef = 8C2B3C7C228E841700AAA8FA /* SF-Pro-Text-Medium.otf */; };
 		8C2B3C86228E859600AAA8FA /* SF-Pro-Text-Regular.otf in Resources */ = {isa = PBXBuildFile; fileRef = 8C2B3C7E228E841700AAA8FA /* SF-Pro-Text-Regular.otf */; };
 		8C2B3C87228E859A00AAA8FA /* SF-Pro-Text-Semibold.otf in Resources */ = {isa = PBXBuildFile; fileRef = 8C2B3C7D228E841700AAA8FA /* SF-Pro-Text-Semibold.otf */; };
+		8C3DFED82293AFC200DF64A8 /* placeholder.png in Resources */ = {isa = PBXBuildFile; fileRef = 8C3DFED72293AFC200DF64A8 /* placeholder.png */; };
+		8C3DFEDA2293B46400DF64A8 /* NutritionController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8C3DFED92293B46400DF64A8 /* NutritionController.swift */; };
+		8C3DFEDC2293B51C00DF64A8 /* TimelineFollowController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8C3DFEDB2293B51C00DF64A8 /* TimelineFollowController.swift */; };
+		8C3DFEDE2293ED1100DF64A8 /* TitleCheckboxLayout.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8C3DFEDD2293ED1100DF64A8 /* TitleCheckboxLayout.swift */; };
+		8C3DFEE02293F38100DF64A8 /* TitleCheckboxView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8C3DFEDF2293F38100DF64A8 /* TitleCheckboxView.swift */; };
+		8C3DFEE22293F96D00DF64A8 /* HomeItem.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8C3DFEE12293F96D00DF64A8 /* HomeItem.swift */; };
 		8C6D906C228D634900CA4C8D /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8C6D906B228D634900CA4C8D /* AppDelegate.swift */; };
 		8C6D906E228D634900CA4C8D /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8C6D906D228D634900CA4C8D /* ViewController.swift */; };
 		8C6D9071228D634900CA4C8D /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8C6D906F228D634900CA4C8D /* Main.storyboard */; };
@@ -125,6 +131,12 @@
 		8C2B3C7D228E841700AAA8FA /* SF-Pro-Text-Semibold.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "SF-Pro-Text-Semibold.otf"; sourceTree = "<group>"; };
 		8C2B3C7E228E841700AAA8FA /* SF-Pro-Text-Regular.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "SF-Pro-Text-Regular.otf"; sourceTree = "<group>"; };
 		8C2B3C7F228E841700AAA8FA /* SF-Pro-Text-Bold.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "SF-Pro-Text-Bold.otf"; sourceTree = "<group>"; };
+		8C3DFED72293AFC200DF64A8 /* placeholder.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = placeholder.png; sourceTree = "<group>"; };
+		8C3DFED92293B46400DF64A8 /* NutritionController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NutritionController.swift; sourceTree = "<group>"; };
+		8C3DFEDB2293B51C00DF64A8 /* TimelineFollowController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TimelineFollowController.swift; sourceTree = "<group>"; };
+		8C3DFEDD2293ED1100DF64A8 /* TitleCheckboxLayout.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TitleCheckboxLayout.swift; sourceTree = "<group>"; };
+		8C3DFEDF2293F38100DF64A8 /* TitleCheckboxView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TitleCheckboxView.swift; sourceTree = "<group>"; };
+		8C3DFEE12293F96D00DF64A8 /* HomeItem.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeItem.swift; sourceTree = "<group>"; };
 		8C6D9068228D634900CA4C8D /* BabyCare.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = BabyCare.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		8C6D906B228D634900CA4C8D /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		8C6D906D228D634900CA4C8D /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -224,6 +236,8 @@
 		8C2B3C31228E472A00AAA8FA /* Model */ = {
 			isa = PBXGroup;
 			children = (
+				8CEEB647229193D6006AA516 /* AppRouter.swift */,
+				8CEEB649229193E1006AA516 /* AppService.swift */,
 				8C2B3C32228E47B400AAA8FA /* User.swift */,
 				8C2B3C36228E491F00AAA8FA /* GrowthInfo.swift */,
 				8C2B3C34228E480200AAA8FA /* Baby.swift */,
@@ -245,6 +259,8 @@
 				8C2B3C76228E6EC400AAA8FA /* ScrollableViewController.swift */,
 				8CEEB63F22918236006AA516 /* BlogDetailController.swift */,
 				8CEEB6412291848A006AA516 /* AppNavigationController.swift */,
+				8C3DFED92293B46400DF64A8 /* NutritionController.swift */,
+				8C3DFEDB2293B51C00DF64A8 /* TimelineFollowController.swift */,
 			);
 			path = ViewController;
 			sourceTree = "<group>";
@@ -252,11 +268,13 @@
 		8C2B3C3D228E4AD200AAA8FA /* View */ = {
 			isa = PBXGroup;
 			children = (
+				8C3DFED72293AFC200DF64A8 /* placeholder.png */,
 				8CEEB64522918C82006AA516 /* doctor.jpg */,
 				8CEEB63D22918116006AA516 /* baby.jpg */,
 				8C2B3C3E228E4AFA00AAA8FA /* AppScrollView.swift */,
 				8CEEB63922917009006AA516 /* BlogCell.swift */,
 				8CEEB63A22917009006AA516 /* BlogCell.xib */,
+				8C3DFEDF2293F38100DF64A8 /* TitleCheckboxView.swift */,
 			);
 			path = View;
 			sourceTree = "<group>";
@@ -278,6 +296,8 @@
 				8C2B3C78228E6F3500AAA8FA /* AppBottomButtonLayout.swift */,
 				8C2B3C7A228E71B900AAA8FA /* AppHeaderLayout.swift */,
 				8CEEB64322918969006AA516 /* ItemSettingLayout.swift */,
+				8C3DFEDD2293ED1100DF64A8 /* TitleCheckboxLayout.swift */,
+				8C3DFEE12293F96D00DF64A8 /* HomeItem.swift */,
 			);
 			path = Layout;
 			sourceTree = "<group>";
@@ -438,8 +458,6 @@
 				8C9D4032228E969400BD8EE8 /* ObjectUser.swift */,
 				8C9D4033228E969400BD8EE8 /* ObjectConversation.swift */,
 				8C9D4034228E969400BD8EE8 /* ObjectMessage.swift */,
-				8CEEB647229193D6006AA516 /* AppRouter.swift */,
-				8CEEB649229193E1006AA516 /* AppService.swift */,
 			);
 			path = Models;
 			sourceTree = "<group>";
@@ -616,6 +634,7 @@
 				8C9D4063228E969400BD8EE8 /* Initial.storyboard in Resources */,
 				8CFB0676228D71970063D160 /* Icons.xcassets in Resources */,
 				8C9D4069228E969400BD8EE8 /* Conversations.storyboard in Resources */,
+				8C3DFED82293AFC200DF64A8 /* placeholder.png in Resources */,
 				8C2B3C68228E50E500AAA8FA /* Colors.xcassets in Resources */,
 				8CEEB64622918C82006AA516 /* doctor.jpg in Resources */,
 				8C2B3C85228E859300AAA8FA /* SF-Pro-Text-Medium.otf in Resources */,
@@ -659,6 +678,7 @@
 				"${BUILT_PRODUCTS_DIR}/RxCocoa/RxCocoa.framework",
 				"${BUILT_PRODUCTS_DIR}/RxRelay/RxRelay.framework",
 				"${BUILT_PRODUCTS_DIR}/RxSwift/RxSwift.framework",
+				"${BUILT_PRODUCTS_DIR}/SDWebImage/SDWebImage.framework",
 				"${BUILT_PRODUCTS_DIR}/gRPC-C++/grpcpp.framework",
 				"${BUILT_PRODUCTS_DIR}/gRPC-Core/grpc.framework",
 				"${BUILT_PRODUCTS_DIR}/leveldb-library/leveldb.framework",
@@ -684,6 +704,7 @@
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/RxCocoa.framework",
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/RxRelay.framework",
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/RxSwift.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/SDWebImage.framework",
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/grpcpp.framework",
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/grpc.framework",
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/leveldb.framework",
@@ -758,12 +779,14 @@
 				8C2B3C3F228E4AFA00AAA8FA /* AppScrollView.swift in Sources */,
 				8C9D408A228E969400BD8EE8 /* FirestorageService.swift in Sources */,
 				8C9D4067228E969400BD8EE8 /* ProfileViewController.swift in Sources */,
+				8C3DFEE22293F96D00DF64A8 /* HomeItem.swift in Sources */,
 				8C2B3C6C228E531F00AAA8FA /* AppTabBarController.swift in Sources */,
 				8CEEB64422918969006AA516 /* ItemSettingLayout.swift in Sources */,
 				8C9D407E228E969400BD8EE8 /* UITableViewExtension.swift in Sources */,
 				8C9D4079228E969400BD8EE8 /* CLLocationCoordinateExtension.swift in Sources */,
 				8C2B3C37228E491F00AAA8FA /* GrowthInfo.swift in Sources */,
 				8C2B3C39228E496800AAA8FA /* Notice.swift in Sources */,
+				8C3DFEDA2293B46400DF64A8 /* NutritionController.swift in Sources */,
 				8C9D4089228E969400BD8EE8 /* AudioService.swift in Sources */,
 				8C9D407B228E969400BD8EE8 /* EncodableExtension.swift in Sources */,
 				8C9D405D228E969400BD8EE8 /* UILabelGradient.swift in Sources */,
@@ -777,6 +800,7 @@
 				8CEEB648229193D6006AA516 /* AppRouter.swift in Sources */,
 				8C9D406D228E969400BD8EE8 /* ContactsPreviewController.swift in Sources */,
 				8C9D406E228E969400BD8EE8 /* ImagePreviewController.swift in Sources */,
+				8C3DFEE02293F38100DF64A8 /* TitleCheckboxView.swift in Sources */,
 				8C6D906C228D634900CA4C8D /* AppDelegate.swift in Sources */,
 				8C2B3C48228E4B3F00AAA8FA /* AppStyle.swift in Sources */,
 				8C9D4062228E969400BD8EE8 /* InitialViewController.swift in Sources */,
@@ -804,8 +828,10 @@
 				8C9D4060228E969400BD8EE8 /* MessagesViewController.swift in Sources */,
 				8C2B3C3B228E49F200AAA8FA /* Expert.swift in Sources */,
 				8C2B3C79228E6F3500AAA8FA /* AppBottomButtonLayout.swift in Sources */,
+				8C3DFEDC2293B51C00DF64A8 /* TimelineFollowController.swift in Sources */,
 				8C9D408D228E969400BD8EE8 /* LocationService.swift in Sources */,
 				8C9D4078228E969400BD8EE8 /* OptionalExtension.swift in Sources */,
+				8C3DFEDE2293ED1100DF64A8 /* TitleCheckboxLayout.swift in Sources */,
 				8C2B3C77228E6EC400AAA8FA /* ScrollableViewController.swift in Sources */,
 				8CEEB64A229193E1006AA516 /* AppService.swift in Sources */,
 				8C9D4059228E969400BD8EE8 /* ConversationManager.swift in Sources */,
