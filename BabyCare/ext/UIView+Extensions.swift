@@ -68,13 +68,17 @@ extension UIView {
     }
     
     func gradientByStyle(){
+        gradientByStyle(opacity: 1)
+    }
+
+    func gradientByStyle(opacity: Float){
         let gradient = CAGradientLayer()
         gradient.frame = self.bounds;
+        gradient.opacity = opacity
         gradient.colors = [R.color.garadient_start()!.cgColor ,R.color.gradient_end()!.cgColor]
         gradient.startPoint = CGPoint(x: 0.0, y: 1.0)
         gradient.endPoint = CGPoint(x: 1.0, y: 1.0)
         self.layer.insertSublayer(gradient, at: 0)
-        
     }
     
     func dropShadow(scale: Bool = true) {

@@ -146,7 +146,7 @@ struct R: Rswift.Validatable {
     fileprivate init() {}
   }
   
-  /// This `R.image` struct is generated, and contains static references to 38 images.
+  /// This `R.image` struct is generated, and contains static references to 42 images.
   struct image {
     /// Image `baby.jpg`.
     static let babyJpg = Rswift.ImageResource(bundle: R.hostingBundle, name: "baby.jpg")
@@ -168,6 +168,10 @@ struct R: Rswift.Validatable {
     static let email = Rswift.ImageResource(bundle: R.hostingBundle, name: "email")
     /// Image `empty`.
     static let empty = Rswift.ImageResource(bundle: R.hostingBundle, name: "empty")
+    /// Image `facebook`.
+    static let facebook = Rswift.ImageResource(bundle: R.hostingBundle, name: "facebook")
+    /// Image `google`.
+    static let google = Rswift.ImageResource(bundle: R.hostingBundle, name: "google")
     /// Image `ic-chat-tabbar`.
     static let icChatTabbar = Rswift.ImageResource(bundle: R.hostingBundle, name: "ic-chat-tabbar")
     /// Image `ic_Back`.
@@ -216,6 +220,10 @@ struct R: Rswift.Validatable {
     static let placeholder = Rswift.ImageResource(bundle: R.hostingBundle, name: "placeholder")
     /// Image `profile pic`.
     static let profilePic = Rswift.ImageResource(bundle: R.hostingBundle, name: "profile pic")
+    /// Image `security_off`.
+    static let security_off = Rswift.ImageResource(bundle: R.hostingBundle, name: "security_off")
+    /// Image `security_on`.
+    static let security_on = Rswift.ImageResource(bundle: R.hostingBundle, name: "security_on")
     /// Image `selectCamera`.
     static let selectCamera = Rswift.ImageResource(bundle: R.hostingBundle, name: "selectCamera")
     /// Image `selectLocation`.
@@ -273,6 +281,16 @@ struct R: Rswift.Validatable {
     /// `UIImage(named: "empty", bundle: ..., traitCollection: ...)`
     static func empty(compatibleWith traitCollection: UIKit.UITraitCollection? = nil) -> UIKit.UIImage? {
       return UIKit.UIImage(resource: R.image.empty, compatibleWith: traitCollection)
+    }
+    
+    /// `UIImage(named: "facebook", bundle: ..., traitCollection: ...)`
+    static func facebook(compatibleWith traitCollection: UIKit.UITraitCollection? = nil) -> UIKit.UIImage? {
+      return UIKit.UIImage(resource: R.image.facebook, compatibleWith: traitCollection)
+    }
+    
+    /// `UIImage(named: "google", bundle: ..., traitCollection: ...)`
+    static func google(compatibleWith traitCollection: UIKit.UITraitCollection? = nil) -> UIKit.UIImage? {
+      return UIKit.UIImage(resource: R.image.google, compatibleWith: traitCollection)
     }
     
     /// `UIImage(named: "ic-chat-tabbar", bundle: ..., traitCollection: ...)`
@@ -393,6 +411,16 @@ struct R: Rswift.Validatable {
     /// `UIImage(named: "profile pic", bundle: ..., traitCollection: ...)`
     static func profilePic(compatibleWith traitCollection: UIKit.UITraitCollection? = nil) -> UIKit.UIImage? {
       return UIKit.UIImage(resource: R.image.profilePic, compatibleWith: traitCollection)
+    }
+    
+    /// `UIImage(named: "security_off", bundle: ..., traitCollection: ...)`
+    static func security_off(compatibleWith traitCollection: UIKit.UITraitCollection? = nil) -> UIKit.UIImage? {
+      return UIKit.UIImage(resource: R.image.security_off, compatibleWith: traitCollection)
+    }
+    
+    /// `UIImage(named: "security_on", bundle: ..., traitCollection: ...)`
+    static func security_on(compatibleWith traitCollection: UIKit.UITraitCollection? = nil) -> UIKit.UIImage? {
+      return UIKit.UIImage(resource: R.image.security_on, compatibleWith: traitCollection)
     }
     
     /// `UIImage(named: "selectCamera", bundle: ..., traitCollection: ...)`
@@ -643,10 +671,31 @@ struct _R: Rswift.Validatable {
       
       let bundle = R.hostingBundle
       let name = "Main"
+      let signinViewController = StoryboardViewControllerResource<SigninViewController>(identifier: "SigninViewController")
+      let signupViewController = StoryboardViewControllerResource<SignupViewController>(identifier: "SignupViewController")
+      let welcomeViewController = StoryboardViewControllerResource<WelcomeViewController>(identifier: "WelcomeViewController")
+      
+      func signinViewController(_: Void = ()) -> SigninViewController? {
+        return UIKit.UIStoryboard(resource: self).instantiateViewController(withResource: signinViewController)
+      }
+      
+      func signupViewController(_: Void = ()) -> SignupViewController? {
+        return UIKit.UIStoryboard(resource: self).instantiateViewController(withResource: signupViewController)
+      }
+      
+      func welcomeViewController(_: Void = ()) -> WelcomeViewController? {
+        return UIKit.UIStoryboard(resource: self).instantiateViewController(withResource: welcomeViewController)
+      }
       
       static func validate() throws {
+        if UIKit.UIImage(named: "facebook", in: R.hostingBundle, compatibleWith: nil) == nil { throw Rswift.ValidationError(description: "[R.swift] Image named 'facebook' is used in storyboard 'Main', but couldn't be loaded.") }
+        if UIKit.UIImage(named: "google", in: R.hostingBundle, compatibleWith: nil) == nil { throw Rswift.ValidationError(description: "[R.swift] Image named 'google' is used in storyboard 'Main', but couldn't be loaded.") }
         if #available(iOS 11.0, *) {
+          if UIKit.UIColor(named: "garadient_start", in: R.hostingBundle, compatibleWith: nil) == nil { throw Rswift.ValidationError(description: "[R.swift] Color named 'garadient_start' is used in storyboard 'Main', but couldn't be loaded.") }
         }
+        if _R.storyboard.main().signinViewController() == nil { throw Rswift.ValidationError(description:"[R.swift] ViewController with identifier 'signinViewController' could not be loaded from storyboard 'Main' as 'SigninViewController'.") }
+        if _R.storyboard.main().signupViewController() == nil { throw Rswift.ValidationError(description:"[R.swift] ViewController with identifier 'signupViewController' could not be loaded from storyboard 'Main' as 'SignupViewController'.") }
+        if _R.storyboard.main().welcomeViewController() == nil { throw Rswift.ValidationError(description:"[R.swift] ViewController with identifier 'welcomeViewController' could not be loaded from storyboard 'Main' as 'WelcomeViewController'.") }
       }
       
       fileprivate init() {}

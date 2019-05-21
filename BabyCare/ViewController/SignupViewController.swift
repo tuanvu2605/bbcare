@@ -1,0 +1,55 @@
+//
+//  SignupViewController.swift
+//  BabyCare
+//
+//  Created by trungduc on 5/21/19.
+//  Copyright © 2019 tuananhi. All rights reserved.
+//
+
+import UIKit
+
+class SignupViewController: UIViewController {
+
+    @IBOutlet weak var containerView: UIView!
+
+    @IBOutlet weak var emailTextField: InputView!
+    @IBOutlet weak var passwordTextField: InputView!
+    @IBOutlet weak var reenterPasswordTextField: InputView!
+
+    @IBOutlet weak var signupButton: UIButton!
+    
+    override func viewDidLoad() {
+        super.viewDidLoad()
+
+        setupSubviews()
+    }
+
+    func setupSubviews() {
+        let header = AppHeaderLayout(bigTitle: "Đăng ký", leftImageBtn: R.image.ic_Back()!).defautlMakeView()
+        view.addSubview(header)
+        view.bringSubviewToFront(header)
+        let btn = header.viewWithTag(AppHeaderLayout.leftButtonTag) as? UIButton
+        btn?.addTarget(self, action: #selector(self.back) , for: .touchUpInside)
+
+        containerView.dropShadow()
+        containerView.layer.shadowOpacity = 0.3
+
+        signupButton.gradientByStyle()
+        signupButton.isHidden = true
+    }
+
+    @IBAction func textDidChanged(_ sender: Any) {
+        signupButton.isHidden = emailTextField.text!.count < 8 || passwordTextField.text!.count < 8 || passwordTextField.text != reenterPasswordTextField.text
+    }
+
+    @objc func back() {
+        dismiss(animated: false, completion: nil)
+    }
+
+    @IBAction func forgotPasswordButtonDidTouch(_ sender: Any) {
+    }
+
+    @IBAction func signupButtonDidTouch(_ sender: Any) {
+    }
+
+}
