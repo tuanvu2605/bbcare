@@ -117,8 +117,35 @@ class AppHeaderLayout: InsetLayout<View> {
         super.init(insets: EdgeInsets(top: 5, left: 16, bottom: 5, right: 16), sublayout: headerLayout , config : {view in
             view.gradientByStyle()
         })
-        
-        
+    }
+
+    public init(bigTitle : String , leftImageBtn : UIImage)
+    {
+        let topViewLayout = SizeLayout(height: Utilities.topSpace() )
+
+        let leftBtnLayout = ButtonLayout(type: .custom, title: "", image: .image(leftImageBtn), font: nil, contentEdgeInsets: UIEdgeInsets(top: 8, left: 0, bottom: 8, right: 0), alignment: .centerLeading) { (btn) in
+            btn.tag = AppHeaderLayout.leftButtonTag
+        }
+
+        let titleLayout = LabelLayout(text: bigTitle, font: AppFont.style.bold(size: 28)!, numberOfLines: 0, alignment: .centerLeading, flexibility: .max) { (lbl) in
+            lbl.textColor = UIColor.white
+            lbl.textAlignment = .center
+
+        }
+
+
+        let stackLayout = StackLayout(axis: .horizontal,sublayouts:[titleLayout])
+
+        let headerLayout = StackLayout(axis: .vertical, spacing: 5.0,sublayouts:[
+            topViewLayout,
+            leftBtnLayout,
+            stackLayout]
+        )
+
+
+        super.init(insets: EdgeInsets(top: 5, left: 16, bottom: 5, right: 16), sublayout: headerLayout , config : {view in
+            view.gradientByStyle()
+        })
     }
     
 }

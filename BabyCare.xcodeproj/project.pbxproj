@@ -98,6 +98,10 @@
 		8CEEB64A229193E1006AA516 /* AppService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8CEEB649229193E1006AA516 /* AppService.swift */; };
 		8CFB0676228D71970063D160 /* Icons.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 8CFB0675228D71970063D160 /* Icons.xcassets */; };
 		8CFB0679228D74950063D160 /* R.generated.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8CFB0678228D74950063D160 /* R.generated.swift */; };
+		94841AFA2293B6CE00D1F02F /* WelcomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 94841AF92293B6CE00D1F02F /* WelcomeViewController.swift */; };
+		94841AFC2293B6DA00D1F02F /* SigninViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 94841AFB2293B6DA00D1F02F /* SigninViewController.swift */; };
+		94841AFE2293B6E000D1F02F /* SignupViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 94841AFD2293B6E000D1F02F /* SignupViewController.swift */; };
+		94BE0C822293E51D00FCA8DD /* InputView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 94BE0C812293E51D00FCA8DD /* InputView.swift */; };
 		BE748D9D3007D31FEFF59E64 /* Pods_BabyCare.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 976278CCCE39EBC8D5BD0A0C /* Pods_BabyCare.framework */; };
 /* End PBXBuildFile section */
 
@@ -195,9 +199,15 @@
 		8CEEB649229193E1006AA516 /* AppService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppService.swift; sourceTree = "<group>"; };
 		8CFB0675228D71970063D160 /* Icons.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Icons.xcassets; sourceTree = "<group>"; };
 		8CFB0678228D74950063D160 /* R.generated.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = R.generated.swift; sourceTree = SOURCE_ROOT; };
+		94841AF92293B6CE00D1F02F /* WelcomeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WelcomeViewController.swift; sourceTree = "<group>"; };
+		94841AFB2293B6DA00D1F02F /* SigninViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SigninViewController.swift; sourceTree = "<group>"; };
+		94841AFD2293B6E000D1F02F /* SignupViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SignupViewController.swift; sourceTree = "<group>"; };
+		94BE0C812293E51D00FCA8DD /* InputView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InputView.swift; sourceTree = "<group>"; };
 		976278CCCE39EBC8D5BD0A0C /* Pods_BabyCare.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_BabyCare.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		A4C1F497664CD5E203D47FAB /* Pods-BabyCare.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-BabyCare.debug.xcconfig"; path = "Target Support Files/Pods-BabyCare/Pods-BabyCare.debug.xcconfig"; sourceTree = "<group>"; };
+		C51C3C59D54FFD734519C0D6 /* Pods-BabyCare.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-BabyCare.debug.xcconfig"; path = "Pods/Target Support Files/Pods-BabyCare/Pods-BabyCare.debug.xcconfig"; sourceTree = "<group>"; };
 		E13BC735A68A6E662A590497 /* Pods-BabyCare.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-BabyCare.release.xcconfig"; path = "Target Support Files/Pods-BabyCare/Pods-BabyCare.release.xcconfig"; sourceTree = "<group>"; };
+		F6B932F0BF9E0C5B7C8468D7 /* Pods-BabyCare.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-BabyCare.release.xcconfig"; path = "Pods/Target Support Files/Pods-BabyCare/Pods-BabyCare.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -217,6 +227,8 @@
 			children = (
 				A4C1F497664CD5E203D47FAB /* Pods-BabyCare.debug.xcconfig */,
 				E13BC735A68A6E662A590497 /* Pods-BabyCare.release.xcconfig */,
+				C51C3C59D54FFD734519C0D6 /* Pods-BabyCare.debug.xcconfig */,
+				F6B932F0BF9E0C5B7C8468D7 /* Pods-BabyCare.release.xcconfig */,
 			);
 			path = Pods;
 			sourceTree = "<group>";
@@ -245,6 +257,9 @@
 				8C2B3C76228E6EC400AAA8FA /* ScrollableViewController.swift */,
 				8CEEB63F22918236006AA516 /* BlogDetailController.swift */,
 				8CEEB6412291848A006AA516 /* AppNavigationController.swift */,
+				94841AF92293B6CE00D1F02F /* WelcomeViewController.swift */,
+				94841AFB2293B6DA00D1F02F /* SigninViewController.swift */,
+				94841AFD2293B6E000D1F02F /* SignupViewController.swift */,
 			);
 			path = ViewController;
 			sourceTree = "<group>";
@@ -257,6 +272,7 @@
 				8C2B3C3E228E4AFA00AAA8FA /* AppScrollView.swift */,
 				8CEEB63922917009006AA516 /* BlogCell.swift */,
 				8CEEB63A22917009006AA516 /* BlogCell.xib */,
+				94BE0C812293E51D00FCA8DD /* InputView.swift */,
 			);
 			path = View;
 			sourceTree = "<group>";
@@ -642,7 +658,7 @@
 			inputFileListPaths = (
 			);
 			inputPaths = (
-				"${PODS_ROOT}/Target Support Files/Pods-BabyCare/Pods-BabyCare-frameworks.sh",
+				"${SRCROOT}/Pods/Target Support Files/Pods-BabyCare/Pods-BabyCare-frameworks.sh",
 				"${BUILT_PRODUCTS_DIR}/ALLoadingView/ALLoadingView.framework",
 				"${BUILT_PRODUCTS_DIR}/Alamofire/Alamofire.framework",
 				"${BUILT_PRODUCTS_DIR}/BoringSSL-GRPC/openssl_grpc.framework",
@@ -691,7 +707,7 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
-			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-BabyCare/Pods-BabyCare-frameworks.sh\"\n";
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-BabyCare/Pods-BabyCare-frameworks.sh\"\n";
 			showEnvVarsInLog = 0;
 		};
 		8CFB0677228D722C0063D160 /* ShellScript */ = {
@@ -767,6 +783,7 @@
 				8C9D4089228E969400BD8EE8 /* AudioService.swift in Sources */,
 				8C9D407B228E969400BD8EE8 /* EncodableExtension.swift in Sources */,
 				8C9D405D228E969400BD8EE8 /* UILabelGradient.swift in Sources */,
+				94841AFA2293B6CE00D1F02F /* WelcomeViewController.swift in Sources */,
 				8C9D4080228E969400BD8EE8 /* UIFontExtension.swift in Sources */,
 				8C9D405A228E969400BD8EE8 /* UserManager.swift in Sources */,
 				8C2B3C49228E4B3F00AAA8FA /* UIView+Extensions.swift in Sources */,
@@ -785,6 +802,7 @@
 				8CEEB63B22917009006AA516 /* BlogCell.swift in Sources */,
 				8C9D4070228E969400BD8EE8 /* ObjectConversation.swift in Sources */,
 				8C2B3C7B228E71B900AAA8FA /* AppHeaderLayout.swift in Sources */,
+				94841AFC2293B6DA00D1F02F /* SigninViewController.swift in Sources */,
 				8C9D407F228E969400BD8EE8 /* UIStoryboardExtension.swift in Sources */,
 				8CEEB63822916D98006AA516 /* Blog.swift in Sources */,
 				8C9D406F228E969400BD8EE8 /* ObjectUser.swift in Sources */,
@@ -807,7 +825,9 @@
 				8C9D408D228E969400BD8EE8 /* LocationService.swift in Sources */,
 				8C9D4078228E969400BD8EE8 /* OptionalExtension.swift in Sources */,
 				8C2B3C77228E6EC400AAA8FA /* ScrollableViewController.swift in Sources */,
+				94BE0C822293E51D00FCA8DD /* InputView.swift in Sources */,
 				8CEEB64A229193E1006AA516 /* AppService.swift in Sources */,
+				94841AFE2293B6E000D1F02F /* SignupViewController.swift in Sources */,
 				8C9D4059228E969400BD8EE8 /* ConversationManager.swift in Sources */,
 				8CEEB6422291848A006AA516 /* AppNavigationController.swift in Sources */,
 				8C2B3C6E228E652000AAA8FA /* HomeController.swift in Sources */,
