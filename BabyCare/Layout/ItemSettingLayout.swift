@@ -23,7 +23,7 @@ class ItemSettingLayout: InsetLayout<UIView> {
         let hozStack = StackLayout(axis: .horizontal,spacing: 16, sublayouts: [img,title])
         super.init(insets: EdgeInsets(top: 5, left: 16, bottom: 5, right: 16), sublayout: hozStack , config : {view in
             view.backgroundColor = .white
-            view.addBottomBorderWithColor(color: .lightGray, width: 0.5)
+            view.addBottomBorderWithColor(color: .lightGray, width: 0.2)
         })
     }
 

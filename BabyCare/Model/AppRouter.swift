@@ -36,7 +36,7 @@ public enum AppRouter: URLRequestConvertible {
     var path: String {
         switch self {
         case .login:
-            return "auth/login"
+            return "login"
         case .userInfo:
             return "user/info"
         case .babyInfo:
@@ -71,7 +71,7 @@ public enum AppRouter: URLRequestConvertible {
 //        }
 //
         request.timeoutInterval = TimeInterval(10 * 1000)
-        
+        request.setValue("application/json",forHTTPHeaderField: "Content-Type")
         return try URLEncoding.default.encode(request, with: parameters)
     }
 }

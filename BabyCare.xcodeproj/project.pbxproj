@@ -41,6 +41,133 @@
 		8C6D9071228D634900CA4C8D /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8C6D906F228D634900CA4C8D /* Main.storyboard */; };
 		8C6D9073228D634B00CA4C8D /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 8C6D9072228D634B00CA4C8D /* Assets.xcassets */; };
 		8C6D9076228D634B00CA4C8D /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8C6D9074228D634B00CA4C8D /* LaunchScreen.storyboard */; };
+		8C72ED852297CEAA00AD3CEE /* BABY_Info_wk2_Boy.html in Resources */ = {isa = PBXBuildFile; fileRef = 8C72ED7D2297CEA900AD3CEE /* BABY_Info_wk2_Boy.html */; };
+		8C72ED862297CEAA00AD3CEE /* BABY_Info_wk8_Boy.html in Resources */ = {isa = PBXBuildFile; fileRef = 8C72ED7E2297CEA900AD3CEE /* BABY_Info_wk8_Boy.html */; };
+		8C72ED872297CEAA00AD3CEE /* BABY_Info_wk6_Boy.html in Resources */ = {isa = PBXBuildFile; fileRef = 8C72ED7F2297CEA900AD3CEE /* BABY_Info_wk6_Boy.html */; };
+		8C72ED882297CEAA00AD3CEE /* BABY_Info_wk3_Boy.html in Resources */ = {isa = PBXBuildFile; fileRef = 8C72ED802297CEA900AD3CEE /* BABY_Info_wk3_Boy.html */; };
+		8C72ED892297CEAA00AD3CEE /* BABY_Info_wk7_Boy.html in Resources */ = {isa = PBXBuildFile; fileRef = 8C72ED812297CEA900AD3CEE /* BABY_Info_wk7_Boy.html */; };
+		8C72ED8A2297CEAA00AD3CEE /* BABY_Info_wk4_Boy.html in Resources */ = {isa = PBXBuildFile; fileRef = 8C72ED822297CEA900AD3CEE /* BABY_Info_wk4_Boy.html */; };
+		8C72ED8B2297CEAA00AD3CEE /* BABY_Info_wk5_Boy.html in Resources */ = {isa = PBXBuildFile; fileRef = 8C72ED832297CEA900AD3CEE /* BABY_Info_wk5_Boy.html */; };
+		8C72ED8C2297CEAA00AD3CEE /* BABY_Info_wk1_Boy.html in Resources */ = {isa = PBXBuildFile; fileRef = 8C72ED842297CEA900AD3CEE /* BABY_Info_wk1_Boy.html */; };
+		8C72ED8E2297CF4900AD3CEE /* FollowDetailController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8C72ED8D2297CF4900AD3CEE /* FollowDetailController.swift */; };
+		8C72ED902297CF9600AD3CEE /* FollowItemLayout.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8C72ED8F2297CF9600AD3CEE /* FollowItemLayout.swift */; };
+		8C72ED922297D01A00AD3CEE /* FollowItem.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8C72ED912297D01A00AD3CEE /* FollowItem.swift */; };
+		8C72EE052297D90500AD3CEE /* Development images_week 2.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 8C72ED942297D90400AD3CEE /* Development images_week 2.jpg */; };
+		8C72EE062297D90500AD3CEE /* Bundel1_Milestone_Premium_05 At-the-beach.png in Resources */ = {isa = PBXBuildFile; fileRef = 8C72ED962297D90500AD3CEE /* Bundel1_Milestone_Premium_05 At-the-beach.png */; };
+		8C72EE072297D90500AD3CEE /* Age Badge month 2 green.png in Resources */ = {isa = PBXBuildFile; fileRef = 8C72ED972297D90500AD3CEE /* Age Badge month 2 green.png */; };
+		8C72EE082297D90500AD3CEE /* Bundel1_Milestone_Premium_11 I-can-crawl.png in Resources */ = {isa = PBXBuildFile; fileRef = 8C72ED982297D90500AD3CEE /* Bundel1_Milestone_Premium_11 I-can-crawl.png */; };
+		8C72EE092297D90500AD3CEE /* Bundel1_Milestone_Premium_10 I-can-clap.png in Resources */ = {isa = PBXBuildFile; fileRef = 8C72ED992297D90500AD3CEE /* Bundel1_Milestone_Premium_10 I-can-clap.png */; };
+		8C72EE0A2297D90500AD3CEE /* Age Badges month 10 green.png in Resources */ = {isa = PBXBuildFile; fileRef = 8C72ED9A2297D90500AD3CEE /* Age Badges month 10 green.png */; };
+		8C72EE0B2297D90500AD3CEE /* Age Badges month 7 green.png in Resources */ = {isa = PBXBuildFile; fileRef = 8C72ED9B2297D90500AD3CEE /* Age Badges month 7 green.png */; };
+		8C72EE0C2297D90500AD3CEE /* Bundel1_Moment_Premium_04 Grandma.png in Resources */ = {isa = PBXBuildFile; fileRef = 8C72ED9C2297D90500AD3CEE /* Bundel1_Moment_Premium_04 Grandma.png */; };
+		8C72EE0D2297D90500AD3CEE /* Age Badge month 1 pink.png in Resources */ = {isa = PBXBuildFile; fileRef = 8C72ED9D2297D90500AD3CEE /* Age Badge month 1 pink.png */; };
+		8C72EE0E2297D90500AD3CEE /* Age Badge month 1 blue.png in Resources */ = {isa = PBXBuildFile; fileRef = 8C72ED9E2297D90500AD3CEE /* Age Badge month 1 blue.png */; };
+		8C72EE0F2297D90500AD3CEE /* Bundel1_Milestone_Premium_15 I-can-read.png in Resources */ = {isa = PBXBuildFile; fileRef = 8C72ED9F2297D90500AD3CEE /* Bundel1_Milestone_Premium_15 I-can-read.png */; };
+		8C72EE102297D90500AD3CEE /* Bundel1_Speech_Premium_09 I-can-say-why.png in Resources */ = {isa = PBXBuildFile; fileRef = 8C72EDA02297D90500AD3CEE /* Bundel1_Speech_Premium_09 I-can-say-why.png */; };
+		8C72EE112297D90500AD3CEE /* Bundel1_Moment_Free_02 Family2.png in Resources */ = {isa = PBXBuildFile; fileRef = 8C72EDA12297D90500AD3CEE /* Bundel1_Moment_Free_02 Family2.png */; };
+		8C72EE122297D90500AD3CEE /* Bundel1_Speech_Premium_07 peack-a-boo.png in Resources */ = {isa = PBXBuildFile; fileRef = 8C72EDA22297D90500AD3CEE /* Bundel1_Speech_Premium_07 peack-a-boo.png */; };
+		8C72EE132297D90500AD3CEE /* Bundel1_Moment_Free_01 Mama.png in Resources */ = {isa = PBXBuildFile; fileRef = 8C72EDA32297D90500AD3CEE /* Bundel1_Moment_Free_01 Mama.png */; };
+		8C72EE142297D90500AD3CEE /* Bundel1_Moment_Premium_03 Daddy.png in Resources */ = {isa = PBXBuildFile; fileRef = 8C72EDA42297D90500AD3CEE /* Bundel1_Moment_Premium_03 Daddy.png */; };
+		8C72EE152297D90500AD3CEE /* Age Badges week 1 blue.png in Resources */ = {isa = PBXBuildFile; fileRef = 8C72EDA52297D90500AD3CEE /* Age Badges week 1 blue.png */; };
+		8C72EE162297D90500AD3CEE /* Age Badges week 1 pink.png in Resources */ = {isa = PBXBuildFile; fileRef = 8C72EDA62297D90500AD3CEE /* Age Badges week 1 pink.png */; };
+		8C72EE172297D90500AD3CEE /* Bundel1_Moment_Premium_05 Grandpa.png in Resources */ = {isa = PBXBuildFile; fileRef = 8C72EDA72297D90500AD3CEE /* Bundel1_Moment_Premium_05 Grandpa.png */; };
+		8C72EE182297D90500AD3CEE /* Age Badge month 4 green.png in Resources */ = {isa = PBXBuildFile; fileRef = 8C72EDA82297D90500AD3CEE /* Age Badge month 4 green.png */; };
+		8C72EE192297D90500AD3CEE /* Age Badges month 11 pink.png in Resources */ = {isa = PBXBuildFile; fileRef = 8C72EDA92297D90500AD3CEE /* Age Badges month 11 pink.png */; };
+		8C72EE1A2297D90500AD3CEE /* Age Badges month 11 blue.png in Resources */ = {isa = PBXBuildFile; fileRef = 8C72EDAA2297D90500AD3CEE /* Age Badges month 11 blue.png */; };
+		8C72EE1B2297D90500AD3CEE /* Age Badges month 10 pink.png in Resources */ = {isa = PBXBuildFile; fileRef = 8C72EDAB2297D90500AD3CEE /* Age Badges month 10 pink.png */; };
+		8C72EE1C2297D90500AD3CEE /* Age Badges month 10 blue.png in Resources */ = {isa = PBXBuildFile; fileRef = 8C72EDAC2297D90500AD3CEE /* Age Badges month 10 blue.png */; };
+		8C72EE1D2297D90500AD3CEE /* Bundel1_Milestone_Premium_30 In-the-snow.png in Resources */ = {isa = PBXBuildFile; fileRef = 8C72EDAD2297D90500AD3CEE /* Bundel1_Milestone_Premium_30 In-the-snow.png */; };
+		8C72EE1E2297D90500AD3CEE /* Bundel1_Milestone_Premium_22 I-love-food.png in Resources */ = {isa = PBXBuildFile; fileRef = 8C72EDAE2297D90500AD3CEE /* Bundel1_Milestone_Premium_22 I-love-food.png */; };
+		8C72EE1F2297D90500AD3CEE /* Bundel1_Milestone_Premium_31 Meal-time.png in Resources */ = {isa = PBXBuildFile; fileRef = 8C72EDAF2297D90500AD3CEE /* Bundel1_Milestone_Premium_31 Meal-time.png */; };
+		8C72EE202297D90500AD3CEE /* Age Badges week 3 green.png in Resources */ = {isa = PBXBuildFile; fileRef = 8C72EDB02297D90500AD3CEE /* Age Badges week 3 green.png */; };
+		8C72EE212297D90500AD3CEE /* Bundel1_Speech_Premium_04 I-can-say-dada.png in Resources */ = {isa = PBXBuildFile; fileRef = 8C72EDB12297D90500AD3CEE /* Bundel1_Speech_Premium_04 I-can-say-dada.png */; };
+		8C72EE222297D90500AD3CEE /* Bundel1_Milestone_Premium_34 My-first-sunglasses.png in Resources */ = {isa = PBXBuildFile; fileRef = 8C72EDB22297D90500AD3CEE /* Bundel1_Milestone_Premium_34 My-first-sunglasses.png */; };
+		8C72EE232297D90500AD3CEE /* Age Badge month 3 green.png in Resources */ = {isa = PBXBuildFile; fileRef = 8C72EDB32297D90500AD3CEE /* Age Badge month 3 green.png */; };
+		8C72EE242297D90500AD3CEE /* Bundel1_Milestone_Premium_17 I-can-run.png in Resources */ = {isa = PBXBuildFile; fileRef = 8C72EDB42297D90500AD3CEE /* Bundel1_Milestone_Premium_17 I-can-run.png */; };
+		8C72EE252297D90500AD3CEE /* Age Badges month 11 green.png in Resources */ = {isa = PBXBuildFile; fileRef = 8C72EDB52297D90500AD3CEE /* Age Badges month 11 green.png */; };
+		8C72EE262297D90500AD3CEE /* Bundel1_Milestone_Premium_08 Happy-birthday.png in Resources */ = {isa = PBXBuildFile; fileRef = 8C72EDB62297D90500AD3CEE /* Bundel1_Milestone_Premium_08 Happy-birthday.png */; };
+		8C72EE272297D90500AD3CEE /* Age Badges month 6 green.png in Resources */ = {isa = PBXBuildFile; fileRef = 8C72EDB72297D90500AD3CEE /* Age Badges month 6 green.png */; };
+		8C72EE282297D90500AD3CEE /* Age Badges week 4 green.png in Resources */ = {isa = PBXBuildFile; fileRef = 8C72EDB82297D90500AD3CEE /* Age Badges week 4 green.png */; };
+		8C72EE292297D90500AD3CEE /* Bundel1_Milestone_Premium_19 I-can-stand.png in Resources */ = {isa = PBXBuildFile; fileRef = 8C72EDB92297D90500AD3CEE /* Bundel1_Milestone_Premium_19 I-can-stand.png */; };
+		8C72EE2A2297D90500AD3CEE /* Bundel1_Milestone_Premium_24 I-love-my-sleep.png in Resources */ = {isa = PBXBuildFile; fileRef = 8C72EDBA2297D90500AD3CEE /* Bundel1_Milestone_Premium_24 I-love-my-sleep.png */; };
+		8C72EE2B2297D90500AD3CEE /* Bundel1_Milestone_Premium_28 Im-smiling.png in Resources */ = {isa = PBXBuildFile; fileRef = 8C72EDBB2297D90500AD3CEE /* Bundel1_Milestone_Premium_28 Im-smiling.png */; };
+		8C72EE2C2297D90500AD3CEE /* Age Badge month 5 green.png in Resources */ = {isa = PBXBuildFile; fileRef = 8C72EDBC2297D90500AD3CEE /* Age Badge month 5 green.png */; };
+		8C72EE2D2297D90500AD3CEE /* Bundel1_Milestone_Premium_36 My-new-haircut.png in Resources */ = {isa = PBXBuildFile; fileRef = 8C72EDBD2297D90500AD3CEE /* Bundel1_Milestone_Premium_36 My-new-haircut.png */; };
+		8C72EE2E2297D90500AD3CEE /* Age Badges month 8 blue.png in Resources */ = {isa = PBXBuildFile; fileRef = 8C72EDBE2297D90500AD3CEE /* Age Badges month 8 blue.png */; };
+		8C72EE2F2297D90500AD3CEE /* Age Badges month 8 pink.png in Resources */ = {isa = PBXBuildFile; fileRef = 8C72EDBF2297D90500AD3CEE /* Age Badges month 8 pink.png */; };
+		8C72EE302297D90500AD3CEE /* Age Badges month 9 blue.png in Resources */ = {isa = PBXBuildFile; fileRef = 8C72EDC02297D90500AD3CEE /* Age Badges month 9 blue.png */; };
+		8C72EE312297D90500AD3CEE /* Age Badges month 9 pink.png in Resources */ = {isa = PBXBuildFile; fileRef = 8C72EDC12297D90500AD3CEE /* Age Badges month 9 pink.png */; };
+		8C72EE322297D90500AD3CEE /* Bundel1_Moment_Premium_09 Moment.png in Resources */ = {isa = PBXBuildFile; fileRef = 8C72EDC22297D90500AD3CEE /* Bundel1_Moment_Premium_09 Moment.png */; };
+		8C72EE332297D90500AD3CEE /* Bundel1_Milestone_Premium_29 In-the-park.png in Resources */ = {isa = PBXBuildFile; fileRef = 8C72EDC32297D90500AD3CEE /* Bundel1_Milestone_Premium_29 In-the-park.png */; };
+		8C72EE342297D90500AD3CEE /* Bundel1_Milestone_Premium_09 Happy-holidays.png in Resources */ = {isa = PBXBuildFile; fileRef = 8C72EDC42297D90500AD3CEE /* Bundel1_Milestone_Premium_09 Happy-holidays.png */; };
+		8C72EE352297D90500AD3CEE /* Bundel1_Speech_Free_01 Found-my-hands.png in Resources */ = {isa = PBXBuildFile; fileRef = 8C72EDC52297D90500AD3CEE /* Bundel1_Speech_Free_01 Found-my-hands.png */; };
+		8C72EE362297D90500AD3CEE /* Age Badges week 2 green.png in Resources */ = {isa = PBXBuildFile; fileRef = 8C72EDC62297D90500AD3CEE /* Age Badges week 2 green.png */; };
+		8C72EE372297D90500AD3CEE /* Bundel1_Milestone_Free_02 I'm-Home.png in Resources */ = {isa = PBXBuildFile; fileRef = 8C72EDC72297D90500AD3CEE /* Bundel1_Milestone_Free_02 I'm-Home.png */; };
+		8C72EE382297D90500AD3CEE /* Bundel1_Milestone_Free_01 I-was-born.png in Resources */ = {isa = PBXBuildFile; fileRef = 8C72EDC82297D90500AD3CEE /* Bundel1_Milestone_Free_01 I-was-born.png */; };
+		8C72EE392297D90500AD3CEE /* Age Badges month 12 green.png in Resources */ = {isa = PBXBuildFile; fileRef = 8C72EDC92297D90500AD3CEE /* Age Badges month 12 green.png */; };
+		8C72EE3A2297D90500AD3CEE /* Age Badges month 8 green.png in Resources */ = {isa = PBXBuildFile; fileRef = 8C72EDCA2297D90500AD3CEE /* Age Badges month 8 green.png */; };
+		8C72EE3B2297D90500AD3CEE /* Bundel1_Speech_Free_02 So-funny.png in Resources */ = {isa = PBXBuildFile; fileRef = 8C72EDCB2297D90500AD3CEE /* Bundel1_Speech_Free_02 So-funny.png */; };
+		8C72EE3C2297D90500AD3CEE /* Bundel1_Milestone_Premium_04 Bath-time.png in Resources */ = {isa = PBXBuildFile; fileRef = 8C72EDCC2297D90500AD3CEE /* Bundel1_Milestone_Premium_04 Bath-time.png */; };
+		8C72EE3D2297D90500AD3CEE /* Bundel1_Milestone_Premium_20 I-can-swim.png in Resources */ = {isa = PBXBuildFile; fileRef = 8C72EDCD2297D90500AD3CEE /* Bundel1_Milestone_Premium_20 I-can-swim.png */; };
+		8C72EE3E2297D90500AD3CEE /* Age Badges month 12 blue.png in Resources */ = {isa = PBXBuildFile; fileRef = 8C72EDCE2297D90500AD3CEE /* Age Badges month 12 blue.png */; };
+		8C72EE3F2297D90500AD3CEE /* Age Badges month 12 pink.png in Resources */ = {isa = PBXBuildFile; fileRef = 8C72EDCF2297D90500AD3CEE /* Age Badges month 12 pink.png */; };
+		8C72EE402297D90500AD3CEE /* Bundel1_Milestone_Premium_38 New-tooth.png in Resources */ = {isa = PBXBuildFile; fileRef = 8C72EDD02297D90500AD3CEE /* Bundel1_Milestone_Premium_38 New-tooth.png */; };
+		8C72EE412297D90500AD3CEE /* Age Badge month 2 blue.png in Resources */ = {isa = PBXBuildFile; fileRef = 8C72EDD12297D90500AD3CEE /* Age Badge month 2 blue.png */; };
+		8C72EE422297D90500AD3CEE /* Age Badge month 2 pink.png in Resources */ = {isa = PBXBuildFile; fileRef = 8C72EDD22297D90500AD3CEE /* Age Badge month 2 pink.png */; };
+		8C72EE432297D90500AD3CEE /* Age Badge month 3 blue.png in Resources */ = {isa = PBXBuildFile; fileRef = 8C72EDD32297D90500AD3CEE /* Age Badge month 3 blue.png */; };
+		8C72EE442297D90500AD3CEE /* Age Badge month 3 pink.png in Resources */ = {isa = PBXBuildFile; fileRef = 8C72EDD42297D90500AD3CEE /* Age Badge month 3 pink.png */; };
+		8C72EE452297D90500AD3CEE /* Bundel1_Milestone_Premium_37 My-new-outfit.png in Resources */ = {isa = PBXBuildFile; fileRef = 8C72EDD52297D90500AD3CEE /* Bundel1_Milestone_Premium_37 My-new-outfit.png */; };
+		8C72EE462297D90500AD3CEE /* Bundel1_Milestone_Premium_13 I-can-drink.png in Resources */ = {isa = PBXBuildFile; fileRef = 8C72EDD62297D90500AD3CEE /* Bundel1_Milestone_Premium_13 I-can-drink.png */; };
+		8C72EE472297D90500AD3CEE /* Bundel1_Milestone_Premium_32 My-first-bed.png in Resources */ = {isa = PBXBuildFile; fileRef = 8C72EDD72297D90500AD3CEE /* Bundel1_Milestone_Premium_32 My-first-bed.png */; };
+		8C72EE482297D90500AD3CEE /* Bundel1_Milestone_Premium_14 I-can-jump.png in Resources */ = {isa = PBXBuildFile; fileRef = 8C72EDD82297D90500AD3CEE /* Bundel1_Milestone_Premium_14 I-can-jump.png */; };
+		8C72EE492297D90500AD3CEE /* Age Badges week 3 pink.png in Resources */ = {isa = PBXBuildFile; fileRef = 8C72EDD92297D90500AD3CEE /* Age Badges week 3 pink.png */; };
+		8C72EE4A2297D90500AD3CEE /* Age Badges week 3 blue.png in Resources */ = {isa = PBXBuildFile; fileRef = 8C72EDDA2297D90500AD3CEE /* Age Badges week 3 blue.png */; };
+		8C72EE4B2297D90500AD3CEE /* Age Badges week 2 pink.png in Resources */ = {isa = PBXBuildFile; fileRef = 8C72EDDB2297D90500AD3CEE /* Age Badges week 2 pink.png */; };
+		8C72EE4C2297D90500AD3CEE /* Age Badges week 2 blue.png in Resources */ = {isa = PBXBuildFile; fileRef = 8C72EDDC2297D90500AD3CEE /* Age Badges week 2 blue.png */; };
+		8C72EE4D2297D90500AD3CEE /* Age Badges month 6 pink.png in Resources */ = {isa = PBXBuildFile; fileRef = 8C72EDDD2297D90500AD3CEE /* Age Badges month 6 pink.png */; };
+		8C72EE4E2297D90500AD3CEE /* Age Badges month 6 blue.png in Resources */ = {isa = PBXBuildFile; fileRef = 8C72EDDE2297D90500AD3CEE /* Age Badges month 6 blue.png */; };
+		8C72EE4F2297D90500AD3CEE /* Age Badges month 7 pink.png in Resources */ = {isa = PBXBuildFile; fileRef = 8C72EDDF2297D90500AD3CEE /* Age Badges month 7 pink.png */; };
+		8C72EE502297D90500AD3CEE /* Age Badges month 7 blue.png in Resources */ = {isa = PBXBuildFile; fileRef = 8C72EDE02297D90500AD3CEE /* Age Badges month 7 blue.png */; };
+		8C72EE512297D90500AD3CEE /* Age Badges week 1 green.png in Resources */ = {isa = PBXBuildFile; fileRef = 8C72EDE12297D90500AD3CEE /* Age Badges week 1 green.png */; };
+		8C72EE522297D90500AD3CEE /* Bundel1_Milestone_Premium_12 I-can-dance.png in Resources */ = {isa = PBXBuildFile; fileRef = 8C72EDE22297D90500AD3CEE /* Bundel1_Milestone_Premium_12 I-can-dance.png */; };
+		8C72EE532297D90500AD3CEE /* Bundel1_Moment_Premium_08Family.png in Resources */ = {isa = PBXBuildFile; fileRef = 8C72EDE32297D90500AD3CEE /* Bundel1_Moment_Premium_08Family.png */; };
+		8C72EE542297D90500AD3CEE /* Bundel1_Milestone_Premium_23 I-love-hugs.png in Resources */ = {isa = PBXBuildFile; fileRef = 8C72EDE42297D90500AD3CEE /* Bundel1_Milestone_Premium_23 I-love-hugs.png */; };
+		8C72EE552297D90500AD3CEE /* Bundel1_Milestone_Premium_18 I-can-sit.png in Resources */ = {isa = PBXBuildFile; fileRef = 8C72EDE52297D90500AD3CEE /* Bundel1_Milestone_Premium_18 I-can-sit.png */; };
+		8C72EE562297D90500AD3CEE /* Bundel1_Milestone_Premium_35 My-messy-face.png in Resources */ = {isa = PBXBuildFile; fileRef = 8C72EDE62297D90500AD3CEE /* Bundel1_Milestone_Premium_35 My-messy-face.png */; };
+		8C72EE572297D90500AD3CEE /* Age Badge month 5 blue.png in Resources */ = {isa = PBXBuildFile; fileRef = 8C72EDE72297D90500AD3CEE /* Age Badge month 5 blue.png */; };
+		8C72EE582297D90500AD3CEE /* Age Badge month 5 pink.png in Resources */ = {isa = PBXBuildFile; fileRef = 8C72EDE82297D90500AD3CEE /* Age Badge month 5 pink.png */; };
+		8C72EE592297D90500AD3CEE /* Age Badge month 4 blue.png in Resources */ = {isa = PBXBuildFile; fileRef = 8C72EDE92297D90500AD3CEE /* Age Badge month 4 blue.png */; };
+		8C72EE5A2297D90500AD3CEE /* Age Badge month 4 pink.png in Resources */ = {isa = PBXBuildFile; fileRef = 8C72EDEA2297D90500AD3CEE /* Age Badge month 4 pink.png */; };
+		8C72EE5B2297D90500AD3CEE /* Bundel1_Speech_Premium_06 So-funny-v2.png in Resources */ = {isa = PBXBuildFile; fileRef = 8C72EDEB2297D90500AD3CEE /* Bundel1_Speech_Premium_06 So-funny-v2.png */; };
+		8C72EE5C2297D90500AD3CEE /* Bundel1_Moment_Premium_07 Sister.png in Resources */ = {isa = PBXBuildFile; fileRef = 8C72EDEC2297D90500AD3CEE /* Bundel1_Moment_Premium_07 Sister.png */; };
+		8C72EE5D2297D90500AD3CEE /* Bundel1_Milestone_Premium_25 I-love-this-toy.png in Resources */ = {isa = PBXBuildFile; fileRef = 8C72EDED2297D90500AD3CEE /* Bundel1_Milestone_Premium_25 I-love-this-toy.png */; };
+		8C72EE5E2297D90500AD3CEE /* Age Badges week 4 pink.png in Resources */ = {isa = PBXBuildFile; fileRef = 8C72EDEE2297D90500AD3CEE /* Age Badges week 4 pink.png */; };
+		8C72EE5F2297D90500AD3CEE /* Age Badges week 4 blue.png in Resources */ = {isa = PBXBuildFile; fileRef = 8C72EDEF2297D90500AD3CEE /* Age Badges week 4 blue.png */; };
+		8C72EE602297D90500AD3CEE /* Bundel1_Milestone_Premium_06 First-step.png in Resources */ = {isa = PBXBuildFile; fileRef = 8C72EDF02297D90500AD3CEE /* Bundel1_Milestone_Premium_06 First-step.png */; };
+		8C72EE612297D90500AD3CEE /* Age Badges month 9 green.png in Resources */ = {isa = PBXBuildFile; fileRef = 8C72EDF12297D90500AD3CEE /* Age Badges month 9 green.png */; };
+		8C72EE622297D90500AD3CEE /* Age Badge month 1 green.png in Resources */ = {isa = PBXBuildFile; fileRef = 8C72EDF22297D90500AD3CEE /* Age Badge month 1 green.png */; };
+		8C72EE632297D90500AD3CEE /* Bundel1_Moment_Premium_06 Brother.png in Resources */ = {isa = PBXBuildFile; fileRef = 8C72EDF32297D90500AD3CEE /* Bundel1_Moment_Premium_06 Brother.png */; };
+		8C72EE642297D90500AD3CEE /* Bundel1_Speech_Premium_08 I-found-my-feet.png in Resources */ = {isa = PBXBuildFile; fileRef = 8C72EDF42297D90500AD3CEE /* Bundel1_Speech_Premium_08 I-found-my-feet.png */; };
+		8C72EE652297D90500AD3CEE /* Bundel1_Speech_Premium_03 Can-say-mama.png in Resources */ = {isa = PBXBuildFile; fileRef = 8C72EDF52297D90500AD3CEE /* Bundel1_Speech_Premium_03 Can-say-mama.png */; };
+		8C72EE662297D90500AD3CEE /* Bundel1_Speech_Premium_10 I-can-sing.png in Resources */ = {isa = PBXBuildFile; fileRef = 8C72EDF62297D90500AD3CEE /* Bundel1_Speech_Premium_10 I-can-sing.png */; };
+		8C72EE672297D90500AD3CEE /* Bundel1_Milestone_Premium_26 I-sletp-all-night.png in Resources */ = {isa = PBXBuildFile; fileRef = 8C72EDF72297D90500AD3CEE /* Bundel1_Milestone_Premium_26 I-sletp-all-night.png */; };
+		8C72EE682297D90500AD3CEE /* Bundel1_Milestone_Premium_21 I-can-walk.png in Resources */ = {isa = PBXBuildFile; fileRef = 8C72EDF82297D90500AD3CEE /* Bundel1_Milestone_Premium_21 I-can-walk.png */; };
+		8C72EE692297D90500AD3CEE /* Bundel1_Milestone_Premium_07 First-tower.png in Resources */ = {isa = PBXBuildFile; fileRef = 8C72EDF92297D90500AD3CEE /* Bundel1_Milestone_Premium_07 First-tower.png */; };
+		8C72EE6A2297D90500AD3CEE /* Bundel1_Milestone_Premium_33 My-first-shoes.png in Resources */ = {isa = PBXBuildFile; fileRef = 8C72EDFA2297D90500AD3CEE /* Bundel1_Milestone_Premium_33 My-first-shoes.png */; };
+		8C72EE6B2297D90500AD3CEE /* Bundel1_Speech_Premium_05 I-Can-say-mama.png in Resources */ = {isa = PBXBuildFile; fileRef = 8C72EDFB2297D90500AD3CEE /* Bundel1_Speech_Premium_05 I-Can-say-mama.png */; };
+		8C72EE6C2297D90500AD3CEE /* Bundel1_Milestone_Premium_16 I-can-roll-over.png in Resources */ = {isa = PBXBuildFile; fileRef = 8C72EDFC2297D90500AD3CEE /* Bundel1_Milestone_Premium_16 I-can-roll-over.png */; };
+		8C72EE6D2297D90500AD3CEE /* Bundel1_Milestone_Free_03 I-can-lift-my-head.png in Resources */ = {isa = PBXBuildFile; fileRef = 8C72EDFD2297D90500AD3CEE /* Bundel1_Milestone_Free_03 I-can-lift-my-head.png */; };
+		8C72EE6E2297D90500AD3CEE /* Bundel1_Milestone_Premium_27 I-wave-bye.png in Resources */ = {isa = PBXBuildFile; fileRef = 8C72EDFE2297D90500AD3CEE /* Bundel1_Milestone_Premium_27 I-wave-bye.png */; };
+		8C72EE6F2297D90500AD3CEE /* Development images_week 5.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 8C72EDFF2297D90500AD3CEE /* Development images_week 5.jpg */; };
+		8C72EE702297D90500AD3CEE /* Development images_week 6.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 8C72EE002297D90500AD3CEE /* Development images_week 6.jpg */; };
+		8C72EE712297D90500AD3CEE /* Development images_week 4.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 8C72EE012297D90500AD3CEE /* Development images_week 4.jpg */; };
+		8C72EE722297D90500AD3CEE /* Development images_week 8.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 8C72EE022297D90500AD3CEE /* Development images_week 8.jpg */; };
+		8C72EE732297D90500AD3CEE /* Development images_week 7.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 8C72EE032297D90500AD3CEE /* Development images_week 7.jpg */; };
+		8C72EE742297D90500AD3CEE /* Development images_week 3.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 8C72EE042297D90500AD3CEE /* Development images_week 3.jpg */; };
+		8C72EE762297D90F00AD3CEE /* Development images_week 1.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 8C72EE752297D90F00AD3CEE /* Development images_week 1.jpg */; };
+		8C72EE78229915A100AD3CEE /* baby_banner.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 8C72EE77229915A100AD3CEE /* baby_banner.jpg */; };
+		8C72EE7A22991AF100AD3CEE /* AppModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8C72EE7922991AF100AD3CEE /* AppModel.swift */; };
+		8C72EE7C229926B600AD3CEE /* AddInfoGrowthController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8C72EE7B229926B600AD3CEE /* AddInfoGrowthController.swift */; };
 		8C9D400E228E93B000BD8EE8 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 8C9D400D228E93B000BD8EE8 /* GoogleService-Info.plist */; };
 		8C9D4059228E969400BD8EE8 /* ConversationManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8C9D4013228E969400BD8EE8 /* ConversationManager.swift */; };
 		8C9D405A228E969400BD8EE8 /* UserManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8C9D4014228E969400BD8EE8 /* UserManager.swift */; };
@@ -148,6 +275,133 @@
 		8C6D9072228D634B00CA4C8D /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		8C6D9075228D634B00CA4C8D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		8C6D9077228D634B00CA4C8D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		8C72ED7D2297CEA900AD3CEE /* BABY_Info_wk2_Boy.html */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.html; path = BABY_Info_wk2_Boy.html; sourceTree = "<group>"; };
+		8C72ED7E2297CEA900AD3CEE /* BABY_Info_wk8_Boy.html */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.html; path = BABY_Info_wk8_Boy.html; sourceTree = "<group>"; };
+		8C72ED7F2297CEA900AD3CEE /* BABY_Info_wk6_Boy.html */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.html; path = BABY_Info_wk6_Boy.html; sourceTree = "<group>"; };
+		8C72ED802297CEA900AD3CEE /* BABY_Info_wk3_Boy.html */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.html; path = BABY_Info_wk3_Boy.html; sourceTree = "<group>"; };
+		8C72ED812297CEA900AD3CEE /* BABY_Info_wk7_Boy.html */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.html; path = BABY_Info_wk7_Boy.html; sourceTree = "<group>"; };
+		8C72ED822297CEA900AD3CEE /* BABY_Info_wk4_Boy.html */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.html; path = BABY_Info_wk4_Boy.html; sourceTree = "<group>"; };
+		8C72ED832297CEA900AD3CEE /* BABY_Info_wk5_Boy.html */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.html; path = BABY_Info_wk5_Boy.html; sourceTree = "<group>"; };
+		8C72ED842297CEA900AD3CEE /* BABY_Info_wk1_Boy.html */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.html; path = BABY_Info_wk1_Boy.html; sourceTree = "<group>"; };
+		8C72ED8D2297CF4900AD3CEE /* FollowDetailController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FollowDetailController.swift; sourceTree = "<group>"; };
+		8C72ED8F2297CF9600AD3CEE /* FollowItemLayout.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FollowItemLayout.swift; sourceTree = "<group>"; };
+		8C72ED912297D01A00AD3CEE /* FollowItem.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FollowItem.swift; sourceTree = "<group>"; };
+		8C72ED942297D90400AD3CEE /* Development images_week 2.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "Development images_week 2.jpg"; sourceTree = "<group>"; };
+		8C72ED962297D90500AD3CEE /* Bundel1_Milestone_Premium_05 At-the-beach.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Bundel1_Milestone_Premium_05 At-the-beach.png"; sourceTree = "<group>"; };
+		8C72ED972297D90500AD3CEE /* Age Badge month 2 green.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Age Badge month 2 green.png"; sourceTree = "<group>"; };
+		8C72ED982297D90500AD3CEE /* Bundel1_Milestone_Premium_11 I-can-crawl.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Bundel1_Milestone_Premium_11 I-can-crawl.png"; sourceTree = "<group>"; };
+		8C72ED992297D90500AD3CEE /* Bundel1_Milestone_Premium_10 I-can-clap.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Bundel1_Milestone_Premium_10 I-can-clap.png"; sourceTree = "<group>"; };
+		8C72ED9A2297D90500AD3CEE /* Age Badges month 10 green.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Age Badges month 10 green.png"; sourceTree = "<group>"; };
+		8C72ED9B2297D90500AD3CEE /* Age Badges month 7 green.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Age Badges month 7 green.png"; sourceTree = "<group>"; };
+		8C72ED9C2297D90500AD3CEE /* Bundel1_Moment_Premium_04 Grandma.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Bundel1_Moment_Premium_04 Grandma.png"; sourceTree = "<group>"; };
+		8C72ED9D2297D90500AD3CEE /* Age Badge month 1 pink.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Age Badge month 1 pink.png"; sourceTree = "<group>"; };
+		8C72ED9E2297D90500AD3CEE /* Age Badge month 1 blue.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Age Badge month 1 blue.png"; sourceTree = "<group>"; };
+		8C72ED9F2297D90500AD3CEE /* Bundel1_Milestone_Premium_15 I-can-read.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Bundel1_Milestone_Premium_15 I-can-read.png"; sourceTree = "<group>"; };
+		8C72EDA02297D90500AD3CEE /* Bundel1_Speech_Premium_09 I-can-say-why.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Bundel1_Speech_Premium_09 I-can-say-why.png"; sourceTree = "<group>"; };
+		8C72EDA12297D90500AD3CEE /* Bundel1_Moment_Free_02 Family2.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Bundel1_Moment_Free_02 Family2.png"; sourceTree = "<group>"; };
+		8C72EDA22297D90500AD3CEE /* Bundel1_Speech_Premium_07 peack-a-boo.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Bundel1_Speech_Premium_07 peack-a-boo.png"; sourceTree = "<group>"; };
+		8C72EDA32297D90500AD3CEE /* Bundel1_Moment_Free_01 Mama.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Bundel1_Moment_Free_01 Mama.png"; sourceTree = "<group>"; };
+		8C72EDA42297D90500AD3CEE /* Bundel1_Moment_Premium_03 Daddy.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Bundel1_Moment_Premium_03 Daddy.png"; sourceTree = "<group>"; };
+		8C72EDA52297D90500AD3CEE /* Age Badges week 1 blue.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Age Badges week 1 blue.png"; sourceTree = "<group>"; };
+		8C72EDA62297D90500AD3CEE /* Age Badges week 1 pink.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Age Badges week 1 pink.png"; sourceTree = "<group>"; };
+		8C72EDA72297D90500AD3CEE /* Bundel1_Moment_Premium_05 Grandpa.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Bundel1_Moment_Premium_05 Grandpa.png"; sourceTree = "<group>"; };
+		8C72EDA82297D90500AD3CEE /* Age Badge month 4 green.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Age Badge month 4 green.png"; sourceTree = "<group>"; };
+		8C72EDA92297D90500AD3CEE /* Age Badges month 11 pink.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Age Badges month 11 pink.png"; sourceTree = "<group>"; };
+		8C72EDAA2297D90500AD3CEE /* Age Badges month 11 blue.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Age Badges month 11 blue.png"; sourceTree = "<group>"; };
+		8C72EDAB2297D90500AD3CEE /* Age Badges month 10 pink.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Age Badges month 10 pink.png"; sourceTree = "<group>"; };
+		8C72EDAC2297D90500AD3CEE /* Age Badges month 10 blue.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Age Badges month 10 blue.png"; sourceTree = "<group>"; };
+		8C72EDAD2297D90500AD3CEE /* Bundel1_Milestone_Premium_30 In-the-snow.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Bundel1_Milestone_Premium_30 In-the-snow.png"; sourceTree = "<group>"; };
+		8C72EDAE2297D90500AD3CEE /* Bundel1_Milestone_Premium_22 I-love-food.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Bundel1_Milestone_Premium_22 I-love-food.png"; sourceTree = "<group>"; };
+		8C72EDAF2297D90500AD3CEE /* Bundel1_Milestone_Premium_31 Meal-time.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Bundel1_Milestone_Premium_31 Meal-time.png"; sourceTree = "<group>"; };
+		8C72EDB02297D90500AD3CEE /* Age Badges week 3 green.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Age Badges week 3 green.png"; sourceTree = "<group>"; };
+		8C72EDB12297D90500AD3CEE /* Bundel1_Speech_Premium_04 I-can-say-dada.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Bundel1_Speech_Premium_04 I-can-say-dada.png"; sourceTree = "<group>"; };
+		8C72EDB22297D90500AD3CEE /* Bundel1_Milestone_Premium_34 My-first-sunglasses.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Bundel1_Milestone_Premium_34 My-first-sunglasses.png"; sourceTree = "<group>"; };
+		8C72EDB32297D90500AD3CEE /* Age Badge month 3 green.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Age Badge month 3 green.png"; sourceTree = "<group>"; };
+		8C72EDB42297D90500AD3CEE /* Bundel1_Milestone_Premium_17 I-can-run.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Bundel1_Milestone_Premium_17 I-can-run.png"; sourceTree = "<group>"; };
+		8C72EDB52297D90500AD3CEE /* Age Badges month 11 green.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Age Badges month 11 green.png"; sourceTree = "<group>"; };
+		8C72EDB62297D90500AD3CEE /* Bundel1_Milestone_Premium_08 Happy-birthday.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Bundel1_Milestone_Premium_08 Happy-birthday.png"; sourceTree = "<group>"; };
+		8C72EDB72297D90500AD3CEE /* Age Badges month 6 green.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Age Badges month 6 green.png"; sourceTree = "<group>"; };
+		8C72EDB82297D90500AD3CEE /* Age Badges week 4 green.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Age Badges week 4 green.png"; sourceTree = "<group>"; };
+		8C72EDB92297D90500AD3CEE /* Bundel1_Milestone_Premium_19 I-can-stand.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Bundel1_Milestone_Premium_19 I-can-stand.png"; sourceTree = "<group>"; };
+		8C72EDBA2297D90500AD3CEE /* Bundel1_Milestone_Premium_24 I-love-my-sleep.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Bundel1_Milestone_Premium_24 I-love-my-sleep.png"; sourceTree = "<group>"; };
+		8C72EDBB2297D90500AD3CEE /* Bundel1_Milestone_Premium_28 Im-smiling.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Bundel1_Milestone_Premium_28 Im-smiling.png"; sourceTree = "<group>"; };
+		8C72EDBC2297D90500AD3CEE /* Age Badge month 5 green.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Age Badge month 5 green.png"; sourceTree = "<group>"; };
+		8C72EDBD2297D90500AD3CEE /* Bundel1_Milestone_Premium_36 My-new-haircut.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Bundel1_Milestone_Premium_36 My-new-haircut.png"; sourceTree = "<group>"; };
+		8C72EDBE2297D90500AD3CEE /* Age Badges month 8 blue.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Age Badges month 8 blue.png"; sourceTree = "<group>"; };
+		8C72EDBF2297D90500AD3CEE /* Age Badges month 8 pink.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Age Badges month 8 pink.png"; sourceTree = "<group>"; };
+		8C72EDC02297D90500AD3CEE /* Age Badges month 9 blue.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Age Badges month 9 blue.png"; sourceTree = "<group>"; };
+		8C72EDC12297D90500AD3CEE /* Age Badges month 9 pink.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Age Badges month 9 pink.png"; sourceTree = "<group>"; };
+		8C72EDC22297D90500AD3CEE /* Bundel1_Moment_Premium_09 Moment.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Bundel1_Moment_Premium_09 Moment.png"; sourceTree = "<group>"; };
+		8C72EDC32297D90500AD3CEE /* Bundel1_Milestone_Premium_29 In-the-park.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Bundel1_Milestone_Premium_29 In-the-park.png"; sourceTree = "<group>"; };
+		8C72EDC42297D90500AD3CEE /* Bundel1_Milestone_Premium_09 Happy-holidays.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Bundel1_Milestone_Premium_09 Happy-holidays.png"; sourceTree = "<group>"; };
+		8C72EDC52297D90500AD3CEE /* Bundel1_Speech_Free_01 Found-my-hands.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Bundel1_Speech_Free_01 Found-my-hands.png"; sourceTree = "<group>"; };
+		8C72EDC62297D90500AD3CEE /* Age Badges week 2 green.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Age Badges week 2 green.png"; sourceTree = "<group>"; };
+		8C72EDC72297D90500AD3CEE /* Bundel1_Milestone_Free_02 I'm-Home.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Bundel1_Milestone_Free_02 I'm-Home.png"; sourceTree = "<group>"; };
+		8C72EDC82297D90500AD3CEE /* Bundel1_Milestone_Free_01 I-was-born.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Bundel1_Milestone_Free_01 I-was-born.png"; sourceTree = "<group>"; };
+		8C72EDC92297D90500AD3CEE /* Age Badges month 12 green.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Age Badges month 12 green.png"; sourceTree = "<group>"; };
+		8C72EDCA2297D90500AD3CEE /* Age Badges month 8 green.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Age Badges month 8 green.png"; sourceTree = "<group>"; };
+		8C72EDCB2297D90500AD3CEE /* Bundel1_Speech_Free_02 So-funny.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Bundel1_Speech_Free_02 So-funny.png"; sourceTree = "<group>"; };
+		8C72EDCC2297D90500AD3CEE /* Bundel1_Milestone_Premium_04 Bath-time.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Bundel1_Milestone_Premium_04 Bath-time.png"; sourceTree = "<group>"; };
+		8C72EDCD2297D90500AD3CEE /* Bundel1_Milestone_Premium_20 I-can-swim.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Bundel1_Milestone_Premium_20 I-can-swim.png"; sourceTree = "<group>"; };
+		8C72EDCE2297D90500AD3CEE /* Age Badges month 12 blue.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Age Badges month 12 blue.png"; sourceTree = "<group>"; };
+		8C72EDCF2297D90500AD3CEE /* Age Badges month 12 pink.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Age Badges month 12 pink.png"; sourceTree = "<group>"; };
+		8C72EDD02297D90500AD3CEE /* Bundel1_Milestone_Premium_38 New-tooth.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Bundel1_Milestone_Premium_38 New-tooth.png"; sourceTree = "<group>"; };
+		8C72EDD12297D90500AD3CEE /* Age Badge month 2 blue.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Age Badge month 2 blue.png"; sourceTree = "<group>"; };
+		8C72EDD22297D90500AD3CEE /* Age Badge month 2 pink.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Age Badge month 2 pink.png"; sourceTree = "<group>"; };
+		8C72EDD32297D90500AD3CEE /* Age Badge month 3 blue.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Age Badge month 3 blue.png"; sourceTree = "<group>"; };
+		8C72EDD42297D90500AD3CEE /* Age Badge month 3 pink.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Age Badge month 3 pink.png"; sourceTree = "<group>"; };
+		8C72EDD52297D90500AD3CEE /* Bundel1_Milestone_Premium_37 My-new-outfit.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Bundel1_Milestone_Premium_37 My-new-outfit.png"; sourceTree = "<group>"; };
+		8C72EDD62297D90500AD3CEE /* Bundel1_Milestone_Premium_13 I-can-drink.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Bundel1_Milestone_Premium_13 I-can-drink.png"; sourceTree = "<group>"; };
+		8C72EDD72297D90500AD3CEE /* Bundel1_Milestone_Premium_32 My-first-bed.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Bundel1_Milestone_Premium_32 My-first-bed.png"; sourceTree = "<group>"; };
+		8C72EDD82297D90500AD3CEE /* Bundel1_Milestone_Premium_14 I-can-jump.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Bundel1_Milestone_Premium_14 I-can-jump.png"; sourceTree = "<group>"; };
+		8C72EDD92297D90500AD3CEE /* Age Badges week 3 pink.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Age Badges week 3 pink.png"; sourceTree = "<group>"; };
+		8C72EDDA2297D90500AD3CEE /* Age Badges week 3 blue.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Age Badges week 3 blue.png"; sourceTree = "<group>"; };
+		8C72EDDB2297D90500AD3CEE /* Age Badges week 2 pink.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Age Badges week 2 pink.png"; sourceTree = "<group>"; };
+		8C72EDDC2297D90500AD3CEE /* Age Badges week 2 blue.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Age Badges week 2 blue.png"; sourceTree = "<group>"; };
+		8C72EDDD2297D90500AD3CEE /* Age Badges month 6 pink.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Age Badges month 6 pink.png"; sourceTree = "<group>"; };
+		8C72EDDE2297D90500AD3CEE /* Age Badges month 6 blue.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Age Badges month 6 blue.png"; sourceTree = "<group>"; };
+		8C72EDDF2297D90500AD3CEE /* Age Badges month 7 pink.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Age Badges month 7 pink.png"; sourceTree = "<group>"; };
+		8C72EDE02297D90500AD3CEE /* Age Badges month 7 blue.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Age Badges month 7 blue.png"; sourceTree = "<group>"; };
+		8C72EDE12297D90500AD3CEE /* Age Badges week 1 green.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Age Badges week 1 green.png"; sourceTree = "<group>"; };
+		8C72EDE22297D90500AD3CEE /* Bundel1_Milestone_Premium_12 I-can-dance.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Bundel1_Milestone_Premium_12 I-can-dance.png"; sourceTree = "<group>"; };
+		8C72EDE32297D90500AD3CEE /* Bundel1_Moment_Premium_08Family.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Bundel1_Moment_Premium_08Family.png; sourceTree = "<group>"; };
+		8C72EDE42297D90500AD3CEE /* Bundel1_Milestone_Premium_23 I-love-hugs.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Bundel1_Milestone_Premium_23 I-love-hugs.png"; sourceTree = "<group>"; };
+		8C72EDE52297D90500AD3CEE /* Bundel1_Milestone_Premium_18 I-can-sit.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Bundel1_Milestone_Premium_18 I-can-sit.png"; sourceTree = "<group>"; };
+		8C72EDE62297D90500AD3CEE /* Bundel1_Milestone_Premium_35 My-messy-face.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Bundel1_Milestone_Premium_35 My-messy-face.png"; sourceTree = "<group>"; };
+		8C72EDE72297D90500AD3CEE /* Age Badge month 5 blue.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Age Badge month 5 blue.png"; sourceTree = "<group>"; };
+		8C72EDE82297D90500AD3CEE /* Age Badge month 5 pink.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Age Badge month 5 pink.png"; sourceTree = "<group>"; };
+		8C72EDE92297D90500AD3CEE /* Age Badge month 4 blue.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Age Badge month 4 blue.png"; sourceTree = "<group>"; };
+		8C72EDEA2297D90500AD3CEE /* Age Badge month 4 pink.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Age Badge month 4 pink.png"; sourceTree = "<group>"; };
+		8C72EDEB2297D90500AD3CEE /* Bundel1_Speech_Premium_06 So-funny-v2.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Bundel1_Speech_Premium_06 So-funny-v2.png"; sourceTree = "<group>"; };
+		8C72EDEC2297D90500AD3CEE /* Bundel1_Moment_Premium_07 Sister.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Bundel1_Moment_Premium_07 Sister.png"; sourceTree = "<group>"; };
+		8C72EDED2297D90500AD3CEE /* Bundel1_Milestone_Premium_25 I-love-this-toy.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Bundel1_Milestone_Premium_25 I-love-this-toy.png"; sourceTree = "<group>"; };
+		8C72EDEE2297D90500AD3CEE /* Age Badges week 4 pink.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Age Badges week 4 pink.png"; sourceTree = "<group>"; };
+		8C72EDEF2297D90500AD3CEE /* Age Badges week 4 blue.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Age Badges week 4 blue.png"; sourceTree = "<group>"; };
+		8C72EDF02297D90500AD3CEE /* Bundel1_Milestone_Premium_06 First-step.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Bundel1_Milestone_Premium_06 First-step.png"; sourceTree = "<group>"; };
+		8C72EDF12297D90500AD3CEE /* Age Badges month 9 green.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Age Badges month 9 green.png"; sourceTree = "<group>"; };
+		8C72EDF22297D90500AD3CEE /* Age Badge month 1 green.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Age Badge month 1 green.png"; sourceTree = "<group>"; };
+		8C72EDF32297D90500AD3CEE /* Bundel1_Moment_Premium_06 Brother.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Bundel1_Moment_Premium_06 Brother.png"; sourceTree = "<group>"; };
+		8C72EDF42297D90500AD3CEE /* Bundel1_Speech_Premium_08 I-found-my-feet.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Bundel1_Speech_Premium_08 I-found-my-feet.png"; sourceTree = "<group>"; };
+		8C72EDF52297D90500AD3CEE /* Bundel1_Speech_Premium_03 Can-say-mama.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Bundel1_Speech_Premium_03 Can-say-mama.png"; sourceTree = "<group>"; };
+		8C72EDF62297D90500AD3CEE /* Bundel1_Speech_Premium_10 I-can-sing.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Bundel1_Speech_Premium_10 I-can-sing.png"; sourceTree = "<group>"; };
+		8C72EDF72297D90500AD3CEE /* Bundel1_Milestone_Premium_26 I-sletp-all-night.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Bundel1_Milestone_Premium_26 I-sletp-all-night.png"; sourceTree = "<group>"; };
+		8C72EDF82297D90500AD3CEE /* Bundel1_Milestone_Premium_21 I-can-walk.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Bundel1_Milestone_Premium_21 I-can-walk.png"; sourceTree = "<group>"; };
+		8C72EDF92297D90500AD3CEE /* Bundel1_Milestone_Premium_07 First-tower.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Bundel1_Milestone_Premium_07 First-tower.png"; sourceTree = "<group>"; };
+		8C72EDFA2297D90500AD3CEE /* Bundel1_Milestone_Premium_33 My-first-shoes.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Bundel1_Milestone_Premium_33 My-first-shoes.png"; sourceTree = "<group>"; };
+		8C72EDFB2297D90500AD3CEE /* Bundel1_Speech_Premium_05 I-Can-say-mama.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Bundel1_Speech_Premium_05 I-Can-say-mama.png"; sourceTree = "<group>"; };
+		8C72EDFC2297D90500AD3CEE /* Bundel1_Milestone_Premium_16 I-can-roll-over.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Bundel1_Milestone_Premium_16 I-can-roll-over.png"; sourceTree = "<group>"; };
+		8C72EDFD2297D90500AD3CEE /* Bundel1_Milestone_Free_03 I-can-lift-my-head.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Bundel1_Milestone_Free_03 I-can-lift-my-head.png"; sourceTree = "<group>"; };
+		8C72EDFE2297D90500AD3CEE /* Bundel1_Milestone_Premium_27 I-wave-bye.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Bundel1_Milestone_Premium_27 I-wave-bye.png"; sourceTree = "<group>"; };
+		8C72EDFF2297D90500AD3CEE /* Development images_week 5.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "Development images_week 5.jpg"; sourceTree = "<group>"; };
+		8C72EE002297D90500AD3CEE /* Development images_week 6.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "Development images_week 6.jpg"; sourceTree = "<group>"; };
+		8C72EE012297D90500AD3CEE /* Development images_week 4.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "Development images_week 4.jpg"; sourceTree = "<group>"; };
+		8C72EE022297D90500AD3CEE /* Development images_week 8.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "Development images_week 8.jpg"; sourceTree = "<group>"; };
+		8C72EE032297D90500AD3CEE /* Development images_week 7.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "Development images_week 7.jpg"; sourceTree = "<group>"; };
+		8C72EE042297D90500AD3CEE /* Development images_week 3.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "Development images_week 3.jpg"; sourceTree = "<group>"; };
+		8C72EE752297D90F00AD3CEE /* Development images_week 1.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "Development images_week 1.jpg"; sourceTree = "<group>"; };
+		8C72EE77229915A100AD3CEE /* baby_banner.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = baby_banner.jpg; sourceTree = "<group>"; };
+		8C72EE7922991AF100AD3CEE /* AppModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppModel.swift; sourceTree = "<group>"; };
+		8C72EE7B229926B600AD3CEE /* AddInfoGrowthController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddInfoGrowthController.swift; sourceTree = "<group>"; };
 		8C9D400D228E93B000BD8EE8 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
 		8C9D4013228E969400BD8EE8 /* ConversationManager.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ConversationManager.swift; sourceTree = "<group>"; };
 		8C9D4014228E969400BD8EE8 /* UserManager.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UserManager.swift; sourceTree = "<group>"; };
@@ -256,6 +510,8 @@
 				8C2B3C38228E496800AAA8FA /* Notice.swift */,
 				8C2B3C3A228E49F200AAA8FA /* Expert.swift */,
 				8CEEB63722916D98006AA516 /* Blog.swift */,
+				8C72ED912297D01A00AD3CEE /* FollowItem.swift */,
+				8C72EE7922991AF100AD3CEE /* AppModel.swift */,
 			);
 			path = Model;
 			sourceTree = "<group>";
@@ -273,9 +529,11 @@
 				8CEEB6412291848A006AA516 /* AppNavigationController.swift */,
 				8C3DFED92293B46400DF64A8 /* NutritionController.swift */,
 				8C3DFEDB2293B51C00DF64A8 /* TimelineFollowController.swift */,
+				8C72ED8D2297CF4900AD3CEE /* FollowDetailController.swift */,
 				94841AF92293B6CE00D1F02F /* WelcomeViewController.swift */,
 				94841AFB2293B6DA00D1F02F /* SigninViewController.swift */,
 				94841AFD2293B6E000D1F02F /* SignupViewController.swift */,
+				8C72EE7B229926B600AD3CEE /* AddInfoGrowthController.swift */,
 			);
 			path = ViewController;
 			sourceTree = "<group>";
@@ -314,6 +572,7 @@
 				8CEEB64322918969006AA516 /* ItemSettingLayout.swift */,
 				8C3DFEDD2293ED1100DF64A8 /* TitleCheckboxLayout.swift */,
 				8C3DFEE12293F96D00DF64A8 /* HomeItem.swift */,
+				8C72ED8F2297CF9600AD3CEE /* FollowItemLayout.swift */,
 			);
 			path = Layout;
 			sourceTree = "<group>";
@@ -362,6 +621,150 @@
 				8C6D9077228D634B00CA4C8D /* Info.plist */,
 			);
 			path = BabyCare;
+			sourceTree = "<group>";
+		};
+		8C72ED7C2297CE9300AD3CEE /* html */ = {
+			isa = PBXGroup;
+			children = (
+				8C72ED842297CEA900AD3CEE /* BABY_Info_wk1_Boy.html */,
+				8C72ED7D2297CEA900AD3CEE /* BABY_Info_wk2_Boy.html */,
+				8C72ED802297CEA900AD3CEE /* BABY_Info_wk3_Boy.html */,
+				8C72ED822297CEA900AD3CEE /* BABY_Info_wk4_Boy.html */,
+				8C72ED832297CEA900AD3CEE /* BABY_Info_wk5_Boy.html */,
+				8C72ED7F2297CEA900AD3CEE /* BABY_Info_wk6_Boy.html */,
+				8C72ED812297CEA900AD3CEE /* BABY_Info_wk7_Boy.html */,
+				8C72ED7E2297CEA900AD3CEE /* BABY_Info_wk8_Boy.html */,
+			);
+			path = html;
+			sourceTree = "<group>";
+		};
+		8C72ED932297D8F700AD3CEE /* jpg */ = {
+			isa = PBXGroup;
+			children = (
+				8C72EE77229915A100AD3CEE /* baby_banner.jpg */,
+				8C72EE752297D90F00AD3CEE /* Development images_week 1.jpg */,
+				8C72ED942297D90400AD3CEE /* Development images_week 2.jpg */,
+				8C72EE042297D90500AD3CEE /* Development images_week 3.jpg */,
+				8C72EE012297D90500AD3CEE /* Development images_week 4.jpg */,
+				8C72EDFF2297D90500AD3CEE /* Development images_week 5.jpg */,
+				8C72EE002297D90500AD3CEE /* Development images_week 6.jpg */,
+				8C72EE032297D90500AD3CEE /* Development images_week 7.jpg */,
+				8C72EE022297D90500AD3CEE /* Development images_week 8.jpg */,
+				8C72ED952297D90500AD3CEE /* Sticker_DE */,
+			);
+			path = jpg;
+			sourceTree = "<group>";
+		};
+		8C72ED952297D90500AD3CEE /* Sticker_DE */ = {
+			isa = PBXGroup;
+			children = (
+				8C72ED962297D90500AD3CEE /* Bundel1_Milestone_Premium_05 At-the-beach.png */,
+				8C72ED972297D90500AD3CEE /* Age Badge month 2 green.png */,
+				8C72ED982297D90500AD3CEE /* Bundel1_Milestone_Premium_11 I-can-crawl.png */,
+				8C72ED992297D90500AD3CEE /* Bundel1_Milestone_Premium_10 I-can-clap.png */,
+				8C72ED9A2297D90500AD3CEE /* Age Badges month 10 green.png */,
+				8C72ED9B2297D90500AD3CEE /* Age Badges month 7 green.png */,
+				8C72ED9C2297D90500AD3CEE /* Bundel1_Moment_Premium_04 Grandma.png */,
+				8C72ED9D2297D90500AD3CEE /* Age Badge month 1 pink.png */,
+				8C72ED9E2297D90500AD3CEE /* Age Badge month 1 blue.png */,
+				8C72ED9F2297D90500AD3CEE /* Bundel1_Milestone_Premium_15 I-can-read.png */,
+				8C72EDA02297D90500AD3CEE /* Bundel1_Speech_Premium_09 I-can-say-why.png */,
+				8C72EDA12297D90500AD3CEE /* Bundel1_Moment_Free_02 Family2.png */,
+				8C72EDA22297D90500AD3CEE /* Bundel1_Speech_Premium_07 peack-a-boo.png */,
+				8C72EDA32297D90500AD3CEE /* Bundel1_Moment_Free_01 Mama.png */,
+				8C72EDA42297D90500AD3CEE /* Bundel1_Moment_Premium_03 Daddy.png */,
+				8C72EDA52297D90500AD3CEE /* Age Badges week 1 blue.png */,
+				8C72EDA62297D90500AD3CEE /* Age Badges week 1 pink.png */,
+				8C72EDA72297D90500AD3CEE /* Bundel1_Moment_Premium_05 Grandpa.png */,
+				8C72EDA82297D90500AD3CEE /* Age Badge month 4 green.png */,
+				8C72EDA92297D90500AD3CEE /* Age Badges month 11 pink.png */,
+				8C72EDAA2297D90500AD3CEE /* Age Badges month 11 blue.png */,
+				8C72EDAB2297D90500AD3CEE /* Age Badges month 10 pink.png */,
+				8C72EDAC2297D90500AD3CEE /* Age Badges month 10 blue.png */,
+				8C72EDAD2297D90500AD3CEE /* Bundel1_Milestone_Premium_30 In-the-snow.png */,
+				8C72EDAE2297D90500AD3CEE /* Bundel1_Milestone_Premium_22 I-love-food.png */,
+				8C72EDAF2297D90500AD3CEE /* Bundel1_Milestone_Premium_31 Meal-time.png */,
+				8C72EDB02297D90500AD3CEE /* Age Badges week 3 green.png */,
+				8C72EDB12297D90500AD3CEE /* Bundel1_Speech_Premium_04 I-can-say-dada.png */,
+				8C72EDB22297D90500AD3CEE /* Bundel1_Milestone_Premium_34 My-first-sunglasses.png */,
+				8C72EDB32297D90500AD3CEE /* Age Badge month 3 green.png */,
+				8C72EDB42297D90500AD3CEE /* Bundel1_Milestone_Premium_17 I-can-run.png */,
+				8C72EDB52297D90500AD3CEE /* Age Badges month 11 green.png */,
+				8C72EDB62297D90500AD3CEE /* Bundel1_Milestone_Premium_08 Happy-birthday.png */,
+				8C72EDB72297D90500AD3CEE /* Age Badges month 6 green.png */,
+				8C72EDB82297D90500AD3CEE /* Age Badges week 4 green.png */,
+				8C72EDB92297D90500AD3CEE /* Bundel1_Milestone_Premium_19 I-can-stand.png */,
+				8C72EDBA2297D90500AD3CEE /* Bundel1_Milestone_Premium_24 I-love-my-sleep.png */,
+				8C72EDBB2297D90500AD3CEE /* Bundel1_Milestone_Premium_28 Im-smiling.png */,
+				8C72EDBC2297D90500AD3CEE /* Age Badge month 5 green.png */,
+				8C72EDBD2297D90500AD3CEE /* Bundel1_Milestone_Premium_36 My-new-haircut.png */,
+				8C72EDBE2297D90500AD3CEE /* Age Badges month 8 blue.png */,
+				8C72EDBF2297D90500AD3CEE /* Age Badges month 8 pink.png */,
+				8C72EDC02297D90500AD3CEE /* Age Badges month 9 blue.png */,
+				8C72EDC12297D90500AD3CEE /* Age Badges month 9 pink.png */,
+				8C72EDC22297D90500AD3CEE /* Bundel1_Moment_Premium_09 Moment.png */,
+				8C72EDC32297D90500AD3CEE /* Bundel1_Milestone_Premium_29 In-the-park.png */,
+				8C72EDC42297D90500AD3CEE /* Bundel1_Milestone_Premium_09 Happy-holidays.png */,
+				8C72EDC52297D90500AD3CEE /* Bundel1_Speech_Free_01 Found-my-hands.png */,
+				8C72EDC62297D90500AD3CEE /* Age Badges week 2 green.png */,
+				8C72EDC72297D90500AD3CEE /* Bundel1_Milestone_Free_02 I'm-Home.png */,
+				8C72EDC82297D90500AD3CEE /* Bundel1_Milestone_Free_01 I-was-born.png */,
+				8C72EDC92297D90500AD3CEE /* Age Badges month 12 green.png */,
+				8C72EDCA2297D90500AD3CEE /* Age Badges month 8 green.png */,
+				8C72EDCB2297D90500AD3CEE /* Bundel1_Speech_Free_02 So-funny.png */,
+				8C72EDCC2297D90500AD3CEE /* Bundel1_Milestone_Premium_04 Bath-time.png */,
+				8C72EDCD2297D90500AD3CEE /* Bundel1_Milestone_Premium_20 I-can-swim.png */,
+				8C72EDCE2297D90500AD3CEE /* Age Badges month 12 blue.png */,
+				8C72EDCF2297D90500AD3CEE /* Age Badges month 12 pink.png */,
+				8C72EDD02297D90500AD3CEE /* Bundel1_Milestone_Premium_38 New-tooth.png */,
+				8C72EDD12297D90500AD3CEE /* Age Badge month 2 blue.png */,
+				8C72EDD22297D90500AD3CEE /* Age Badge month 2 pink.png */,
+				8C72EDD32297D90500AD3CEE /* Age Badge month 3 blue.png */,
+				8C72EDD42297D90500AD3CEE /* Age Badge month 3 pink.png */,
+				8C72EDD52297D90500AD3CEE /* Bundel1_Milestone_Premium_37 My-new-outfit.png */,
+				8C72EDD62297D90500AD3CEE /* Bundel1_Milestone_Premium_13 I-can-drink.png */,
+				8C72EDD72297D90500AD3CEE /* Bundel1_Milestone_Premium_32 My-first-bed.png */,
+				8C72EDD82297D90500AD3CEE /* Bundel1_Milestone_Premium_14 I-can-jump.png */,
+				8C72EDD92297D90500AD3CEE /* Age Badges week 3 pink.png */,
+				8C72EDDA2297D90500AD3CEE /* Age Badges week 3 blue.png */,
+				8C72EDDB2297D90500AD3CEE /* Age Badges week 2 pink.png */,
+				8C72EDDC2297D90500AD3CEE /* Age Badges week 2 blue.png */,
+				8C72EDDD2297D90500AD3CEE /* Age Badges month 6 pink.png */,
+				8C72EDDE2297D90500AD3CEE /* Age Badges month 6 blue.png */,
+				8C72EDDF2297D90500AD3CEE /* Age Badges month 7 pink.png */,
+				8C72EDE02297D90500AD3CEE /* Age Badges month 7 blue.png */,
+				8C72EDE12297D90500AD3CEE /* Age Badges week 1 green.png */,
+				8C72EDE22297D90500AD3CEE /* Bundel1_Milestone_Premium_12 I-can-dance.png */,
+				8C72EDE32297D90500AD3CEE /* Bundel1_Moment_Premium_08Family.png */,
+				8C72EDE42297D90500AD3CEE /* Bundel1_Milestone_Premium_23 I-love-hugs.png */,
+				8C72EDE52297D90500AD3CEE /* Bundel1_Milestone_Premium_18 I-can-sit.png */,
+				8C72EDE62297D90500AD3CEE /* Bundel1_Milestone_Premium_35 My-messy-face.png */,
+				8C72EDE72297D90500AD3CEE /* Age Badge month 5 blue.png */,
+				8C72EDE82297D90500AD3CEE /* Age Badge month 5 pink.png */,
+				8C72EDE92297D90500AD3CEE /* Age Badge month 4 blue.png */,
+				8C72EDEA2297D90500AD3CEE /* Age Badge month 4 pink.png */,
+				8C72EDEB2297D90500AD3CEE /* Bundel1_Speech_Premium_06 So-funny-v2.png */,
+				8C72EDEC2297D90500AD3CEE /* Bundel1_Moment_Premium_07 Sister.png */,
+				8C72EDED2297D90500AD3CEE /* Bundel1_Milestone_Premium_25 I-love-this-toy.png */,
+				8C72EDEE2297D90500AD3CEE /* Age Badges week 4 pink.png */,
+				8C72EDEF2297D90500AD3CEE /* Age Badges week 4 blue.png */,
+				8C72EDF02297D90500AD3CEE /* Bundel1_Milestone_Premium_06 First-step.png */,
+				8C72EDF12297D90500AD3CEE /* Age Badges month 9 green.png */,
+				8C72EDF22297D90500AD3CEE /* Age Badge month 1 green.png */,
+				8C72EDF32297D90500AD3CEE /* Bundel1_Moment_Premium_06 Brother.png */,
+				8C72EDF42297D90500AD3CEE /* Bundel1_Speech_Premium_08 I-found-my-feet.png */,
+				8C72EDF52297D90500AD3CEE /* Bundel1_Speech_Premium_03 Can-say-mama.png */,
+				8C72EDF62297D90500AD3CEE /* Bundel1_Speech_Premium_10 I-can-sing.png */,
+				8C72EDF72297D90500AD3CEE /* Bundel1_Milestone_Premium_26 I-sletp-all-night.png */,
+				8C72EDF82297D90500AD3CEE /* Bundel1_Milestone_Premium_21 I-can-walk.png */,
+				8C72EDF92297D90500AD3CEE /* Bundel1_Milestone_Premium_07 First-tower.png */,
+				8C72EDFA2297D90500AD3CEE /* Bundel1_Milestone_Premium_33 My-first-shoes.png */,
+				8C72EDFB2297D90500AD3CEE /* Bundel1_Speech_Premium_05 I-Can-say-mama.png */,
+				8C72EDFC2297D90500AD3CEE /* Bundel1_Milestone_Premium_16 I-can-roll-over.png */,
+				8C72EDFD2297D90500AD3CEE /* Bundel1_Milestone_Free_03 I-can-lift-my-head.png */,
+				8C72EDFE2297D90500AD3CEE /* Bundel1_Milestone_Premium_27 I-wave-bye.png */,
+			);
+			path = Sticker_DE;
 			sourceTree = "<group>";
 		};
 		8C9D4011228E969400BD8EE8 /* QuickChat */ = {
@@ -568,6 +971,8 @@
 		8CFB067A228D750D0063D160 /* Resource */ = {
 			isa = PBXGroup;
 			children = (
+				8C72ED932297D8F700AD3CEE /* jpg */,
+				8C72ED7C2297CE9300AD3CEE /* html */,
 			);
 			path = Resource;
 			sourceTree = "<group>";
@@ -642,27 +1047,149 @@
 			buildActionMask = 2147483647;
 			files = (
 				8C6D9076228D634B00CA4C8D /* LaunchScreen.storyboard in Resources */,
+				8C72EE662297D90500AD3CEE /* Bundel1_Speech_Premium_10 I-can-sing.png in Resources */,
+				8C72ED872297CEAA00AD3CEE /* BABY_Info_wk6_Boy.html in Resources */,
+				8C72EE572297D90500AD3CEE /* Age Badge month 5 blue.png in Resources */,
+				8C72EE1A2297D90500AD3CEE /* Age Badges month 11 blue.png in Resources */,
+				8C72EE1E2297D90500AD3CEE /* Bundel1_Milestone_Premium_22 I-love-food.png in Resources */,
+				8C72EE5A2297D90500AD3CEE /* Age Badge month 4 pink.png in Resources */,
+				8C72EE412297D90500AD3CEE /* Age Badge month 2 blue.png in Resources */,
 				8CEEB63E22918116006AA516 /* baby.jpg in Resources */,
+				8C72EE252297D90500AD3CEE /* Age Badges month 11 green.png in Resources */,
+				8C72EE272297D90500AD3CEE /* Age Badges month 6 green.png in Resources */,
+				8C72EE2F2297D90500AD3CEE /* Age Badges month 8 pink.png in Resources */,
+				8C72EE672297D90500AD3CEE /* Bundel1_Milestone_Premium_26 I-sletp-all-night.png in Resources */,
+				8C72EE302297D90500AD3CEE /* Age Badges month 9 blue.png in Resources */,
+				8C72EE4F2297D90500AD3CEE /* Age Badges month 7 pink.png in Resources */,
+				8C72EE182297D90500AD3CEE /* Age Badge month 4 green.png in Resources */,
+				8C72ED8C2297CEAA00AD3CEE /* BABY_Info_wk1_Boy.html in Resources */,
+				8C72EE3E2297D90500AD3CEE /* Age Badges month 12 blue.png in Resources */,
+				8C72EE202297D90500AD3CEE /* Age Badges week 3 green.png in Resources */,
+				8C72EE532297D90500AD3CEE /* Bundel1_Moment_Premium_08Family.png in Resources */,
+				8C72EE5E2297D90500AD3CEE /* Age Badges week 4 pink.png in Resources */,
+				8C72EE562297D90500AD3CEE /* Bundel1_Milestone_Premium_35 My-messy-face.png in Resources */,
+				8C72EE242297D90500AD3CEE /* Bundel1_Milestone_Premium_17 I-can-run.png in Resources */,
 				8C9D4073228E969400BD8EE8 /* newMessage.wav in Resources */,
+				8C72EE682297D90500AD3CEE /* Bundel1_Milestone_Premium_21 I-can-walk.png in Resources */,
+				8C72EE222297D90500AD3CEE /* Bundel1_Milestone_Premium_34 My-first-sunglasses.png in Resources */,
+				8C72EE092297D90500AD3CEE /* Bundel1_Milestone_Premium_10 I-can-clap.png in Resources */,
+				8C72EE362297D90500AD3CEE /* Age Badges week 2 green.png in Resources */,
+				8C72EE6E2297D90500AD3CEE /* Bundel1_Milestone_Premium_27 I-wave-bye.png in Resources */,
+				8C72EE3D2297D90500AD3CEE /* Bundel1_Milestone_Premium_20 I-can-swim.png in Resources */,
+				8C72EE582297D90500AD3CEE /* Age Badge month 5 pink.png in Resources */,
+				8C72ED8B2297CEAA00AD3CEE /* BABY_Info_wk5_Boy.html in Resources */,
+				8C72EE732297D90500AD3CEE /* Development images_week 7.jpg in Resources */,
 				8C6D9073228D634B00CA4C8D /* Assets.xcassets in Resources */,
+				8C72EE3C2297D90500AD3CEE /* Bundel1_Milestone_Premium_04 Bath-time.png in Resources */,
+				8C72EE6A2297D90500AD3CEE /* Bundel1_Milestone_Premium_33 My-first-shoes.png in Resources */,
+				8C72EE332297D90500AD3CEE /* Bundel1_Milestone_Premium_29 In-the-park.png in Resources */,
 				8C9D4074228E969400BD8EE8 /* Assets.xcassets in Resources */,
+				8C72EE342297D90500AD3CEE /* Bundel1_Milestone_Premium_09 Happy-holidays.png in Resources */,
+				8C72EE642297D90500AD3CEE /* Bundel1_Speech_Premium_08 I-found-my-feet.png in Resources */,
+				8C72EE3F2297D90500AD3CEE /* Age Badges month 12 pink.png in Resources */,
+				8C72EE402297D90500AD3CEE /* Bundel1_Milestone_Premium_38 New-tooth.png in Resources */,
 				8C2B3C84228E858A00AAA8FA /* SF-Pro-Text-Bold.otf in Resources */,
 				8C9D4063228E969400BD8EE8 /* Initial.storyboard in Resources */,
+				8C72EE2B2297D90500AD3CEE /* Bundel1_Milestone_Premium_28 Im-smiling.png in Resources */,
+				8C72EE082297D90500AD3CEE /* Bundel1_Milestone_Premium_11 I-can-crawl.png in Resources */,
+				8C72EE452297D90500AD3CEE /* Bundel1_Milestone_Premium_37 My-new-outfit.png in Resources */,
+				8C72EE0E2297D90500AD3CEE /* Age Badge month 1 blue.png in Resources */,
+				8C72EE382297D90500AD3CEE /* Bundel1_Milestone_Free_01 I-was-born.png in Resources */,
+				8C72EE602297D90500AD3CEE /* Bundel1_Milestone_Premium_06 First-step.png in Resources */,
+				8C72EE172297D90500AD3CEE /* Bundel1_Moment_Premium_05 Grandpa.png in Resources */,
+				8C72EE1F2297D90500AD3CEE /* Bundel1_Milestone_Premium_31 Meal-time.png in Resources */,
 				8CFB0676228D71970063D160 /* Icons.xcassets in Resources */,
+				8C72EE6B2297D90500AD3CEE /* Bundel1_Speech_Premium_05 I-Can-say-mama.png in Resources */,
 				8C9D4069228E969400BD8EE8 /* Conversations.storyboard in Resources */,
+				8C72EE462297D90500AD3CEE /* Bundel1_Milestone_Premium_13 I-can-drink.png in Resources */,
+				8C72EE212297D90500AD3CEE /* Bundel1_Speech_Premium_04 I-can-say-dada.png in Resources */,
+				8C72EE5D2297D90500AD3CEE /* Bundel1_Milestone_Premium_25 I-love-this-toy.png in Resources */,
+				8C72EE282297D90500AD3CEE /* Age Badges week 4 green.png in Resources */,
+				8C72EE232297D90500AD3CEE /* Age Badge month 3 green.png in Resources */,
+				8C72EE162297D90500AD3CEE /* Age Badges week 1 pink.png in Resources */,
+				8C72EE292297D90500AD3CEE /* Bundel1_Milestone_Premium_19 I-can-stand.png in Resources */,
+				8C72EE5F2297D90500AD3CEE /* Age Badges week 4 blue.png in Resources */,
 				8C3DFED82293AFC200DF64A8 /* placeholder.png in Resources */,
+				8C72EE2C2297D90500AD3CEE /* Age Badge month 5 green.png in Resources */,
+				8C72EE502297D90500AD3CEE /* Age Badges month 7 blue.png in Resources */,
+				8C72EE0D2297D90500AD3CEE /* Age Badge month 1 pink.png in Resources */,
+				8C72EE192297D90500AD3CEE /* Age Badges month 11 pink.png in Resources */,
 				8C2B3C68228E50E500AAA8FA /* Colors.xcassets in Resources */,
+				8C72EE372297D90500AD3CEE /* Bundel1_Milestone_Free_02 I'm-Home.png in Resources */,
 				8CEEB64622918C82006AA516 /* doctor.jpg in Resources */,
+				8C72EE1B2297D90500AD3CEE /* Age Badges month 10 pink.png in Resources */,
+				8C72EE1D2297D90500AD3CEE /* Bundel1_Milestone_Premium_30 In-the-snow.png in Resources */,
+				8C72EE5C2297D90500AD3CEE /* Bundel1_Moment_Premium_07 Sister.png in Resources */,
+				8C72ED862297CEAA00AD3CEE /* BABY_Info_wk8_Boy.html in Resources */,
+				8C72EE072297D90500AD3CEE /* Age Badge month 2 green.png in Resources */,
 				8C2B3C85228E859300AAA8FA /* SF-Pro-Text-Medium.otf in Resources */,
 				8C2B3C87228E859A00AAA8FA /* SF-Pro-Text-Semibold.otf in Resources */,
 				8C9D400E228E93B000BD8EE8 /* GoogleService-Info.plist in Resources */,
+				8C72EE692297D90500AD3CEE /* Bundel1_Milestone_Premium_07 First-tower.png in Resources */,
+				8C72EE262297D90500AD3CEE /* Bundel1_Milestone_Premium_08 Happy-birthday.png in Resources */,
+				8C72EE052297D90500AD3CEE /* Development images_week 2.jpg in Resources */,
+				8C72EE0C2297D90500AD3CEE /* Bundel1_Moment_Premium_04 Grandma.png in Resources */,
+				8C72EE2E2297D90500AD3CEE /* Age Badges month 8 blue.png in Resources */,
+				8C72EE6C2297D90500AD3CEE /* Bundel1_Milestone_Premium_16 I-can-roll-over.png in Resources */,
+				8C72EE78229915A100AD3CEE /* baby_banner.jpg in Resources */,
+				8C72EE3B2297D90500AD3CEE /* Bundel1_Speech_Free_02 So-funny.png in Resources */,
+				8C72EE0A2297D90500AD3CEE /* Age Badges month 10 green.png in Resources */,
+				8C72EE102297D90500AD3CEE /* Bundel1_Speech_Premium_09 I-can-say-why.png in Resources */,
+				8C72EE132297D90500AD3CEE /* Bundel1_Moment_Free_01 Mama.png in Resources */,
+				8C72EE4D2297D90500AD3CEE /* Age Badges month 6 pink.png in Resources */,
+				8C72ED852297CEAA00AD3CEE /* BABY_Info_wk2_Boy.html in Resources */,
+				8C72EE312297D90500AD3CEE /* Age Badges month 9 pink.png in Resources */,
+				8C72EE612297D90500AD3CEE /* Age Badges month 9 green.png in Resources */,
+				8C72EE6D2297D90500AD3CEE /* Bundel1_Milestone_Free_03 I-can-lift-my-head.png in Resources */,
+				8C72EE542297D90500AD3CEE /* Bundel1_Milestone_Premium_23 I-love-hugs.png in Resources */,
+				8C72EE422297D90500AD3CEE /* Age Badge month 2 pink.png in Resources */,
+				8C72EE592297D90500AD3CEE /* Age Badge month 4 blue.png in Resources */,
+				8C72EE722297D90500AD3CEE /* Development images_week 8.jpg in Resources */,
 				8C9D4065228E969400BD8EE8 /* Auth.storyboard in Resources */,
+				8C72EE4A2297D90500AD3CEE /* Age Badges week 3 blue.png in Resources */,
+				8C72ED882297CEAA00AD3CEE /* BABY_Info_wk3_Boy.html in Resources */,
+				8C72ED8A2297CEAA00AD3CEE /* BABY_Info_wk4_Boy.html in Resources */,
+				8C72EE0B2297D90500AD3CEE /* Age Badges month 7 green.png in Resources */,
+				8C72EE472297D90500AD3CEE /* Bundel1_Milestone_Premium_32 My-first-bed.png in Resources */,
+				8C72EE392297D90500AD3CEE /* Age Badges month 12 green.png in Resources */,
+				8C72EE122297D90500AD3CEE /* Bundel1_Speech_Premium_07 peack-a-boo.png in Resources */,
+				8C72EE702297D90500AD3CEE /* Development images_week 6.jpg in Resources */,
+				8C72EE4B2297D90500AD3CEE /* Age Badges week 2 pink.png in Resources */,
+				8C72EE152297D90500AD3CEE /* Age Badges week 1 blue.png in Resources */,
 				8C2B3C86228E859600AAA8FA /* SF-Pro-Text-Regular.otf in Resources */,
+				8C72ED892297CEAA00AD3CEE /* BABY_Info_wk7_Boy.html in Resources */,
+				8C72EE6F2297D90500AD3CEE /* Development images_week 5.jpg in Resources */,
+				8C72EE3A2297D90500AD3CEE /* Age Badges month 8 green.png in Resources */,
+				8C72EE352297D90500AD3CEE /* Bundel1_Speech_Free_01 Found-my-hands.png in Resources */,
+				8C72EE2A2297D90500AD3CEE /* Bundel1_Milestone_Premium_24 I-love-my-sleep.png in Resources */,
+				8C72EE432297D90500AD3CEE /* Age Badge month 3 blue.png in Resources */,
+				8C72EE4C2297D90500AD3CEE /* Age Badges week 2 blue.png in Resources */,
 				8C6D9071228D634900CA4C8D /* Main.storyboard in Resources */,
+				8C72EE5B2297D90500AD3CEE /* Bundel1_Speech_Premium_06 So-funny-v2.png in Resources */,
+				8C72EE552297D90500AD3CEE /* Bundel1_Milestone_Premium_18 I-can-sit.png in Resources */,
+				8C72EE1C2297D90500AD3CEE /* Age Badges month 10 blue.png in Resources */,
 				8C9D4066228E969400BD8EE8 /* Profile.storyboard in Resources */,
+				8C72EE522297D90500AD3CEE /* Bundel1_Milestone_Premium_12 I-can-dance.png in Resources */,
+				8C72EE322297D90500AD3CEE /* Bundel1_Moment_Premium_09 Moment.png in Resources */,
+				8C72EE622297D90500AD3CEE /* Age Badge month 1 green.png in Resources */,
 				8C9D405F228E969400BD8EE8 /* Messages.storyboard in Resources */,
+				8C72EE632297D90500AD3CEE /* Bundel1_Moment_Premium_06 Brother.png in Resources */,
+				8C72EE762297D90F00AD3CEE /* Development images_week 1.jpg in Resources */,
+				8C72EE482297D90500AD3CEE /* Bundel1_Milestone_Premium_14 I-can-jump.png in Resources */,
+				8C72EE492297D90500AD3CEE /* Age Badges week 3 pink.png in Resources */,
+				8C72EE512297D90500AD3CEE /* Age Badges week 1 green.png in Resources */,
+				8C72EE142297D90500AD3CEE /* Bundel1_Moment_Premium_03 Daddy.png in Resources */,
 				8CEEB63C22917009006AA516 /* BlogCell.xib in Resources */,
+				8C72EE2D2297D90500AD3CEE /* Bundel1_Milestone_Premium_36 My-new-haircut.png in Resources */,
+				8C72EE712297D90500AD3CEE /* Development images_week 4.jpg in Resources */,
 				8C9D406C228E969400BD8EE8 /* Previews.storyboard in Resources */,
+				8C72EE0F2297D90500AD3CEE /* Bundel1_Milestone_Premium_15 I-can-read.png in Resources */,
+				8C72EE062297D90500AD3CEE /* Bundel1_Milestone_Premium_05 At-the-beach.png in Resources */,
+				8C72EE742297D90500AD3CEE /* Development images_week 3.jpg in Resources */,
+				8C72EE652297D90500AD3CEE /* Bundel1_Speech_Premium_03 Can-say-mama.png in Resources */,
+				8C72EE4E2297D90500AD3CEE /* Age Badges month 6 blue.png in Resources */,
+				8C72EE442297D90500AD3CEE /* Age Badge month 3 pink.png in Resources */,
+				8C72EE112297D90500AD3CEE /* Bundel1_Moment_Free_02 Family2.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -682,6 +1209,7 @@
 				"${BUILT_PRODUCTS_DIR}/Alamofire/Alamofire.framework",
 				"${BUILT_PRODUCTS_DIR}/BoringSSL-GRPC/openssl_grpc.framework",
 				"${BUILT_PRODUCTS_DIR}/CarbonKit/CarbonKit.framework",
+				"${BUILT_PRODUCTS_DIR}/Charts/Charts.framework",
 				"${BUILT_PRODUCTS_DIR}/DeviceKit/DeviceKit.framework",
 				"${BUILT_PRODUCTS_DIR}/GTMSessionFetcher/GTMSessionFetcher.framework",
 				"${BUILT_PRODUCTS_DIR}/GoogleUtilities/GoogleUtilities.framework",
@@ -695,6 +1223,7 @@
 				"${BUILT_PRODUCTS_DIR}/RxRelay/RxRelay.framework",
 				"${BUILT_PRODUCTS_DIR}/RxSwift/RxSwift.framework",
 				"${BUILT_PRODUCTS_DIR}/SDWebImage/SDWebImage.framework",
+				"${BUILT_PRODUCTS_DIR}/SwiftyUserDefaults/SwiftyUserDefaults.framework",
 				"${BUILT_PRODUCTS_DIR}/gRPC-C++/grpcpp.framework",
 				"${BUILT_PRODUCTS_DIR}/gRPC-Core/grpc.framework",
 				"${BUILT_PRODUCTS_DIR}/leveldb-library/leveldb.framework",
@@ -708,6 +1237,7 @@
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Alamofire.framework",
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/openssl_grpc.framework",
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/CarbonKit.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Charts.framework",
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/DeviceKit.framework",
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/GTMSessionFetcher.framework",
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/GoogleUtilities.framework",
@@ -721,6 +1251,7 @@
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/RxRelay.framework",
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/RxSwift.framework",
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/SDWebImage.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/SwiftyUserDefaults.framework",
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/grpcpp.framework",
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/grpc.framework",
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/leveldb.framework",
@@ -744,7 +1275,7 @@
 			outputFileListPaths = (
 			);
 			outputPaths = (
-				"$SRCROOT/R.generated.swift",
+				$SRCROOT/R.generated.swift,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
@@ -807,6 +1338,7 @@
 				8C9D407B228E969400BD8EE8 /* EncodableExtension.swift in Sources */,
 				8C9D405D228E969400BD8EE8 /* UILabelGradient.swift in Sources */,
 				94841AFA2293B6CE00D1F02F /* WelcomeViewController.swift in Sources */,
+				8C72ED902297CF9600AD3CEE /* FollowItemLayout.swift in Sources */,
 				8C9D4080228E969400BD8EE8 /* UIFontExtension.swift in Sources */,
 				8C9D405A228E969400BD8EE8 /* UserManager.swift in Sources */,
 				8C2B3C49228E4B3F00AAA8FA /* UIView+Extensions.swift in Sources */,
@@ -814,9 +1346,11 @@
 				8C9D4088228E969400BD8EE8 /* ThemeService.swift in Sources */,
 				8C2B3C70228E662200AAA8FA /* BlogController.swift in Sources */,
 				8C9D4081228E969400BD8EE8 /* StringExtension.swift in Sources */,
+				8C72EE7A22991AF100AD3CEE /* AppModel.swift in Sources */,
 				8CEEB648229193D6006AA516 /* AppRouter.swift in Sources */,
 				8C9D406D228E969400BD8EE8 /* ContactsPreviewController.swift in Sources */,
 				8C9D406E228E969400BD8EE8 /* ImagePreviewController.swift in Sources */,
+				8C72EE7C229926B600AD3CEE /* AddInfoGrowthController.swift in Sources */,
 				8C3DFEE02293F38100DF64A8 /* TitleCheckboxView.swift in Sources */,
 				8C6D906C228D634900CA4C8D /* AppDelegate.swift in Sources */,
 				8C2B3C48228E4B3F00AAA8FA /* AppStyle.swift in Sources */,
@@ -837,6 +1371,7 @@
 				8C9D4076228E969400BD8EE8 /* FirebaseEnums.swift in Sources */,
 				8C2B3C35228E480200AAA8FA /* Baby.swift in Sources */,
 				8C9D4087228E969400BD8EE8 /* ImagePickerService.swift in Sources */,
+				8C72ED922297D01A00AD3CEE /* FollowItem.swift in Sources */,
 				8C9D406B228E969400BD8EE8 /* MapPreviewController.swift in Sources */,
 				8C9D4068228E969400BD8EE8 /* ConversationCell.swift in Sources */,
 				8CFB0679228D74950063D160 /* R.generated.swift in Sources */,
@@ -844,6 +1379,7 @@
 				8C9D408C228E969400BD8EE8 /* DateService.swift in Sources */,
 				8CEEB64022918236006AA516 /* BlogDetailController.swift in Sources */,
 				8C9D4060228E969400BD8EE8 /* MessagesViewController.swift in Sources */,
+				8C72ED8E2297CF4900AD3CEE /* FollowDetailController.swift in Sources */,
 				8C2B3C3B228E49F200AAA8FA /* Expert.swift in Sources */,
 				8C2B3C79228E6F3500AAA8FA /* AppBottomButtonLayout.swift in Sources */,
 				8C3DFEDC2293B51C00DF64A8 /* TimelineFollowController.swift in Sources */,

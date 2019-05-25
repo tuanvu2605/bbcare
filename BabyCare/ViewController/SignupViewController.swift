@@ -50,6 +50,28 @@ class SignupViewController: UIViewController {
     }
 
     @IBAction func signupButtonDidTouch(_ sender: Any) {
+        showLoadinghud(text: "Vui lòng chờ...")
+        let email = emailTextField.text!
+        let password = passwordTextField.text!
+        AppService.register(["email":email , "password":password]) { (res) in
+            self.hideLoadinghud()
+            print(res)
+            if res["status"] as? Int  == 1 {
+                let data = res["data"] as! [String : Any]
+                let user = User()
+                user.uid = data["_id"] as! String
+                let localDict = data["local"] as! [String : Any]
+                user.email = localDict["email"] as! String
+                AppModel.shared.user = user
+                let tabbarController = AppTabBarController()
+                self.changeRootViewController(viewController: tabbarController)
+                
+                
+            }else{
+                
+            }
+            
+        }
     }
 
 }

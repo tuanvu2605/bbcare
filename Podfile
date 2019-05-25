@@ -4,6 +4,7 @@
 target 'BabyCare' do
   # Comment the next line if you're not using Swift and don't want to use dynamic frameworks
   use_frameworks!
+pod 'Charts'
 pod 'CarbonKit'
 pod 'Alamofire'
 pod 'R.swift'
@@ -21,6 +22,7 @@ pod 'Firebase/Storage'
 pod 'Kingfisher'
 pod 'Firebase/Firestore'
 pod 'ALLoadingView'
+pod 'SwiftyUserDefaults'
 
 post_install do |installer|
   installer.pods_project.targets.each do |target|

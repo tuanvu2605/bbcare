@@ -48,5 +48,12 @@ extension UIViewController
     func hideLoadinghud(){
         MBProgressHUD.hide(for: self.view, animated: true)
     }
+    
+    func changeRootViewController(viewController : UIViewController){
+        UIView.transition(with: AppDelegate.shared.window!, duration: 1, options: .transitionCrossDissolve, animations: {
+            AppDelegate.shared.window!.rootViewController = viewController
+        }, completion: nil)
+    }
+    
 }
 

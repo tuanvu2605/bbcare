@@ -8,6 +8,9 @@ PODS:
     - BoringSSL-GRPC/Interface (= 0.0.3)
   - BoringSSL-GRPC/Interface (0.0.3)
   - CarbonKit (2.2.2)
+  - Charts (3.3.0):
+    - Charts/Core (= 3.3.0)
+  - Charts/Core (3.3.0)
   - DeviceKit (2.0.0)
   - Firebase/Auth (6.0.0):
     - Firebase/CoreOnly
@@ -129,11 +132,13 @@ PODS:
   - SDWebImage (5.0.2):
     - SDWebImage/Core (= 5.0.2)
   - SDWebImage/Core (5.0.2)
+  - SwiftyUserDefaults (4.0.0)
 
 DEPENDENCIES:
   - Alamofire
   - ALLoadingView
   - CarbonKit
+  - Charts
   - DeviceKit
   - Firebase/Auth
   - Firebase/Core
@@ -147,6 +152,7 @@ DEPENDENCIES:
   - RxCocoa (~> 5)
   - RxSwift (~> 5)
   - SDWebImage
+  - SwiftyUserDefaults
 
 SPEC REPOS:
   https://github.com/cocoapods/specs.git:
@@ -154,6 +160,7 @@ SPEC REPOS:
     - ALLoadingView
     - BoringSSL-GRPC
     - CarbonKit
+    - Charts
     - DeviceKit
     - Firebase
     - FirebaseAnalytics
@@ -181,12 +188,14 @@ SPEC REPOS:
     - RxRelay
     - RxSwift
     - SDWebImage
+    - SwiftyUserDefaults
 
 SPEC CHECKSUMS:
   Alamofire: ae5c501addb7afdbb13687d7f2f722c78734c2d3
   ALLoadingView: 5f3a5e73402d3ec178dae51ebdb39c1d64c0a87b
   BoringSSL-GRPC: db8764df3204ccea016e1c8dd15d9a9ad63ff318
   CarbonKit: 0dec4738fa489b4c043a5f850c27fd0dbefb57cc
+  Charts: ec1f57f9340054155691e84d4544a1d239d382c5
   DeviceKit: 72d36709552d4b3582abd76a53949148acad9811
   Firebase: fa80b9d987ca014a1ba9357496ef2a0178b28b12
   FirebaseAnalytics: 1743c5f4de3687d0745709dfdc4b1dea1484f44c
@@ -214,7 +223,8 @@ SPEC CHECKSUMS:
   RxRelay: 4f7409406a51a55cd88483f21ed898c234d60f18
   RxSwift: 8b0671caa829a763bbce7271095859121cbd895f
   SDWebImage: 6764b5fa0f73c203728052955dbefa2bf1f33282
+  SwiftyUserDefaults: 6a1951df1daa19337862b677dd9a4b9bd4c288cd
 
-PODFILE CHECKSUM: 811a431b029c0e18111d91db452a4af9e4fb936d
+PODFILE CHECKSUM: 22f1cc4de0ba206b420f634806fb2b8113a6b21b
 
 COCOAPODS: 1.6.2

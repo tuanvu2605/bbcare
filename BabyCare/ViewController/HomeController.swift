@@ -7,14 +7,15 @@
 //
 
 import UIKit
+import LayoutKit
 
 class HomeController: ScrollableViewController {
 
     override func viewDidLoad() {
         super.viewDidLoad()
 //        let params = ["weight" : 10 , "height" : 10 , "date" : "10/10/2019" , "babyId" : "5ce36374a33e129d6c7d281d"] as [String : Any]
-//        let rParams = ["username":"user01@gmail.com", "password":"12345678"]
-//        AppService.register(rParams)
+//        let rParams = ["email":"user01@gmail.com", "password":"12345678"]
+////        AppService.register(rParams)
 
     }
     
@@ -23,6 +24,15 @@ class HomeController: ScrollableViewController {
         self.addHeader(headerView: header)
         
         scrollView.addBlank(space: 100)
+        
+        let btn = ButtonLayout(type: .custom, title: "  Nhập chiều cao/cân nặng", image: .image(R.image.ic_plus()), font: AppFont.style.medium(size: 17), alignment: .center) { (btn) in
+            btn.setTitleColor(R.color.garadient_start(), for: .normal)
+            btn.addTarget(self, action: #selector(self.addGrowthInfo), for: .touchUpInside)
+            
+            }.arrangement(origin: .zero , width : Size.screen.width ).makeViews()
+        self.scrollView.addMoreView(view: btn)
+        
+        scrollView.addBlank(space: 12)
         let chartView = HomeItem(img: R.image.ic_line_chart()!, title: "Biểu đồ tăng trưởng", description: "Theo dõi sự tăng trưởng về chiều cao và cân nặng").arrangement(origin: CGPoint(x: 16, y: 0), width: Size.screen.width - 32).makeViews()
         self.scrollView.addMoreView(view: chartView)
         scrollView.addBlank(space: 16)
@@ -37,8 +47,13 @@ class HomeController: ScrollableViewController {
         self.scrollView.addMoreView(view: nutritionView)
         nutritionView.addTapGesture(target: self, action: #selector(self.viewNutritionDidTap), tapDelegate: nil)
         
-        
-
+    }
+    
+    
+    @objc func addGrowthInfo(){
+        present(AddInfoGrowthController(), animated: true) {
+            
+        }
     }
     
     

@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="14490.70" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="BYZ-38-t0r">
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="14490.70" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES" initialViewController="BYZ-38-t0r">
     <device id="retina6_1" orientation="portrait">
         <adaptation id="fullscreen"/>
     </device>
@@ -7,10 +7,12 @@
         <deployment identifier="iOS"/>
         <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="14490.49"/>
         <capability name="Named colors" minToolsVersion="9.0"/>
-        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
         <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
     </dependencies>
     <customFonts key="customFonts">
+        <array key="SF-Pro-Text-Bold.otf">
+            <string>SFProText-Bold</string>
+        </array>
         <array key="SF-Pro-Text-Medium.otf">
             <string>SFProText-Medium</string>
         </array>
@@ -20,11 +22,14 @@
         <scene sceneID="tne-QT-ifu">
             <objects>
                 <viewController id="BYZ-38-t0r" customClass="ViewController" customModule="BabyCare" customModuleProvider="target" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="TCc-rZ-LPx"/>
+                        <viewControllerLayoutGuide type="bottom" id="CU2-km-CvV"/>
+                    </layoutGuides>
                     <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
                         <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
-                        <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
                     </view>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
@@ -34,12 +39,16 @@
         <scene sceneID="1Sb-Vb-khB">
             <objects>
                 <viewController storyboardIdentifier="WelcomeViewController" id="JV9-C9-8rJ" customClass="WelcomeViewController" customModule="BabyCare" customModuleProvider="target" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="D5g-em-4ar"/>
+                        <viewControllerLayoutGuide type="bottom" id="cDd-42-H1I"/>
+                    </layoutGuides>
                     <view key="view" contentMode="scaleToFill" id="HWV-VY-HWh">
                         <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="CDS-79-zUD">
-                                <rect key="frame" x="0.0" y="0.0" width="414" height="774"/>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="baby_banner.jpg" translatesAutoresizingMaskIntoConstraints="NO" id="CDS-79-zUD">
+                                <rect key="frame" x="0.0" y="-40" width="414" height="814"/>
                             </imageView>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="NSQ-yf-pBi">
                                 <rect key="frame" x="16" y="798" width="183" height="48"/>
@@ -72,22 +81,38 @@
                                     <action selector="signupButtonDidTouch:" destination="JV9-C9-8rJ" eventType="touchUpInside" id="5M8-FI-T1X"/>
                                 </connections>
                             </button>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Baby Care +" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="mYW-mk-8Kt">
+                                <rect key="frame" x="106.5" y="508" width="201" height="40"/>
+                                <fontDescription key="fontDescription" name="SFProText-Bold" family="SF Pro Text" pointSize="33"/>
+                                <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Theo dõi quá trình tăng trưởng và phát triển của con từ 0-5 tuổi" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="tJm-Yv-l7z">
+                                <rect key="frame" x="16" y="556" width="382" height="41"/>
+                                <fontDescription key="fontDescription" name="SFProText-Medium" family="SF Pro Text" pointSize="17"/>
+                                <color key="textColor" white="0.33333333333333331" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <nil key="highlightedColor"/>
+                            </label>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                         <constraints>
                             <constraint firstItem="NSQ-yf-pBi" firstAttribute="top" secondItem="CDS-79-zUD" secondAttribute="bottom" constant="24" id="6hz-BL-YUe"/>
                             <constraint firstItem="nzp-hJ-SYv" firstAttribute="top" secondItem="CDS-79-zUD" secondAttribute="bottom" constant="24" id="7qr-DN-XfA"/>
-                            <constraint firstItem="wmM-Af-xct" firstAttribute="bottom" secondItem="NSQ-yf-pBi" secondAttribute="bottom" constant="16" id="Fjb-by-mot"/>
-                            <constraint firstItem="CDS-79-zUD" firstAttribute="leading" secondItem="wmM-Af-xct" secondAttribute="leading" id="H9N-nK-zXW"/>
+                            <constraint firstItem="tJm-Yv-l7z" firstAttribute="leading" secondItem="HWV-VY-HWh" secondAttribute="leading" constant="16" id="CEg-Q7-kdB"/>
+                            <constraint firstItem="cDd-42-H1I" firstAttribute="top" secondItem="NSQ-yf-pBi" secondAttribute="bottom" constant="16" id="Fjb-by-mot"/>
+                            <constraint firstItem="CDS-79-zUD" firstAttribute="leading" secondItem="HWV-VY-HWh" secondAttribute="leading" id="H9N-nK-zXW"/>
                             <constraint firstItem="nzp-hJ-SYv" firstAttribute="leading" secondItem="NSQ-yf-pBi" secondAttribute="trailing" constant="16" id="Iaq-m0-mSb"/>
-                            <constraint firstItem="wmM-Af-xct" firstAttribute="trailing" secondItem="CDS-79-zUD" secondAttribute="trailing" id="Oxq-Rb-28L"/>
+                            <constraint firstItem="mYW-mk-8Kt" firstAttribute="centerX" secondItem="CDS-79-zUD" secondAttribute="centerX" id="NYT-bb-yMO"/>
+                            <constraint firstAttribute="trailing" secondItem="CDS-79-zUD" secondAttribute="trailing" id="Oxq-Rb-28L"/>
                             <constraint firstItem="nzp-hJ-SYv" firstAttribute="width" secondItem="NSQ-yf-pBi" secondAttribute="width" id="VDs-gD-Xi2"/>
-                            <constraint firstItem="wmM-Af-xct" firstAttribute="bottom" secondItem="nzp-hJ-SYv" secondAttribute="bottom" constant="16" id="dMo-y5-sai"/>
-                            <constraint firstItem="wmM-Af-xct" firstAttribute="trailing" secondItem="nzp-hJ-SYv" secondAttribute="trailing" constant="16" id="fOV-Cc-xkr"/>
-                            <constraint firstItem="CDS-79-zUD" firstAttribute="top" secondItem="HWV-VY-HWh" secondAttribute="top" id="hSO-R0-AoK"/>
-                            <constraint firstItem="NSQ-yf-pBi" firstAttribute="leading" secondItem="wmM-Af-xct" secondAttribute="leading" constant="16" id="jS8-mg-PaU"/>
+                            <constraint firstAttribute="trailing" secondItem="tJm-Yv-l7z" secondAttribute="trailing" constant="16" id="WQc-w3-e60"/>
+                            <constraint firstItem="cDd-42-H1I" firstAttribute="top" secondItem="nzp-hJ-SYv" secondAttribute="bottom" constant="16" id="dMo-y5-sai"/>
+                            <constraint firstItem="tJm-Yv-l7z" firstAttribute="top" secondItem="mYW-mk-8Kt" secondAttribute="bottom" constant="8" id="dzY-VB-gw3"/>
+                            <constraint firstAttribute="trailing" secondItem="nzp-hJ-SYv" secondAttribute="trailing" constant="16" id="fOV-Cc-xkr"/>
+                            <constraint firstItem="CDS-79-zUD" firstAttribute="top" secondItem="HWV-VY-HWh" secondAttribute="top" constant="-40" id="hSO-R0-AoK"/>
+                            <constraint firstItem="NSQ-yf-pBi" firstAttribute="leading" secondItem="HWV-VY-HWh" secondAttribute="leading" constant="16" id="jS8-mg-PaU"/>
+                            <constraint firstItem="NSQ-yf-pBi" firstAttribute="top" secondItem="mYW-mk-8Kt" secondAttribute="bottom" constant="250" id="m6Z-MN-OhJ"/>
                         </constraints>
-                        <viewLayoutGuide key="safeArea" id="wmM-Af-xct"/>
                     </view>
                     <connections>
                         <outlet property="banner" destination="CDS-79-zUD" id="QmZ-2D-lFs"/>
@@ -103,6 +128,10 @@
         <scene sceneID="ehw-eY-3wE">
             <objects>
                 <viewController storyboardIdentifier="SigninViewController" id="XmM-D7-Way" customClass="SigninViewController" customModule="BabyCare" customModuleProvider="target" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="dVv-ad-mPo"/>
+                        <viewControllerLayoutGuide type="bottom" id="jF2-78-Uxm"/>
+                    </layoutGuides>
                     <view key="view" contentMode="scaleToFill" id="TbL-ce-D8N">
                         <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
@@ -261,12 +290,11 @@
                         <color key="backgroundColor" red="0.98420697450637817" green="0.98437517881393433" blue="0.98419648408889771" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                         <constraints>
                             <constraint firstItem="pBe-V1-WHd" firstAttribute="top" secondItem="mkG-ON-3L6" secondAttribute="bottom" constant="24" id="4V7-B1-7ye"/>
-                            <constraint firstItem="7Qo-Yj-H4c" firstAttribute="trailing" secondItem="mkG-ON-3L6" secondAttribute="trailing" constant="16" id="HdT-Ny-4XS"/>
+                            <constraint firstAttribute="trailing" secondItem="mkG-ON-3L6" secondAttribute="trailing" constant="16" id="HdT-Ny-4XS"/>
                             <constraint firstItem="mkG-ON-3L6" firstAttribute="top" secondItem="TbL-ce-D8N" secondAttribute="top" constant="164" id="UDf-wH-Yvv"/>
                             <constraint firstItem="pBe-V1-WHd" firstAttribute="centerX" secondItem="TbL-ce-D8N" secondAttribute="centerX" id="bJu-rG-i6d"/>
-                            <constraint firstItem="mkG-ON-3L6" firstAttribute="leading" secondItem="7Qo-Yj-H4c" secondAttribute="leading" constant="16" id="kXF-WZ-f4F"/>
+                            <constraint firstItem="mkG-ON-3L6" firstAttribute="leading" secondItem="TbL-ce-D8N" secondAttribute="leading" constant="16" id="kXF-WZ-f4F"/>
                         </constraints>
-                        <viewLayoutGuide key="safeArea" id="7Qo-Yj-H4c"/>
                     </view>
                     <connections>
                         <outlet property="containerView" destination="mkG-ON-3L6" id="ae3-O0-ZEL"/>
@@ -284,6 +312,10 @@
         <scene sceneID="i5B-Qo-H2w">
             <objects>
                 <viewController storyboardIdentifier="SignupViewController" id="ycV-T4-h8q" customClass="SignupViewController" customModule="BabyCare" customModuleProvider="target" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="Tbz-M2-vhb"/>
+                        <viewControllerLayoutGuide type="bottom" id="ofN-Yx-wie"/>
+                    </layoutGuides>
                     <view key="view" contentMode="scaleToFill" id="hZJ-Yq-NRc">
                         <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
@@ -418,14 +450,13 @@
                         <constraints>
                             <constraint firstItem="HSo-Lb-8tr" firstAttribute="top" secondItem="lwL-o0-LYq" secondAttribute="bottom" constant="24" id="2bL-iO-Wch"/>
                             <constraint firstItem="Mft-xP-1C6" firstAttribute="trailing" secondItem="XX0-JQ-qlu" secondAttribute="trailing" id="B2l-Cs-6wg"/>
-                            <constraint firstItem="lwL-o0-LYq" firstAttribute="leading" secondItem="7Vz-KM-hSV" secondAttribute="leading" constant="16" id="TTZ-UW-aAQ"/>
+                            <constraint firstItem="lwL-o0-LYq" firstAttribute="leading" secondItem="hZJ-Yq-NRc" secondAttribute="leading" constant="16" id="TTZ-UW-aAQ"/>
                             <constraint firstItem="Mft-xP-1C6" firstAttribute="leading" secondItem="XX0-JQ-qlu" secondAttribute="leading" id="bAW-Ok-sVR"/>
-                            <constraint firstItem="7Vz-KM-hSV" firstAttribute="trailing" secondItem="lwL-o0-LYq" secondAttribute="trailing" constant="16" id="dxN-Vz-3WY"/>
+                            <constraint firstAttribute="trailing" secondItem="lwL-o0-LYq" secondAttribute="trailing" constant="16" id="dxN-Vz-3WY"/>
                             <constraint firstItem="lwL-o0-LYq" firstAttribute="top" secondItem="hZJ-Yq-NRc" secondAttribute="top" constant="164" id="jPA-l3-rie"/>
                             <constraint firstItem="Mft-xP-1C6" firstAttribute="bottom" secondItem="XX0-JQ-qlu" secondAttribute="bottom" id="lyU-ir-mWE"/>
                             <constraint firstItem="HSo-Lb-8tr" firstAttribute="centerX" secondItem="hZJ-Yq-NRc" secondAttribute="centerX" id="t9t-Kb-sVS"/>
                         </constraints>
-                        <viewLayoutGuide key="safeArea" id="7Vz-KM-hSV"/>
                     </view>
                     <connections>
                         <outlet property="containerView" destination="lwL-o0-LYq" id="VTw-oX-aET"/>
@@ -441,6 +472,7 @@
         </scene>
     </scenes>
     <resources>
+        <image name="baby_banner.jpg" width="720" height="1280"/>
         <image name="facebook" width="24" height="24"/>
         <image name="google" width="24" height="24"/>
         <namedColor name="garadient_start">

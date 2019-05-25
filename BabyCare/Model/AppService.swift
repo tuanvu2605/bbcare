@@ -27,9 +27,21 @@ class AppService: NSObject {
         }
     }
     
-    class func register(_ params : [String : Any]){
-        Alamofire.request(AppRouter.register(params)).responseJSON { response in
-            print(response)
+    class func register(_ params : [String : Any] , completion : @escaping(_ reponse : [String : Any])->Void){
+        Alamofire.request("\(AppRouter.baseURLPath)register", method: .post, parameters: params, encoding: JSONEncoding.default)
+            .responseJSON { response in
+                if let responseJSON = response.result.value as? [String : Any] {
+                    completion(responseJSON)
+                }
+        }
+    }
+    
+    class func login(_ params : [String : Any] , completion : @escaping(_ reponse : [String : Any])->Void){
+        Alamofire.request("\(AppRouter.baseURLPath)login", method: .post, parameters: params, encoding: JSONEncoding.default)
+            .responseJSON { response in
+                if let responseJSON = response.result.value as? [String : Any] {
+                    completion(responseJSON)
+                }
         }
     }
 

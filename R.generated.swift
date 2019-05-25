@@ -59,18 +59,988 @@ struct R: Rswift.Validatable {
     fileprivate init() {}
   }
   
-  /// This `R.file` struct is generated, and contains static references to 5 files.
+  /// This `R.file` struct is generated, and contains static references to 127 files.
   struct file {
+    /// Resource file `Age Badge month 1 blue.png`.
+    static let ageBadgeMonth1BluePng = Rswift.FileResource(bundle: R.hostingBundle, name: "Age Badge month 1 blue", pathExtension: "png")
+    /// Resource file `Age Badge month 1 green.png`.
+    static let ageBadgeMonth1GreenPng = Rswift.FileResource(bundle: R.hostingBundle, name: "Age Badge month 1 green", pathExtension: "png")
+    /// Resource file `Age Badge month 1 pink.png`.
+    static let ageBadgeMonth1PinkPng = Rswift.FileResource(bundle: R.hostingBundle, name: "Age Badge month 1 pink", pathExtension: "png")
+    /// Resource file `Age Badge month 2 blue.png`.
+    static let ageBadgeMonth2BluePng = Rswift.FileResource(bundle: R.hostingBundle, name: "Age Badge month 2 blue", pathExtension: "png")
+    /// Resource file `Age Badge month 2 green.png`.
+    static let ageBadgeMonth2GreenPng = Rswift.FileResource(bundle: R.hostingBundle, name: "Age Badge month 2 green", pathExtension: "png")
+    /// Resource file `Age Badge month 2 pink.png`.
+    static let ageBadgeMonth2PinkPng = Rswift.FileResource(bundle: R.hostingBundle, name: "Age Badge month 2 pink", pathExtension: "png")
+    /// Resource file `Age Badge month 3 blue.png`.
+    static let ageBadgeMonth3BluePng = Rswift.FileResource(bundle: R.hostingBundle, name: "Age Badge month 3 blue", pathExtension: "png")
+    /// Resource file `Age Badge month 3 green.png`.
+    static let ageBadgeMonth3GreenPng = Rswift.FileResource(bundle: R.hostingBundle, name: "Age Badge month 3 green", pathExtension: "png")
+    /// Resource file `Age Badge month 3 pink.png`.
+    static let ageBadgeMonth3PinkPng = Rswift.FileResource(bundle: R.hostingBundle, name: "Age Badge month 3 pink", pathExtension: "png")
+    /// Resource file `Age Badge month 4 blue.png`.
+    static let ageBadgeMonth4BluePng = Rswift.FileResource(bundle: R.hostingBundle, name: "Age Badge month 4 blue", pathExtension: "png")
+    /// Resource file `Age Badge month 4 green.png`.
+    static let ageBadgeMonth4GreenPng = Rswift.FileResource(bundle: R.hostingBundle, name: "Age Badge month 4 green", pathExtension: "png")
+    /// Resource file `Age Badge month 4 pink.png`.
+    static let ageBadgeMonth4PinkPng = Rswift.FileResource(bundle: R.hostingBundle, name: "Age Badge month 4 pink", pathExtension: "png")
+    /// Resource file `Age Badge month 5 blue.png`.
+    static let ageBadgeMonth5BluePng = Rswift.FileResource(bundle: R.hostingBundle, name: "Age Badge month 5 blue", pathExtension: "png")
+    /// Resource file `Age Badge month 5 green.png`.
+    static let ageBadgeMonth5GreenPng = Rswift.FileResource(bundle: R.hostingBundle, name: "Age Badge month 5 green", pathExtension: "png")
+    /// Resource file `Age Badge month 5 pink.png`.
+    static let ageBadgeMonth5PinkPng = Rswift.FileResource(bundle: R.hostingBundle, name: "Age Badge month 5 pink", pathExtension: "png")
+    /// Resource file `Age Badges month 10 blue.png`.
+    static let ageBadgesMonth10BluePng = Rswift.FileResource(bundle: R.hostingBundle, name: "Age Badges month 10 blue", pathExtension: "png")
+    /// Resource file `Age Badges month 10 green.png`.
+    static let ageBadgesMonth10GreenPng = Rswift.FileResource(bundle: R.hostingBundle, name: "Age Badges month 10 green", pathExtension: "png")
+    /// Resource file `Age Badges month 10 pink.png`.
+    static let ageBadgesMonth10PinkPng = Rswift.FileResource(bundle: R.hostingBundle, name: "Age Badges month 10 pink", pathExtension: "png")
+    /// Resource file `Age Badges month 11 blue.png`.
+    static let ageBadgesMonth11BluePng = Rswift.FileResource(bundle: R.hostingBundle, name: "Age Badges month 11 blue", pathExtension: "png")
+    /// Resource file `Age Badges month 11 green.png`.
+    static let ageBadgesMonth11GreenPng = Rswift.FileResource(bundle: R.hostingBundle, name: "Age Badges month 11 green", pathExtension: "png")
+    /// Resource file `Age Badges month 11 pink.png`.
+    static let ageBadgesMonth11PinkPng = Rswift.FileResource(bundle: R.hostingBundle, name: "Age Badges month 11 pink", pathExtension: "png")
+    /// Resource file `Age Badges month 12 blue.png`.
+    static let ageBadgesMonth12BluePng = Rswift.FileResource(bundle: R.hostingBundle, name: "Age Badges month 12 blue", pathExtension: "png")
+    /// Resource file `Age Badges month 12 green.png`.
+    static let ageBadgesMonth12GreenPng = Rswift.FileResource(bundle: R.hostingBundle, name: "Age Badges month 12 green", pathExtension: "png")
+    /// Resource file `Age Badges month 12 pink.png`.
+    static let ageBadgesMonth12PinkPng = Rswift.FileResource(bundle: R.hostingBundle, name: "Age Badges month 12 pink", pathExtension: "png")
+    /// Resource file `Age Badges month 6 blue.png`.
+    static let ageBadgesMonth6BluePng = Rswift.FileResource(bundle: R.hostingBundle, name: "Age Badges month 6 blue", pathExtension: "png")
+    /// Resource file `Age Badges month 6 green.png`.
+    static let ageBadgesMonth6GreenPng = Rswift.FileResource(bundle: R.hostingBundle, name: "Age Badges month 6 green", pathExtension: "png")
+    /// Resource file `Age Badges month 6 pink.png`.
+    static let ageBadgesMonth6PinkPng = Rswift.FileResource(bundle: R.hostingBundle, name: "Age Badges month 6 pink", pathExtension: "png")
+    /// Resource file `Age Badges month 7 blue.png`.
+    static let ageBadgesMonth7BluePng = Rswift.FileResource(bundle: R.hostingBundle, name: "Age Badges month 7 blue", pathExtension: "png")
+    /// Resource file `Age Badges month 7 green.png`.
+    static let ageBadgesMonth7GreenPng = Rswift.FileResource(bundle: R.hostingBundle, name: "Age Badges month 7 green", pathExtension: "png")
+    /// Resource file `Age Badges month 7 pink.png`.
+    static let ageBadgesMonth7PinkPng = Rswift.FileResource(bundle: R.hostingBundle, name: "Age Badges month 7 pink", pathExtension: "png")
+    /// Resource file `Age Badges month 8 blue.png`.
+    static let ageBadgesMonth8BluePng = Rswift.FileResource(bundle: R.hostingBundle, name: "Age Badges month 8 blue", pathExtension: "png")
+    /// Resource file `Age Badges month 8 green.png`.
+    static let ageBadgesMonth8GreenPng = Rswift.FileResource(bundle: R.hostingBundle, name: "Age Badges month 8 green", pathExtension: "png")
+    /// Resource file `Age Badges month 8 pink.png`.
+    static let ageBadgesMonth8PinkPng = Rswift.FileResource(bundle: R.hostingBundle, name: "Age Badges month 8 pink", pathExtension: "png")
+    /// Resource file `Age Badges month 9 blue.png`.
+    static let ageBadgesMonth9BluePng = Rswift.FileResource(bundle: R.hostingBundle, name: "Age Badges month 9 blue", pathExtension: "png")
+    /// Resource file `Age Badges month 9 green.png`.
+    static let ageBadgesMonth9GreenPng = Rswift.FileResource(bundle: R.hostingBundle, name: "Age Badges month 9 green", pathExtension: "png")
+    /// Resource file `Age Badges month 9 pink.png`.
+    static let ageBadgesMonth9PinkPng = Rswift.FileResource(bundle: R.hostingBundle, name: "Age Badges month 9 pink", pathExtension: "png")
+    /// Resource file `Age Badges week 1 blue.png`.
+    static let ageBadgesWeek1BluePng = Rswift.FileResource(bundle: R.hostingBundle, name: "Age Badges week 1 blue", pathExtension: "png")
+    /// Resource file `Age Badges week 1 green.png`.
+    static let ageBadgesWeek1GreenPng = Rswift.FileResource(bundle: R.hostingBundle, name: "Age Badges week 1 green", pathExtension: "png")
+    /// Resource file `Age Badges week 1 pink.png`.
+    static let ageBadgesWeek1PinkPng = Rswift.FileResource(bundle: R.hostingBundle, name: "Age Badges week 1 pink", pathExtension: "png")
+    /// Resource file `Age Badges week 2 blue.png`.
+    static let ageBadgesWeek2BluePng = Rswift.FileResource(bundle: R.hostingBundle, name: "Age Badges week 2 blue", pathExtension: "png")
+    /// Resource file `Age Badges week 2 green.png`.
+    static let ageBadgesWeek2GreenPng = Rswift.FileResource(bundle: R.hostingBundle, name: "Age Badges week 2 green", pathExtension: "png")
+    /// Resource file `Age Badges week 2 pink.png`.
+    static let ageBadgesWeek2PinkPng = Rswift.FileResource(bundle: R.hostingBundle, name: "Age Badges week 2 pink", pathExtension: "png")
+    /// Resource file `Age Badges week 3 blue.png`.
+    static let ageBadgesWeek3BluePng = Rswift.FileResource(bundle: R.hostingBundle, name: "Age Badges week 3 blue", pathExtension: "png")
+    /// Resource file `Age Badges week 3 green.png`.
+    static let ageBadgesWeek3GreenPng = Rswift.FileResource(bundle: R.hostingBundle, name: "Age Badges week 3 green", pathExtension: "png")
+    /// Resource file `Age Badges week 3 pink.png`.
+    static let ageBadgesWeek3PinkPng = Rswift.FileResource(bundle: R.hostingBundle, name: "Age Badges week 3 pink", pathExtension: "png")
+    /// Resource file `Age Badges week 4 blue.png`.
+    static let ageBadgesWeek4BluePng = Rswift.FileResource(bundle: R.hostingBundle, name: "Age Badges week 4 blue", pathExtension: "png")
+    /// Resource file `Age Badges week 4 green.png`.
+    static let ageBadgesWeek4GreenPng = Rswift.FileResource(bundle: R.hostingBundle, name: "Age Badges week 4 green", pathExtension: "png")
+    /// Resource file `Age Badges week 4 pink.png`.
+    static let ageBadgesWeek4PinkPng = Rswift.FileResource(bundle: R.hostingBundle, name: "Age Badges week 4 pink", pathExtension: "png")
+    /// Resource file `BABY_Info_wk1_Boy.html`.
+    static let baby_Info_wk1_BoyHtml = Rswift.FileResource(bundle: R.hostingBundle, name: "BABY_Info_wk1_Boy", pathExtension: "html")
+    /// Resource file `BABY_Info_wk2_Boy.html`.
+    static let baby_Info_wk2_BoyHtml = Rswift.FileResource(bundle: R.hostingBundle, name: "BABY_Info_wk2_Boy", pathExtension: "html")
+    /// Resource file `BABY_Info_wk3_Boy.html`.
+    static let baby_Info_wk3_BoyHtml = Rswift.FileResource(bundle: R.hostingBundle, name: "BABY_Info_wk3_Boy", pathExtension: "html")
+    /// Resource file `BABY_Info_wk4_Boy.html`.
+    static let baby_Info_wk4_BoyHtml = Rswift.FileResource(bundle: R.hostingBundle, name: "BABY_Info_wk4_Boy", pathExtension: "html")
+    /// Resource file `BABY_Info_wk5_Boy.html`.
+    static let baby_Info_wk5_BoyHtml = Rswift.FileResource(bundle: R.hostingBundle, name: "BABY_Info_wk5_Boy", pathExtension: "html")
+    /// Resource file `BABY_Info_wk6_Boy.html`.
+    static let baby_Info_wk6_BoyHtml = Rswift.FileResource(bundle: R.hostingBundle, name: "BABY_Info_wk6_Boy", pathExtension: "html")
+    /// Resource file `BABY_Info_wk7_Boy.html`.
+    static let baby_Info_wk7_BoyHtml = Rswift.FileResource(bundle: R.hostingBundle, name: "BABY_Info_wk7_Boy", pathExtension: "html")
+    /// Resource file `BABY_Info_wk8_Boy.html`.
+    static let baby_Info_wk8_BoyHtml = Rswift.FileResource(bundle: R.hostingBundle, name: "BABY_Info_wk8_Boy", pathExtension: "html")
+    /// Resource file `Bundel1_Milestone_Free_01 I-was-born.png`.
+    static let bundel1_Milestone_Free_01IWasBornPng = Rswift.FileResource(bundle: R.hostingBundle, name: "Bundel1_Milestone_Free_01 I-was-born", pathExtension: "png")
+    /// Resource file `Bundel1_Milestone_Free_02 I'm-Home.png`.
+    static let bundel1_Milestone_Free_02IMHomePng = Rswift.FileResource(bundle: R.hostingBundle, name: "Bundel1_Milestone_Free_02 I'm-Home", pathExtension: "png")
+    /// Resource file `Bundel1_Milestone_Free_03 I-can-lift-my-head.png`.
+    static let bundel1_Milestone_Free_03ICanLiftMyHeadPng = Rswift.FileResource(bundle: R.hostingBundle, name: "Bundel1_Milestone_Free_03 I-can-lift-my-head", pathExtension: "png")
+    /// Resource file `Bundel1_Milestone_Premium_04 Bath-time.png`.
+    static let bundel1_Milestone_Premium_04BathTimePng = Rswift.FileResource(bundle: R.hostingBundle, name: "Bundel1_Milestone_Premium_04 Bath-time", pathExtension: "png")
+    /// Resource file `Bundel1_Milestone_Premium_05 At-the-beach.png`.
+    static let bundel1_Milestone_Premium_05AtTheBeachPng = Rswift.FileResource(bundle: R.hostingBundle, name: "Bundel1_Milestone_Premium_05 At-the-beach", pathExtension: "png")
+    /// Resource file `Bundel1_Milestone_Premium_06 First-step.png`.
+    static let bundel1_Milestone_Premium_06FirstStepPng = Rswift.FileResource(bundle: R.hostingBundle, name: "Bundel1_Milestone_Premium_06 First-step", pathExtension: "png")
+    /// Resource file `Bundel1_Milestone_Premium_07 First-tower.png`.
+    static let bundel1_Milestone_Premium_07FirstTowerPng = Rswift.FileResource(bundle: R.hostingBundle, name: "Bundel1_Milestone_Premium_07 First-tower", pathExtension: "png")
+    /// Resource file `Bundel1_Milestone_Premium_08 Happy-birthday.png`.
+    static let bundel1_Milestone_Premium_08HappyBirthdayPng = Rswift.FileResource(bundle: R.hostingBundle, name: "Bundel1_Milestone_Premium_08 Happy-birthday", pathExtension: "png")
+    /// Resource file `Bundel1_Milestone_Premium_09 Happy-holidays.png`.
+    static let bundel1_Milestone_Premium_09HappyHolidaysPng = Rswift.FileResource(bundle: R.hostingBundle, name: "Bundel1_Milestone_Premium_09 Happy-holidays", pathExtension: "png")
+    /// Resource file `Bundel1_Milestone_Premium_10 I-can-clap.png`.
+    static let bundel1_Milestone_Premium_10ICanClapPng = Rswift.FileResource(bundle: R.hostingBundle, name: "Bundel1_Milestone_Premium_10 I-can-clap", pathExtension: "png")
+    /// Resource file `Bundel1_Milestone_Premium_11 I-can-crawl.png`.
+    static let bundel1_Milestone_Premium_11ICanCrawlPng = Rswift.FileResource(bundle: R.hostingBundle, name: "Bundel1_Milestone_Premium_11 I-can-crawl", pathExtension: "png")
+    /// Resource file `Bundel1_Milestone_Premium_12 I-can-dance.png`.
+    static let bundel1_Milestone_Premium_12ICanDancePng = Rswift.FileResource(bundle: R.hostingBundle, name: "Bundel1_Milestone_Premium_12 I-can-dance", pathExtension: "png")
+    /// Resource file `Bundel1_Milestone_Premium_13 I-can-drink.png`.
+    static let bundel1_Milestone_Premium_13ICanDrinkPng = Rswift.FileResource(bundle: R.hostingBundle, name: "Bundel1_Milestone_Premium_13 I-can-drink", pathExtension: "png")
+    /// Resource file `Bundel1_Milestone_Premium_14 I-can-jump.png`.
+    static let bundel1_Milestone_Premium_14ICanJumpPng = Rswift.FileResource(bundle: R.hostingBundle, name: "Bundel1_Milestone_Premium_14 I-can-jump", pathExtension: "png")
+    /// Resource file `Bundel1_Milestone_Premium_15 I-can-read.png`.
+    static let bundel1_Milestone_Premium_15ICanReadPng = Rswift.FileResource(bundle: R.hostingBundle, name: "Bundel1_Milestone_Premium_15 I-can-read", pathExtension: "png")
+    /// Resource file `Bundel1_Milestone_Premium_16 I-can-roll-over.png`.
+    static let bundel1_Milestone_Premium_16ICanRollOverPng = Rswift.FileResource(bundle: R.hostingBundle, name: "Bundel1_Milestone_Premium_16 I-can-roll-over", pathExtension: "png")
+    /// Resource file `Bundel1_Milestone_Premium_17 I-can-run.png`.
+    static let bundel1_Milestone_Premium_17ICanRunPng = Rswift.FileResource(bundle: R.hostingBundle, name: "Bundel1_Milestone_Premium_17 I-can-run", pathExtension: "png")
+    /// Resource file `Bundel1_Milestone_Premium_18 I-can-sit.png`.
+    static let bundel1_Milestone_Premium_18ICanSitPng = Rswift.FileResource(bundle: R.hostingBundle, name: "Bundel1_Milestone_Premium_18 I-can-sit", pathExtension: "png")
+    /// Resource file `Bundel1_Milestone_Premium_19 I-can-stand.png`.
+    static let bundel1_Milestone_Premium_19ICanStandPng = Rswift.FileResource(bundle: R.hostingBundle, name: "Bundel1_Milestone_Premium_19 I-can-stand", pathExtension: "png")
+    /// Resource file `Bundel1_Milestone_Premium_20 I-can-swim.png`.
+    static let bundel1_Milestone_Premium_20ICanSwimPng = Rswift.FileResource(bundle: R.hostingBundle, name: "Bundel1_Milestone_Premium_20 I-can-swim", pathExtension: "png")
+    /// Resource file `Bundel1_Milestone_Premium_21 I-can-walk.png`.
+    static let bundel1_Milestone_Premium_21ICanWalkPng = Rswift.FileResource(bundle: R.hostingBundle, name: "Bundel1_Milestone_Premium_21 I-can-walk", pathExtension: "png")
+    /// Resource file `Bundel1_Milestone_Premium_22 I-love-food.png`.
+    static let bundel1_Milestone_Premium_22ILoveFoodPng = Rswift.FileResource(bundle: R.hostingBundle, name: "Bundel1_Milestone_Premium_22 I-love-food", pathExtension: "png")
+    /// Resource file `Bundel1_Milestone_Premium_23 I-love-hugs.png`.
+    static let bundel1_Milestone_Premium_23ILoveHugsPng = Rswift.FileResource(bundle: R.hostingBundle, name: "Bundel1_Milestone_Premium_23 I-love-hugs", pathExtension: "png")
+    /// Resource file `Bundel1_Milestone_Premium_24 I-love-my-sleep.png`.
+    static let bundel1_Milestone_Premium_24ILoveMySleepPng = Rswift.FileResource(bundle: R.hostingBundle, name: "Bundel1_Milestone_Premium_24 I-love-my-sleep", pathExtension: "png")
+    /// Resource file `Bundel1_Milestone_Premium_25 I-love-this-toy.png`.
+    static let bundel1_Milestone_Premium_25ILoveThisToyPng = Rswift.FileResource(bundle: R.hostingBundle, name: "Bundel1_Milestone_Premium_25 I-love-this-toy", pathExtension: "png")
+    /// Resource file `Bundel1_Milestone_Premium_26 I-sletp-all-night.png`.
+    static let bundel1_Milestone_Premium_26ISletpAllNightPng = Rswift.FileResource(bundle: R.hostingBundle, name: "Bundel1_Milestone_Premium_26 I-sletp-all-night", pathExtension: "png")
+    /// Resource file `Bundel1_Milestone_Premium_27 I-wave-bye.png`.
+    static let bundel1_Milestone_Premium_27IWaveByePng = Rswift.FileResource(bundle: R.hostingBundle, name: "Bundel1_Milestone_Premium_27 I-wave-bye", pathExtension: "png")
+    /// Resource file `Bundel1_Milestone_Premium_28 Im-smiling.png`.
+    static let bundel1_Milestone_Premium_28ImSmilingPng = Rswift.FileResource(bundle: R.hostingBundle, name: "Bundel1_Milestone_Premium_28 Im-smiling", pathExtension: "png")
+    /// Resource file `Bundel1_Milestone_Premium_29 In-the-park.png`.
+    static let bundel1_Milestone_Premium_29InTheParkPng = Rswift.FileResource(bundle: R.hostingBundle, name: "Bundel1_Milestone_Premium_29 In-the-park", pathExtension: "png")
+    /// Resource file `Bundel1_Milestone_Premium_30 In-the-snow.png`.
+    static let bundel1_Milestone_Premium_30InTheSnowPng = Rswift.FileResource(bundle: R.hostingBundle, name: "Bundel1_Milestone_Premium_30 In-the-snow", pathExtension: "png")
+    /// Resource file `Bundel1_Milestone_Premium_31 Meal-time.png`.
+    static let bundel1_Milestone_Premium_31MealTimePng = Rswift.FileResource(bundle: R.hostingBundle, name: "Bundel1_Milestone_Premium_31 Meal-time", pathExtension: "png")
+    /// Resource file `Bundel1_Milestone_Premium_32 My-first-bed.png`.
+    static let bundel1_Milestone_Premium_32MyFirstBedPng = Rswift.FileResource(bundle: R.hostingBundle, name: "Bundel1_Milestone_Premium_32 My-first-bed", pathExtension: "png")
+    /// Resource file `Bundel1_Milestone_Premium_33 My-first-shoes.png`.
+    static let bundel1_Milestone_Premium_33MyFirstShoesPng = Rswift.FileResource(bundle: R.hostingBundle, name: "Bundel1_Milestone_Premium_33 My-first-shoes", pathExtension: "png")
+    /// Resource file `Bundel1_Milestone_Premium_34 My-first-sunglasses.png`.
+    static let bundel1_Milestone_Premium_34MyFirstSunglassesPng = Rswift.FileResource(bundle: R.hostingBundle, name: "Bundel1_Milestone_Premium_34 My-first-sunglasses", pathExtension: "png")
+    /// Resource file `Bundel1_Milestone_Premium_35 My-messy-face.png`.
+    static let bundel1_Milestone_Premium_35MyMessyFacePng = Rswift.FileResource(bundle: R.hostingBundle, name: "Bundel1_Milestone_Premium_35 My-messy-face", pathExtension: "png")
+    /// Resource file `Bundel1_Milestone_Premium_36 My-new-haircut.png`.
+    static let bundel1_Milestone_Premium_36MyNewHaircutPng = Rswift.FileResource(bundle: R.hostingBundle, name: "Bundel1_Milestone_Premium_36 My-new-haircut", pathExtension: "png")
+    /// Resource file `Bundel1_Milestone_Premium_37 My-new-outfit.png`.
+    static let bundel1_Milestone_Premium_37MyNewOutfitPng = Rswift.FileResource(bundle: R.hostingBundle, name: "Bundel1_Milestone_Premium_37 My-new-outfit", pathExtension: "png")
+    /// Resource file `Bundel1_Milestone_Premium_38 New-tooth.png`.
+    static let bundel1_Milestone_Premium_38NewToothPng = Rswift.FileResource(bundle: R.hostingBundle, name: "Bundel1_Milestone_Premium_38 New-tooth", pathExtension: "png")
+    /// Resource file `Bundel1_Moment_Free_01 Mama.png`.
+    static let bundel1_Moment_Free_01MamaPng = Rswift.FileResource(bundle: R.hostingBundle, name: "Bundel1_Moment_Free_01 Mama", pathExtension: "png")
+    /// Resource file `Bundel1_Moment_Free_02 Family2.png`.
+    static let bundel1_Moment_Free_02Family2Png = Rswift.FileResource(bundle: R.hostingBundle, name: "Bundel1_Moment_Free_02 Family2", pathExtension: "png")
+    /// Resource file `Bundel1_Moment_Premium_03 Daddy.png`.
+    static let bundel1_Moment_Premium_03DaddyPng = Rswift.FileResource(bundle: R.hostingBundle, name: "Bundel1_Moment_Premium_03 Daddy", pathExtension: "png")
+    /// Resource file `Bundel1_Moment_Premium_04 Grandma.png`.
+    static let bundel1_Moment_Premium_04GrandmaPng = Rswift.FileResource(bundle: R.hostingBundle, name: "Bundel1_Moment_Premium_04 Grandma", pathExtension: "png")
+    /// Resource file `Bundel1_Moment_Premium_05 Grandpa.png`.
+    static let bundel1_Moment_Premium_05GrandpaPng = Rswift.FileResource(bundle: R.hostingBundle, name: "Bundel1_Moment_Premium_05 Grandpa", pathExtension: "png")
+    /// Resource file `Bundel1_Moment_Premium_06 Brother.png`.
+    static let bundel1_Moment_Premium_06BrotherPng = Rswift.FileResource(bundle: R.hostingBundle, name: "Bundel1_Moment_Premium_06 Brother", pathExtension: "png")
+    /// Resource file `Bundel1_Moment_Premium_07 Sister.png`.
+    static let bundel1_Moment_Premium_07SisterPng = Rswift.FileResource(bundle: R.hostingBundle, name: "Bundel1_Moment_Premium_07 Sister", pathExtension: "png")
+    /// Resource file `Bundel1_Moment_Premium_08Family.png`.
+    static let bundel1_Moment_Premium_08FamilyPng = Rswift.FileResource(bundle: R.hostingBundle, name: "Bundel1_Moment_Premium_08Family", pathExtension: "png")
+    /// Resource file `Bundel1_Moment_Premium_09 Moment.png`.
+    static let bundel1_Moment_Premium_09MomentPng = Rswift.FileResource(bundle: R.hostingBundle, name: "Bundel1_Moment_Premium_09 Moment", pathExtension: "png")
+    /// Resource file `Bundel1_Speech_Free_01 Found-my-hands.png`.
+    static let bundel1_Speech_Free_01FoundMyHandsPng = Rswift.FileResource(bundle: R.hostingBundle, name: "Bundel1_Speech_Free_01 Found-my-hands", pathExtension: "png")
+    /// Resource file `Bundel1_Speech_Free_02 So-funny.png`.
+    static let bundel1_Speech_Free_02SoFunnyPng = Rswift.FileResource(bundle: R.hostingBundle, name: "Bundel1_Speech_Free_02 So-funny", pathExtension: "png")
+    /// Resource file `Bundel1_Speech_Premium_03 Can-say-mama.png`.
+    static let bundel1_Speech_Premium_03CanSayMamaPng = Rswift.FileResource(bundle: R.hostingBundle, name: "Bundel1_Speech_Premium_03 Can-say-mama", pathExtension: "png")
+    /// Resource file `Bundel1_Speech_Premium_04 I-can-say-dada.png`.
+    static let bundel1_Speech_Premium_04ICanSayDadaPng = Rswift.FileResource(bundle: R.hostingBundle, name: "Bundel1_Speech_Premium_04 I-can-say-dada", pathExtension: "png")
+    /// Resource file `Bundel1_Speech_Premium_05 I-Can-say-mama.png`.
+    static let bundel1_Speech_Premium_05ICanSayMamaPng = Rswift.FileResource(bundle: R.hostingBundle, name: "Bundel1_Speech_Premium_05 I-Can-say-mama", pathExtension: "png")
+    /// Resource file `Bundel1_Speech_Premium_06 So-funny-v2.png`.
+    static let bundel1_Speech_Premium_06SoFunnyV2Png = Rswift.FileResource(bundle: R.hostingBundle, name: "Bundel1_Speech_Premium_06 So-funny-v2", pathExtension: "png")
+    /// Resource file `Bundel1_Speech_Premium_07 peack-a-boo.png`.
+    static let bundel1_Speech_Premium_07PeackABooPng = Rswift.FileResource(bundle: R.hostingBundle, name: "Bundel1_Speech_Premium_07 peack-a-boo", pathExtension: "png")
+    /// Resource file `Bundel1_Speech_Premium_08 I-found-my-feet.png`.
+    static let bundel1_Speech_Premium_08IFoundMyFeetPng = Rswift.FileResource(bundle: R.hostingBundle, name: "Bundel1_Speech_Premium_08 I-found-my-feet", pathExtension: "png")
+    /// Resource file `Bundel1_Speech_Premium_09 I-can-say-why.png`.
+    static let bundel1_Speech_Premium_09ICanSayWhyPng = Rswift.FileResource(bundle: R.hostingBundle, name: "Bundel1_Speech_Premium_09 I-can-say-why", pathExtension: "png")
+    /// Resource file `Bundel1_Speech_Premium_10 I-can-sing.png`.
+    static let bundel1_Speech_Premium_10ICanSingPng = Rswift.FileResource(bundle: R.hostingBundle, name: "Bundel1_Speech_Premium_10 I-can-sing", pathExtension: "png")
+    /// Resource file `Development images_week 1.jpg`.
+    static let developmentImages_week1Jpg = Rswift.FileResource(bundle: R.hostingBundle, name: "Development images_week 1", pathExtension: "jpg")
+    /// Resource file `Development images_week 2.jpg`.
+    static let developmentImages_week2Jpg = Rswift.FileResource(bundle: R.hostingBundle, name: "Development images_week 2", pathExtension: "jpg")
+    /// Resource file `Development images_week 3.jpg`.
+    static let developmentImages_week3Jpg = Rswift.FileResource(bundle: R.hostingBundle, name: "Development images_week 3", pathExtension: "jpg")
+    /// Resource file `Development images_week 4.jpg`.
+    static let developmentImages_week4Jpg = Rswift.FileResource(bundle: R.hostingBundle, name: "Development images_week 4", pathExtension: "jpg")
+    /// Resource file `Development images_week 5.jpg`.
+    static let developmentImages_week5Jpg = Rswift.FileResource(bundle: R.hostingBundle, name: "Development images_week 5", pathExtension: "jpg")
+    /// Resource file `Development images_week 6.jpg`.
+    static let developmentImages_week6Jpg = Rswift.FileResource(bundle: R.hostingBundle, name: "Development images_week 6", pathExtension: "jpg")
+    /// Resource file `Development images_week 7.jpg`.
+    static let developmentImages_week7Jpg = Rswift.FileResource(bundle: R.hostingBundle, name: "Development images_week 7", pathExtension: "jpg")
+    /// Resource file `Development images_week 8.jpg`.
+    static let developmentImages_week8Jpg = Rswift.FileResource(bundle: R.hostingBundle, name: "Development images_week 8", pathExtension: "jpg")
     /// Resource file `GoogleService-Info.plist`.
     static let googleServiceInfoPlist = Rswift.FileResource(bundle: R.hostingBundle, name: "GoogleService-Info", pathExtension: "plist")
     /// Resource file `baby.jpg`.
     static let babyJpg = Rswift.FileResource(bundle: R.hostingBundle, name: "baby", pathExtension: "jpg")
+    /// Resource file `baby_banner.jpg`.
+    static let baby_bannerJpg = Rswift.FileResource(bundle: R.hostingBundle, name: "baby_banner", pathExtension: "jpg")
     /// Resource file `doctor.jpg`.
     static let doctorJpg = Rswift.FileResource(bundle: R.hostingBundle, name: "doctor", pathExtension: "jpg")
     /// Resource file `newMessage.wav`.
     static let newMessageWav = Rswift.FileResource(bundle: R.hostingBundle, name: "newMessage", pathExtension: "wav")
     /// Resource file `placeholder.png`.
     static let placeholderPng = Rswift.FileResource(bundle: R.hostingBundle, name: "placeholder", pathExtension: "png")
+    
+    /// `bundle.url(forResource: "Age Badge month 1 blue", withExtension: "png")`
+    static func ageBadgeMonth1BluePng(_: Void = ()) -> Foundation.URL? {
+      let fileResource = R.file.ageBadgeMonth1BluePng
+      return fileResource.bundle.url(forResource: fileResource)
+    }
+    
+    /// `bundle.url(forResource: "Age Badge month 1 green", withExtension: "png")`
+    static func ageBadgeMonth1GreenPng(_: Void = ()) -> Foundation.URL? {
+      let fileResource = R.file.ageBadgeMonth1GreenPng
+      return fileResource.bundle.url(forResource: fileResource)
+    }
+    
+    /// `bundle.url(forResource: "Age Badge month 1 pink", withExtension: "png")`
+    static func ageBadgeMonth1PinkPng(_: Void = ()) -> Foundation.URL? {
+      let fileResource = R.file.ageBadgeMonth1PinkPng
+      return fileResource.bundle.url(forResource: fileResource)
+    }
+    
+    /// `bundle.url(forResource: "Age Badge month 2 blue", withExtension: "png")`
+    static func ageBadgeMonth2BluePng(_: Void = ()) -> Foundation.URL? {
+      let fileResource = R.file.ageBadgeMonth2BluePng
+      return fileResource.bundle.url(forResource: fileResource)
+    }
+    
+    /// `bundle.url(forResource: "Age Badge month 2 green", withExtension: "png")`
+    static func ageBadgeMonth2GreenPng(_: Void = ()) -> Foundation.URL? {
+      let fileResource = R.file.ageBadgeMonth2GreenPng
+      return fileResource.bundle.url(forResource: fileResource)
+    }
+    
+    /// `bundle.url(forResource: "Age Badge month 2 pink", withExtension: "png")`
+    static func ageBadgeMonth2PinkPng(_: Void = ()) -> Foundation.URL? {
+      let fileResource = R.file.ageBadgeMonth2PinkPng
+      return fileResource.bundle.url(forResource: fileResource)
+    }
+    
+    /// `bundle.url(forResource: "Age Badge month 3 blue", withExtension: "png")`
+    static func ageBadgeMonth3BluePng(_: Void = ()) -> Foundation.URL? {
+      let fileResource = R.file.ageBadgeMonth3BluePng
+      return fileResource.bundle.url(forResource: fileResource)
+    }
+    
+    /// `bundle.url(forResource: "Age Badge month 3 green", withExtension: "png")`
+    static func ageBadgeMonth3GreenPng(_: Void = ()) -> Foundation.URL? {
+      let fileResource = R.file.ageBadgeMonth3GreenPng
+      return fileResource.bundle.url(forResource: fileResource)
+    }
+    
+    /// `bundle.url(forResource: "Age Badge month 3 pink", withExtension: "png")`
+    static func ageBadgeMonth3PinkPng(_: Void = ()) -> Foundation.URL? {
+      let fileResource = R.file.ageBadgeMonth3PinkPng
+      return fileResource.bundle.url(forResource: fileResource)
+    }
+    
+    /// `bundle.url(forResource: "Age Badge month 4 blue", withExtension: "png")`
+    static func ageBadgeMonth4BluePng(_: Void = ()) -> Foundation.URL? {
+      let fileResource = R.file.ageBadgeMonth4BluePng
+      return fileResource.bundle.url(forResource: fileResource)
+    }
+    
+    /// `bundle.url(forResource: "Age Badge month 4 green", withExtension: "png")`
+    static func ageBadgeMonth4GreenPng(_: Void = ()) -> Foundation.URL? {
+      let fileResource = R.file.ageBadgeMonth4GreenPng
+      return fileResource.bundle.url(forResource: fileResource)
+    }
+    
+    /// `bundle.url(forResource: "Age Badge month 4 pink", withExtension: "png")`
+    static func ageBadgeMonth4PinkPng(_: Void = ()) -> Foundation.URL? {
+      let fileResource = R.file.ageBadgeMonth4PinkPng
+      return fileResource.bundle.url(forResource: fileResource)
+    }
+    
+    /// `bundle.url(forResource: "Age Badge month 5 blue", withExtension: "png")`
+    static func ageBadgeMonth5BluePng(_: Void = ()) -> Foundation.URL? {
+      let fileResource = R.file.ageBadgeMonth5BluePng
+      return fileResource.bundle.url(forResource: fileResource)
+    }
+    
+    /// `bundle.url(forResource: "Age Badge month 5 green", withExtension: "png")`
+    static func ageBadgeMonth5GreenPng(_: Void = ()) -> Foundation.URL? {
+      let fileResource = R.file.ageBadgeMonth5GreenPng
+      return fileResource.bundle.url(forResource: fileResource)
+    }
+    
+    /// `bundle.url(forResource: "Age Badge month 5 pink", withExtension: "png")`
+    static func ageBadgeMonth5PinkPng(_: Void = ()) -> Foundation.URL? {
+      let fileResource = R.file.ageBadgeMonth5PinkPng
+      return fileResource.bundle.url(forResource: fileResource)
+    }
+    
+    /// `bundle.url(forResource: "Age Badges month 10 blue", withExtension: "png")`
+    static func ageBadgesMonth10BluePng(_: Void = ()) -> Foundation.URL? {
+      let fileResource = R.file.ageBadgesMonth10BluePng
+      return fileResource.bundle.url(forResource: fileResource)
+    }
+    
+    /// `bundle.url(forResource: "Age Badges month 10 green", withExtension: "png")`
+    static func ageBadgesMonth10GreenPng(_: Void = ()) -> Foundation.URL? {
+      let fileResource = R.file.ageBadgesMonth10GreenPng
+      return fileResource.bundle.url(forResource: fileResource)
+    }
+    
+    /// `bundle.url(forResource: "Age Badges month 10 pink", withExtension: "png")`
+    static func ageBadgesMonth10PinkPng(_: Void = ()) -> Foundation.URL? {
+      let fileResource = R.file.ageBadgesMonth10PinkPng
+      return fileResource.bundle.url(forResource: fileResource)
+    }
+    
+    /// `bundle.url(forResource: "Age Badges month 11 blue", withExtension: "png")`
+    static func ageBadgesMonth11BluePng(_: Void = ()) -> Foundation.URL? {
+      let fileResource = R.file.ageBadgesMonth11BluePng
+      return fileResource.bundle.url(forResource: fileResource)
+    }
+    
+    /// `bundle.url(forResource: "Age Badges month 11 green", withExtension: "png")`
+    static func ageBadgesMonth11GreenPng(_: Void = ()) -> Foundation.URL? {
+      let fileResource = R.file.ageBadgesMonth11GreenPng
+      return fileResource.bundle.url(forResource: fileResource)
+    }
+    
+    /// `bundle.url(forResource: "Age Badges month 11 pink", withExtension: "png")`
+    static func ageBadgesMonth11PinkPng(_: Void = ()) -> Foundation.URL? {
+      let fileResource = R.file.ageBadgesMonth11PinkPng
+      return fileResource.bundle.url(forResource: fileResource)
+    }
+    
+    /// `bundle.url(forResource: "Age Badges month 12 blue", withExtension: "png")`
+    static func ageBadgesMonth12BluePng(_: Void = ()) -> Foundation.URL? {
+      let fileResource = R.file.ageBadgesMonth12BluePng
+      return fileResource.bundle.url(forResource: fileResource)
+    }
+    
+    /// `bundle.url(forResource: "Age Badges month 12 green", withExtension: "png")`
+    static func ageBadgesMonth12GreenPng(_: Void = ()) -> Foundation.URL? {
+      let fileResource = R.file.ageBadgesMonth12GreenPng
+      return fileResource.bundle.url(forResource: fileResource)
+    }
+    
+    /// `bundle.url(forResource: "Age Badges month 12 pink", withExtension: "png")`
+    static func ageBadgesMonth12PinkPng(_: Void = ()) -> Foundation.URL? {
+      let fileResource = R.file.ageBadgesMonth12PinkPng
+      return fileResource.bundle.url(forResource: fileResource)
+    }
+    
+    /// `bundle.url(forResource: "Age Badges month 6 blue", withExtension: "png")`
+    static func ageBadgesMonth6BluePng(_: Void = ()) -> Foundation.URL? {
+      let fileResource = R.file.ageBadgesMonth6BluePng
+      return fileResource.bundle.url(forResource: fileResource)
+    }
+    
+    /// `bundle.url(forResource: "Age Badges month 6 green", withExtension: "png")`
+    static func ageBadgesMonth6GreenPng(_: Void = ()) -> Foundation.URL? {
+      let fileResource = R.file.ageBadgesMonth6GreenPng
+      return fileResource.bundle.url(forResource: fileResource)
+    }
+    
+    /// `bundle.url(forResource: "Age Badges month 6 pink", withExtension: "png")`
+    static func ageBadgesMonth6PinkPng(_: Void = ()) -> Foundation.URL? {
+      let fileResource = R.file.ageBadgesMonth6PinkPng
+      return fileResource.bundle.url(forResource: fileResource)
+    }
+    
+    /// `bundle.url(forResource: "Age Badges month 7 blue", withExtension: "png")`
+    static func ageBadgesMonth7BluePng(_: Void = ()) -> Foundation.URL? {
+      let fileResource = R.file.ageBadgesMonth7BluePng
+      return fileResource.bundle.url(forResource: fileResource)
+    }
+    
+    /// `bundle.url(forResource: "Age Badges month 7 green", withExtension: "png")`
+    static func ageBadgesMonth7GreenPng(_: Void = ()) -> Foundation.URL? {
+      let fileResource = R.file.ageBadgesMonth7GreenPng
+      return fileResource.bundle.url(forResource: fileResource)
+    }
+    
+    /// `bundle.url(forResource: "Age Badges month 7 pink", withExtension: "png")`
+    static func ageBadgesMonth7PinkPng(_: Void = ()) -> Foundation.URL? {
+      let fileResource = R.file.ageBadgesMonth7PinkPng
+      return fileResource.bundle.url(forResource: fileResource)
+    }
+    
+    /// `bundle.url(forResource: "Age Badges month 8 blue", withExtension: "png")`
+    static func ageBadgesMonth8BluePng(_: Void = ()) -> Foundation.URL? {
+      let fileResource = R.file.ageBadgesMonth8BluePng
+      return fileResource.bundle.url(forResource: fileResource)
+    }
+    
+    /// `bundle.url(forResource: "Age Badges month 8 green", withExtension: "png")`
+    static func ageBadgesMonth8GreenPng(_: Void = ()) -> Foundation.URL? {
+      let fileResource = R.file.ageBadgesMonth8GreenPng
+      return fileResource.bundle.url(forResource: fileResource)
+    }
+    
+    /// `bundle.url(forResource: "Age Badges month 8 pink", withExtension: "png")`
+    static func ageBadgesMonth8PinkPng(_: Void = ()) -> Foundation.URL? {
+      let fileResource = R.file.ageBadgesMonth8PinkPng
+      return fileResource.bundle.url(forResource: fileResource)
+    }
+    
+    /// `bundle.url(forResource: "Age Badges month 9 blue", withExtension: "png")`
+    static func ageBadgesMonth9BluePng(_: Void = ()) -> Foundation.URL? {
+      let fileResource = R.file.ageBadgesMonth9BluePng
+      return fileResource.bundle.url(forResource: fileResource)
+    }
+    
+    /// `bundle.url(forResource: "Age Badges month 9 green", withExtension: "png")`
+    static func ageBadgesMonth9GreenPng(_: Void = ()) -> Foundation.URL? {
+      let fileResource = R.file.ageBadgesMonth9GreenPng
+      return fileResource.bundle.url(forResource: fileResource)
+    }
+    
+    /// `bundle.url(forResource: "Age Badges month 9 pink", withExtension: "png")`
+    static func ageBadgesMonth9PinkPng(_: Void = ()) -> Foundation.URL? {
+      let fileResource = R.file.ageBadgesMonth9PinkPng
+      return fileResource.bundle.url(forResource: fileResource)
+    }
+    
+    /// `bundle.url(forResource: "Age Badges week 1 blue", withExtension: "png")`
+    static func ageBadgesWeek1BluePng(_: Void = ()) -> Foundation.URL? {
+      let fileResource = R.file.ageBadgesWeek1BluePng
+      return fileResource.bundle.url(forResource: fileResource)
+    }
+    
+    /// `bundle.url(forResource: "Age Badges week 1 green", withExtension: "png")`
+    static func ageBadgesWeek1GreenPng(_: Void = ()) -> Foundation.URL? {
+      let fileResource = R.file.ageBadgesWeek1GreenPng
+      return fileResource.bundle.url(forResource: fileResource)
+    }
+    
+    /// `bundle.url(forResource: "Age Badges week 1 pink", withExtension: "png")`
+    static func ageBadgesWeek1PinkPng(_: Void = ()) -> Foundation.URL? {
+      let fileResource = R.file.ageBadgesWeek1PinkPng
+      return fileResource.bundle.url(forResource: fileResource)
+    }
+    
+    /// `bundle.url(forResource: "Age Badges week 2 blue", withExtension: "png")`
+    static func ageBadgesWeek2BluePng(_: Void = ()) -> Foundation.URL? {
+      let fileResource = R.file.ageBadgesWeek2BluePng
+      return fileResource.bundle.url(forResource: fileResource)
+    }
+    
+    /// `bundle.url(forResource: "Age Badges week 2 green", withExtension: "png")`
+    static func ageBadgesWeek2GreenPng(_: Void = ()) -> Foundation.URL? {
+      let fileResource = R.file.ageBadgesWeek2GreenPng
+      return fileResource.bundle.url(forResource: fileResource)
+    }
+    
+    /// `bundle.url(forResource: "Age Badges week 2 pink", withExtension: "png")`
+    static func ageBadgesWeek2PinkPng(_: Void = ()) -> Foundation.URL? {
+      let fileResource = R.file.ageBadgesWeek2PinkPng
+      return fileResource.bundle.url(forResource: fileResource)
+    }
+    
+    /// `bundle.url(forResource: "Age Badges week 3 blue", withExtension: "png")`
+    static func ageBadgesWeek3BluePng(_: Void = ()) -> Foundation.URL? {
+      let fileResource = R.file.ageBadgesWeek3BluePng
+      return fileResource.bundle.url(forResource: fileResource)
+    }
+    
+    /// `bundle.url(forResource: "Age Badges week 3 green", withExtension: "png")`
+    static func ageBadgesWeek3GreenPng(_: Void = ()) -> Foundation.URL? {
+      let fileResource = R.file.ageBadgesWeek3GreenPng
+      return fileResource.bundle.url(forResource: fileResource)
+    }
+    
+    /// `bundle.url(forResource: "Age Badges week 3 pink", withExtension: "png")`
+    static func ageBadgesWeek3PinkPng(_: Void = ()) -> Foundation.URL? {
+      let fileResource = R.file.ageBadgesWeek3PinkPng
+      return fileResource.bundle.url(forResource: fileResource)
+    }
+    
+    /// `bundle.url(forResource: "Age Badges week 4 blue", withExtension: "png")`
+    static func ageBadgesWeek4BluePng(_: Void = ()) -> Foundation.URL? {
+      let fileResource = R.file.ageBadgesWeek4BluePng
+      return fileResource.bundle.url(forResource: fileResource)
+    }
+    
+    /// `bundle.url(forResource: "Age Badges week 4 green", withExtension: "png")`
+    static func ageBadgesWeek4GreenPng(_: Void = ()) -> Foundation.URL? {
+      let fileResource = R.file.ageBadgesWeek4GreenPng
+      return fileResource.bundle.url(forResource: fileResource)
+    }
+    
+    /// `bundle.url(forResource: "Age Badges week 4 pink", withExtension: "png")`
+    static func ageBadgesWeek4PinkPng(_: Void = ()) -> Foundation.URL? {
+      let fileResource = R.file.ageBadgesWeek4PinkPng
+      return fileResource.bundle.url(forResource: fileResource)
+    }
+    
+    /// `bundle.url(forResource: "BABY_Info_wk1_Boy", withExtension: "html")`
+    static func baby_Info_wk1_BoyHtml(_: Void = ()) -> Foundation.URL? {
+      let fileResource = R.file.baby_Info_wk1_BoyHtml
+      return fileResource.bundle.url(forResource: fileResource)
+    }
+    
+    /// `bundle.url(forResource: "BABY_Info_wk2_Boy", withExtension: "html")`
+    static func baby_Info_wk2_BoyHtml(_: Void = ()) -> Foundation.URL? {
+      let fileResource = R.file.baby_Info_wk2_BoyHtml
+      return fileResource.bundle.url(forResource: fileResource)
+    }
+    
+    /// `bundle.url(forResource: "BABY_Info_wk3_Boy", withExtension: "html")`
+    static func baby_Info_wk3_BoyHtml(_: Void = ()) -> Foundation.URL? {
+      let fileResource = R.file.baby_Info_wk3_BoyHtml
+      return fileResource.bundle.url(forResource: fileResource)
+    }
+    
+    /// `bundle.url(forResource: "BABY_Info_wk4_Boy", withExtension: "html")`
+    static func baby_Info_wk4_BoyHtml(_: Void = ()) -> Foundation.URL? {
+      let fileResource = R.file.baby_Info_wk4_BoyHtml
+      return fileResource.bundle.url(forResource: fileResource)
+    }
+    
+    /// `bundle.url(forResource: "BABY_Info_wk5_Boy", withExtension: "html")`
+    static func baby_Info_wk5_BoyHtml(_: Void = ()) -> Foundation.URL? {
+      let fileResource = R.file.baby_Info_wk5_BoyHtml
+      return fileResource.bundle.url(forResource: fileResource)
+    }
+    
+    /// `bundle.url(forResource: "BABY_Info_wk6_Boy", withExtension: "html")`
+    static func baby_Info_wk6_BoyHtml(_: Void = ()) -> Foundation.URL? {
+      let fileResource = R.file.baby_Info_wk6_BoyHtml
+      return fileResource.bundle.url(forResource: fileResource)
+    }
+    
+    /// `bundle.url(forResource: "BABY_Info_wk7_Boy", withExtension: "html")`
+    static func baby_Info_wk7_BoyHtml(_: Void = ()) -> Foundation.URL? {
+      let fileResource = R.file.baby_Info_wk7_BoyHtml
+      return fileResource.bundle.url(forResource: fileResource)
+    }
+    
+    /// `bundle.url(forResource: "BABY_Info_wk8_Boy", withExtension: "html")`
+    static func baby_Info_wk8_BoyHtml(_: Void = ()) -> Foundation.URL? {
+      let fileResource = R.file.baby_Info_wk8_BoyHtml
+      return fileResource.bundle.url(forResource: fileResource)
+    }
+    
+    /// `bundle.url(forResource: "Bundel1_Milestone_Free_01 I-was-born", withExtension: "png")`
+    static func bundel1_Milestone_Free_01IWasBornPng(_: Void = ()) -> Foundation.URL? {
+      let fileResource = R.file.bundel1_Milestone_Free_01IWasBornPng
+      return fileResource.bundle.url(forResource: fileResource)
+    }
+    
+    /// `bundle.url(forResource: "Bundel1_Milestone_Free_02 I'm-Home", withExtension: "png")`
+    static func bundel1_Milestone_Free_02IMHomePng(_: Void = ()) -> Foundation.URL? {
+      let fileResource = R.file.bundel1_Milestone_Free_02IMHomePng
+      return fileResource.bundle.url(forResource: fileResource)
+    }
+    
+    /// `bundle.url(forResource: "Bundel1_Milestone_Free_03 I-can-lift-my-head", withExtension: "png")`
+    static func bundel1_Milestone_Free_03ICanLiftMyHeadPng(_: Void = ()) -> Foundation.URL? {
+      let fileResource = R.file.bundel1_Milestone_Free_03ICanLiftMyHeadPng
+      return fileResource.bundle.url(forResource: fileResource)
+    }
+    
+    /// `bundle.url(forResource: "Bundel1_Milestone_Premium_04 Bath-time", withExtension: "png")`
+    static func bundel1_Milestone_Premium_04BathTimePng(_: Void = ()) -> Foundation.URL? {
+      let fileResource = R.file.bundel1_Milestone_Premium_04BathTimePng
+      return fileResource.bundle.url(forResource: fileResource)
+    }
+    
+    /// `bundle.url(forResource: "Bundel1_Milestone_Premium_05 At-the-beach", withExtension: "png")`
+    static func bundel1_Milestone_Premium_05AtTheBeachPng(_: Void = ()) -> Foundation.URL? {
+      let fileResource = R.file.bundel1_Milestone_Premium_05AtTheBeachPng
+      return fileResource.bundle.url(forResource: fileResource)
+    }
+    
+    /// `bundle.url(forResource: "Bundel1_Milestone_Premium_06 First-step", withExtension: "png")`
+    static func bundel1_Milestone_Premium_06FirstStepPng(_: Void = ()) -> Foundation.URL? {
+      let fileResource = R.file.bundel1_Milestone_Premium_06FirstStepPng
+      return fileResource.bundle.url(forResource: fileResource)
+    }
+    
+    /// `bundle.url(forResource: "Bundel1_Milestone_Premium_07 First-tower", withExtension: "png")`
+    static func bundel1_Milestone_Premium_07FirstTowerPng(_: Void = ()) -> Foundation.URL? {
+      let fileResource = R.file.bundel1_Milestone_Premium_07FirstTowerPng
+      return fileResource.bundle.url(forResource: fileResource)
+    }
+    
+    /// `bundle.url(forResource: "Bundel1_Milestone_Premium_08 Happy-birthday", withExtension: "png")`
+    static func bundel1_Milestone_Premium_08HappyBirthdayPng(_: Void = ()) -> Foundation.URL? {
+      let fileResource = R.file.bundel1_Milestone_Premium_08HappyBirthdayPng
+      return fileResource.bundle.url(forResource: fileResource)
+    }
+    
+    /// `bundle.url(forResource: "Bundel1_Milestone_Premium_09 Happy-holidays", withExtension: "png")`
+    static func bundel1_Milestone_Premium_09HappyHolidaysPng(_: Void = ()) -> Foundation.URL? {
+      let fileResource = R.file.bundel1_Milestone_Premium_09HappyHolidaysPng
+      return fileResource.bundle.url(forResource: fileResource)
+    }
+    
+    /// `bundle.url(forResource: "Bundel1_Milestone_Premium_10 I-can-clap", withExtension: "png")`
+    static func bundel1_Milestone_Premium_10ICanClapPng(_: Void = ()) -> Foundation.URL? {
+      let fileResource = R.file.bundel1_Milestone_Premium_10ICanClapPng
+      return fileResource.bundle.url(forResource: fileResource)
+    }
+    
+    /// `bundle.url(forResource: "Bundel1_Milestone_Premium_11 I-can-crawl", withExtension: "png")`
+    static func bundel1_Milestone_Premium_11ICanCrawlPng(_: Void = ()) -> Foundation.URL? {
+      let fileResource = R.file.bundel1_Milestone_Premium_11ICanCrawlPng
+      return fileResource.bundle.url(forResource: fileResource)
+    }
+    
+    /// `bundle.url(forResource: "Bundel1_Milestone_Premium_12 I-can-dance", withExtension: "png")`
+    static func bundel1_Milestone_Premium_12ICanDancePng(_: Void = ()) -> Foundation.URL? {
+      let fileResource = R.file.bundel1_Milestone_Premium_12ICanDancePng
+      return fileResource.bundle.url(forResource: fileResource)
+    }
+    
+    /// `bundle.url(forResource: "Bundel1_Milestone_Premium_13 I-can-drink", withExtension: "png")`
+    static func bundel1_Milestone_Premium_13ICanDrinkPng(_: Void = ()) -> Foundation.URL? {
+      let fileResource = R.file.bundel1_Milestone_Premium_13ICanDrinkPng
+      return fileResource.bundle.url(forResource: fileResource)
+    }
+    
+    /// `bundle.url(forResource: "Bundel1_Milestone_Premium_14 I-can-jump", withExtension: "png")`
+    static func bundel1_Milestone_Premium_14ICanJumpPng(_: Void = ()) -> Foundation.URL? {
+      let fileResource = R.file.bundel1_Milestone_Premium_14ICanJumpPng
+      return fileResource.bundle.url(forResource: fileResource)
+    }
+    
+    /// `bundle.url(forResource: "Bundel1_Milestone_Premium_15 I-can-read", withExtension: "png")`
+    static func bundel1_Milestone_Premium_15ICanReadPng(_: Void = ()) -> Foundation.URL? {
+      let fileResource = R.file.bundel1_Milestone_Premium_15ICanReadPng
+      return fileResource.bundle.url(forResource: fileResource)
+    }
+    
+    /// `bundle.url(forResource: "Bundel1_Milestone_Premium_16 I-can-roll-over", withExtension: "png")`
+    static func bundel1_Milestone_Premium_16ICanRollOverPng(_: Void = ()) -> Foundation.URL? {
+      let fileResource = R.file.bundel1_Milestone_Premium_16ICanRollOverPng
+      return fileResource.bundle.url(forResource: fileResource)
+    }
+    
+    /// `bundle.url(forResource: "Bundel1_Milestone_Premium_17 I-can-run", withExtension: "png")`
+    static func bundel1_Milestone_Premium_17ICanRunPng(_: Void = ()) -> Foundation.URL? {
+      let fileResource = R.file.bundel1_Milestone_Premium_17ICanRunPng
+      return fileResource.bundle.url(forResource: fileResource)
+    }
+    
+    /// `bundle.url(forResource: "Bundel1_Milestone_Premium_18 I-can-sit", withExtension: "png")`
+    static func bundel1_Milestone_Premium_18ICanSitPng(_: Void = ()) -> Foundation.URL? {
+      let fileResource = R.file.bundel1_Milestone_Premium_18ICanSitPng
+      return fileResource.bundle.url(forResource: fileResource)
+    }
+    
+    /// `bundle.url(forResource: "Bundel1_Milestone_Premium_19 I-can-stand", withExtension: "png")`
+    static func bundel1_Milestone_Premium_19ICanStandPng(_: Void = ()) -> Foundation.URL? {
+      let fileResource = R.file.bundel1_Milestone_Premium_19ICanStandPng
+      return fileResource.bundle.url(forResource: fileResource)
+    }
+    
+    /// `bundle.url(forResource: "Bundel1_Milestone_Premium_20 I-can-swim", withExtension: "png")`
+    static func bundel1_Milestone_Premium_20ICanSwimPng(_: Void = ()) -> Foundation.URL? {
+      let fileResource = R.file.bundel1_Milestone_Premium_20ICanSwimPng
+      return fileResource.bundle.url(forResource: fileResource)
+    }
+    
+    /// `bundle.url(forResource: "Bundel1_Milestone_Premium_21 I-can-walk", withExtension: "png")`
+    static func bundel1_Milestone_Premium_21ICanWalkPng(_: Void = ()) -> Foundation.URL? {
+      let fileResource = R.file.bundel1_Milestone_Premium_21ICanWalkPng
+      return fileResource.bundle.url(forResource: fileResource)
+    }
+    
+    /// `bundle.url(forResource: "Bundel1_Milestone_Premium_22 I-love-food", withExtension: "png")`
+    static func bundel1_Milestone_Premium_22ILoveFoodPng(_: Void = ()) -> Foundation.URL? {
+      let fileResource = R.file.bundel1_Milestone_Premium_22ILoveFoodPng
+      return fileResource.bundle.url(forResource: fileResource)
+    }
+    
+    /// `bundle.url(forResource: "Bundel1_Milestone_Premium_23 I-love-hugs", withExtension: "png")`
+    static func bundel1_Milestone_Premium_23ILoveHugsPng(_: Void = ()) -> Foundation.URL? {
+      let fileResource = R.file.bundel1_Milestone_Premium_23ILoveHugsPng
+      return fileResource.bundle.url(forResource: fileResource)
+    }
+    
+    /// `bundle.url(forResource: "Bundel1_Milestone_Premium_24 I-love-my-sleep", withExtension: "png")`
+    static func bundel1_Milestone_Premium_24ILoveMySleepPng(_: Void = ()) -> Foundation.URL? {
+      let fileResource = R.file.bundel1_Milestone_Premium_24ILoveMySleepPng
+      return fileResource.bundle.url(forResource: fileResource)
+    }
+    
+    /// `bundle.url(forResource: "Bundel1_Milestone_Premium_25 I-love-this-toy", withExtension: "png")`
+    static func bundel1_Milestone_Premium_25ILoveThisToyPng(_: Void = ()) -> Foundation.URL? {
+      let fileResource = R.file.bundel1_Milestone_Premium_25ILoveThisToyPng
+      return fileResource.bundle.url(forResource: fileResource)
+    }
+    
+    /// `bundle.url(forResource: "Bundel1_Milestone_Premium_26 I-sletp-all-night", withExtension: "png")`
+    static func bundel1_Milestone_Premium_26ISletpAllNightPng(_: Void = ()) -> Foundation.URL? {
+      let fileResource = R.file.bundel1_Milestone_Premium_26ISletpAllNightPng
+      return fileResource.bundle.url(forResource: fileResource)
+    }
+    
+    /// `bundle.url(forResource: "Bundel1_Milestone_Premium_27 I-wave-bye", withExtension: "png")`
+    static func bundel1_Milestone_Premium_27IWaveByePng(_: Void = ()) -> Foundation.URL? {
+      let fileResource = R.file.bundel1_Milestone_Premium_27IWaveByePng
+      return fileResource.bundle.url(forResource: fileResource)
+    }
+    
+    /// `bundle.url(forResource: "Bundel1_Milestone_Premium_28 Im-smiling", withExtension: "png")`
+    static func bundel1_Milestone_Premium_28ImSmilingPng(_: Void = ()) -> Foundation.URL? {
+      let fileResource = R.file.bundel1_Milestone_Premium_28ImSmilingPng
+      return fileResource.bundle.url(forResource: fileResource)
+    }
+    
+    /// `bundle.url(forResource: "Bundel1_Milestone_Premium_29 In-the-park", withExtension: "png")`
+    static func bundel1_Milestone_Premium_29InTheParkPng(_: Void = ()) -> Foundation.URL? {
+      let fileResource = R.file.bundel1_Milestone_Premium_29InTheParkPng
+      return fileResource.bundle.url(forResource: fileResource)
+    }
+    
+    /// `bundle.url(forResource: "Bundel1_Milestone_Premium_30 In-the-snow", withExtension: "png")`
+    static func bundel1_Milestone_Premium_30InTheSnowPng(_: Void = ()) -> Foundation.URL? {
+      let fileResource = R.file.bundel1_Milestone_Premium_30InTheSnowPng
+      return fileResource.bundle.url(forResource: fileResource)
+    }
+    
+    /// `bundle.url(forResource: "Bundel1_Milestone_Premium_31 Meal-time", withExtension: "png")`
+    static func bundel1_Milestone_Premium_31MealTimePng(_: Void = ()) -> Foundation.URL? {
+      let fileResource = R.file.bundel1_Milestone_Premium_31MealTimePng
+      return fileResource.bundle.url(forResource: fileResource)
+    }
+    
+    /// `bundle.url(forResource: "Bundel1_Milestone_Premium_32 My-first-bed", withExtension: "png")`
+    static func bundel1_Milestone_Premium_32MyFirstBedPng(_: Void = ()) -> Foundation.URL? {
+      let fileResource = R.file.bundel1_Milestone_Premium_32MyFirstBedPng
+      return fileResource.bundle.url(forResource: fileResource)
+    }
+    
+    /// `bundle.url(forResource: "Bundel1_Milestone_Premium_33 My-first-shoes", withExtension: "png")`
+    static func bundel1_Milestone_Premium_33MyFirstShoesPng(_: Void = ()) -> Foundation.URL? {
+      let fileResource = R.file.bundel1_Milestone_Premium_33MyFirstShoesPng
+      return fileResource.bundle.url(forResource: fileResource)
+    }
+    
+    /// `bundle.url(forResource: "Bundel1_Milestone_Premium_34 My-first-sunglasses", withExtension: "png")`
+    static func bundel1_Milestone_Premium_34MyFirstSunglassesPng(_: Void = ()) -> Foundation.URL? {
+      let fileResource = R.file.bundel1_Milestone_Premium_34MyFirstSunglassesPng
+      return fileResource.bundle.url(forResource: fileResource)
+    }
+    
+    /// `bundle.url(forResource: "Bundel1_Milestone_Premium_35 My-messy-face", withExtension: "png")`
+    static func bundel1_Milestone_Premium_35MyMessyFacePng(_: Void = ()) -> Foundation.URL? {
+      let fileResource = R.file.bundel1_Milestone_Premium_35MyMessyFacePng
+      return fileResource.bundle.url(forResource: fileResource)
+    }
+    
+    /// `bundle.url(forResource: "Bundel1_Milestone_Premium_36 My-new-haircut", withExtension: "png")`
+    static func bundel1_Milestone_Premium_36MyNewHaircutPng(_: Void = ()) -> Foundation.URL? {
+      let fileResource = R.file.bundel1_Milestone_Premium_36MyNewHaircutPng
+      return fileResource.bundle.url(forResource: fileResource)
+    }
+    
+    /// `bundle.url(forResource: "Bundel1_Milestone_Premium_37 My-new-outfit", withExtension: "png")`
+    static func bundel1_Milestone_Premium_37MyNewOutfitPng(_: Void = ()) -> Foundation.URL? {
+      let fileResource = R.file.bundel1_Milestone_Premium_37MyNewOutfitPng
+      return fileResource.bundle.url(forResource: fileResource)
+    }
+    
+    /// `bundle.url(forResource: "Bundel1_Milestone_Premium_38 New-tooth", withExtension: "png")`
+    static func bundel1_Milestone_Premium_38NewToothPng(_: Void = ()) -> Foundation.URL? {
+      let fileResource = R.file.bundel1_Milestone_Premium_38NewToothPng
+      return fileResource.bundle.url(forResource: fileResource)
+    }
+    
+    /// `bundle.url(forResource: "Bundel1_Moment_Free_01 Mama", withExtension: "png")`
+    static func bundel1_Moment_Free_01MamaPng(_: Void = ()) -> Foundation.URL? {
+      let fileResource = R.file.bundel1_Moment_Free_01MamaPng
+      return fileResource.bundle.url(forResource: fileResource)
+    }
+    
+    /// `bundle.url(forResource: "Bundel1_Moment_Free_02 Family2", withExtension: "png")`
+    static func bundel1_Moment_Free_02Family2Png(_: Void = ()) -> Foundation.URL? {
+      let fileResource = R.file.bundel1_Moment_Free_02Family2Png
+      return fileResource.bundle.url(forResource: fileResource)
+    }
+    
+    /// `bundle.url(forResource: "Bundel1_Moment_Premium_03 Daddy", withExtension: "png")`
+    static func bundel1_Moment_Premium_03DaddyPng(_: Void = ()) -> Foundation.URL? {
+      let fileResource = R.file.bundel1_Moment_Premium_03DaddyPng
+      return fileResource.bundle.url(forResource: fileResource)
+    }
+    
+    /// `bundle.url(forResource: "Bundel1_Moment_Premium_04 Grandma", withExtension: "png")`
+    static func bundel1_Moment_Premium_04GrandmaPng(_: Void = ()) -> Foundation.URL? {
+      let fileResource = R.file.bundel1_Moment_Premium_04GrandmaPng
+      return fileResource.bundle.url(forResource: fileResource)
+    }
+    
+    /// `bundle.url(forResource: "Bundel1_Moment_Premium_05 Grandpa", withExtension: "png")`
+    static func bundel1_Moment_Premium_05GrandpaPng(_: Void = ()) -> Foundation.URL? {
+      let fileResource = R.file.bundel1_Moment_Premium_05GrandpaPng
+      return fileResource.bundle.url(forResource: fileResource)
+    }
+    
+    /// `bundle.url(forResource: "Bundel1_Moment_Premium_06 Brother", withExtension: "png")`
+    static func bundel1_Moment_Premium_06BrotherPng(_: Void = ()) -> Foundation.URL? {
+      let fileResource = R.file.bundel1_Moment_Premium_06BrotherPng
+      return fileResource.bundle.url(forResource: fileResource)
+    }
+    
+    /// `bundle.url(forResource: "Bundel1_Moment_Premium_07 Sister", withExtension: "png")`
+    static func bundel1_Moment_Premium_07SisterPng(_: Void = ()) -> Foundation.URL? {
+      let fileResource = R.file.bundel1_Moment_Premium_07SisterPng
+      return fileResource.bundle.url(forResource: fileResource)
+    }
+    
+    /// `bundle.url(forResource: "Bundel1_Moment_Premium_08Family", withExtension: "png")`
+    static func bundel1_Moment_Premium_08FamilyPng(_: Void = ()) -> Foundation.URL? {
+      let fileResource = R.file.bundel1_Moment_Premium_08FamilyPng
+      return fileResource.bundle.url(forResource: fileResource)
+    }
+    
+    /// `bundle.url(forResource: "Bundel1_Moment_Premium_09 Moment", withExtension: "png")`
+    static func bundel1_Moment_Premium_09MomentPng(_: Void = ()) -> Foundation.URL? {
+      let fileResource = R.file.bundel1_Moment_Premium_09MomentPng
+      return fileResource.bundle.url(forResource: fileResource)
+    }
+    
+    /// `bundle.url(forResource: "Bundel1_Speech_Free_01 Found-my-hands", withExtension: "png")`
+    static func bundel1_Speech_Free_01FoundMyHandsPng(_: Void = ()) -> Foundation.URL? {
+      let fileResource = R.file.bundel1_Speech_Free_01FoundMyHandsPng
+      return fileResource.bundle.url(forResource: fileResource)
+    }
+    
+    /// `bundle.url(forResource: "Bundel1_Speech_Free_02 So-funny", withExtension: "png")`
+    static func bundel1_Speech_Free_02SoFunnyPng(_: Void = ()) -> Foundation.URL? {
+      let fileResource = R.file.bundel1_Speech_Free_02SoFunnyPng
+      return fileResource.bundle.url(forResource: fileResource)
+    }
+    
+    /// `bundle.url(forResource: "Bundel1_Speech_Premium_03 Can-say-mama", withExtension: "png")`
+    static func bundel1_Speech_Premium_03CanSayMamaPng(_: Void = ()) -> Foundation.URL? {
+      let fileResource = R.file.bundel1_Speech_Premium_03CanSayMamaPng
+      return fileResource.bundle.url(forResource: fileResource)
+    }
+    
+    /// `bundle.url(forResource: "Bundel1_Speech_Premium_04 I-can-say-dada", withExtension: "png")`
+    static func bundel1_Speech_Premium_04ICanSayDadaPng(_: Void = ()) -> Foundation.URL? {
+      let fileResource = R.file.bundel1_Speech_Premium_04ICanSayDadaPng
+      return fileResource.bundle.url(forResource: fileResource)
+    }
+    
+    /// `bundle.url(forResource: "Bundel1_Speech_Premium_05 I-Can-say-mama", withExtension: "png")`
+    static func bundel1_Speech_Premium_05ICanSayMamaPng(_: Void = ()) -> Foundation.URL? {
+      let fileResource = R.file.bundel1_Speech_Premium_05ICanSayMamaPng
+      return fileResource.bundle.url(forResource: fileResource)
+    }
+    
+    /// `bundle.url(forResource: "Bundel1_Speech_Premium_06 So-funny-v2", withExtension: "png")`
+    static func bundel1_Speech_Premium_06SoFunnyV2Png(_: Void = ()) -> Foundation.URL? {
+      let fileResource = R.file.bundel1_Speech_Premium_06SoFunnyV2Png
+      return fileResource.bundle.url(forResource: fileResource)
+    }
+    
+    /// `bundle.url(forResource: "Bundel1_Speech_Premium_07 peack-a-boo", withExtension: "png")`
+    static func bundel1_Speech_Premium_07PeackABooPng(_: Void = ()) -> Foundation.URL? {
+      let fileResource = R.file.bundel1_Speech_Premium_07PeackABooPng
+      return fileResource.bundle.url(forResource: fileResource)
+    }
+    
+    /// `bundle.url(forResource: "Bundel1_Speech_Premium_08 I-found-my-feet", withExtension: "png")`
+    static func bundel1_Speech_Premium_08IFoundMyFeetPng(_: Void = ()) -> Foundation.URL? {
+      let fileResource = R.file.bundel1_Speech_Premium_08IFoundMyFeetPng
+      return fileResource.bundle.url(forResource: fileResource)
+    }
+    
+    /// `bundle.url(forResource: "Bundel1_Speech_Premium_09 I-can-say-why", withExtension: "png")`
+    static func bundel1_Speech_Premium_09ICanSayWhyPng(_: Void = ()) -> Foundation.URL? {
+      let fileResource = R.file.bundel1_Speech_Premium_09ICanSayWhyPng
+      return fileResource.bundle.url(forResource: fileResource)
+    }
+    
+    /// `bundle.url(forResource: "Bundel1_Speech_Premium_10 I-can-sing", withExtension: "png")`
+    static func bundel1_Speech_Premium_10ICanSingPng(_: Void = ()) -> Foundation.URL? {
+      let fileResource = R.file.bundel1_Speech_Premium_10ICanSingPng
+      return fileResource.bundle.url(forResource: fileResource)
+    }
+    
+    /// `bundle.url(forResource: "Development images_week 1", withExtension: "jpg")`
+    static func developmentImages_week1Jpg(_: Void = ()) -> Foundation.URL? {
+      let fileResource = R.file.developmentImages_week1Jpg
+      return fileResource.bundle.url(forResource: fileResource)
+    }
+    
+    /// `bundle.url(forResource: "Development images_week 2", withExtension: "jpg")`
+    static func developmentImages_week2Jpg(_: Void = ()) -> Foundation.URL? {
+      let fileResource = R.file.developmentImages_week2Jpg
+      return fileResource.bundle.url(forResource: fileResource)
+    }
+    
+    /// `bundle.url(forResource: "Development images_week 3", withExtension: "jpg")`
+    static func developmentImages_week3Jpg(_: Void = ()) -> Foundation.URL? {
+      let fileResource = R.file.developmentImages_week3Jpg
+      return fileResource.bundle.url(forResource: fileResource)
+    }
+    
+    /// `bundle.url(forResource: "Development images_week 4", withExtension: "jpg")`
+    static func developmentImages_week4Jpg(_: Void = ()) -> Foundation.URL? {
+      let fileResource = R.file.developmentImages_week4Jpg
+      return fileResource.bundle.url(forResource: fileResource)
+    }
+    
+    /// `bundle.url(forResource: "Development images_week 5", withExtension: "jpg")`
+    static func developmentImages_week5Jpg(_: Void = ()) -> Foundation.URL? {
+      let fileResource = R.file.developmentImages_week5Jpg
+      return fileResource.bundle.url(forResource: fileResource)
+    }
+    
+    /// `bundle.url(forResource: "Development images_week 6", withExtension: "jpg")`
+    static func developmentImages_week6Jpg(_: Void = ()) -> Foundation.URL? {
+      let fileResource = R.file.developmentImages_week6Jpg
+      return fileResource.bundle.url(forResource: fileResource)
+    }
+    
+    /// `bundle.url(forResource: "Development images_week 7", withExtension: "jpg")`
+    static func developmentImages_week7Jpg(_: Void = ()) -> Foundation.URL? {
+      let fileResource = R.file.developmentImages_week7Jpg
+      return fileResource.bundle.url(forResource: fileResource)
+    }
+    
+    /// `bundle.url(forResource: "Development images_week 8", withExtension: "jpg")`
+    static func developmentImages_week8Jpg(_: Void = ()) -> Foundation.URL? {
+      let fileResource = R.file.developmentImages_week8Jpg
+      return fileResource.bundle.url(forResource: fileResource)
+    }
     
     /// `bundle.url(forResource: "GoogleService-Info", withExtension: "plist")`
     static func googleServiceInfoPlist(_: Void = ()) -> Foundation.URL? {
@@ -81,6 +1051,12 @@ struct R: Rswift.Validatable {
     /// `bundle.url(forResource: "baby", withExtension: "jpg")`
     static func babyJpg(_: Void = ()) -> Foundation.URL? {
       let fileResource = R.file.babyJpg
+      return fileResource.bundle.url(forResource: fileResource)
+    }
+    
+    /// `bundle.url(forResource: "baby_banner", withExtension: "jpg")`
+    static func baby_bannerJpg(_: Void = ()) -> Foundation.URL? {
+      let fileResource = R.file.baby_bannerJpg
       return fileResource.bundle.url(forResource: fileResource)
     }
     
@@ -146,10 +1122,238 @@ struct R: Rswift.Validatable {
     fileprivate init() {}
   }
   
-  /// This `R.image` struct is generated, and contains static references to 42 images.
+  /// This `R.image` struct is generated, and contains static references to 158 images.
   struct image {
+    /// Image `Age Badge month 1 blue`.
+    static let ageBadgeMonth1Blue = Rswift.ImageResource(bundle: R.hostingBundle, name: "Age Badge month 1 blue")
+    /// Image `Age Badge month 1 green`.
+    static let ageBadgeMonth1Green = Rswift.ImageResource(bundle: R.hostingBundle, name: "Age Badge month 1 green")
+    /// Image `Age Badge month 1 pink`.
+    static let ageBadgeMonth1Pink = Rswift.ImageResource(bundle: R.hostingBundle, name: "Age Badge month 1 pink")
+    /// Image `Age Badge month 2 blue`.
+    static let ageBadgeMonth2Blue = Rswift.ImageResource(bundle: R.hostingBundle, name: "Age Badge month 2 blue")
+    /// Image `Age Badge month 2 green`.
+    static let ageBadgeMonth2Green = Rswift.ImageResource(bundle: R.hostingBundle, name: "Age Badge month 2 green")
+    /// Image `Age Badge month 2 pink`.
+    static let ageBadgeMonth2Pink = Rswift.ImageResource(bundle: R.hostingBundle, name: "Age Badge month 2 pink")
+    /// Image `Age Badge month 3 blue`.
+    static let ageBadgeMonth3Blue = Rswift.ImageResource(bundle: R.hostingBundle, name: "Age Badge month 3 blue")
+    /// Image `Age Badge month 3 green`.
+    static let ageBadgeMonth3Green = Rswift.ImageResource(bundle: R.hostingBundle, name: "Age Badge month 3 green")
+    /// Image `Age Badge month 3 pink`.
+    static let ageBadgeMonth3Pink = Rswift.ImageResource(bundle: R.hostingBundle, name: "Age Badge month 3 pink")
+    /// Image `Age Badge month 4 blue`.
+    static let ageBadgeMonth4Blue = Rswift.ImageResource(bundle: R.hostingBundle, name: "Age Badge month 4 blue")
+    /// Image `Age Badge month 4 green`.
+    static let ageBadgeMonth4Green = Rswift.ImageResource(bundle: R.hostingBundle, name: "Age Badge month 4 green")
+    /// Image `Age Badge month 4 pink`.
+    static let ageBadgeMonth4Pink = Rswift.ImageResource(bundle: R.hostingBundle, name: "Age Badge month 4 pink")
+    /// Image `Age Badge month 5 blue`.
+    static let ageBadgeMonth5Blue = Rswift.ImageResource(bundle: R.hostingBundle, name: "Age Badge month 5 blue")
+    /// Image `Age Badge month 5 green`.
+    static let ageBadgeMonth5Green = Rswift.ImageResource(bundle: R.hostingBundle, name: "Age Badge month 5 green")
+    /// Image `Age Badge month 5 pink`.
+    static let ageBadgeMonth5Pink = Rswift.ImageResource(bundle: R.hostingBundle, name: "Age Badge month 5 pink")
+    /// Image `Age Badges month 10 blue`.
+    static let ageBadgesMonth10Blue = Rswift.ImageResource(bundle: R.hostingBundle, name: "Age Badges month 10 blue")
+    /// Image `Age Badges month 10 green`.
+    static let ageBadgesMonth10Green = Rswift.ImageResource(bundle: R.hostingBundle, name: "Age Badges month 10 green")
+    /// Image `Age Badges month 10 pink`.
+    static let ageBadgesMonth10Pink = Rswift.ImageResource(bundle: R.hostingBundle, name: "Age Badges month 10 pink")
+    /// Image `Age Badges month 11 blue`.
+    static let ageBadgesMonth11Blue = Rswift.ImageResource(bundle: R.hostingBundle, name: "Age Badges month 11 blue")
+    /// Image `Age Badges month 11 green`.
+    static let ageBadgesMonth11Green = Rswift.ImageResource(bundle: R.hostingBundle, name: "Age Badges month 11 green")
+    /// Image `Age Badges month 11 pink`.
+    static let ageBadgesMonth11Pink = Rswift.ImageResource(bundle: R.hostingBundle, name: "Age Badges month 11 pink")
+    /// Image `Age Badges month 12 blue`.
+    static let ageBadgesMonth12Blue = Rswift.ImageResource(bundle: R.hostingBundle, name: "Age Badges month 12 blue")
+    /// Image `Age Badges month 12 green`.
+    static let ageBadgesMonth12Green = Rswift.ImageResource(bundle: R.hostingBundle, name: "Age Badges month 12 green")
+    /// Image `Age Badges month 12 pink`.
+    static let ageBadgesMonth12Pink = Rswift.ImageResource(bundle: R.hostingBundle, name: "Age Badges month 12 pink")
+    /// Image `Age Badges month 6 blue`.
+    static let ageBadgesMonth6Blue = Rswift.ImageResource(bundle: R.hostingBundle, name: "Age Badges month 6 blue")
+    /// Image `Age Badges month 6 green`.
+    static let ageBadgesMonth6Green = Rswift.ImageResource(bundle: R.hostingBundle, name: "Age Badges month 6 green")
+    /// Image `Age Badges month 6 pink`.
+    static let ageBadgesMonth6Pink = Rswift.ImageResource(bundle: R.hostingBundle, name: "Age Badges month 6 pink")
+    /// Image `Age Badges month 7 blue`.
+    static let ageBadgesMonth7Blue = Rswift.ImageResource(bundle: R.hostingBundle, name: "Age Badges month 7 blue")
+    /// Image `Age Badges month 7 green`.
+    static let ageBadgesMonth7Green = Rswift.ImageResource(bundle: R.hostingBundle, name: "Age Badges month 7 green")
+    /// Image `Age Badges month 7 pink`.
+    static let ageBadgesMonth7Pink = Rswift.ImageResource(bundle: R.hostingBundle, name: "Age Badges month 7 pink")
+    /// Image `Age Badges month 8 blue`.
+    static let ageBadgesMonth8Blue = Rswift.ImageResource(bundle: R.hostingBundle, name: "Age Badges month 8 blue")
+    /// Image `Age Badges month 8 green`.
+    static let ageBadgesMonth8Green = Rswift.ImageResource(bundle: R.hostingBundle, name: "Age Badges month 8 green")
+    /// Image `Age Badges month 8 pink`.
+    static let ageBadgesMonth8Pink = Rswift.ImageResource(bundle: R.hostingBundle, name: "Age Badges month 8 pink")
+    /// Image `Age Badges month 9 blue`.
+    static let ageBadgesMonth9Blue = Rswift.ImageResource(bundle: R.hostingBundle, name: "Age Badges month 9 blue")
+    /// Image `Age Badges month 9 green`.
+    static let ageBadgesMonth9Green = Rswift.ImageResource(bundle: R.hostingBundle, name: "Age Badges month 9 green")
+    /// Image `Age Badges month 9 pink`.
+    static let ageBadgesMonth9Pink = Rswift.ImageResource(bundle: R.hostingBundle, name: "Age Badges month 9 pink")
+    /// Image `Age Badges week 1 blue`.
+    static let ageBadgesWeek1Blue = Rswift.ImageResource(bundle: R.hostingBundle, name: "Age Badges week 1 blue")
+    /// Image `Age Badges week 1 green`.
+    static let ageBadgesWeek1Green = Rswift.ImageResource(bundle: R.hostingBundle, name: "Age Badges week 1 green")
+    /// Image `Age Badges week 1 pink`.
+    static let ageBadgesWeek1Pink = Rswift.ImageResource(bundle: R.hostingBundle, name: "Age Badges week 1 pink")
+    /// Image `Age Badges week 2 blue`.
+    static let ageBadgesWeek2Blue = Rswift.ImageResource(bundle: R.hostingBundle, name: "Age Badges week 2 blue")
+    /// Image `Age Badges week 2 green`.
+    static let ageBadgesWeek2Green = Rswift.ImageResource(bundle: R.hostingBundle, name: "Age Badges week 2 green")
+    /// Image `Age Badges week 2 pink`.
+    static let ageBadgesWeek2Pink = Rswift.ImageResource(bundle: R.hostingBundle, name: "Age Badges week 2 pink")
+    /// Image `Age Badges week 3 blue`.
+    static let ageBadgesWeek3Blue = Rswift.ImageResource(bundle: R.hostingBundle, name: "Age Badges week 3 blue")
+    /// Image `Age Badges week 3 green`.
+    static let ageBadgesWeek3Green = Rswift.ImageResource(bundle: R.hostingBundle, name: "Age Badges week 3 green")
+    /// Image `Age Badges week 3 pink`.
+    static let ageBadgesWeek3Pink = Rswift.ImageResource(bundle: R.hostingBundle, name: "Age Badges week 3 pink")
+    /// Image `Age Badges week 4 blue`.
+    static let ageBadgesWeek4Blue = Rswift.ImageResource(bundle: R.hostingBundle, name: "Age Badges week 4 blue")
+    /// Image `Age Badges week 4 green`.
+    static let ageBadgesWeek4Green = Rswift.ImageResource(bundle: R.hostingBundle, name: "Age Badges week 4 green")
+    /// Image `Age Badges week 4 pink`.
+    static let ageBadgesWeek4Pink = Rswift.ImageResource(bundle: R.hostingBundle, name: "Age Badges week 4 pink")
+    /// Image `Bundel1_Milestone_Free_01 I-was-born`.
+    static let bundel1_Milestone_Free_01IWasBorn = Rswift.ImageResource(bundle: R.hostingBundle, name: "Bundel1_Milestone_Free_01 I-was-born")
+    /// Image `Bundel1_Milestone_Free_02 I'm-Home`.
+    static let bundel1_Milestone_Free_02IMHome = Rswift.ImageResource(bundle: R.hostingBundle, name: "Bundel1_Milestone_Free_02 I'm-Home")
+    /// Image `Bundel1_Milestone_Free_03 I-can-lift-my-head`.
+    static let bundel1_Milestone_Free_03ICanLiftMyHead = Rswift.ImageResource(bundle: R.hostingBundle, name: "Bundel1_Milestone_Free_03 I-can-lift-my-head")
+    /// Image `Bundel1_Milestone_Premium_04 Bath-time`.
+    static let bundel1_Milestone_Premium_04BathTime = Rswift.ImageResource(bundle: R.hostingBundle, name: "Bundel1_Milestone_Premium_04 Bath-time")
+    /// Image `Bundel1_Milestone_Premium_05 At-the-beach`.
+    static let bundel1_Milestone_Premium_05AtTheBeach = Rswift.ImageResource(bundle: R.hostingBundle, name: "Bundel1_Milestone_Premium_05 At-the-beach")
+    /// Image `Bundel1_Milestone_Premium_06 First-step`.
+    static let bundel1_Milestone_Premium_06FirstStep = Rswift.ImageResource(bundle: R.hostingBundle, name: "Bundel1_Milestone_Premium_06 First-step")
+    /// Image `Bundel1_Milestone_Premium_07 First-tower`.
+    static let bundel1_Milestone_Premium_07FirstTower = Rswift.ImageResource(bundle: R.hostingBundle, name: "Bundel1_Milestone_Premium_07 First-tower")
+    /// Image `Bundel1_Milestone_Premium_08 Happy-birthday`.
+    static let bundel1_Milestone_Premium_08HappyBirthday = Rswift.ImageResource(bundle: R.hostingBundle, name: "Bundel1_Milestone_Premium_08 Happy-birthday")
+    /// Image `Bundel1_Milestone_Premium_09 Happy-holidays`.
+    static let bundel1_Milestone_Premium_09HappyHolidays = Rswift.ImageResource(bundle: R.hostingBundle, name: "Bundel1_Milestone_Premium_09 Happy-holidays")
+    /// Image `Bundel1_Milestone_Premium_10 I-can-clap`.
+    static let bundel1_Milestone_Premium_10ICanClap = Rswift.ImageResource(bundle: R.hostingBundle, name: "Bundel1_Milestone_Premium_10 I-can-clap")
+    /// Image `Bundel1_Milestone_Premium_11 I-can-crawl`.
+    static let bundel1_Milestone_Premium_11ICanCrawl = Rswift.ImageResource(bundle: R.hostingBundle, name: "Bundel1_Milestone_Premium_11 I-can-crawl")
+    /// Image `Bundel1_Milestone_Premium_12 I-can-dance`.
+    static let bundel1_Milestone_Premium_12ICanDance = Rswift.ImageResource(bundle: R.hostingBundle, name: "Bundel1_Milestone_Premium_12 I-can-dance")
+    /// Image `Bundel1_Milestone_Premium_13 I-can-drink`.
+    static let bundel1_Milestone_Premium_13ICanDrink = Rswift.ImageResource(bundle: R.hostingBundle, name: "Bundel1_Milestone_Premium_13 I-can-drink")
+    /// Image `Bundel1_Milestone_Premium_14 I-can-jump`.
+    static let bundel1_Milestone_Premium_14ICanJump = Rswift.ImageResource(bundle: R.hostingBundle, name: "Bundel1_Milestone_Premium_14 I-can-jump")
+    /// Image `Bundel1_Milestone_Premium_15 I-can-read`.
+    static let bundel1_Milestone_Premium_15ICanRead = Rswift.ImageResource(bundle: R.hostingBundle, name: "Bundel1_Milestone_Premium_15 I-can-read")
+    /// Image `Bundel1_Milestone_Premium_16 I-can-roll-over`.
+    static let bundel1_Milestone_Premium_16ICanRollOver = Rswift.ImageResource(bundle: R.hostingBundle, name: "Bundel1_Milestone_Premium_16 I-can-roll-over")
+    /// Image `Bundel1_Milestone_Premium_17 I-can-run`.
+    static let bundel1_Milestone_Premium_17ICanRun = Rswift.ImageResource(bundle: R.hostingBundle, name: "Bundel1_Milestone_Premium_17 I-can-run")
+    /// Image `Bundel1_Milestone_Premium_18 I-can-sit`.
+    static let bundel1_Milestone_Premium_18ICanSit = Rswift.ImageResource(bundle: R.hostingBundle, name: "Bundel1_Milestone_Premium_18 I-can-sit")
+    /// Image `Bundel1_Milestone_Premium_19 I-can-stand`.
+    static let bundel1_Milestone_Premium_19ICanStand = Rswift.ImageResource(bundle: R.hostingBundle, name: "Bundel1_Milestone_Premium_19 I-can-stand")
+    /// Image `Bundel1_Milestone_Premium_20 I-can-swim`.
+    static let bundel1_Milestone_Premium_20ICanSwim = Rswift.ImageResource(bundle: R.hostingBundle, name: "Bundel1_Milestone_Premium_20 I-can-swim")
+    /// Image `Bundel1_Milestone_Premium_21 I-can-walk`.
+    static let bundel1_Milestone_Premium_21ICanWalk = Rswift.ImageResource(bundle: R.hostingBundle, name: "Bundel1_Milestone_Premium_21 I-can-walk")
+    /// Image `Bundel1_Milestone_Premium_22 I-love-food`.
+    static let bundel1_Milestone_Premium_22ILoveFood = Rswift.ImageResource(bundle: R.hostingBundle, name: "Bundel1_Milestone_Premium_22 I-love-food")
+    /// Image `Bundel1_Milestone_Premium_23 I-love-hugs`.
+    static let bundel1_Milestone_Premium_23ILoveHugs = Rswift.ImageResource(bundle: R.hostingBundle, name: "Bundel1_Milestone_Premium_23 I-love-hugs")
+    /// Image `Bundel1_Milestone_Premium_24 I-love-my-sleep`.
+    static let bundel1_Milestone_Premium_24ILoveMySleep = Rswift.ImageResource(bundle: R.hostingBundle, name: "Bundel1_Milestone_Premium_24 I-love-my-sleep")
+    /// Image `Bundel1_Milestone_Premium_25 I-love-this-toy`.
+    static let bundel1_Milestone_Premium_25ILoveThisToy = Rswift.ImageResource(bundle: R.hostingBundle, name: "Bundel1_Milestone_Premium_25 I-love-this-toy")
+    /// Image `Bundel1_Milestone_Premium_26 I-sletp-all-night`.
+    static let bundel1_Milestone_Premium_26ISletpAllNight = Rswift.ImageResource(bundle: R.hostingBundle, name: "Bundel1_Milestone_Premium_26 I-sletp-all-night")
+    /// Image `Bundel1_Milestone_Premium_27 I-wave-bye`.
+    static let bundel1_Milestone_Premium_27IWaveBye = Rswift.ImageResource(bundle: R.hostingBundle, name: "Bundel1_Milestone_Premium_27 I-wave-bye")
+    /// Image `Bundel1_Milestone_Premium_28 Im-smiling`.
+    static let bundel1_Milestone_Premium_28ImSmiling = Rswift.ImageResource(bundle: R.hostingBundle, name: "Bundel1_Milestone_Premium_28 Im-smiling")
+    /// Image `Bundel1_Milestone_Premium_29 In-the-park`.
+    static let bundel1_Milestone_Premium_29InThePark = Rswift.ImageResource(bundle: R.hostingBundle, name: "Bundel1_Milestone_Premium_29 In-the-park")
+    /// Image `Bundel1_Milestone_Premium_30 In-the-snow`.
+    static let bundel1_Milestone_Premium_30InTheSnow = Rswift.ImageResource(bundle: R.hostingBundle, name: "Bundel1_Milestone_Premium_30 In-the-snow")
+    /// Image `Bundel1_Milestone_Premium_31 Meal-time`.
+    static let bundel1_Milestone_Premium_31MealTime = Rswift.ImageResource(bundle: R.hostingBundle, name: "Bundel1_Milestone_Premium_31 Meal-time")
+    /// Image `Bundel1_Milestone_Premium_32 My-first-bed`.
+    static let bundel1_Milestone_Premium_32MyFirstBed = Rswift.ImageResource(bundle: R.hostingBundle, name: "Bundel1_Milestone_Premium_32 My-first-bed")
+    /// Image `Bundel1_Milestone_Premium_33 My-first-shoes`.
+    static let bundel1_Milestone_Premium_33MyFirstShoes = Rswift.ImageResource(bundle: R.hostingBundle, name: "Bundel1_Milestone_Premium_33 My-first-shoes")
+    /// Image `Bundel1_Milestone_Premium_34 My-first-sunglasses`.
+    static let bundel1_Milestone_Premium_34MyFirstSunglasses = Rswift.ImageResource(bundle: R.hostingBundle, name: "Bundel1_Milestone_Premium_34 My-first-sunglasses")
+    /// Image `Bundel1_Milestone_Premium_35 My-messy-face`.
+    static let bundel1_Milestone_Premium_35MyMessyFace = Rswift.ImageResource(bundle: R.hostingBundle, name: "Bundel1_Milestone_Premium_35 My-messy-face")
+    /// Image `Bundel1_Milestone_Premium_36 My-new-haircut`.
+    static let bundel1_Milestone_Premium_36MyNewHaircut = Rswift.ImageResource(bundle: R.hostingBundle, name: "Bundel1_Milestone_Premium_36 My-new-haircut")
+    /// Image `Bundel1_Milestone_Premium_37 My-new-outfit`.
+    static let bundel1_Milestone_Premium_37MyNewOutfit = Rswift.ImageResource(bundle: R.hostingBundle, name: "Bundel1_Milestone_Premium_37 My-new-outfit")
+    /// Image `Bundel1_Milestone_Premium_38 New-tooth`.
+    static let bundel1_Milestone_Premium_38NewTooth = Rswift.ImageResource(bundle: R.hostingBundle, name: "Bundel1_Milestone_Premium_38 New-tooth")
+    /// Image `Bundel1_Moment_Free_01 Mama`.
+    static let bundel1_Moment_Free_01Mama = Rswift.ImageResource(bundle: R.hostingBundle, name: "Bundel1_Moment_Free_01 Mama")
+    /// Image `Bundel1_Moment_Free_02 Family2`.
+    static let bundel1_Moment_Free_02Family2 = Rswift.ImageResource(bundle: R.hostingBundle, name: "Bundel1_Moment_Free_02 Family2")
+    /// Image `Bundel1_Moment_Premium_03 Daddy`.
+    static let bundel1_Moment_Premium_03Daddy = Rswift.ImageResource(bundle: R.hostingBundle, name: "Bundel1_Moment_Premium_03 Daddy")
+    /// Image `Bundel1_Moment_Premium_04 Grandma`.
+    static let bundel1_Moment_Premium_04Grandma = Rswift.ImageResource(bundle: R.hostingBundle, name: "Bundel1_Moment_Premium_04 Grandma")
+    /// Image `Bundel1_Moment_Premium_05 Grandpa`.
+    static let bundel1_Moment_Premium_05Grandpa = Rswift.ImageResource(bundle: R.hostingBundle, name: "Bundel1_Moment_Premium_05 Grandpa")
+    /// Image `Bundel1_Moment_Premium_06 Brother`.
+    static let bundel1_Moment_Premium_06Brother = Rswift.ImageResource(bundle: R.hostingBundle, name: "Bundel1_Moment_Premium_06 Brother")
+    /// Image `Bundel1_Moment_Premium_07 Sister`.
+    static let bundel1_Moment_Premium_07Sister = Rswift.ImageResource(bundle: R.hostingBundle, name: "Bundel1_Moment_Premium_07 Sister")
+    /// Image `Bundel1_Moment_Premium_08Family`.
+    static let bundel1_Moment_Premium_08Family = Rswift.ImageResource(bundle: R.hostingBundle, name: "Bundel1_Moment_Premium_08Family")
+    /// Image `Bundel1_Moment_Premium_09 Moment`.
+    static let bundel1_Moment_Premium_09Moment = Rswift.ImageResource(bundle: R.hostingBundle, name: "Bundel1_Moment_Premium_09 Moment")
+    /// Image `Bundel1_Speech_Free_01 Found-my-hands`.
+    static let bundel1_Speech_Free_01FoundMyHands = Rswift.ImageResource(bundle: R.hostingBundle, name: "Bundel1_Speech_Free_01 Found-my-hands")
+    /// Image `Bundel1_Speech_Free_02 So-funny`.
+    static let bundel1_Speech_Free_02SoFunny = Rswift.ImageResource(bundle: R.hostingBundle, name: "Bundel1_Speech_Free_02 So-funny")
+    /// Image `Bundel1_Speech_Premium_03 Can-say-mama`.
+    static let bundel1_Speech_Premium_03CanSayMama = Rswift.ImageResource(bundle: R.hostingBundle, name: "Bundel1_Speech_Premium_03 Can-say-mama")
+    /// Image `Bundel1_Speech_Premium_04 I-can-say-dada`.
+    static let bundel1_Speech_Premium_04ICanSayDada = Rswift.ImageResource(bundle: R.hostingBundle, name: "Bundel1_Speech_Premium_04 I-can-say-dada")
+    /// Image `Bundel1_Speech_Premium_05 I-Can-say-mama`.
+    static let bundel1_Speech_Premium_05ICanSayMama = Rswift.ImageResource(bundle: R.hostingBundle, name: "Bundel1_Speech_Premium_05 I-Can-say-mama")
+    /// Image `Bundel1_Speech_Premium_06 So-funny-v2`.
+    static let bundel1_Speech_Premium_06SoFunnyV2 = Rswift.ImageResource(bundle: R.hostingBundle, name: "Bundel1_Speech_Premium_06 So-funny-v2")
+    /// Image `Bundel1_Speech_Premium_07 peack-a-boo`.
+    static let bundel1_Speech_Premium_07PeackABoo = Rswift.ImageResource(bundle: R.hostingBundle, name: "Bundel1_Speech_Premium_07 peack-a-boo")
+    /// Image `Bundel1_Speech_Premium_08 I-found-my-feet`.
+    static let bundel1_Speech_Premium_08IFoundMyFeet = Rswift.ImageResource(bundle: R.hostingBundle, name: "Bundel1_Speech_Premium_08 I-found-my-feet")
+    /// Image `Bundel1_Speech_Premium_09 I-can-say-why`.
+    static let bundel1_Speech_Premium_09ICanSayWhy = Rswift.ImageResource(bundle: R.hostingBundle, name: "Bundel1_Speech_Premium_09 I-can-say-why")
+    /// Image `Bundel1_Speech_Premium_10 I-can-sing`.
+    static let bundel1_Speech_Premium_10ICanSing = Rswift.ImageResource(bundle: R.hostingBundle, name: "Bundel1_Speech_Premium_10 I-can-sing")
+    /// Image `Development images_week 1.jpg`.
+    static let developmentImages_week1Jpg = Rswift.ImageResource(bundle: R.hostingBundle, name: "Development images_week 1.jpg")
+    /// Image `Development images_week 2.jpg`.
+    static let developmentImages_week2Jpg = Rswift.ImageResource(bundle: R.hostingBundle, name: "Development images_week 2.jpg")
+    /// Image `Development images_week 3.jpg`.
+    static let developmentImages_week3Jpg = Rswift.ImageResource(bundle: R.hostingBundle, name: "Development images_week 3.jpg")
+    /// Image `Development images_week 4.jpg`.
+    static let developmentImages_week4Jpg = Rswift.ImageResource(bundle: R.hostingBundle, name: "Development images_week 4.jpg")
+    /// Image `Development images_week 5.jpg`.
+    static let developmentImages_week5Jpg = Rswift.ImageResource(bundle: R.hostingBundle, name: "Development images_week 5.jpg")
+    /// Image `Development images_week 6.jpg`.
+    static let developmentImages_week6Jpg = Rswift.ImageResource(bundle: R.hostingBundle, name: "Development images_week 6.jpg")
+    /// Image `Development images_week 7.jpg`.
+    static let developmentImages_week7Jpg = Rswift.ImageResource(bundle: R.hostingBundle, name: "Development images_week 7.jpg")
+    /// Image `Development images_week 8.jpg`.
+    static let developmentImages_week8Jpg = Rswift.ImageResource(bundle: R.hostingBundle, name: "Development images_week 8.jpg")
     /// Image `baby.jpg`.
     static let babyJpg = Rswift.ImageResource(bundle: R.hostingBundle, name: "baby.jpg")
+    /// Image `baby_banner.jpg`.
+    static let baby_bannerJpg = Rswift.ImageResource(bundle: R.hostingBundle, name: "baby_banner.jpg")
     /// Image `back`.
     static let back = Rswift.ImageResource(bundle: R.hostingBundle, name: "back")
     /// Image `background`.
@@ -186,6 +1390,8 @@ struct R: Rswift.Validatable {
     static let ic_blog_tabbar = Rswift.ImageResource(bundle: R.hostingBundle, name: "ic_blog_tabbar")
     /// Image `ic_checked`.
     static let ic_checked = Rswift.ImageResource(bundle: R.hostingBundle, name: "ic_checked")
+    /// Image `ic_checkmark`.
+    static let ic_checkmark = Rswift.ImageResource(bundle: R.hostingBundle, name: "ic_checkmark")
     /// Image `ic_help`.
     static let ic_help = Rswift.ImageResource(bundle: R.hostingBundle, name: "ic_help")
     /// Image `ic_line_chart`.
@@ -194,6 +1400,8 @@ struct R: Rswift.Validatable {
     static let ic_logout = Rswift.ImageResource(bundle: R.hostingBundle, name: "ic_logout")
     /// Image `ic_plus_header`.
     static let ic_plus_header = Rswift.ImageResource(bundle: R.hostingBundle, name: "ic_plus_header")
+    /// Image `ic_plus`.
+    static let ic_plus = Rswift.ImageResource(bundle: R.hostingBundle, name: "ic_plus")
     /// Image `ic_report_error`.
     static let ic_report_error = Rswift.ImageResource(bundle: R.hostingBundle, name: "ic_report_error")
     /// Image `ic_ruler`.
@@ -233,9 +1441,579 @@ struct R: Rswift.Validatable {
     /// Image `send`.
     static let send = Rswift.ImageResource(bundle: R.hostingBundle, name: "send")
     
+    /// `UIImage(named: "Age Badge month 1 blue", bundle: ..., traitCollection: ...)`
+    static func ageBadgeMonth1Blue(compatibleWith traitCollection: UIKit.UITraitCollection? = nil) -> UIKit.UIImage? {
+      return UIKit.UIImage(resource: R.image.ageBadgeMonth1Blue, compatibleWith: traitCollection)
+    }
+    
+    /// `UIImage(named: "Age Badge month 1 green", bundle: ..., traitCollection: ...)`
+    static func ageBadgeMonth1Green(compatibleWith traitCollection: UIKit.UITraitCollection? = nil) -> UIKit.UIImage? {
+      return UIKit.UIImage(resource: R.image.ageBadgeMonth1Green, compatibleWith: traitCollection)
+    }
+    
+    /// `UIImage(named: "Age Badge month 1 pink", bundle: ..., traitCollection: ...)`
+    static func ageBadgeMonth1Pink(compatibleWith traitCollection: UIKit.UITraitCollection? = nil) -> UIKit.UIImage? {
+      return UIKit.UIImage(resource: R.image.ageBadgeMonth1Pink, compatibleWith: traitCollection)
+    }
+    
+    /// `UIImage(named: "Age Badge month 2 blue", bundle: ..., traitCollection: ...)`
+    static func ageBadgeMonth2Blue(compatibleWith traitCollection: UIKit.UITraitCollection? = nil) -> UIKit.UIImage? {
+      return UIKit.UIImage(resource: R.image.ageBadgeMonth2Blue, compatibleWith: traitCollection)
+    }
+    
+    /// `UIImage(named: "Age Badge month 2 green", bundle: ..., traitCollection: ...)`
+    static func ageBadgeMonth2Green(compatibleWith traitCollection: UIKit.UITraitCollection? = nil) -> UIKit.UIImage? {
+      return UIKit.UIImage(resource: R.image.ageBadgeMonth2Green, compatibleWith: traitCollection)
+    }
+    
+    /// `UIImage(named: "Age Badge month 2 pink", bundle: ..., traitCollection: ...)`
+    static func ageBadgeMonth2Pink(compatibleWith traitCollection: UIKit.UITraitCollection? = nil) -> UIKit.UIImage? {
+      return UIKit.UIImage(resource: R.image.ageBadgeMonth2Pink, compatibleWith: traitCollection)
+    }
+    
+    /// `UIImage(named: "Age Badge month 3 blue", bundle: ..., traitCollection: ...)`
+    static func ageBadgeMonth3Blue(compatibleWith traitCollection: UIKit.UITraitCollection? = nil) -> UIKit.UIImage? {
+      return UIKit.UIImage(resource: R.image.ageBadgeMonth3Blue, compatibleWith: traitCollection)
+    }
+    
+    /// `UIImage(named: "Age Badge month 3 green", bundle: ..., traitCollection: ...)`
+    static func ageBadgeMonth3Green(compatibleWith traitCollection: UIKit.UITraitCollection? = nil) -> UIKit.UIImage? {
+      return UIKit.UIImage(resource: R.image.ageBadgeMonth3Green, compatibleWith: traitCollection)
+    }
+    
+    /// `UIImage(named: "Age Badge month 3 pink", bundle: ..., traitCollection: ...)`
+    static func ageBadgeMonth3Pink(compatibleWith traitCollection: UIKit.UITraitCollection? = nil) -> UIKit.UIImage? {
+      return UIKit.UIImage(resource: R.image.ageBadgeMonth3Pink, compatibleWith: traitCollection)
+    }
+    
+    /// `UIImage(named: "Age Badge month 4 blue", bundle: ..., traitCollection: ...)`
+    static func ageBadgeMonth4Blue(compatibleWith traitCollection: UIKit.UITraitCollection? = nil) -> UIKit.UIImage? {
+      return UIKit.UIImage(resource: R.image.ageBadgeMonth4Blue, compatibleWith: traitCollection)
+    }
+    
+    /// `UIImage(named: "Age Badge month 4 green", bundle: ..., traitCollection: ...)`
+    static func ageBadgeMonth4Green(compatibleWith traitCollection: UIKit.UITraitCollection? = nil) -> UIKit.UIImage? {
+      return UIKit.UIImage(resource: R.image.ageBadgeMonth4Green, compatibleWith: traitCollection)
+    }
+    
+    /// `UIImage(named: "Age Badge month 4 pink", bundle: ..., traitCollection: ...)`
+    static func ageBadgeMonth4Pink(compatibleWith traitCollection: UIKit.UITraitCollection? = nil) -> UIKit.UIImage? {
+      return UIKit.UIImage(resource: R.image.ageBadgeMonth4Pink, compatibleWith: traitCollection)
+    }
+    
+    /// `UIImage(named: "Age Badge month 5 blue", bundle: ..., traitCollection: ...)`
+    static func ageBadgeMonth5Blue(compatibleWith traitCollection: UIKit.UITraitCollection? = nil) -> UIKit.UIImage? {
+      return UIKit.UIImage(resource: R.image.ageBadgeMonth5Blue, compatibleWith: traitCollection)
+    }
+    
+    /// `UIImage(named: "Age Badge month 5 green", bundle: ..., traitCollection: ...)`
+    static func ageBadgeMonth5Green(compatibleWith traitCollection: UIKit.UITraitCollection? = nil) -> UIKit.UIImage? {
+      return UIKit.UIImage(resource: R.image.ageBadgeMonth5Green, compatibleWith: traitCollection)
+    }
+    
+    /// `UIImage(named: "Age Badge month 5 pink", bundle: ..., traitCollection: ...)`
+    static func ageBadgeMonth5Pink(compatibleWith traitCollection: UIKit.UITraitCollection? = nil) -> UIKit.UIImage? {
+      return UIKit.UIImage(resource: R.image.ageBadgeMonth5Pink, compatibleWith: traitCollection)
+    }
+    
+    /// `UIImage(named: "Age Badges month 10 blue", bundle: ..., traitCollection: ...)`
+    static func ageBadgesMonth10Blue(compatibleWith traitCollection: UIKit.UITraitCollection? = nil) -> UIKit.UIImage? {
+      return UIKit.UIImage(resource: R.image.ageBadgesMonth10Blue, compatibleWith: traitCollection)
+    }
+    
+    /// `UIImage(named: "Age Badges month 10 green", bundle: ..., traitCollection: ...)`
+    static func ageBadgesMonth10Green(compatibleWith traitCollection: UIKit.UITraitCollection? = nil) -> UIKit.UIImage? {
+      return UIKit.UIImage(resource: R.image.ageBadgesMonth10Green, compatibleWith: traitCollection)
+    }
+    
+    /// `UIImage(named: "Age Badges month 10 pink", bundle: ..., traitCollection: ...)`
+    static func ageBadgesMonth10Pink(compatibleWith traitCollection: UIKit.UITraitCollection? = nil) -> UIKit.UIImage? {
+      return UIKit.UIImage(resource: R.image.ageBadgesMonth10Pink, compatibleWith: traitCollection)
+    }
+    
+    /// `UIImage(named: "Age Badges month 11 blue", bundle: ..., traitCollection: ...)`
+    static func ageBadgesMonth11Blue(compatibleWith traitCollection: UIKit.UITraitCollection? = nil) -> UIKit.UIImage? {
+      return UIKit.UIImage(resource: R.image.ageBadgesMonth11Blue, compatibleWith: traitCollection)
+    }
+    
+    /// `UIImage(named: "Age Badges month 11 green", bundle: ..., traitCollection: ...)`
+    static func ageBadgesMonth11Green(compatibleWith traitCollection: UIKit.UITraitCollection? = nil) -> UIKit.UIImage? {
+      return UIKit.UIImage(resource: R.image.ageBadgesMonth11Green, compatibleWith: traitCollection)
+    }
+    
+    /// `UIImage(named: "Age Badges month 11 pink", bundle: ..., traitCollection: ...)`
+    static func ageBadgesMonth11Pink(compatibleWith traitCollection: UIKit.UITraitCollection? = nil) -> UIKit.UIImage? {
+      return UIKit.UIImage(resource: R.image.ageBadgesMonth11Pink, compatibleWith: traitCollection)
+    }
+    
+    /// `UIImage(named: "Age Badges month 12 blue", bundle: ..., traitCollection: ...)`
+    static func ageBadgesMonth12Blue(compatibleWith traitCollection: UIKit.UITraitCollection? = nil) -> UIKit.UIImage? {
+      return UIKit.UIImage(resource: R.image.ageBadgesMonth12Blue, compatibleWith: traitCollection)
+    }
+    
+    /// `UIImage(named: "Age Badges month 12 green", bundle: ..., traitCollection: ...)`
+    static func ageBadgesMonth12Green(compatibleWith traitCollection: UIKit.UITraitCollection? = nil) -> UIKit.UIImage? {
+      return UIKit.UIImage(resource: R.image.ageBadgesMonth12Green, compatibleWith: traitCollection)
+    }
+    
+    /// `UIImage(named: "Age Badges month 12 pink", bundle: ..., traitCollection: ...)`
+    static func ageBadgesMonth12Pink(compatibleWith traitCollection: UIKit.UITraitCollection? = nil) -> UIKit.UIImage? {
+      return UIKit.UIImage(resource: R.image.ageBadgesMonth12Pink, compatibleWith: traitCollection)
+    }
+    
+    /// `UIImage(named: "Age Badges month 6 blue", bundle: ..., traitCollection: ...)`
+    static func ageBadgesMonth6Blue(compatibleWith traitCollection: UIKit.UITraitCollection? = nil) -> UIKit.UIImage? {
+      return UIKit.UIImage(resource: R.image.ageBadgesMonth6Blue, compatibleWith: traitCollection)
+    }
+    
+    /// `UIImage(named: "Age Badges month 6 green", bundle: ..., traitCollection: ...)`
+    static func ageBadgesMonth6Green(compatibleWith traitCollection: UIKit.UITraitCollection? = nil) -> UIKit.UIImage? {
+      return UIKit.UIImage(resource: R.image.ageBadgesMonth6Green, compatibleWith: traitCollection)
+    }
+    
+    /// `UIImage(named: "Age Badges month 6 pink", bundle: ..., traitCollection: ...)`
+    static func ageBadgesMonth6Pink(compatibleWith traitCollection: UIKit.UITraitCollection? = nil) -> UIKit.UIImage? {
+      return UIKit.UIImage(resource: R.image.ageBadgesMonth6Pink, compatibleWith: traitCollection)
+    }
+    
+    /// `UIImage(named: "Age Badges month 7 blue", bundle: ..., traitCollection: ...)`
+    static func ageBadgesMonth7Blue(compatibleWith traitCollection: UIKit.UITraitCollection? = nil) -> UIKit.UIImage? {
+      return UIKit.UIImage(resource: R.image.ageBadgesMonth7Blue, compatibleWith: traitCollection)
+    }
+    
+    /// `UIImage(named: "Age Badges month 7 green", bundle: ..., traitCollection: ...)`
+    static func ageBadgesMonth7Green(compatibleWith traitCollection: UIKit.UITraitCollection? = nil) -> UIKit.UIImage? {
+      return UIKit.UIImage(resource: R.image.ageBadgesMonth7Green, compatibleWith: traitCollection)
+    }
+    
+    /// `UIImage(named: "Age Badges month 7 pink", bundle: ..., traitCollection: ...)`
+    static func ageBadgesMonth7Pink(compatibleWith traitCollection: UIKit.UITraitCollection? = nil) -> UIKit.UIImage? {
+      return UIKit.UIImage(resource: R.image.ageBadgesMonth7Pink, compatibleWith: traitCollection)
+    }
+    
+    /// `UIImage(named: "Age Badges month 8 blue", bundle: ..., traitCollection: ...)`
+    static func ageBadgesMonth8Blue(compatibleWith traitCollection: UIKit.UITraitCollection? = nil) -> UIKit.UIImage? {
+      return UIKit.UIImage(resource: R.image.ageBadgesMonth8Blue, compatibleWith: traitCollection)
+    }
+    
+    /// `UIImage(named: "Age Badges month 8 green", bundle: ..., traitCollection: ...)`
+    static func ageBadgesMonth8Green(compatibleWith traitCollection: UIKit.UITraitCollection? = nil) -> UIKit.UIImage? {
+      return UIKit.UIImage(resource: R.image.ageBadgesMonth8Green, compatibleWith: traitCollection)
+    }
+    
+    /// `UIImage(named: "Age Badges month 8 pink", bundle: ..., traitCollection: ...)`
+    static func ageBadgesMonth8Pink(compatibleWith traitCollection: UIKit.UITraitCollection? = nil) -> UIKit.UIImage? {
+      return UIKit.UIImage(resource: R.image.ageBadgesMonth8Pink, compatibleWith: traitCollection)
+    }
+    
+    /// `UIImage(named: "Age Badges month 9 blue", bundle: ..., traitCollection: ...)`
+    static func ageBadgesMonth9Blue(compatibleWith traitCollection: UIKit.UITraitCollection? = nil) -> UIKit.UIImage? {
+      return UIKit.UIImage(resource: R.image.ageBadgesMonth9Blue, compatibleWith: traitCollection)
+    }
+    
+    /// `UIImage(named: "Age Badges month 9 green", bundle: ..., traitCollection: ...)`
+    static func ageBadgesMonth9Green(compatibleWith traitCollection: UIKit.UITraitCollection? = nil) -> UIKit.UIImage? {
+      return UIKit.UIImage(resource: R.image.ageBadgesMonth9Green, compatibleWith: traitCollection)
+    }
+    
+    /// `UIImage(named: "Age Badges month 9 pink", bundle: ..., traitCollection: ...)`
+    static func ageBadgesMonth9Pink(compatibleWith traitCollection: UIKit.UITraitCollection? = nil) -> UIKit.UIImage? {
+      return UIKit.UIImage(resource: R.image.ageBadgesMonth9Pink, compatibleWith: traitCollection)
+    }
+    
+    /// `UIImage(named: "Age Badges week 1 blue", bundle: ..., traitCollection: ...)`
+    static func ageBadgesWeek1Blue(compatibleWith traitCollection: UIKit.UITraitCollection? = nil) -> UIKit.UIImage? {
+      return UIKit.UIImage(resource: R.image.ageBadgesWeek1Blue, compatibleWith: traitCollection)
+    }
+    
+    /// `UIImage(named: "Age Badges week 1 green", bundle: ..., traitCollection: ...)`
+    static func ageBadgesWeek1Green(compatibleWith traitCollection: UIKit.UITraitCollection? = nil) -> UIKit.UIImage? {
+      return UIKit.UIImage(resource: R.image.ageBadgesWeek1Green, compatibleWith: traitCollection)
+    }
+    
+    /// `UIImage(named: "Age Badges week 1 pink", bundle: ..., traitCollection: ...)`
+    static func ageBadgesWeek1Pink(compatibleWith traitCollection: UIKit.UITraitCollection? = nil) -> UIKit.UIImage? {
+      return UIKit.UIImage(resource: R.image.ageBadgesWeek1Pink, compatibleWith: traitCollection)
+    }
+    
+    /// `UIImage(named: "Age Badges week 2 blue", bundle: ..., traitCollection: ...)`
+    static func ageBadgesWeek2Blue(compatibleWith traitCollection: UIKit.UITraitCollection? = nil) -> UIKit.UIImage? {
+      return UIKit.UIImage(resource: R.image.ageBadgesWeek2Blue, compatibleWith: traitCollection)
+    }
+    
+    /// `UIImage(named: "Age Badges week 2 green", bundle: ..., traitCollection: ...)`
+    static func ageBadgesWeek2Green(compatibleWith traitCollection: UIKit.UITraitCollection? = nil) -> UIKit.UIImage? {
+      return UIKit.UIImage(resource: R.image.ageBadgesWeek2Green, compatibleWith: traitCollection)
+    }
+    
+    /// `UIImage(named: "Age Badges week 2 pink", bundle: ..., traitCollection: ...)`
+    static func ageBadgesWeek2Pink(compatibleWith traitCollection: UIKit.UITraitCollection? = nil) -> UIKit.UIImage? {
+      return UIKit.UIImage(resource: R.image.ageBadgesWeek2Pink, compatibleWith: traitCollection)
+    }
+    
+    /// `UIImage(named: "Age Badges week 3 blue", bundle: ..., traitCollection: ...)`
+    static func ageBadgesWeek3Blue(compatibleWith traitCollection: UIKit.UITraitCollection? = nil) -> UIKit.UIImage? {
+      return UIKit.UIImage(resource: R.image.ageBadgesWeek3Blue, compatibleWith: traitCollection)
+    }
+    
+    /// `UIImage(named: "Age Badges week 3 green", bundle: ..., traitCollection: ...)`
+    static func ageBadgesWeek3Green(compatibleWith traitCollection: UIKit.UITraitCollection? = nil) -> UIKit.UIImage? {
+      return UIKit.UIImage(resource: R.image.ageBadgesWeek3Green, compatibleWith: traitCollection)
+    }
+    
+    /// `UIImage(named: "Age Badges week 3 pink", bundle: ..., traitCollection: ...)`
+    static func ageBadgesWeek3Pink(compatibleWith traitCollection: UIKit.UITraitCollection? = nil) -> UIKit.UIImage? {
+      return UIKit.UIImage(resource: R.image.ageBadgesWeek3Pink, compatibleWith: traitCollection)
+    }
+    
+    /// `UIImage(named: "Age Badges week 4 blue", bundle: ..., traitCollection: ...)`
+    static func ageBadgesWeek4Blue(compatibleWith traitCollection: UIKit.UITraitCollection? = nil) -> UIKit.UIImage? {
+      return UIKit.UIImage(resource: R.image.ageBadgesWeek4Blue, compatibleWith: traitCollection)
+    }
+    
+    /// `UIImage(named: "Age Badges week 4 green", bundle: ..., traitCollection: ...)`
+    static func ageBadgesWeek4Green(compatibleWith traitCollection: UIKit.UITraitCollection? = nil) -> UIKit.UIImage? {
+      return UIKit.UIImage(resource: R.image.ageBadgesWeek4Green, compatibleWith: traitCollection)
+    }
+    
+    /// `UIImage(named: "Age Badges week 4 pink", bundle: ..., traitCollection: ...)`
+    static func ageBadgesWeek4Pink(compatibleWith traitCollection: UIKit.UITraitCollection? = nil) -> UIKit.UIImage? {
+      return UIKit.UIImage(resource: R.image.ageBadgesWeek4Pink, compatibleWith: traitCollection)
+    }
+    
+    /// `UIImage(named: "Bundel1_Milestone_Free_01 I-was-born", bundle: ..., traitCollection: ...)`
+    static func bundel1_Milestone_Free_01IWasBorn(compatibleWith traitCollection: UIKit.UITraitCollection? = nil) -> UIKit.UIImage? {
+      return UIKit.UIImage(resource: R.image.bundel1_Milestone_Free_01IWasBorn, compatibleWith: traitCollection)
+    }
+    
+    /// `UIImage(named: "Bundel1_Milestone_Free_02 I'm-Home", bundle: ..., traitCollection: ...)`
+    static func bundel1_Milestone_Free_02IMHome(compatibleWith traitCollection: UIKit.UITraitCollection? = nil) -> UIKit.UIImage? {
+      return UIKit.UIImage(resource: R.image.bundel1_Milestone_Free_02IMHome, compatibleWith: traitCollection)
+    }
+    
+    /// `UIImage(named: "Bundel1_Milestone_Free_03 I-can-lift-my-head", bundle: ..., traitCollection: ...)`
+    static func bundel1_Milestone_Free_03ICanLiftMyHead(compatibleWith traitCollection: UIKit.UITraitCollection? = nil) -> UIKit.UIImage? {
+      return UIKit.UIImage(resource: R.image.bundel1_Milestone_Free_03ICanLiftMyHead, compatibleWith: traitCollection)
+    }
+    
+    /// `UIImage(named: "Bundel1_Milestone_Premium_04 Bath-time", bundle: ..., traitCollection: ...)`
+    static func bundel1_Milestone_Premium_04BathTime(compatibleWith traitCollection: UIKit.UITraitCollection? = nil) -> UIKit.UIImage? {
+      return UIKit.UIImage(resource: R.image.bundel1_Milestone_Premium_04BathTime, compatibleWith: traitCollection)
+    }
+    
+    /// `UIImage(named: "Bundel1_Milestone_Premium_05 At-the-beach", bundle: ..., traitCollection: ...)`
+    static func bundel1_Milestone_Premium_05AtTheBeach(compatibleWith traitCollection: UIKit.UITraitCollection? = nil) -> UIKit.UIImage? {
+      return UIKit.UIImage(resource: R.image.bundel1_Milestone_Premium_05AtTheBeach, compatibleWith: traitCollection)
+    }
+    
+    /// `UIImage(named: "Bundel1_Milestone_Premium_06 First-step", bundle: ..., traitCollection: ...)`
+    static func bundel1_Milestone_Premium_06FirstStep(compatibleWith traitCollection: UIKit.UITraitCollection? = nil) -> UIKit.UIImage? {
+      return UIKit.UIImage(resource: R.image.bundel1_Milestone_Premium_06FirstStep, compatibleWith: traitCollection)
+    }
+    
+    /// `UIImage(named: "Bundel1_Milestone_Premium_07 First-tower", bundle: ..., traitCollection: ...)`
+    static func bundel1_Milestone_Premium_07FirstTower(compatibleWith traitCollection: UIKit.UITraitCollection? = nil) -> UIKit.UIImage? {
+      return UIKit.UIImage(resource: R.image.bundel1_Milestone_Premium_07FirstTower, compatibleWith: traitCollection)
+    }
+    
+    /// `UIImage(named: "Bundel1_Milestone_Premium_08 Happy-birthday", bundle: ..., traitCollection: ...)`
+    static func bundel1_Milestone_Premium_08HappyBirthday(compatibleWith traitCollection: UIKit.UITraitCollection? = nil) -> UIKit.UIImage? {
+      return UIKit.UIImage(resource: R.image.bundel1_Milestone_Premium_08HappyBirthday, compatibleWith: traitCollection)
+    }
+    
+    /// `UIImage(named: "Bundel1_Milestone_Premium_09 Happy-holidays", bundle: ..., traitCollection: ...)`
+    static func bundel1_Milestone_Premium_09HappyHolidays(compatibleWith traitCollection: UIKit.UITraitCollection? = nil) -> UIKit.UIImage? {
+      return UIKit.UIImage(resource: R.image.bundel1_Milestone_Premium_09HappyHolidays, compatibleWith: traitCollection)
+    }
+    
+    /// `UIImage(named: "Bundel1_Milestone_Premium_10 I-can-clap", bundle: ..., traitCollection: ...)`
+    static func bundel1_Milestone_Premium_10ICanClap(compatibleWith traitCollection: UIKit.UITraitCollection? = nil) -> UIKit.UIImage? {
+      return UIKit.UIImage(resource: R.image.bundel1_Milestone_Premium_10ICanClap, compatibleWith: traitCollection)
+    }
+    
+    /// `UIImage(named: "Bundel1_Milestone_Premium_11 I-can-crawl", bundle: ..., traitCollection: ...)`
+    static func bundel1_Milestone_Premium_11ICanCrawl(compatibleWith traitCollection: UIKit.UITraitCollection? = nil) -> UIKit.UIImage? {
+      return UIKit.UIImage(resource: R.image.bundel1_Milestone_Premium_11ICanCrawl, compatibleWith: traitCollection)
+    }
+    
+    /// `UIImage(named: "Bundel1_Milestone_Premium_12 I-can-dance", bundle: ..., traitCollection: ...)`
+    static func bundel1_Milestone_Premium_12ICanDance(compatibleWith traitCollection: UIKit.UITraitCollection? = nil) -> UIKit.UIImage? {
+      return UIKit.UIImage(resource: R.image.bundel1_Milestone_Premium_12ICanDance, compatibleWith: traitCollection)
+    }
+    
+    /// `UIImage(named: "Bundel1_Milestone_Premium_13 I-can-drink", bundle: ..., traitCollection: ...)`
+    static func bundel1_Milestone_Premium_13ICanDrink(compatibleWith traitCollection: UIKit.UITraitCollection? = nil) -> UIKit.UIImage? {
+      return UIKit.UIImage(resource: R.image.bundel1_Milestone_Premium_13ICanDrink, compatibleWith: traitCollection)
+    }
+    
+    /// `UIImage(named: "Bundel1_Milestone_Premium_14 I-can-jump", bundle: ..., traitCollection: ...)`
+    static func bundel1_Milestone_Premium_14ICanJump(compatibleWith traitCollection: UIKit.UITraitCollection? = nil) -> UIKit.UIImage? {
+      return UIKit.UIImage(resource: R.image.bundel1_Milestone_Premium_14ICanJump, compatibleWith: traitCollection)
+    }
+    
+    /// `UIImage(named: "Bundel1_Milestone_Premium_15 I-can-read", bundle: ..., traitCollection: ...)`
+    static func bundel1_Milestone_Premium_15ICanRead(compatibleWith traitCollection: UIKit.UITraitCollection? = nil) -> UIKit.UIImage? {
+      return UIKit.UIImage(resource: R.image.bundel1_Milestone_Premium_15ICanRead, compatibleWith: traitCollection)
+    }
+    
+    /// `UIImage(named: "Bundel1_Milestone_Premium_16 I-can-roll-over", bundle: ..., traitCollection: ...)`
+    static func bundel1_Milestone_Premium_16ICanRollOver(compatibleWith traitCollection: UIKit.UITraitCollection? = nil) -> UIKit.UIImage? {
+      return UIKit.UIImage(resource: R.image.bundel1_Milestone_Premium_16ICanRollOver, compatibleWith: traitCollection)
+    }
+    
+    /// `UIImage(named: "Bundel1_Milestone_Premium_17 I-can-run", bundle: ..., traitCollection: ...)`
+    static func bundel1_Milestone_Premium_17ICanRun(compatibleWith traitCollection: UIKit.UITraitCollection? = nil) -> UIKit.UIImage? {
+      return UIKit.UIImage(resource: R.image.bundel1_Milestone_Premium_17ICanRun, compatibleWith: traitCollection)
+    }
+    
+    /// `UIImage(named: "Bundel1_Milestone_Premium_18 I-can-sit", bundle: ..., traitCollection: ...)`
+    static func bundel1_Milestone_Premium_18ICanSit(compatibleWith traitCollection: UIKit.UITraitCollection? = nil) -> UIKit.UIImage? {
+      return UIKit.UIImage(resource: R.image.bundel1_Milestone_Premium_18ICanSit, compatibleWith: traitCollection)
+    }
+    
+    /// `UIImage(named: "Bundel1_Milestone_Premium_19 I-can-stand", bundle: ..., traitCollection: ...)`
+    static func bundel1_Milestone_Premium_19ICanStand(compatibleWith traitCollection: UIKit.UITraitCollection? = nil) -> UIKit.UIImage? {
+      return UIKit.UIImage(resource: R.image.bundel1_Milestone_Premium_19ICanStand, compatibleWith: traitCollection)
+    }
+    
+    /// `UIImage(named: "Bundel1_Milestone_Premium_20 I-can-swim", bundle: ..., traitCollection: ...)`
+    static func bundel1_Milestone_Premium_20ICanSwim(compatibleWith traitCollection: UIKit.UITraitCollection? = nil) -> UIKit.UIImage? {
+      return UIKit.UIImage(resource: R.image.bundel1_Milestone_Premium_20ICanSwim, compatibleWith: traitCollection)
+    }
+    
+    /// `UIImage(named: "Bundel1_Milestone_Premium_21 I-can-walk", bundle: ..., traitCollection: ...)`
+    static func bundel1_Milestone_Premium_21ICanWalk(compatibleWith traitCollection: UIKit.UITraitCollection? = nil) -> UIKit.UIImage? {
+      return UIKit.UIImage(resource: R.image.bundel1_Milestone_Premium_21ICanWalk, compatibleWith: traitCollection)
+    }
+    
+    /// `UIImage(named: "Bundel1_Milestone_Premium_22 I-love-food", bundle: ..., traitCollection: ...)`
+    static func bundel1_Milestone_Premium_22ILoveFood(compatibleWith traitCollection: UIKit.UITraitCollection? = nil) -> UIKit.UIImage? {
+      return UIKit.UIImage(resource: R.image.bundel1_Milestone_Premium_22ILoveFood, compatibleWith: traitCollection)
+    }
+    
+    /// `UIImage(named: "Bundel1_Milestone_Premium_23 I-love-hugs", bundle: ..., traitCollection: ...)`
+    static func bundel1_Milestone_Premium_23ILoveHugs(compatibleWith traitCollection: UIKit.UITraitCollection? = nil) -> UIKit.UIImage? {
+      return UIKit.UIImage(resource: R.image.bundel1_Milestone_Premium_23ILoveHugs, compatibleWith: traitCollection)
+    }
+    
+    /// `UIImage(named: "Bundel1_Milestone_Premium_24 I-love-my-sleep", bundle: ..., traitCollection: ...)`
+    static func bundel1_Milestone_Premium_24ILoveMySleep(compatibleWith traitCollection: UIKit.UITraitCollection? = nil) -> UIKit.UIImage? {
+      return UIKit.UIImage(resource: R.image.bundel1_Milestone_Premium_24ILoveMySleep, compatibleWith: traitCollection)
+    }
+    
+    /// `UIImage(named: "Bundel1_Milestone_Premium_25 I-love-this-toy", bundle: ..., traitCollection: ...)`
+    static func bundel1_Milestone_Premium_25ILoveThisToy(compatibleWith traitCollection: UIKit.UITraitCollection? = nil) -> UIKit.UIImage? {
+      return UIKit.UIImage(resource: R.image.bundel1_Milestone_Premium_25ILoveThisToy, compatibleWith: traitCollection)
+    }
+    
+    /// `UIImage(named: "Bundel1_Milestone_Premium_26 I-sletp-all-night", bundle: ..., traitCollection: ...)`
+    static func bundel1_Milestone_Premium_26ISletpAllNight(compatibleWith traitCollection: UIKit.UITraitCollection? = nil) -> UIKit.UIImage? {
+      return UIKit.UIImage(resource: R.image.bundel1_Milestone_Premium_26ISletpAllNight, compatibleWith: traitCollection)
+    }
+    
+    /// `UIImage(named: "Bundel1_Milestone_Premium_27 I-wave-bye", bundle: ..., traitCollection: ...)`
+    static func bundel1_Milestone_Premium_27IWaveBye(compatibleWith traitCollection: UIKit.UITraitCollection? = nil) -> UIKit.UIImage? {
+      return UIKit.UIImage(resource: R.image.bundel1_Milestone_Premium_27IWaveBye, compatibleWith: traitCollection)
+    }
+    
+    /// `UIImage(named: "Bundel1_Milestone_Premium_28 Im-smiling", bundle: ..., traitCollection: ...)`
+    static func bundel1_Milestone_Premium_28ImSmiling(compatibleWith traitCollection: UIKit.UITraitCollection? = nil) -> UIKit.UIImage? {
+      return UIKit.UIImage(resource: R.image.bundel1_Milestone_Premium_28ImSmiling, compatibleWith: traitCollection)
+    }
+    
+    /// `UIImage(named: "Bundel1_Milestone_Premium_29 In-the-park", bundle: ..., traitCollection: ...)`
+    static func bundel1_Milestone_Premium_29InThePark(compatibleWith traitCollection: UIKit.UITraitCollection? = nil) -> UIKit.UIImage? {
+      return UIKit.UIImage(resource: R.image.bundel1_Milestone_Premium_29InThePark, compatibleWith: traitCollection)
+    }
+    
+    /// `UIImage(named: "Bundel1_Milestone_Premium_30 In-the-snow", bundle: ..., traitCollection: ...)`
+    static func bundel1_Milestone_Premium_30InTheSnow(compatibleWith traitCollection: UIKit.UITraitCollection? = nil) -> UIKit.UIImage? {
+      return UIKit.UIImage(resource: R.image.bundel1_Milestone_Premium_30InTheSnow, compatibleWith: traitCollection)
+    }
+    
+    /// `UIImage(named: "Bundel1_Milestone_Premium_31 Meal-time", bundle: ..., traitCollection: ...)`
+    static func bundel1_Milestone_Premium_31MealTime(compatibleWith traitCollection: UIKit.UITraitCollection? = nil) -> UIKit.UIImage? {
+      return UIKit.UIImage(resource: R.image.bundel1_Milestone_Premium_31MealTime, compatibleWith: traitCollection)
+    }
+    
+    /// `UIImage(named: "Bundel1_Milestone_Premium_32 My-first-bed", bundle: ..., traitCollection: ...)`
+    static func bundel1_Milestone_Premium_32MyFirstBed(compatibleWith traitCollection: UIKit.UITraitCollection? = nil) -> UIKit.UIImage? {
+      return UIKit.UIImage(resource: R.image.bundel1_Milestone_Premium_32MyFirstBed, compatibleWith: traitCollection)
+    }
+    
+    /// `UIImage(named: "Bundel1_Milestone_Premium_33 My-first-shoes", bundle: ..., traitCollection: ...)`
+    static func bundel1_Milestone_Premium_33MyFirstShoes(compatibleWith traitCollection: UIKit.UITraitCollection? = nil) -> UIKit.UIImage? {
+      return UIKit.UIImage(resource: R.image.bundel1_Milestone_Premium_33MyFirstShoes, compatibleWith: traitCollection)
+    }
+    
+    /// `UIImage(named: "Bundel1_Milestone_Premium_34 My-first-sunglasses", bundle: ..., traitCollection: ...)`
+    static func bundel1_Milestone_Premium_34MyFirstSunglasses(compatibleWith traitCollection: UIKit.UITraitCollection? = nil) -> UIKit.UIImage? {
+      return UIKit.UIImage(resource: R.image.bundel1_Milestone_Premium_34MyFirstSunglasses, compatibleWith: traitCollection)
+    }
+    
+    /// `UIImage(named: "Bundel1_Milestone_Premium_35 My-messy-face", bundle: ..., traitCollection: ...)`
+    static func bundel1_Milestone_Premium_35MyMessyFace(compatibleWith traitCollection: UIKit.UITraitCollection? = nil) -> UIKit.UIImage? {
+      return UIKit.UIImage(resource: R.image.bundel1_Milestone_Premium_35MyMessyFace, compatibleWith: traitCollection)
+    }
+    
+    /// `UIImage(named: "Bundel1_Milestone_Premium_36 My-new-haircut", bundle: ..., traitCollection: ...)`
+    static func bundel1_Milestone_Premium_36MyNewHaircut(compatibleWith traitCollection: UIKit.UITraitCollection? = nil) -> UIKit.UIImage? {
+      return UIKit.UIImage(resource: R.image.bundel1_Milestone_Premium_36MyNewHaircut, compatibleWith: traitCollection)
+    }
+    
+    /// `UIImage(named: "Bundel1_Milestone_Premium_37 My-new-outfit", bundle: ..., traitCollection: ...)`
+    static func bundel1_Milestone_Premium_37MyNewOutfit(compatibleWith traitCollection: UIKit.UITraitCollection? = nil) -> UIKit.UIImage? {
+      return UIKit.UIImage(resource: R.image.bundel1_Milestone_Premium_37MyNewOutfit, compatibleWith: traitCollection)
+    }
+    
+    /// `UIImage(named: "Bundel1_Milestone_Premium_38 New-tooth", bundle: ..., traitCollection: ...)`
+    static func bundel1_Milestone_Premium_38NewTooth(compatibleWith traitCollection: UIKit.UITraitCollection? = nil) -> UIKit.UIImage? {
+      return UIKit.UIImage(resource: R.image.bundel1_Milestone_Premium_38NewTooth, compatibleWith: traitCollection)
+    }
+    
+    /// `UIImage(named: "Bundel1_Moment_Free_01 Mama", bundle: ..., traitCollection: ...)`
+    static func bundel1_Moment_Free_01Mama(compatibleWith traitCollection: UIKit.UITraitCollection? = nil) -> UIKit.UIImage? {
+      return UIKit.UIImage(resource: R.image.bundel1_Moment_Free_01Mama, compatibleWith: traitCollection)
+    }
+    
+    /// `UIImage(named: "Bundel1_Moment_Free_02 Family2", bundle: ..., traitCollection: ...)`
+    static func bundel1_Moment_Free_02Family2(compatibleWith traitCollection: UIKit.UITraitCollection? = nil) -> UIKit.UIImage? {
+      return UIKit.UIImage(resource: R.image.bundel1_Moment_Free_02Family2, compatibleWith: traitCollection)
+    }
+    
+    /// `UIImage(named: "Bundel1_Moment_Premium_03 Daddy", bundle: ..., traitCollection: ...)`
+    static func bundel1_Moment_Premium_03Daddy(compatibleWith traitCollection: UIKit.UITraitCollection? = nil) -> UIKit.UIImage? {
+      return UIKit.UIImage(resource: R.image.bundel1_Moment_Premium_03Daddy, compatibleWith: traitCollection)
+    }
+    
+    /// `UIImage(named: "Bundel1_Moment_Premium_04 Grandma", bundle: ..., traitCollection: ...)`
+    static func bundel1_Moment_Premium_04Grandma(compatibleWith traitCollection: UIKit.UITraitCollection? = nil) -> UIKit.UIImage? {
+      return UIKit.UIImage(resource: R.image.bundel1_Moment_Premium_04Grandma, compatibleWith: traitCollection)
+    }
+    
+    /// `UIImage(named: "Bundel1_Moment_Premium_05 Grandpa", bundle: ..., traitCollection: ...)`
+    static func bundel1_Moment_Premium_05Grandpa(compatibleWith traitCollection: UIKit.UITraitCollection? = nil) -> UIKit.UIImage? {
+      return UIKit.UIImage(resource: R.image.bundel1_Moment_Premium_05Grandpa, compatibleWith: traitCollection)
+    }
+    
+    /// `UIImage(named: "Bundel1_Moment_Premium_06 Brother", bundle: ..., traitCollection: ...)`
+    static func bundel1_Moment_Premium_06Brother(compatibleWith traitCollection: UIKit.UITraitCollection? = nil) -> UIKit.UIImage? {
+      return UIKit.UIImage(resource: R.image.bundel1_Moment_Premium_06Brother, compatibleWith: traitCollection)
+    }
+    
+    /// `UIImage(named: "Bundel1_Moment_Premium_07 Sister", bundle: ..., traitCollection: ...)`
+    static func bundel1_Moment_Premium_07Sister(compatibleWith traitCollection: UIKit.UITraitCollection? = nil) -> UIKit.UIImage? {
+      return UIKit.UIImage(resource: R.image.bundel1_Moment_Premium_07Sister, compatibleWith: traitCollection)
+    }
+    
+    /// `UIImage(named: "Bundel1_Moment_Premium_08Family", bundle: ..., traitCollection: ...)`
+    static func bundel1_Moment_Premium_08Family(compatibleWith traitCollection: UIKit.UITraitCollection? = nil) -> UIKit.UIImage? {
+      return UIKit.UIImage(resource: R.image.bundel1_Moment_Premium_08Family, compatibleWith: traitCollection)
+    }
+    
+    /// `UIImage(named: "Bundel1_Moment_Premium_09 Moment", bundle: ..., traitCollection: ...)`
+    static func bundel1_Moment_Premium_09Moment(compatibleWith traitCollection: UIKit.UITraitCollection? = nil) -> UIKit.UIImage? {
+      return UIKit.UIImage(resource: R.image.bundel1_Moment_Premium_09Moment, compatibleWith: traitCollection)
+    }
+    
+    /// `UIImage(named: "Bundel1_Speech_Free_01 Found-my-hands", bundle: ..., traitCollection: ...)`
+    static func bundel1_Speech_Free_01FoundMyHands(compatibleWith traitCollection: UIKit.UITraitCollection? = nil) -> UIKit.UIImage? {
+      return UIKit.UIImage(resource: R.image.bundel1_Speech_Free_01FoundMyHands, compatibleWith: traitCollection)
+    }
+    
+    /// `UIImage(named: "Bundel1_Speech_Free_02 So-funny", bundle: ..., traitCollection: ...)`
+    static func bundel1_Speech_Free_02SoFunny(compatibleWith traitCollection: UIKit.UITraitCollection? = nil) -> UIKit.UIImage? {
+      return UIKit.UIImage(resource: R.image.bundel1_Speech_Free_02SoFunny, compatibleWith: traitCollection)
+    }
+    
+    /// `UIImage(named: "Bundel1_Speech_Premium_03 Can-say-mama", bundle: ..., traitCollection: ...)`
+    static func bundel1_Speech_Premium_03CanSayMama(compatibleWith traitCollection: UIKit.UITraitCollection? = nil) -> UIKit.UIImage? {
+      return UIKit.UIImage(resource: R.image.bundel1_Speech_Premium_03CanSayMama, compatibleWith: traitCollection)
+    }
+    
+    /// `UIImage(named: "Bundel1_Speech_Premium_04 I-can-say-dada", bundle: ..., traitCollection: ...)`
+    static func bundel1_Speech_Premium_04ICanSayDada(compatibleWith traitCollection: UIKit.UITraitCollection? = nil) -> UIKit.UIImage? {
+      return UIKit.UIImage(resource: R.image.bundel1_Speech_Premium_04ICanSayDada, compatibleWith: traitCollection)
+    }
+    
+    /// `UIImage(named: "Bundel1_Speech_Premium_05 I-Can-say-mama", bundle: ..., traitCollection: ...)`
+    static func bundel1_Speech_Premium_05ICanSayMama(compatibleWith traitCollection: UIKit.UITraitCollection? = nil) -> UIKit.UIImage? {
+      return UIKit.UIImage(resource: R.image.bundel1_Speech_Premium_05ICanSayMama, compatibleWith: traitCollection)
+    }
+    
+    /// `UIImage(named: "Bundel1_Speech_Premium_06 So-funny-v2", bundle: ..., traitCollection: ...)`
+    static func bundel1_Speech_Premium_06SoFunnyV2(compatibleWith traitCollection: UIKit.UITraitCollection? = nil) -> UIKit.UIImage? {
+      return UIKit.UIImage(resource: R.image.bundel1_Speech_Premium_06SoFunnyV2, compatibleWith: traitCollection)
+    }
+    
+    /// `UIImage(named: "Bundel1_Speech_Premium_07 peack-a-boo", bundle: ..., traitCollection: ...)`
+    static func bundel1_Speech_Premium_07PeackABoo(compatibleWith traitCollection: UIKit.UITraitCollection? = nil) -> UIKit.UIImage? {
+      return UIKit.UIImage(resource: R.image.bundel1_Speech_Premium_07PeackABoo, compatibleWith: traitCollection)
+    }
+    
+    /// `UIImage(named: "Bundel1_Speech_Premium_08 I-found-my-feet", bundle: ..., traitCollection: ...)`
+    static func bundel1_Speech_Premium_08IFoundMyFeet(compatibleWith traitCollection: UIKit.UITraitCollection? = nil) -> UIKit.UIImage? {
+      return UIKit.UIImage(resource: R.image.bundel1_Speech_Premium_08IFoundMyFeet, compatibleWith: traitCollection)
+    }
+    
+    /// `UIImage(named: "Bundel1_Speech_Premium_09 I-can-say-why", bundle: ..., traitCollection: ...)`
+    static func bundel1_Speech_Premium_09ICanSayWhy(compatibleWith traitCollection: UIKit.UITraitCollection? = nil) -> UIKit.UIImage? {
+      return UIKit.UIImage(resource: R.image.bundel1_Speech_Premium_09ICanSayWhy, compatibleWith: traitCollection)
+    }
+    
+    /// `UIImage(named: "Bundel1_Speech_Premium_10 I-can-sing", bundle: ..., traitCollection: ...)`
+    static func bundel1_Speech_Premium_10ICanSing(compatibleWith traitCollection: UIKit.UITraitCollection? = nil) -> UIKit.UIImage? {
+      return UIKit.UIImage(resource: R.image.bundel1_Speech_Premium_10ICanSing, compatibleWith: traitCollection)
+    }
+    
+    /// `UIImage(named: "Development images_week 1.jpg", bundle: ..., traitCollection: ...)`
+    static func developmentImages_week1Jpg(compatibleWith traitCollection: UIKit.UITraitCollection? = nil) -> UIKit.UIImage? {
+      return UIKit.UIImage(resource: R.image.developmentImages_week1Jpg, compatibleWith: traitCollection)
+    }
+    
+    /// `UIImage(named: "Development images_week 2.jpg", bundle: ..., traitCollection: ...)`
+    static func developmentImages_week2Jpg(compatibleWith traitCollection: UIKit.UITraitCollection? = nil) -> UIKit.UIImage? {
+      return UIKit.UIImage(resource: R.image.developmentImages_week2Jpg, compatibleWith: traitCollection)
+    }
+    
+    /// `UIImage(named: "Development images_week 3.jpg", bundle: ..., traitCollection: ...)`
+    static func developmentImages_week3Jpg(compatibleWith traitCollection: UIKit.UITraitCollection? = nil) -> UIKit.UIImage? {
+      return UIKit.UIImage(resource: R.image.developmentImages_week3Jpg, compatibleWith: traitCollection)
+    }
+    
+    /// `UIImage(named: "Development images_week 4.jpg", bundle: ..., traitCollection: ...)`
+    static func developmentImages_week4Jpg(compatibleWith traitCollection: UIKit.UITraitCollection? = nil) -> UIKit.UIImage? {
+      return UIKit.UIImage(resource: R.image.developmentImages_week4Jpg, compatibleWith: traitCollection)
+    }
+    
+    /// `UIImage(named: "Development images_week 5.jpg", bundle: ..., traitCollection: ...)`
+    static func developmentImages_week5Jpg(compatibleWith traitCollection: UIKit.UITraitCollection? = nil) -> UIKit.UIImage? {
+      return UIKit.UIImage(resource: R.image.developmentImages_week5Jpg, compatibleWith: traitCollection)
+    }
+    
+    /// `UIImage(named: "Development images_week 6.jpg", bundle: ..., traitCollection: ...)`
+    static func developmentImages_week6Jpg(compatibleWith traitCollection: UIKit.UITraitCollection? = nil) -> UIKit.UIImage? {
+      return UIKit.UIImage(resource: R.image.developmentImages_week6Jpg, compatibleWith: traitCollection)
+    }
+    
+    /// `UIImage(named: "Development images_week 7.jpg", bundle: ..., traitCollection: ...)`
+    static func developmentImages_week7Jpg(compatibleWith traitCollection: UIKit.UITraitCollection? = nil) -> UIKit.UIImage? {
+      return UIKit.UIImage(resource: R.image.developmentImages_week7Jpg, compatibleWith: traitCollection)
+    }
+    
+    /// `UIImage(named: "Development images_week 8.jpg", bundle: ..., traitCollection: ...)`
+    static func developmentImages_week8Jpg(compatibleWith traitCollection: UIKit.UITraitCollection? = nil) -> UIKit.UIImage? {
+      return UIKit.UIImage(resource: R.image.developmentImages_week8Jpg, compatibleWith: traitCollection)
+    }
+    
     /// `UIImage(named: "baby.jpg", bundle: ..., traitCollection: ...)`
     static func babyJpg(compatibleWith traitCollection: UIKit.UITraitCollection? = nil) -> UIKit.UIImage? {
       return UIKit.UIImage(resource: R.image.babyJpg, compatibleWith: traitCollection)
+    }
+    
+    /// `UIImage(named: "baby_banner.jpg", bundle: ..., traitCollection: ...)`
+    static func baby_bannerJpg(compatibleWith traitCollection: UIKit.UITraitCollection? = nil) -> UIKit.UIImage? {
+      return UIKit.UIImage(resource: R.image.baby_bannerJpg, compatibleWith: traitCollection)
     }
     
     /// `UIImage(named: "back", bundle: ..., traitCollection: ...)`
@@ -328,6 +2106,11 @@ struct R: Rswift.Validatable {
       return UIKit.UIImage(resource: R.image.ic_checked, compatibleWith: traitCollection)
     }
     
+    /// `UIImage(named: "ic_checkmark", bundle: ..., traitCollection: ...)`
+    static func ic_checkmark(compatibleWith traitCollection: UIKit.UITraitCollection? = nil) -> UIKit.UIImage? {
+      return UIKit.UIImage(resource: R.image.ic_checkmark, compatibleWith: traitCollection)
+    }
+    
     /// `UIImage(named: "ic_help", bundle: ..., traitCollection: ...)`
     static func ic_help(compatibleWith traitCollection: UIKit.UITraitCollection? = nil) -> UIKit.UIImage? {
       return UIKit.UIImage(resource: R.image.ic_help, compatibleWith: traitCollection)
@@ -341,6 +2124,11 @@ struct R: Rswift.Validatable {
     /// `UIImage(named: "ic_logout", bundle: ..., traitCollection: ...)`
     static func ic_logout(compatibleWith traitCollection: UIKit.UITraitCollection? = nil) -> UIKit.UIImage? {
       return UIKit.UIImage(resource: R.image.ic_logout, compatibleWith: traitCollection)
+    }
+    
+    /// `UIImage(named: "ic_plus", bundle: ..., traitCollection: ...)`
+    static func ic_plus(compatibleWith traitCollection: UIKit.UITraitCollection? = nil) -> UIKit.UIImage? {
+      return UIKit.UIImage(resource: R.image.ic_plus, compatibleWith: traitCollection)
     }
     
     /// `UIImage(named: "ic_plus_header", bundle: ..., traitCollection: ...)`
@@ -688,6 +2476,7 @@ struct _R: Rswift.Validatable {
       }
       
       static func validate() throws {
+        if UIKit.UIImage(named: "baby_banner.jpg", in: R.hostingBundle, compatibleWith: nil) == nil { throw Rswift.ValidationError(description: "[R.swift] Image named 'baby_banner.jpg' is used in storyboard 'Main', but couldn't be loaded.") }
         if UIKit.UIImage(named: "facebook", in: R.hostingBundle, compatibleWith: nil) == nil { throw Rswift.ValidationError(description: "[R.swift] Image named 'facebook' is used in storyboard 'Main', but couldn't be loaded.") }
         if UIKit.UIImage(named: "google", in: R.hostingBundle, compatibleWith: nil) == nil { throw Rswift.ValidationError(description: "[R.swift] Image named 'google' is used in storyboard 'Main', but couldn't be loaded.") }
         if #available(iOS 11.0, *) {

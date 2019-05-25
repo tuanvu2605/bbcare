@@ -13,6 +13,7 @@ class User: NSObject {
     var name = ""
     var relationship : Int = 0
     var avatarURL = ""
+    var email = ""
     var babies = [Baby]()
     
 
