@@ -7,6 +7,7 @@
 //
 
 import UIKit
+import SwiftyUserDefaults
 
 class SignupViewController: UIViewController {
 
@@ -50,6 +51,7 @@ class SignupViewController: UIViewController {
     }
 
     @IBAction func signupButtonDidTouch(_ sender: Any) {
+        self.view.endEditing(true)
         showLoadinghud(text: "Vui lòng chờ...")
         let email = emailTextField.text!
         let password = passwordTextField.text!
@@ -62,6 +64,7 @@ class SignupViewController: UIViewController {
                 user.uid = data["_id"] as! String
                 let localDict = data["local"] as! [String : Any]
                 user.email = localDict["email"] as! String
+                Defaults[.userId] = user.uid
                 AppModel.shared.user = user
                 let tabbarController = AppTabBarController()
                 self.changeRootViewController(viewController: tabbarController)

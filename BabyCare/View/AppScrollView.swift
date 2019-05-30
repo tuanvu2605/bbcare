@@ -33,7 +33,7 @@ class AppScrollView: UIScrollView {
         
     }
     
-    
+
     
     func addBlank(space : CGFloat)
     {

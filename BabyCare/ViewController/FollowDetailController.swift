@@ -18,7 +18,7 @@ class FollowDetailController: ScrollableViewController {
         
     }
     override func makeUI() {
-        self.followItem = FollowItem(time: "Tuần 1", height: "18.0 - 21.9 in", weight: "5.09 - 10.60 ibs", url: "BABY_Info_wk1_Boy", img: R.image.developmentImages_week1Jpg()!)
+        
         let followItemView = FollowItemLayout(followItem:self.followItem).defautlMakeView()
         scrollView.addBlank(space: 12)
         scrollView.addMoreView(view: followItemView)

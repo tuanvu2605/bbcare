@@ -12,5 +12,13 @@ class Notice: NSObject {
     var uid = ""
     var content = ""
     var type : Int = 0
+    init(dict : [String : Any]) {
+        if let _content = dict["content"] as? String {
+            self.content = _content
+        }
+        if let _type = dict["_type"] as? Int {
+            self.type = _type
+        }
+    }
 
 }

@@ -11,12 +11,31 @@ import CarbonKit
 
 class TimelineFollowController: ScrollableViewController {
     
-    
+    var data = [FollowItem]()
 
     override func viewDidLoad() {
+        makeData()
         super.viewDidLoad()
-
+        
         // Do any additional setup after loading the view.
+    }
+    func makeData(){
+        let w1 = FollowItem(time: "Tuần 1", height: "18.0 - 21.9 in", weight: "5.09 - 10.60 ibs", url: "BABY_Info_wk1_Boy", img: R.image.developmentImages_week1Jpg()!)
+        let w2 = FollowItem(time: "Tuần 2", height: "18.5 - 22.4 in", weight: "5.47 - 11.35 ibs", url: "BABY_Info_wk2_Boy", img: R.image.developmentImages_week2Jpg()!)
+        let w3 = FollowItem(time: "Tuần 3", height: "18.9 - 22.8 in", weight: "5.95 - 12.19 ibs", url: "BABY_Info_wk3_Boy", img: R.image.developmentImages_week3Jpg()!)
+        let w4 = FollowItem(time: "Tuần 4", height: "19.3 - 23.2 in", weight: "6.48 - 13.03 ibs", url: "BABY_Info_wk4_Boy", img: R.image.developmentImages_week4Jpg()!)
+        let w5 = FollowItem(time: "Tuần 5", height: "19.7 - 23.6 in", weight: "7.03 - 13.82 ibs", url: "BABY_Info_wk5_Boy", img: R.image.developmentImages_week5Jpg()!)
+        let w6 = FollowItem(time: "Tuần 6", height: "20.0 - 23.9 in", weight: "7.54 - 14.55 ibs", url: "BABY_Info_wk6_Boy", img: R.image.developmentImages_week6Jpg()!)
+        let w7 = FollowItem(time: "Tuần 7", height: "20.4 - 24.3 in", weight: "8.02 - 15.23 ibs", url: "BABY_Info_wk7_Boy", img: R.image.developmentImages_week7Jpg()!)
+        let w8 = FollowItem(time: "Tuần 8", height: "20.7 - 24.8 in", weight: "8.49 - 16.09 ibs", url: "BABY_Info_wk8_Boy", img: R.image.developmentImages_week8Jpg()!)
+        data.append(w1)
+        data.append(w2)
+        data.append(w3)
+        data.append(w4)
+        data.append(w5)
+        data.append(w6)
+        data.append(w7)
+        data.append(w8)
     }
     
     override func makeUI() {
@@ -49,7 +68,9 @@ class TimelineFollowController: ScrollableViewController {
 
 extension TimelineFollowController : CarbonTabSwipeNavigationDelegate {
     func carbonTabSwipeNavigation(_ carbonTabSwipeNavigation: CarbonTabSwipeNavigation, viewControllerAt index: UInt) -> UIViewController {
-        return FollowDetailController()
+        let vc = FollowDetailController()
+        vc.followItem = data[Int(index)]
+        return vc
     }
     
     

@@ -11,4 +11,7 @@ import UIKit
 class AppModel: NSObject {
     static let shared = AppModel()
     var user : User?
+    var babyId = ""
+    var weight : Double = 0.0
+    var height : Double = 0.0
 }

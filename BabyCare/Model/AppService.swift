@@ -21,9 +21,55 @@ class AppService: NSObject {
         }
     }
     
-    class func addGrowthInfo(_ params : [String:Any]){
+    class func updateBabyInfo(_ params : [String:Any] , completion : @escaping(_ reponse : [String : Any])->Void){
+        Alamofire.request(AppRouter.babyInfo(params)).responseJSON { response in
+            if let responseJSON = response.result.value as? [String : Any] {
+                print(responseJSON)
+                completion(responseJSON)
+            }
+        }
+    }
+    
+    class func addGrowthInfo(_ params : [String:Any] , completion : @escaping(_ reponse : [String : Any])->Void){
         Alamofire.request(AppRouter.addGrowthInfo(params)).responseJSON { response in
-            print(response)
+            if let responseJSON = response.result.value as? [String : Any] {
+                print(responseJSON)
+                completion(responseJSON)
+            }
+        }
+    }
+    class func allGrowthInfo(_ params : [String:Any] , completion : @escaping(_ reponse : [String : Any])->Void){
+        Alamofire.request(AppRouter.allGrowthInfo(params)).responseJSON { response in
+            if let responseJSON = response.result.value as? [String : Any] {
+                print(responseJSON)
+                completion(responseJSON)
+            }
+        }
+    }
+    
+    class func taskByMonth(_ params : [String:Any] , completion : @escaping(_ reponse : [String : Any])->Void){
+        Alamofire.request(AppRouter.taskByMonth(params)).responseJSON { response in
+            if let responseJSON = response.result.value as? [String : Any] {
+                print(responseJSON)
+                completion(responseJSON)
+            }
+        }
+    }
+    class func createTask(_ params : [String:Any] , completion : @escaping(_ reponse : [String : Any])->Void){
+        Alamofire.request(AppRouter.createTask(params)).responseJSON { response in
+            if let responseJSON = response.result.value as? [String : Any] {
+                print(responseJSON)
+                completion(responseJSON)
+            }
+        }
+    }
+    
+    class func userInfo(_ params : [String:Any] , completion : @escaping(_ reponse : [String : Any])->Void){
+        Alamofire.request(AppRouter.userInfo(params)).responseJSON { response in
+            if let responseJSON = response.result.value as? [String : Any] {
+                print(responseJSON)
+                completion(responseJSON)
+            }
         }
     }
     
@@ -44,5 +90,14 @@ class AppService: NSObject {
                 }
         }
     }
+    
+ 
+    
+    
+    
+    
+    
+    
+    
 
 }

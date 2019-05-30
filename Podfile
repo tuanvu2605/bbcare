@@ -15,6 +15,7 @@ pod 'MBProgressHUD'
 pod 'KLCPopup'
 pod 'RxSwift', '~> 5'
 pod 'RxCocoa', '~> 5'
+pod 'DateToolsSwift'
 
 pod 'Firebase/Core'
 pod 'Firebase/Auth'
@@ -23,6 +24,9 @@ pod 'Kingfisher'
 pod 'Firebase/Firestore'
 pod 'ALLoadingView'
 pod 'SwiftyUserDefaults'
+pod 'IQKeyboardManagerSwift'
+pod 'FSPagerView'
+pod 'WordPress-iOS-Editor'
 
 post_install do |installer|
   installer.pods_project.targets.each do |target|

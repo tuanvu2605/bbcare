@@ -37,6 +37,9 @@ extension UIViewController
         hud.label.numberOfLines = 0
         hud.bezelView.backgroundColor = UIColor.black
         hud.contentColor = UIColor.white
+        DispatchQueue.main.asyncAfter(deadline: .now() + 2.0) { // Change `2.0` to the desired number of
+            MBProgressHUD.hide(for: self.view, animated: true)
+        }
     }
     
     func showCenterPopup(view : UIView){

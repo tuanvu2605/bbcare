@@ -7,9 +7,11 @@
 //
 
 import UIKit
+import SwiftyUserDefaults
 
 class AppTabBarController: UITabBarController {
     
+    var isPresentBabyInfo = false
     override func viewDidLoad() {
         super.viewDidLoad()
         view.backgroundColor = .white
@@ -40,12 +42,19 @@ class AppTabBarController: UITabBarController {
         let user = ObjectUser()
         user.email = "tuanv.2605@gmail.com"
         user.password = "12345678"
-        ThemeService.showLoading(true)
+//        ThemeService.showLoading(true)
         manager.login(user: user) {[weak self] response in
-            ThemeService.showLoading(false)
+//            ThemeService.showLoading(false)
             switch response {
-            case .failure: self?.showAlert()
-            case .success: self?.dismiss(animated: true, completion: nil)
+            case .failure:
+                self?.showAlert()
+            case .success:
+                if !self!.isPresentBabyInfo && Defaults[.babyId].isEmpty {
+                    self!.isPresentBabyInfo = true
+                    self?.present(BabyInfoViewController(nibName: "BabyInfoViewController", bundle: nil), animated: true) {
+                    }
+                }
+//            })
             }
         }
     }

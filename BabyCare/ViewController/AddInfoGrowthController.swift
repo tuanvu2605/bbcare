@@ -8,18 +8,28 @@
 
 import UIKit
 import CarbonKit
+import SwiftyUserDefaults
 
 class AddInfoGrowthController: ScrollableViewController {
 
+    let weightVC = GrowthViewController(nibName: "GrowthViewController", bundle: nil)
+    let heightVC = GrowthViewController(nibName: "GrowthViewController", bundle: nil)
     override func viewDidLoad() {
         super.viewDidLoad()
+        weightVC.type = .weight
+        heightVC.type = .height
 
     }
     
+    
+    
     override func makeUI() {
-        let header = AppHeaderLayout(title: "Thêm chiều cao/cân nặng", leftImageBtn: R.image.ic_Back()!).defautlMakeView()
+        let header = AppHeaderLayout(title: "Thêm chiều cao/cân nặng", leftImageBtn: R.image.ic_Back()! , rightImageBtn: R.image.ic_checkmark()!).defautlMakeView()
         let btn = header.viewWithTag(AppHeaderLayout.leftButtonTag) as? UIButton
         btn?.addTarget(self, action: #selector(self.back) , for: .touchUpInside)
+        
+        let rightBtn = header.viewWithTag(AppHeaderLayout.rightButtonTag) as? UIButton
+        rightBtn?.addTarget(self, action: #selector(self.save) , for: .touchUpInside)
         self.addHeader(headerView: header)
         
         let items = ["Chiều cao", "Cân nặng"]
@@ -40,12 +50,31 @@ class AddInfoGrowthController: ScrollableViewController {
     @objc func back(){
         self.dismiss(animated: false, completion: nil)
     }
+    
+    @objc func save(){
+        print("wwwwww \(weightVC.value())")
+        print("hhhhhh \(heightVC.value())")
+        showLoadinghud(text: "Đang cập nhật thông tin")
+        AppService.addGrowthInfo(["weight":weightVC.value() , "height" : heightVC.value() , "date" : Date().toString(dateFormat : "dd/MM/yyyy") , "babyId":Defaults[.babyId]]) { (res) in
+            self.hideLoadinghud()
+            self.showToast(text: "Cập nhật thông tin thành công")
+            DispatchQueue.main.asyncAfter(deadline: .now() + 2.0) {
+                self.dismiss(animated: true, completion: nil)
+            }
+            
+        }
+    }
 
 }
 
 extension AddInfoGrowthController : CarbonTabSwipeNavigationDelegate {
     func carbonTabSwipeNavigation(_ carbonTabSwipeNavigation: CarbonTabSwipeNavigation, viewControllerAt index: UInt) -> UIViewController {
-        return UIViewController()
+       
+        if index == 0 {
+            return heightVC;
+        }else{
+            return weightVC;
+        }
     }
     
     

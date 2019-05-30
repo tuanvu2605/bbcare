@@ -13,11 +13,10 @@ class FollowItemLayout: InsetLayout<UIView> {
     init(followItem : FollowItem) {
         let img = SizeLayout<UIImageView>(width: 145, height: 145, alignment: .centerLeading) { (imgView) in
             imgView.image = followItem.img
-            imgView.layer.cornerRadius = 5.0
             imgView.layer.masksToBounds = true
         }
         
-        let timeTitle = LabelLayout(text: "Sơ sinh", font: AppFont.style.bold(size: 18)!, numberOfLines: 0, alignment: .centerLeading) { (label) in
+        let timeTitle = LabelLayout(text: "Tuổi", font: AppFont.style.medium(size: 18)!, numberOfLines: 0, alignment: .centerLeading) { (label) in
             label.textColor = R.color.article_title()!
         }
         
@@ -26,7 +25,7 @@ class FollowItemLayout: InsetLayout<UIView> {
         }
         let timeStack = StackLayout(axis: .vertical,spacing: 2, sublayouts: [timeTitle,timeDes])
         
-        let wTitle = LabelLayout(text: "Cân nặng", font: AppFont.style.bold(size: 18)!, numberOfLines: 0, alignment: .centerLeading) { (label) in
+        let wTitle = LabelLayout(text: "Cân nặng", font: AppFont.style.medium(size: 18)!, numberOfLines: 0, alignment: .centerLeading) { (label) in
             label.textColor = R.color.article_title()!
         }
         
@@ -35,7 +34,7 @@ class FollowItemLayout: InsetLayout<UIView> {
         }
         let wStack = StackLayout(axis: .vertical,spacing: 2, sublayouts: [wTitle,wDes])
         
-        let hTitle = LabelLayout(text: "Chiều cao", font: AppFont.style.bold(size: 18)!, numberOfLines: 0, alignment: .centerLeading) { (label) in
+        let hTitle = LabelLayout(text: "Chiều cao", font: AppFont.style.medium(size: 18)!, numberOfLines: 0, alignment: .centerLeading) { (label) in
             label.textColor = R.color.article_title()!
         }
         

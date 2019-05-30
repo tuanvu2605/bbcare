@@ -17,12 +17,14 @@ struct R: Rswift.Validatable {
     try intern.validate()
   }
   
-  /// This `R.color` struct is generated, and contains static references to 4 colors.
+  /// This `R.color` struct is generated, and contains static references to 5 colors.
   struct color {
     /// Color `article_body`.
     static let article_body = Rswift.ColorResource(bundle: R.hostingBundle, name: "article_body")
     /// Color `article_title`.
     static let article_title = Rswift.ColorResource(bundle: R.hostingBundle, name: "article_title")
+    /// Color `congrat`.
+    static let congrat = Rswift.ColorResource(bundle: R.hostingBundle, name: "congrat")
     /// Color `garadient_start`.
     static let garadient_start = Rswift.ColorResource(bundle: R.hostingBundle, name: "garadient_start")
     /// Color `gradient_end`.
@@ -42,6 +44,13 @@ struct R: Rswift.Validatable {
       return UIKit.UIColor(resource: R.color.article_title, compatibleWith: traitCollection)
     }
     
+    /// `UIColor(named: "congrat", bundle: ..., traitCollection: ...)`
+    @available(tvOS 11.0, *)
+    @available(iOS 11.0, *)
+    static func congrat(compatibleWith traitCollection: UIKit.UITraitCollection? = nil) -> UIKit.UIColor? {
+      return UIKit.UIColor(resource: R.color.congrat, compatibleWith: traitCollection)
+    }
+    
     /// `UIColor(named: "garadient_start", bundle: ..., traitCollection: ...)`
     @available(tvOS 11.0, *)
     @available(iOS 11.0, *)
@@ -59,7 +68,7 @@ struct R: Rswift.Validatable {
     fileprivate init() {}
   }
   
-  /// This `R.file` struct is generated, and contains static references to 127 files.
+  /// This `R.file` struct is generated, and contains static references to 129 files.
   struct file {
     /// Resource file `Age Badge month 1 blue.png`.
     static let ageBadgeMonth1BluePng = Rswift.FileResource(bundle: R.hostingBundle, name: "Age Badge month 1 blue", pathExtension: "png")
@@ -309,8 +318,12 @@ struct R: Rswift.Validatable {
     static let babyJpg = Rswift.FileResource(bundle: R.hostingBundle, name: "baby", pathExtension: "jpg")
     /// Resource file `baby_banner.jpg`.
     static let baby_bannerJpg = Rswift.FileResource(bundle: R.hostingBundle, name: "baby_banner", pathExtension: "jpg")
+    /// Resource file `boy_type.png`.
+    static let boy_typePng = Rswift.FileResource(bundle: R.hostingBundle, name: "boy_type", pathExtension: "png")
     /// Resource file `doctor.jpg`.
     static let doctorJpg = Rswift.FileResource(bundle: R.hostingBundle, name: "doctor", pathExtension: "jpg")
+    /// Resource file `girl_type.png`.
+    static let girl_typePng = Rswift.FileResource(bundle: R.hostingBundle, name: "girl_type", pathExtension: "png")
     /// Resource file `newMessage.wav`.
     static let newMessageWav = Rswift.FileResource(bundle: R.hostingBundle, name: "newMessage", pathExtension: "wav")
     /// Resource file `placeholder.png`.
@@ -1060,9 +1073,21 @@ struct R: Rswift.Validatable {
       return fileResource.bundle.url(forResource: fileResource)
     }
     
+    /// `bundle.url(forResource: "boy_type", withExtension: "png")`
+    static func boy_typePng(_: Void = ()) -> Foundation.URL? {
+      let fileResource = R.file.boy_typePng
+      return fileResource.bundle.url(forResource: fileResource)
+    }
+    
     /// `bundle.url(forResource: "doctor", withExtension: "jpg")`
     static func doctorJpg(_: Void = ()) -> Foundation.URL? {
       let fileResource = R.file.doctorJpg
+      return fileResource.bundle.url(forResource: fileResource)
+    }
+    
+    /// `bundle.url(forResource: "girl_type", withExtension: "png")`
+    static func girl_typePng(_: Void = ()) -> Foundation.URL? {
+      let fileResource = R.file.girl_typePng
       return fileResource.bundle.url(forResource: fileResource)
     }
     
@@ -1122,7 +1147,7 @@ struct R: Rswift.Validatable {
     fileprivate init() {}
   }
   
-  /// This `R.image` struct is generated, and contains static references to 158 images.
+  /// This `R.image` struct is generated, and contains static references to 162 images.
   struct image {
     /// Image `Age Badge month 1 blue`.
     static let ageBadgeMonth1Blue = Rswift.ImageResource(bundle: R.hostingBundle, name: "Age Badge month 1 blue")
@@ -1358,6 +1383,8 @@ struct R: Rswift.Validatable {
     static let back = Rswift.ImageResource(bundle: R.hostingBundle, name: "back")
     /// Image `background`.
     static let background = Rswift.ImageResource(bundle: R.hostingBundle, name: "background")
+    /// Image `boy_type`.
+    static let boy_type = Rswift.ImageResource(bundle: R.hostingBundle, name: "boy_type")
     /// Image `button`.
     static let button = Rswift.ImageResource(bundle: R.hostingBundle, name: "button")
     /// Image `close`.
@@ -1374,6 +1401,8 @@ struct R: Rswift.Validatable {
     static let empty = Rswift.ImageResource(bundle: R.hostingBundle, name: "empty")
     /// Image `facebook`.
     static let facebook = Rswift.ImageResource(bundle: R.hostingBundle, name: "facebook")
+    /// Image `girl_type`.
+    static let girl_type = Rswift.ImageResource(bundle: R.hostingBundle, name: "girl_type")
     /// Image `google`.
     static let google = Rswift.ImageResource(bundle: R.hostingBundle, name: "google")
     /// Image `ic-chat-tabbar`.
@@ -1392,6 +1421,8 @@ struct R: Rswift.Validatable {
     static let ic_checked = Rswift.ImageResource(bundle: R.hostingBundle, name: "ic_checked")
     /// Image `ic_checkmark`.
     static let ic_checkmark = Rswift.ImageResource(bundle: R.hostingBundle, name: "ic_checkmark")
+    /// Image `ic_congrat`.
+    static let ic_congrat = Rswift.ImageResource(bundle: R.hostingBundle, name: "ic_congrat")
     /// Image `ic_help`.
     static let ic_help = Rswift.ImageResource(bundle: R.hostingBundle, name: "ic_help")
     /// Image `ic_line_chart`.
@@ -1414,6 +1445,8 @@ struct R: Rswift.Validatable {
     static let ic_unchecked = Rswift.ImageResource(bundle: R.hostingBundle, name: "ic_unchecked")
     /// Image `ic_vegetarian`.
     static let ic_vegetarian = Rswift.ImageResource(bundle: R.hostingBundle, name: "ic_vegetarian")
+    /// Image `ic_warning_red`.
+    static let ic_warning_red = Rswift.ImageResource(bundle: R.hostingBundle, name: "ic_warning_red")
     /// Image `ic_weight`.
     static let ic_weight = Rswift.ImageResource(bundle: R.hostingBundle, name: "ic_weight")
     /// Image `locationThumbnail`.
@@ -2026,6 +2059,11 @@ struct R: Rswift.Validatable {
       return UIKit.UIImage(resource: R.image.background, compatibleWith: traitCollection)
     }
     
+    /// `UIImage(named: "boy_type", bundle: ..., traitCollection: ...)`
+    static func boy_type(compatibleWith traitCollection: UIKit.UITraitCollection? = nil) -> UIKit.UIImage? {
+      return UIKit.UIImage(resource: R.image.boy_type, compatibleWith: traitCollection)
+    }
+    
     /// `UIImage(named: "button", bundle: ..., traitCollection: ...)`
     static func button(compatibleWith traitCollection: UIKit.UITraitCollection? = nil) -> UIKit.UIImage? {
       return UIKit.UIImage(resource: R.image.button, compatibleWith: traitCollection)
@@ -2064,6 +2102,11 @@ struct R: Rswift.Validatable {
     /// `UIImage(named: "facebook", bundle: ..., traitCollection: ...)`
     static func facebook(compatibleWith traitCollection: UIKit.UITraitCollection? = nil) -> UIKit.UIImage? {
       return UIKit.UIImage(resource: R.image.facebook, compatibleWith: traitCollection)
+    }
+    
+    /// `UIImage(named: "girl_type", bundle: ..., traitCollection: ...)`
+    static func girl_type(compatibleWith traitCollection: UIKit.UITraitCollection? = nil) -> UIKit.UIImage? {
+      return UIKit.UIImage(resource: R.image.girl_type, compatibleWith: traitCollection)
     }
     
     /// `UIImage(named: "google", bundle: ..., traitCollection: ...)`
@@ -2109,6 +2152,11 @@ struct R: Rswift.Validatable {
     /// `UIImage(named: "ic_checkmark", bundle: ..., traitCollection: ...)`
     static func ic_checkmark(compatibleWith traitCollection: UIKit.UITraitCollection? = nil) -> UIKit.UIImage? {
       return UIKit.UIImage(resource: R.image.ic_checkmark, compatibleWith: traitCollection)
+    }
+    
+    /// `UIImage(named: "ic_congrat", bundle: ..., traitCollection: ...)`
+    static func ic_congrat(compatibleWith traitCollection: UIKit.UITraitCollection? = nil) -> UIKit.UIImage? {
+      return UIKit.UIImage(resource: R.image.ic_congrat, compatibleWith: traitCollection)
     }
     
     /// `UIImage(named: "ic_help", bundle: ..., traitCollection: ...)`
@@ -2164,6 +2212,11 @@ struct R: Rswift.Validatable {
     /// `UIImage(named: "ic_vegetarian", bundle: ..., traitCollection: ...)`
     static func ic_vegetarian(compatibleWith traitCollection: UIKit.UITraitCollection? = nil) -> UIKit.UIImage? {
       return UIKit.UIImage(resource: R.image.ic_vegetarian, compatibleWith: traitCollection)
+    }
+    
+    /// `UIImage(named: "ic_warning_red", bundle: ..., traitCollection: ...)`
+    static func ic_warning_red(compatibleWith traitCollection: UIKit.UITraitCollection? = nil) -> UIKit.UIImage? {
+      return UIKit.UIImage(resource: R.image.ic_warning_red, compatibleWith: traitCollection)
     }
     
     /// `UIImage(named: "ic_weight", bundle: ..., traitCollection: ...)`
@@ -2234,10 +2287,20 @@ struct R: Rswift.Validatable {
     fileprivate init() {}
   }
   
-  /// This `R.nib` struct is generated, and contains static references to 1 nibs.
+  /// This `R.nib` struct is generated, and contains static references to 3 nibs.
   struct nib {
+    /// Nib `BabyInfoViewController`.
+    static let babyInfoViewController = _R.nib._BabyInfoViewController()
     /// Nib `BlogCell`.
     static let blogCell = _R.nib._BlogCell()
+    /// Nib `GrowthViewController`.
+    static let growthViewController = _R.nib._GrowthViewController()
+    
+    /// `UINib(name: "BabyInfoViewController", in: bundle)`
+    @available(*, deprecated, message: "Use UINib(resource: R.nib.babyInfoViewController) instead")
+    static func babyInfoViewController(_: Void = ()) -> UIKit.UINib {
+      return UIKit.UINib(resource: R.nib.babyInfoViewController)
+    }
     
     /// `UINib(name: "BlogCell", in: bundle)`
     @available(*, deprecated, message: "Use UINib(resource: R.nib.blogCell) instead")
@@ -2245,8 +2308,22 @@ struct R: Rswift.Validatable {
       return UIKit.UINib(resource: R.nib.blogCell)
     }
     
+    /// `UINib(name: "GrowthViewController", in: bundle)`
+    @available(*, deprecated, message: "Use UINib(resource: R.nib.growthViewController) instead")
+    static func growthViewController(_: Void = ()) -> UIKit.UINib {
+      return UIKit.UINib(resource: R.nib.growthViewController)
+    }
+    
+    static func babyInfoViewController(owner ownerOrNil: AnyObject?, options optionsOrNil: [UINib.OptionsKey : Any]? = nil) -> UIKit.UIView? {
+      return R.nib.babyInfoViewController.instantiate(withOwner: ownerOrNil, options: optionsOrNil)[0] as? UIKit.UIView
+    }
+    
     static func blogCell(owner ownerOrNil: AnyObject?, options optionsOrNil: [UINib.OptionsKey : Any]? = nil) -> BlogCell? {
       return R.nib.blogCell.instantiate(withOwner: ownerOrNil, options: optionsOrNil)[0] as? BlogCell
+    }
+    
+    static func growthViewController(owner ownerOrNil: AnyObject?, options optionsOrNil: [UINib.OptionsKey : Any]? = nil) -> UIKit.UIView? {
+      return R.nib.growthViewController.instantiate(withOwner: ownerOrNil, options: optionsOrNil)[0] as? UIKit.UIView
     }
     
     fileprivate init() {}
@@ -2354,6 +2431,18 @@ struct _R: Rswift.Validatable {
   struct nib: Rswift.Validatable {
     static func validate() throws {
       try _BlogCell.validate()
+      try _GrowthViewController.validate()
+    }
+    
+    struct _BabyInfoViewController: Rswift.NibResourceType {
+      let bundle = R.hostingBundle
+      let name = "BabyInfoViewController"
+      
+      func firstView(owner ownerOrNil: AnyObject?, options optionsOrNil: [UINib.OptionsKey : Any]? = nil) -> UIKit.UIView? {
+        return instantiate(withOwner: ownerOrNil, options: optionsOrNil)[0] as? UIKit.UIView
+      }
+      
+      fileprivate init() {}
     }
     
     struct _BlogCell: Rswift.NibResourceType, Rswift.Validatable {
@@ -2367,6 +2456,24 @@ struct _R: Rswift.Validatable {
       static func validate() throws {
         if UIKit.UIImage(named: "placeholder.png", in: R.hostingBundle, compatibleWith: nil) == nil { throw Rswift.ValidationError(description: "[R.swift] Image named 'placeholder.png' is used in nib 'BlogCell', but couldn't be loaded.") }
         if #available(iOS 11.0, *) {
+        }
+      }
+      
+      fileprivate init() {}
+    }
+    
+    struct _GrowthViewController: Rswift.NibResourceType, Rswift.Validatable {
+      let bundle = R.hostingBundle
+      let name = "GrowthViewController"
+      
+      func firstView(owner ownerOrNil: AnyObject?, options optionsOrNil: [UINib.OptionsKey : Any]? = nil) -> UIKit.UIView? {
+        return instantiate(withOwner: ownerOrNil, options: optionsOrNil)[0] as? UIKit.UIView
+      }
+      
+      static func validate() throws {
+        if UIKit.UIImage(named: "ic_weight", in: R.hostingBundle, compatibleWith: nil) == nil { throw Rswift.ValidationError(description: "[R.swift] Image named 'ic_weight' is used in nib 'GrowthViewController', but couldn't be loaded.") }
+        if #available(iOS 11.0, *) {
+          if UIKit.UIColor(named: "garadient_start", in: R.hostingBundle, compatibleWith: nil) == nil { throw Rswift.ValidationError(description: "[R.swift] Color named 'garadient_start' is used in storyboard 'GrowthViewController', but couldn't be loaded.") }
         }
       }
       

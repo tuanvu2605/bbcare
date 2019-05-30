@@ -16,15 +16,18 @@ public enum AppRouter: URLRequestConvertible {
     case login(Dictionary<String,Any>)
     case register(Dictionary<String,Any>)
     case addGrowthInfo(Dictionary<String,Any>)
-    case userInfo
-    case babyInfo
+    case userInfo(Dictionary<String,Any>)
+    case babyInfo(Dictionary<String,Any>)
     case allPost
+    case taskByMonth(Dictionary<String,Any>)
+    case createTask(Dictionary<String,Any>)
+    case allGrowthInfo(Dictionary<String,Any>)
     
-  
+  //tasks/bymonth
     
     var method: HTTPMethod {
         switch self {
-        case .login ,.userInfo , .babyInfo , .register , .addGrowthInfo:
+        case .login ,.userInfo , .babyInfo , .register , .addGrowthInfo , .taskByMonth , .createTask , .allGrowthInfo:
             return .post
         case .allPost:
             return .get
@@ -47,6 +50,12 @@ public enum AppRouter: URLRequestConvertible {
             return "growthinfo/addnew"
         case .register:
             return "register"
+        case .taskByMonth:
+            return "tasks/bymonth"
+        case .createTask:
+            return "tasks/create"
+        case .allGrowthInfo:
+            return "growthinfo/all"
         default:
             return ""
         }
@@ -55,7 +64,7 @@ public enum AppRouter: URLRequestConvertible {
     public func asURLRequest() throws -> URLRequest {
         let parameters: [String: Any]! = {
             switch self {
-            case .login(let dict) , .addGrowthInfo(let dict) , .register(let dict) :
+            case .login(let dict) , .addGrowthInfo(let dict) , .register(let dict) , .babyInfo(let dict) ,.taskByMonth(let dict) , .createTask(let dict) , .userInfo(let dict) , .allGrowthInfo(let dict):
                 return dict;
                 
             default:
@@ -71,7 +80,7 @@ public enum AppRouter: URLRequestConvertible {
 //        }
 //
         request.timeoutInterval = TimeInterval(10 * 1000)
-        request.setValue("application/json",forHTTPHeaderField: "Content-Type")
+//        request.setValue("application/json",forHTTPHeaderField: "Content-Type")
         return try URLEncoding.default.encode(request, with: parameters)
     }
 }

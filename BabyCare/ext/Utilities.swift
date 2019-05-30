@@ -8,6 +8,7 @@
 
 import UIKit
 import DeviceKit
+import SwiftyUserDefaults
 
 class Utilities: NSObject {
     
@@ -57,3 +58,27 @@ extension AppDelegate {
     }
 }
 
+extension DefaultsKeys {
+    static let userId = DefaultsKey<String>("userId",defaultValue: "")
+    static let babyId = DefaultsKey<String>("babyId",defaultValue: "")
+    
+}
+extension Date
+{
+    func toString( dateFormat format  : String ) -> String
+    {
+        let dateFormatter = DateFormatter()
+        dateFormatter.dateFormat = format
+        return dateFormatter.string(from: self)
+    }
+    
+}
+extension String
+{
+    func toDate(dateFormat format  : String )->Date?{
+        let dateFormatter = DateFormatter()
+        dateFormatter.dateFormat = format
+        let date = dateFormatter.date(from: self)
+        return date
+    }
+}

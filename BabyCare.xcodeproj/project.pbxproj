@@ -36,6 +36,8 @@
 		8C3DFEDE2293ED1100DF64A8 /* TitleCheckboxLayout.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8C3DFEDD2293ED1100DF64A8 /* TitleCheckboxLayout.swift */; };
 		8C3DFEE02293F38100DF64A8 /* TitleCheckboxView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8C3DFEDF2293F38100DF64A8 /* TitleCheckboxView.swift */; };
 		8C3DFEE22293F96D00DF64A8 /* HomeItem.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8C3DFEE12293F96D00DF64A8 /* HomeItem.swift */; };
+		8C5BE8F5229CD1D800EA582B /* girl_type.png in Resources */ = {isa = PBXBuildFile; fileRef = 8C5BE8F3229CD1D700EA582B /* girl_type.png */; };
+		8C5BE8F6229CD1D800EA582B /* boy_type.png in Resources */ = {isa = PBXBuildFile; fileRef = 8C5BE8F4229CD1D800EA582B /* boy_type.png */; };
 		8C6D906C228D634900CA4C8D /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8C6D906B228D634900CA4C8D /* AppDelegate.swift */; };
 		8C6D906E228D634900CA4C8D /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8C6D906D228D634900CA4C8D /* ViewController.swift */; };
 		8C6D9071228D634900CA4C8D /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8C6D906F228D634900CA4C8D /* Main.storyboard */; };
@@ -168,6 +170,10 @@
 		8C72EE78229915A100AD3CEE /* baby_banner.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 8C72EE77229915A100AD3CEE /* baby_banner.jpg */; };
 		8C72EE7A22991AF100AD3CEE /* AppModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8C72EE7922991AF100AD3CEE /* AppModel.swift */; };
 		8C72EE7C229926B600AD3CEE /* AddInfoGrowthController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8C72EE7B229926B600AD3CEE /* AddInfoGrowthController.swift */; };
+		8C72EE7F2299419900AD3CEE /* GrowthViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8C72EE7D2299419900AD3CEE /* GrowthViewController.swift */; };
+		8C72EE802299419900AD3CEE /* GrowthViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 8C72EE7E2299419900AD3CEE /* GrowthViewController.xib */; };
+		8C72EE8522994BF600AD3CEE /* BabyInfoViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8C72EE8322994BF600AD3CEE /* BabyInfoViewController.swift */; };
+		8C72EE8622994BF600AD3CEE /* BabyInfoViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 8C72EE8422994BF600AD3CEE /* BabyInfoViewController.xib */; };
 		8C9D400E228E93B000BD8EE8 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 8C9D400D228E93B000BD8EE8 /* GoogleService-Info.plist */; };
 		8C9D4059228E969400BD8EE8 /* ConversationManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8C9D4013228E969400BD8EE8 /* ConversationManager.swift */; };
 		8C9D405A228E969400BD8EE8 /* UserManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8C9D4014228E969400BD8EE8 /* UserManager.swift */; };
@@ -219,6 +225,9 @@
 		8C9D408B228E969400BD8EE8 /* FirestoreService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8C9D4056228E969400BD8EE8 /* FirestoreService.swift */; };
 		8C9D408C228E969400BD8EE8 /* DateService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8C9D4057228E969400BD8EE8 /* DateService.swift */; };
 		8C9D408D228E969400BD8EE8 /* LocationService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8C9D4058228E969400BD8EE8 /* LocationService.swift */; };
+		8CE56C77229E283B00EAA426 /* ChartViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8CE56C76229E283B00EAA426 /* ChartViewController.swift */; };
+		8CE56C7A229E2CE100EAA426 /* BalloonMarker.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8CE56C79229E2CE000EAA426 /* BalloonMarker.swift */; };
+		8CE56CBA229E5FB400EAA426 /* NoticeLayout.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8CE56CB9229E5FB400EAA426 /* NoticeLayout.swift */; };
 		8CEEB63822916D98006AA516 /* Blog.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8CEEB63722916D98006AA516 /* Blog.swift */; };
 		8CEEB63B22917009006AA516 /* BlogCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8CEEB63922917009006AA516 /* BlogCell.swift */; };
 		8CEEB63C22917009006AA516 /* BlogCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 8CEEB63A22917009006AA516 /* BlogCell.xib */; };
@@ -229,6 +238,8 @@
 		8CEEB64622918C82006AA516 /* doctor.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 8CEEB64522918C82006AA516 /* doctor.jpg */; };
 		8CEEB648229193D6006AA516 /* AppRouter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8CEEB647229193D6006AA516 /* AppRouter.swift */; };
 		8CEEB64A229193E1006AA516 /* AppService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8CEEB649229193E1006AA516 /* AppService.swift */; };
+		8CFA290A229FAE47002B1D15 /* GrowthChartViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8CFA2909229FAE47002B1D15 /* GrowthChartViewController.swift */; };
+		8CFA290C229FB5F2002B1D15 /* GrowthDataEntry.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8CFA290B229FB5F2002B1D15 /* GrowthDataEntry.swift */; };
 		8CFB0676228D71970063D160 /* Icons.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 8CFB0675228D71970063D160 /* Icons.xcassets */; };
 		8CFB0679228D74950063D160 /* R.generated.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8CFB0678228D74950063D160 /* R.generated.swift */; };
 		94841AFA2293B6CE00D1F02F /* WelcomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 94841AF92293B6CE00D1F02F /* WelcomeViewController.swift */; };
@@ -268,6 +279,8 @@
 		8C3DFEDD2293ED1100DF64A8 /* TitleCheckboxLayout.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TitleCheckboxLayout.swift; sourceTree = "<group>"; };
 		8C3DFEDF2293F38100DF64A8 /* TitleCheckboxView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TitleCheckboxView.swift; sourceTree = "<group>"; };
 		8C3DFEE12293F96D00DF64A8 /* HomeItem.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeItem.swift; sourceTree = "<group>"; };
+		8C5BE8F3229CD1D700EA582B /* girl_type.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = girl_type.png; sourceTree = "<group>"; };
+		8C5BE8F4229CD1D800EA582B /* boy_type.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = boy_type.png; sourceTree = "<group>"; };
 		8C6D9068228D634900CA4C8D /* BabyCare.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = BabyCare.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		8C6D906B228D634900CA4C8D /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		8C6D906D228D634900CA4C8D /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -402,6 +415,10 @@
 		8C72EE77229915A100AD3CEE /* baby_banner.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = baby_banner.jpg; sourceTree = "<group>"; };
 		8C72EE7922991AF100AD3CEE /* AppModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppModel.swift; sourceTree = "<group>"; };
 		8C72EE7B229926B600AD3CEE /* AddInfoGrowthController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddInfoGrowthController.swift; sourceTree = "<group>"; };
+		8C72EE7D2299419900AD3CEE /* GrowthViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GrowthViewController.swift; sourceTree = "<group>"; };
+		8C72EE7E2299419900AD3CEE /* GrowthViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = GrowthViewController.xib; sourceTree = "<group>"; };
+		8C72EE8322994BF600AD3CEE /* BabyInfoViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BabyInfoViewController.swift; sourceTree = "<group>"; };
+		8C72EE8422994BF600AD3CEE /* BabyInfoViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = BabyInfoViewController.xib; sourceTree = "<group>"; };
 		8C9D400D228E93B000BD8EE8 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
 		8C9D4013228E969400BD8EE8 /* ConversationManager.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ConversationManager.swift; sourceTree = "<group>"; };
 		8C9D4014228E969400BD8EE8 /* UserManager.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UserManager.swift; sourceTree = "<group>"; };
@@ -453,6 +470,9 @@
 		8C9D4056228E969400BD8EE8 /* FirestoreService.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FirestoreService.swift; sourceTree = "<group>"; };
 		8C9D4057228E969400BD8EE8 /* DateService.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DateService.swift; sourceTree = "<group>"; };
 		8C9D4058228E969400BD8EE8 /* LocationService.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LocationService.swift; sourceTree = "<group>"; };
+		8CE56C76229E283B00EAA426 /* ChartViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChartViewController.swift; sourceTree = "<group>"; };
+		8CE56C79229E2CE000EAA426 /* BalloonMarker.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BalloonMarker.swift; sourceTree = "<group>"; };
+		8CE56CB9229E5FB400EAA426 /* NoticeLayout.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NoticeLayout.swift; sourceTree = "<group>"; };
 		8CEEB63722916D98006AA516 /* Blog.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Blog.swift; sourceTree = "<group>"; };
 		8CEEB63922917009006AA516 /* BlogCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BlogCell.swift; sourceTree = "<group>"; };
 		8CEEB63A22917009006AA516 /* BlogCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = BlogCell.xib; sourceTree = "<group>"; };
@@ -463,6 +483,8 @@
 		8CEEB64522918C82006AA516 /* doctor.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = doctor.jpg; sourceTree = "<group>"; };
 		8CEEB647229193D6006AA516 /* AppRouter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppRouter.swift; sourceTree = "<group>"; };
 		8CEEB649229193E1006AA516 /* AppService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppService.swift; sourceTree = "<group>"; };
+		8CFA2909229FAE47002B1D15 /* GrowthChartViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GrowthChartViewController.swift; sourceTree = "<group>"; };
+		8CFA290B229FB5F2002B1D15 /* GrowthDataEntry.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GrowthDataEntry.swift; sourceTree = "<group>"; };
 		8CFB0675228D71970063D160 /* Icons.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Icons.xcassets; sourceTree = "<group>"; };
 		8CFB0678228D74950063D160 /* R.generated.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = R.generated.swift; sourceTree = SOURCE_ROOT; };
 		94841AF92293B6CE00D1F02F /* WelcomeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WelcomeViewController.swift; sourceTree = "<group>"; };
@@ -512,6 +534,7 @@
 				8CEEB63722916D98006AA516 /* Blog.swift */,
 				8C72ED912297D01A00AD3CEE /* FollowItem.swift */,
 				8C72EE7922991AF100AD3CEE /* AppModel.swift */,
+				8CFA290B229FB5F2002B1D15 /* GrowthDataEntry.swift */,
 			);
 			path = Model;
 			sourceTree = "<group>";
@@ -520,6 +543,8 @@
 			isa = PBXGroup;
 			children = (
 				8C2B3C6B228E531F00AAA8FA /* AppTabBarController.swift */,
+				8CFA2909229FAE47002B1D15 /* GrowthChartViewController.swift */,
+				8CE56C76229E283B00EAA426 /* ChartViewController.swift */,
 				8C2B3C6D228E652000AAA8FA /* HomeController.swift */,
 				8C2B3C6F228E662200AAA8FA /* BlogController.swift */,
 				8C2B3C71228E664400AAA8FA /* MessegerController.swift */,
@@ -534,6 +559,10 @@
 				94841AFB2293B6DA00D1F02F /* SigninViewController.swift */,
 				94841AFD2293B6E000D1F02F /* SignupViewController.swift */,
 				8C72EE7B229926B600AD3CEE /* AddInfoGrowthController.swift */,
+				8C72EE7D2299419900AD3CEE /* GrowthViewController.swift */,
+				8C72EE7E2299419900AD3CEE /* GrowthViewController.xib */,
+				8C72EE8322994BF600AD3CEE /* BabyInfoViewController.swift */,
+				8C72EE8422994BF600AD3CEE /* BabyInfoViewController.xib */,
 			);
 			path = ViewController;
 			sourceTree = "<group>";
@@ -548,6 +577,7 @@
 				8CEEB63922917009006AA516 /* BlogCell.swift */,
 				8CEEB63A22917009006AA516 /* BlogCell.xib */,
 				8C3DFEDF2293F38100DF64A8 /* TitleCheckboxView.swift */,
+				8CE56C79229E2CE000EAA426 /* BalloonMarker.swift */,
 				94BE0C812293E51D00FCA8DD /* InputView.swift */,
 			);
 			path = View;
@@ -573,6 +603,7 @@
 				8C3DFEDD2293ED1100DF64A8 /* TitleCheckboxLayout.swift */,
 				8C3DFEE12293F96D00DF64A8 /* HomeItem.swift */,
 				8C72ED8F2297CF9600AD3CEE /* FollowItemLayout.swift */,
+				8CE56CB9229E5FB400EAA426 /* NoticeLayout.swift */,
 			);
 			path = Layout;
 			sourceTree = "<group>";
@@ -641,6 +672,8 @@
 		8C72ED932297D8F700AD3CEE /* jpg */ = {
 			isa = PBXGroup;
 			children = (
+				8C5BE8F4229CD1D800EA582B /* boy_type.png */,
+				8C5BE8F3229CD1D700EA582B /* girl_type.png */,
 				8C72EE77229915A100AD3CEE /* baby_banner.jpg */,
 				8C72EE752297D90F00AD3CEE /* Development images_week 1.jpg */,
 				8C72ED942297D90400AD3CEE /* Development images_week 2.jpg */,
@@ -1122,6 +1155,7 @@
 				8C72EE5C2297D90500AD3CEE /* Bundel1_Moment_Premium_07 Sister.png in Resources */,
 				8C72ED862297CEAA00AD3CEE /* BABY_Info_wk8_Boy.html in Resources */,
 				8C72EE072297D90500AD3CEE /* Age Badge month 2 green.png in Resources */,
+				8C72EE8622994BF600AD3CEE /* BabyInfoViewController.xib in Resources */,
 				8C2B3C85228E859300AAA8FA /* SF-Pro-Text-Medium.otf in Resources */,
 				8C2B3C87228E859A00AAA8FA /* SF-Pro-Text-Semibold.otf in Resources */,
 				8C9D400E228E93B000BD8EE8 /* GoogleService-Info.plist in Resources */,
@@ -1139,6 +1173,7 @@
 				8C72EE4D2297D90500AD3CEE /* Age Badges month 6 pink.png in Resources */,
 				8C72ED852297CEAA00AD3CEE /* BABY_Info_wk2_Boy.html in Resources */,
 				8C72EE312297D90500AD3CEE /* Age Badges month 9 pink.png in Resources */,
+				8C5BE8F6229CD1D800EA582B /* boy_type.png in Resources */,
 				8C72EE612297D90500AD3CEE /* Age Badges month 9 green.png in Resources */,
 				8C72EE6D2297D90500AD3CEE /* Bundel1_Milestone_Free_03 I-can-lift-my-head.png in Resources */,
 				8C72EE542297D90500AD3CEE /* Bundel1_Milestone_Premium_23 I-love-hugs.png in Resources */,
@@ -1146,6 +1181,7 @@
 				8C72EE592297D90500AD3CEE /* Age Badge month 4 blue.png in Resources */,
 				8C72EE722297D90500AD3CEE /* Development images_week 8.jpg in Resources */,
 				8C9D4065228E969400BD8EE8 /* Auth.storyboard in Resources */,
+				8C72EE802299419900AD3CEE /* GrowthViewController.xib in Resources */,
 				8C72EE4A2297D90500AD3CEE /* Age Badges week 3 blue.png in Resources */,
 				8C72ED882297CEAA00AD3CEE /* BABY_Info_wk3_Boy.html in Resources */,
 				8C72ED8A2297CEAA00AD3CEE /* BABY_Info_wk4_Boy.html in Resources */,
@@ -1159,6 +1195,7 @@
 				8C2B3C86228E859600AAA8FA /* SF-Pro-Text-Regular.otf in Resources */,
 				8C72ED892297CEAA00AD3CEE /* BABY_Info_wk7_Boy.html in Resources */,
 				8C72EE6F2297D90500AD3CEE /* Development images_week 5.jpg in Resources */,
+				8C5BE8F5229CD1D800EA582B /* girl_type.png in Resources */,
 				8C72EE3A2297D90500AD3CEE /* Age Badges month 8 green.png in Resources */,
 				8C72EE352297D90500AD3CEE /* Bundel1_Speech_Free_01 Found-my-hands.png in Resources */,
 				8C72EE2A2297D90500AD3CEE /* Bundel1_Milestone_Premium_24 I-love-my-sleep.png in Resources */,
@@ -1210,13 +1247,18 @@
 				"${BUILT_PRODUCTS_DIR}/BoringSSL-GRPC/openssl_grpc.framework",
 				"${BUILT_PRODUCTS_DIR}/CarbonKit/CarbonKit.framework",
 				"${BUILT_PRODUCTS_DIR}/Charts/Charts.framework",
+				"${BUILT_PRODUCTS_DIR}/CocoaLumberjack/CocoaLumberjack.framework",
+				"${BUILT_PRODUCTS_DIR}/DateToolsSwift/DateToolsSwift.framework",
 				"${BUILT_PRODUCTS_DIR}/DeviceKit/DeviceKit.framework",
+				"${BUILT_PRODUCTS_DIR}/FSPagerView/FSPagerView.framework",
 				"${BUILT_PRODUCTS_DIR}/GTMSessionFetcher/GTMSessionFetcher.framework",
 				"${BUILT_PRODUCTS_DIR}/GoogleUtilities/GoogleUtilities.framework",
+				"${BUILT_PRODUCTS_DIR}/IQKeyboardManagerSwift/IQKeyboardManagerSwift.framework",
 				"${BUILT_PRODUCTS_DIR}/KLCPopup/KLCPopup.framework",
 				"${BUILT_PRODUCTS_DIR}/Kingfisher/Kingfisher.framework",
 				"${BUILT_PRODUCTS_DIR}/LayoutKit/LayoutKit.framework",
 				"${BUILT_PRODUCTS_DIR}/MBProgressHUD/MBProgressHUD.framework",
+				"${BUILT_PRODUCTS_DIR}/NSObject-SafeExpectations/NSObject_SafeExpectations.framework",
 				"${BUILT_PRODUCTS_DIR}/Protobuf/Protobuf.framework",
 				"${BUILT_PRODUCTS_DIR}/R.swift.Library/Rswift.framework",
 				"${BUILT_PRODUCTS_DIR}/RxCocoa/RxCocoa.framework",
@@ -1224,6 +1266,7 @@
 				"${BUILT_PRODUCTS_DIR}/RxSwift/RxSwift.framework",
 				"${BUILT_PRODUCTS_DIR}/SDWebImage/SDWebImage.framework",
 				"${BUILT_PRODUCTS_DIR}/SwiftyUserDefaults/SwiftyUserDefaults.framework",
+				"${BUILT_PRODUCTS_DIR}/WordPress-iOS-Editor/WordPressEditor.framework",
 				"${BUILT_PRODUCTS_DIR}/gRPC-C++/grpcpp.framework",
 				"${BUILT_PRODUCTS_DIR}/gRPC-Core/grpc.framework",
 				"${BUILT_PRODUCTS_DIR}/leveldb-library/leveldb.framework",
@@ -1238,13 +1281,18 @@
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/openssl_grpc.framework",
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/CarbonKit.framework",
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Charts.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/CocoaLumberjack.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/DateToolsSwift.framework",
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/DeviceKit.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/FSPagerView.framework",
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/GTMSessionFetcher.framework",
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/GoogleUtilities.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/IQKeyboardManagerSwift.framework",
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/KLCPopup.framework",
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Kingfisher.framework",
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/LayoutKit.framework",
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/MBProgressHUD.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/NSObject_SafeExpectations.framework",
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Protobuf.framework",
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Rswift.framework",
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/RxCocoa.framework",
@@ -1252,6 +1300,7 @@
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/RxSwift.framework",
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/SDWebImage.framework",
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/SwiftyUserDefaults.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/WordPressEditor.framework",
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/grpcpp.framework",
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/grpc.framework",
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/leveldb.framework",
@@ -1311,7 +1360,10 @@
 			buildActionMask = 2147483647;
 			files = (
 				8C2B3C74228E665700AAA8FA /* SettingController.swift in Sources */,
+				8CE56CBA229E5FB400EAA426 /* NoticeLayout.swift in Sources */,
 				8C9D405C228E969400BD8EE8 /* ProfileManager.swift in Sources */,
+				8CE56C77229E283B00EAA426 /* ChartViewController.swift in Sources */,
+				8C72EE8522994BF600AD3CEE /* BabyInfoViewController.swift in Sources */,
 				8C9D4077228E969400BD8EE8 /* Typealiases.swift in Sources */,
 				8C9D4071228E969400BD8EE8 /* ObjectMessage.swift in Sources */,
 				8C9D4082228E969400BD8EE8 /* DictionaryExtension.swift in Sources */,
@@ -1321,8 +1373,10 @@
 				8C6D906E228D634900CA4C8D /* ViewController.swift in Sources */,
 				8C9D4061228E969400BD8EE8 /* MessageTableViewCell.swift in Sources */,
 				8C9D4084228E969400BD8EE8 /* KeyboardHandler.swift in Sources */,
+				8CFA290A229FAE47002B1D15 /* GrowthChartViewController.swift in Sources */,
 				8C9D406A228E969400BD8EE8 /* ConversationsViewController.swift in Sources */,
 				8C9D407C228E969400BD8EE8 /* NSObjectExtension.swift in Sources */,
+				8CE56C7A229E2CE100EAA426 /* BalloonMarker.swift in Sources */,
 				8C2B3C3F228E4AFA00AAA8FA /* AppScrollView.swift in Sources */,
 				8C9D408A228E969400BD8EE8 /* FirestorageService.swift in Sources */,
 				8C9D4067228E969400BD8EE8 /* ProfileViewController.swift in Sources */,
@@ -1358,6 +1412,7 @@
 				8C2B3C47228E4B3F00AAA8FA /* UIViewController+Extensions.swift in Sources */,
 				8C9D405E228E969400BD8EE8 /* UIViewExtension.swift in Sources */,
 				8CEEB63B22917009006AA516 /* BlogCell.swift in Sources */,
+				8CFA290C229FB5F2002B1D15 /* GrowthDataEntry.swift in Sources */,
 				8C9D4070228E969400BD8EE8 /* ObjectConversation.swift in Sources */,
 				8C2B3C7B228E71B900AAA8FA /* AppHeaderLayout.swift in Sources */,
 				94841AFC2293B6DA00D1F02F /* SigninViewController.swift in Sources */,
@@ -1381,6 +1436,7 @@
 				8C9D4060228E969400BD8EE8 /* MessagesViewController.swift in Sources */,
 				8C72ED8E2297CF4900AD3CEE /* FollowDetailController.swift in Sources */,
 				8C2B3C3B228E49F200AAA8FA /* Expert.swift in Sources */,
+				8C72EE7F2299419900AD3CEE /* GrowthViewController.swift in Sources */,
 				8C2B3C79228E6F3500AAA8FA /* AppBottomButtonLayout.swift in Sources */,
 				8C3DFEDC2293B51C00DF64A8 /* TimelineFollowController.swift in Sources */,
 				8C9D408D228E969400BD8EE8 /* LocationService.swift in Sources */,

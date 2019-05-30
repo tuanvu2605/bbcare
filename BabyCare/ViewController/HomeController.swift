@@ -8,15 +8,29 @@
 
 import UIKit
 import LayoutKit
+import SwiftyUserDefaults
 
 class HomeController: ScrollableViewController {
 
+    
     override func viewDidLoad() {
         super.viewDidLoad()
-//        let params = ["weight" : 10 , "height" : 10 , "date" : "10/10/2019" , "babyId" : "5ce36374a33e129d6c7d281d"] as [String : Any]
-//        let rParams = ["email":"user01@gmail.com", "password":"12345678"]
-////        AppService.register(rParams)
-
+        AppService.userInfo(["uid":Defaults[.userId]]) { (res) in
+            if let dict = res["data"] as? [String : Any] {
+                let user = User(dict : dict)
+                AppModel.shared.user = user
+                if user.babies.count > 0 {
+                    AppModel.shared.babyId = user.babies.first!.id
+                    Defaults[.babyId] = user.babies.first!.id
+                }
+            }
+        }
+        
+    }
+    
+    override func viewDidAppear(_ animated: Bool) {
+        super.viewDidAppear(animated)
+        
     }
     
     override func makeUI() {
@@ -58,11 +72,12 @@ class HomeController: ScrollableViewController {
     
     
     @objc func viewChartDidTap(){
-        
+        let vc = GrowthChartViewController()
+        self.navigationController?.pushViewController(vc, animated: true)
     }
     
     @objc func viewNutritionDidTap(){
-        let vc  = NutritionController()
+        let vc = NutritionController()
         self.navigationController?.pushViewController(vc, animated: true)
     }
     
