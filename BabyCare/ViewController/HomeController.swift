@@ -34,10 +34,10 @@ class HomeController: ScrollableViewController {
     }
     
     override func makeUI() {
-        let header = AppHeaderLayout(bigTitle: "Theo dõi", rightImageBtn: UIImage()).defautlMakeView()
-        self.addHeader(headerView: header)
+        let header = HomeHeaderView.makeView()
+        header.setHeight(h: 270)
         
-        scrollView.addBlank(space: 100)
+        scrollView.addMoreView(view: header)
         
         let btn = ButtonLayout(type: .custom, title: "  Nhập chiều cao/cân nặng", image: .image(R.image.ic_plus()), font: AppFont.style.medium(size: 17), alignment: .center) { (btn) in
             btn.setTitleColor(R.color.garadient_start(), for: .normal)

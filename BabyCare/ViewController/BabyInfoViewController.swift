@@ -59,6 +59,10 @@ class BabyInfoViewController: UIViewController {
                 AppModel.shared.user?.babies.append(baby)
                 AppModel.shared.babyId = baby.id
                 Defaults[.babyId] = baby.id
+                Defaults[.lastWeight] = self.weeksWhenBorn.text!.toDouble()
+                Defaults[.lastHeight] = self.heightBorn.text!.toDouble()
+                Defaults[.babyName] = self.babyNameTxt.text!
+                Defaults[.babyBirthDay] = self.birthdayTxt.text!
             }
             self.hideLoadinghud()
             self.dismiss(animated: true, completion: nil)

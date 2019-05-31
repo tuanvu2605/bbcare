@@ -2287,7 +2287,7 @@ struct R: Rswift.Validatable {
     fileprivate init() {}
   }
   
-  /// This `R.nib` struct is generated, and contains static references to 3 nibs.
+  /// This `R.nib` struct is generated, and contains static references to 4 nibs.
   struct nib {
     /// Nib `BabyInfoViewController`.
     static let babyInfoViewController = _R.nib._BabyInfoViewController()
@@ -2295,6 +2295,8 @@ struct R: Rswift.Validatable {
     static let blogCell = _R.nib._BlogCell()
     /// Nib `GrowthViewController`.
     static let growthViewController = _R.nib._GrowthViewController()
+    /// Nib `HomeHeaderView`.
+    static let homeHeaderView = _R.nib._HomeHeaderView()
     
     /// `UINib(name: "BabyInfoViewController", in: bundle)`
     @available(*, deprecated, message: "Use UINib(resource: R.nib.babyInfoViewController) instead")
@@ -2314,6 +2316,12 @@ struct R: Rswift.Validatable {
       return UIKit.UINib(resource: R.nib.growthViewController)
     }
     
+    /// `UINib(name: "HomeHeaderView", in: bundle)`
+    @available(*, deprecated, message: "Use UINib(resource: R.nib.homeHeaderView) instead")
+    static func homeHeaderView(_: Void = ()) -> UIKit.UINib {
+      return UIKit.UINib(resource: R.nib.homeHeaderView)
+    }
+    
     static func babyInfoViewController(owner ownerOrNil: AnyObject?, options optionsOrNil: [UINib.OptionsKey : Any]? = nil) -> UIKit.UIView? {
       return R.nib.babyInfoViewController.instantiate(withOwner: ownerOrNil, options: optionsOrNil)[0] as? UIKit.UIView
     }
@@ -2324,6 +2332,10 @@ struct R: Rswift.Validatable {
     
     static func growthViewController(owner ownerOrNil: AnyObject?, options optionsOrNil: [UINib.OptionsKey : Any]? = nil) -> UIKit.UIView? {
       return R.nib.growthViewController.instantiate(withOwner: ownerOrNil, options: optionsOrNil)[0] as? UIKit.UIView
+    }
+    
+    static func homeHeaderView(owner ownerOrNil: AnyObject?, options optionsOrNil: [UINib.OptionsKey : Any]? = nil) -> HomeHeaderView? {
+      return R.nib.homeHeaderView.instantiate(withOwner: ownerOrNil, options: optionsOrNil)[0] as? HomeHeaderView
     }
     
     fileprivate init() {}
@@ -2432,6 +2444,7 @@ struct _R: Rswift.Validatable {
     static func validate() throws {
       try _BlogCell.validate()
       try _GrowthViewController.validate()
+      try _HomeHeaderView.validate()
     }
     
     struct _BabyInfoViewController: Rswift.NibResourceType {
@@ -2474,6 +2487,28 @@ struct _R: Rswift.Validatable {
         if UIKit.UIImage(named: "ic_weight", in: R.hostingBundle, compatibleWith: nil) == nil { throw Rswift.ValidationError(description: "[R.swift] Image named 'ic_weight' is used in nib 'GrowthViewController', but couldn't be loaded.") }
         if #available(iOS 11.0, *) {
           if UIKit.UIColor(named: "garadient_start", in: R.hostingBundle, compatibleWith: nil) == nil { throw Rswift.ValidationError(description: "[R.swift] Color named 'garadient_start' is used in storyboard 'GrowthViewController', but couldn't be loaded.") }
+        }
+      }
+      
+      fileprivate init() {}
+    }
+    
+    struct _HomeHeaderView: Rswift.NibResourceType, Rswift.Validatable {
+      let bundle = R.hostingBundle
+      let name = "HomeHeaderView"
+      
+      func firstView(owner ownerOrNil: AnyObject?, options optionsOrNil: [UINib.OptionsKey : Any]? = nil) -> HomeHeaderView? {
+        return instantiate(withOwner: ownerOrNil, options: optionsOrNil)[0] as? HomeHeaderView
+      }
+      
+      static func validate() throws {
+        if UIKit.UIImage(named: "baby.jpg", in: R.hostingBundle, compatibleWith: nil) == nil { throw Rswift.ValidationError(description: "[R.swift] Image named 'baby.jpg' is used in nib 'HomeHeaderView', but couldn't be loaded.") }
+        if UIKit.UIImage(named: "ic_ruler", in: R.hostingBundle, compatibleWith: nil) == nil { throw Rswift.ValidationError(description: "[R.swift] Image named 'ic_ruler' is used in nib 'HomeHeaderView', but couldn't be loaded.") }
+        if UIKit.UIImage(named: "ic_weight", in: R.hostingBundle, compatibleWith: nil) == nil { throw Rswift.ValidationError(description: "[R.swift] Image named 'ic_weight' is used in nib 'HomeHeaderView', but couldn't be loaded.") }
+        if #available(iOS 11.0, *) {
+          if UIKit.UIColor(named: "article_body", in: R.hostingBundle, compatibleWith: nil) == nil { throw Rswift.ValidationError(description: "[R.swift] Color named 'article_body' is used in storyboard 'HomeHeaderView', but couldn't be loaded.") }
+          if UIKit.UIColor(named: "article_title", in: R.hostingBundle, compatibleWith: nil) == nil { throw Rswift.ValidationError(description: "[R.swift] Color named 'article_title' is used in storyboard 'HomeHeaderView', but couldn't be loaded.") }
+          if UIKit.UIColor(named: "garadient_start", in: R.hostingBundle, compatibleWith: nil) == nil { throw Rswift.ValidationError(description: "[R.swift] Color named 'garadient_start' is used in storyboard 'HomeHeaderView', but couldn't be loaded.") }
         }
       }
       

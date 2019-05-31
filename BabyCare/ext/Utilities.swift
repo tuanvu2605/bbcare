@@ -61,6 +61,10 @@ extension AppDelegate {
 extension DefaultsKeys {
     static let userId = DefaultsKey<String>("userId",defaultValue: "")
     static let babyId = DefaultsKey<String>("babyId",defaultValue: "")
+    static let lastWeight = DefaultsKey<Double>("lastWeight",defaultValue: 0.0)
+    static let lastHeight = DefaultsKey<Double>("lastHeight",defaultValue: 0.0)
+    static let babyName = DefaultsKey<String>("babyName",defaultValue: "")
+    static let babyBirthDay = DefaultsKey<String>("babyBirthDay",defaultValue: "")
     
 }
 extension Date
@@ -80,5 +84,18 @@ extension String
         dateFormatter.dateFormat = format
         let date = dateFormatter.date(from: self)
         return date
+    }
+
+    func toDouble()->Double{
+        if let value = self as? String {
+            if let n = NumberFormatter().number(from: value) {
+                let f = n.doubleValue
+                return f
+            }else{
+                return 0.0
+            }
+        }else{
+            return 0.0
+        }
     }
 }
