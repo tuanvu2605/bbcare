@@ -7,6 +7,7 @@
 //
 
 import UIKit
+import SwiftyUserDefaults
 
 class User: NSObject {
     var uid = ""
@@ -14,6 +15,7 @@ class User: NSObject {
     var relationship : Int = 0
     var avatarURL = ""
     var email = ""
+    var isExpert = false
     var babies = [Baby]()
     override init() {
         super.init()
@@ -22,6 +24,10 @@ class User: NSObject {
     init(dict : [String : Any]) {
         if let _id = dict["_id"] as? String {
             self.uid = _id
+        }
+        if let _isExpert = dict["isExpert"] as? Bool {
+            self.isExpert = _isExpert
+            Defaults[.isExpert] = _isExpert
         }
         if let _relationship = dict["relationship"] as? Int {
             self.relationship = _relationship

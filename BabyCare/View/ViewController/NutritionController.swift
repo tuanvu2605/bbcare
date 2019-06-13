@@ -9,9 +9,22 @@
 import UIKit
 
 class NutritionController: ScrollableViewController {
+    
+    var data = [NutritionTask]()
 
     override func viewDidLoad() {
         super.viewDidLoad()
+        AppService.taskByMonth([:]) { (res) in
+            print(res)
+            if let data = res["data"] as? [[String:Any]] {
+                for dict in data {
+                    let task = NutritionTask(dict: dict)
+                    self.data.append(task)
+                }
+                self.addTask()
+            }
+        }
+        
 
     }
     override func makeUI() {
@@ -21,15 +34,18 @@ class NutritionController: ScrollableViewController {
         self.addHeader(headerView: header)
         scrollView.addBlank(space: 16.0)
         
-        addTask()
-        
     }
     
     func addTask(){
-        let item = TitleCheckboxLayout(title: "Cho trẻ bú bất cứ khi nào trẻ có nhu cầu cả ban ngày lần ban đêm", note: "• Còn đói sau khi bú mẹ (quấy khóc).").defautlMakeView()
-        scrollView.addMoreView(view: item)
+        //Cho trẻ bú bất cứ khi nào trẻ có nhu cầu cả ban ngày lần ban đêm
+        for task in data {
+            let task = TitleCheckboxLayout(title: task.content, note: task.note).defautlMakeView()
+            scrollView.addMoreView(view: task)
+        }
     }
     @objc func back(){
+        let task = data.first!
+        AppDelegate.shared.scheduleNotification(title: "Thông báo", detail: task.content)
         self.navigationController?.popToRootViewController(animated: true)
     }
     

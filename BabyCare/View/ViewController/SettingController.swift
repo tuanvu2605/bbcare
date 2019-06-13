@@ -7,6 +7,7 @@
 //
 
 import UIKit
+import SwiftyUserDefaults
 
 class SettingController: ScrollableViewController {
 
@@ -36,10 +37,16 @@ class SettingController: ScrollableViewController {
         
         let logOutItem = ItemSettingLayout(img: R.image.ic_logout()!, title: "Đăng xuất").defautlMakeView()
         scrollView.addMoreView(view: logOutItem)
+        logOutItem.addTapGesture(target: self, action:#selector(logout) , tapDelegate: nil)
         
         scrollView.addBlank(space: 5)
         
         
+    }
+    
+    @objc func logout(){
+        Defaults.removeAll()
+        changeRootViewController(viewController: R.storyboard.main.welcomeViewController()!)
     }
     
 

@@ -7,6 +7,7 @@
 //
 
 import UIKit
+import SwiftyUserDefaults
 
 class Baby: NSObject {
     var id = ""
@@ -22,15 +23,20 @@ class Baby: NSObject {
     init (dict : [String : Any]){
         if let _id = dict["_id"] as? String {
             self.id = _id
+            Defaults[.babyId] = _id
         }
         if let _gender = dict["gender"] as? Int {
             self.gender = _gender
         }
         if let _name = dict["name"] as? String {
             self.name = _name
+            AppModel.shared.babyName = name
+            Defaults[.babyName] = _name
         }
-        if let _birthday = dict["birthday"] as? String {
+        if let _birthday = dict["birthDay"] as? String {
             self.birthday = _birthday
+            Defaults[.babyBirthDay] = _birthday
+           
         }
         if let _bornWeight = dict["bornWeight"] as? Double{
             self.bornWeight = _bornWeight

@@ -10,8 +10,13 @@ import UIKit
 import CarbonKit
 import SwiftyUserDefaults
 
+protocol AddInfoGrowthControllerDelegate : NSObjectProtocol {
+    func addInfoSuccess()
+}
+
 class AddInfoGrowthController: ScrollableViewController {
 
+    weak var delegate : AddInfoGrowthControllerDelegate?
     let weightVC = GrowthViewController(nibName: "GrowthViewController", bundle: nil)
     let heightVC = GrowthViewController(nibName: "GrowthViewController", bundle: nil)
     override func viewDidLoad() {
@@ -58,6 +63,11 @@ class AddInfoGrowthController: ScrollableViewController {
         AppService.addGrowthInfo(["weight":weightVC.value() , "height" : heightVC.value() , "date" : Date().toString(dateFormat : "dd/MM/yyyy") , "babyId":Defaults[.babyId]]) { (res) in
             self.hideLoadinghud()
             self.showToast(text: "Cập nhật thông tin thành công")
+            Defaults[.lastWeight] = self.weightVC.value()
+            Defaults[.lastHeight] = self.heightVC.value()
+            if let delegate = self.delegate {
+                delegate.addInfoSuccess()
+            }
             DispatchQueue.main.asyncAfter(deadline: .now() + 2.0) {
                 self.dismiss(animated: true, completion: nil)
             }

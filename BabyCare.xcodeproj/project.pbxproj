@@ -43,6 +43,8 @@
 		8C6D9071228D634900CA4C8D /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8C6D906F228D634900CA4C8D /* Main.storyboard */; };
 		8C6D9073228D634B00CA4C8D /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 8C6D9072228D634B00CA4C8D /* Assets.xcassets */; };
 		8C6D9076228D634B00CA4C8D /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8C6D9074228D634B00CA4C8D /* LaunchScreen.storyboard */; };
+		8C6FADBC22A42B8D007DD34A /* EditorController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8C6FADBB22A42B8D007DD34A /* EditorController.swift */; };
+		8C6FADBE22A4BDA2007DD34A /* NutritionTask.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8C6FADBD22A4BDA2007DD34A /* NutritionTask.swift */; };
 		8C72ED852297CEAA00AD3CEE /* BABY_Info_wk2_Boy.html in Resources */ = {isa = PBXBuildFile; fileRef = 8C72ED7D2297CEA900AD3CEE /* BABY_Info_wk2_Boy.html */; };
 		8C72ED862297CEAA00AD3CEE /* BABY_Info_wk8_Boy.html in Resources */ = {isa = PBXBuildFile; fileRef = 8C72ED7E2297CEA900AD3CEE /* BABY_Info_wk8_Boy.html */; };
 		8C72ED872297CEAA00AD3CEE /* BABY_Info_wk6_Boy.html in Resources */ = {isa = PBXBuildFile; fileRef = 8C72ED7F2297CEA900AD3CEE /* BABY_Info_wk6_Boy.html */; };
@@ -290,6 +292,8 @@
 		8C6D9072228D634B00CA4C8D /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		8C6D9075228D634B00CA4C8D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		8C6D9077228D634B00CA4C8D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		8C6FADBB22A42B8D007DD34A /* EditorController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EditorController.swift; sourceTree = "<group>"; };
+		8C6FADBD22A4BDA2007DD34A /* NutritionTask.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NutritionTask.swift; sourceTree = "<group>"; };
 		8C72ED7D2297CEA900AD3CEE /* BABY_Info_wk2_Boy.html */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.html; path = BABY_Info_wk2_Boy.html; sourceTree = "<group>"; };
 		8C72ED7E2297CEA900AD3CEE /* BABY_Info_wk8_Boy.html */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.html; path = BABY_Info_wk8_Boy.html; sourceTree = "<group>"; };
 		8C72ED7F2297CEA900AD3CEE /* BABY_Info_wk6_Boy.html */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.html; path = BABY_Info_wk6_Boy.html; sourceTree = "<group>"; };
@@ -539,6 +543,7 @@
 				8C72ED912297D01A00AD3CEE /* FollowItem.swift */,
 				8C72EE7922991AF100AD3CEE /* AppModel.swift */,
 				8CFA290B229FB5F2002B1D15 /* GrowthDataEntry.swift */,
+				8C6FADBD22A4BDA2007DD34A /* NutritionTask.swift */,
 			);
 			path = Model;
 			sourceTree = "<group>";
@@ -567,6 +572,7 @@
 				8C72EE7E2299419900AD3CEE /* GrowthViewController.xib */,
 				8C72EE8322994BF600AD3CEE /* BabyInfoViewController.swift */,
 				8C72EE8422994BF600AD3CEE /* BabyInfoViewController.xib */,
+				8C6FADBB22A42B8D007DD34A /* EditorController.swift */,
 			);
 			path = ViewController;
 			sourceTree = "<group>";
@@ -582,6 +588,7 @@
 				8CEEB63A22917009006AA516 /* BlogCell.xib */,
 				8C3DFEDF2293F38100DF64A8 /* TitleCheckboxView.swift */,
 				8CE56C79229E2CE000EAA426 /* BalloonMarker.swift */,
+				8C2B3C3C228E4A8B00AAA8FA /* ViewController */,
 				94BE0C812293E51D00FCA8DD /* InputView.swift */,
 				8C797DAC22A0C527004AEFB7 /* HomeHeaderView.xib */,
 				8C797DAE22A0CADE004AEFB7 /* HomeHeaderView.swift */,
@@ -645,7 +652,6 @@
 				8CFB067A228D750D0063D160 /* Resource */,
 				8C2B3C4B228E4B5800AAA8FA /* ext */,
 				8C2B3C3D228E4AD200AAA8FA /* View */,
-				8C2B3C3C228E4A8B00AAA8FA /* ViewController */,
 				8C2B3C31228E472A00AAA8FA /* Model */,
 				8CFB0678228D74950063D160 /* R.generated.swift */,
 				8C6D906B228D634900CA4C8D /* AppDelegate.swift */,
@@ -1388,6 +1394,7 @@
 				8C9D408A228E969400BD8EE8 /* FirestorageService.swift in Sources */,
 				8C9D4067228E969400BD8EE8 /* ProfileViewController.swift in Sources */,
 				8C3DFEE22293F96D00DF64A8 /* HomeItem.swift in Sources */,
+				8C6FADBC22A42B8D007DD34A /* EditorController.swift in Sources */,
 				8C2B3C6C228E531F00AAA8FA /* AppTabBarController.swift in Sources */,
 				8CEEB64422918969006AA516 /* ItemSettingLayout.swift in Sources */,
 				8C9D407E228E969400BD8EE8 /* UITableViewExtension.swift in Sources */,
@@ -1412,6 +1419,7 @@
 				8C9D406D228E969400BD8EE8 /* ContactsPreviewController.swift in Sources */,
 				8C797DAF22A0CADE004AEFB7 /* HomeHeaderView.swift in Sources */,
 				8C9D406E228E969400BD8EE8 /* ImagePreviewController.swift in Sources */,
+				8C6FADBE22A4BDA2007DD34A /* NutritionTask.swift in Sources */,
 				8C72EE7C229926B600AD3CEE /* AddInfoGrowthController.swift in Sources */,
 				8C3DFEE02293F38100DF64A8 /* TitleCheckboxView.swift in Sources */,
 				8C6D906C228D634900CA4C8D /* AppDelegate.swift in Sources */,

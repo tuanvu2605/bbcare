@@ -32,6 +32,8 @@ class BlogController: ScrollableViewController {
     }
     override func makeUI() {
         let header = AppHeaderLayout(bigTitle: "Blog", rightImageBtn: R.image.ic_plus_header()!).defautlMakeView()
+        let btn = header.viewWithTag(AppHeaderLayout.rightButtonTag) as? UIButton
+        btn?.addTarget(self, action: #selector(createBlog), for: .touchUpInside)
         self.addHeader(headerView: header)
         tableView = UITableView(frame: CGRect(x: 0, y: 0, width: Size.screen.width, height: Size.screen.height - header.height), style: .plain)
         self.scrollView.addMoreView(view: tableView)
@@ -41,6 +43,10 @@ class BlogController: ScrollableViewController {
         tableView.register(UINib(nibName: "BlogCell", bundle: nil), forCellReuseIdentifier: cellId)
         tableView.contentInset = UIEdgeInsets(top: 0, left: 0, bottom: self.tabBarController?.tabBar.height ?? 0, right: 0)
         
+    }
+    
+    @objc func createBlog(){
+        self.present(AppNavigationController(rootViewController: EditorController()), animated: true, completion: nil)
     }
     
     

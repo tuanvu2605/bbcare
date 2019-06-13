@@ -21,6 +21,16 @@ class AppService: NSObject {
         }
     }
     
+    class func getLastGrowthInfo(completion : @escaping(_ reponse : [String : Any])->Void){
+        
+        Alamofire.request(AppRouter.lastGrowthInfo).responseJSON { response in
+            if let responseJSON = response.result.value as? [String : Any] {
+                print(responseJSON)
+                completion(responseJSON)
+            }
+        }
+    }
+    
     class func updateBabyInfo(_ params : [String:Any] , completion : @escaping(_ reponse : [String : Any])->Void){
         Alamofire.request(AppRouter.babyInfo(params)).responseJSON { response in
             if let responseJSON = response.result.value as? [String : Any] {
@@ -49,6 +59,15 @@ class AppService: NSObject {
     
     class func taskByMonth(_ params : [String:Any] , completion : @escaping(_ reponse : [String : Any])->Void){
         Alamofire.request(AppRouter.taskByMonth(params)).responseJSON { response in
+            if let responseJSON = response.result.value as? [String : Any] {
+                print(responseJSON)
+                completion(responseJSON)
+            }
+        }
+    }
+    
+    class func createBlog(_ params : [String:Any] , completion : @escaping(_ reponse : [String : Any])->Void){
+        Alamofire.request(AppRouter.createBlog(params)).responseJSON { response in
             if let responseJSON = response.result.value as? [String : Any] {
                 print(responseJSON)
                 completion(responseJSON)

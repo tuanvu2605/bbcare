@@ -40,7 +40,7 @@ class AppTabBarController: UITabBarController {
     override func viewDidAppear(_ animated: Bool) {
         super.viewDidAppear(animated)
         let user = ObjectUser()
-        user.email = "tuanv.2605@gmail.com"
+        user.email = Defaults[.isExpert] ? "s2.4home@gmail.com" : "tuanv.2605@gmail.com"
         user.password = "12345678"
 //        ThemeService.showLoading(true)
         manager.login(user: user) {[weak self] response in

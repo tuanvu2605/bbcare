@@ -65,6 +65,7 @@ extension DefaultsKeys {
     static let lastHeight = DefaultsKey<Double>("lastHeight",defaultValue: 0.0)
     static let babyName = DefaultsKey<String>("babyName",defaultValue: "")
     static let babyBirthDay = DefaultsKey<String>("babyBirthDay",defaultValue: "")
+    static let isExpert = DefaultsKey<Bool>("isExpert",defaultValue: false)
     
 }
 extension Date

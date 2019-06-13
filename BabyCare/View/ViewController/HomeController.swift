@@ -12,7 +12,7 @@ import SwiftyUserDefaults
 
 class HomeController: ScrollableViewController {
 
-    
+    var header : HomeHeaderView!
     override func viewDidLoad() {
         super.viewDidLoad()
         AppService.userInfo(["uid":Defaults[.userId]]) { (res) in
@@ -26,15 +26,24 @@ class HomeController: ScrollableViewController {
             }
         }
         
+        AppService.getLastGrowthInfo { (res) in
+            if let data = res["data"] as? [String:Any] {
+                Defaults[.lastWeight] = data["weight"] as! Double
+                Defaults[.lastHeight] = data["height"] as! Double
+            }
+      
+        }
+        
     }
     
     override func viewDidAppear(_ animated: Bool) {
         super.viewDidAppear(animated)
+        header.update()
         
     }
     
     override func makeUI() {
-        let header = HomeHeaderView.makeView()
+        header = HomeHeaderView.makeView()
         header.setHeight(h: 270)
         
         scrollView.addMoreView(view: header)
@@ -65,7 +74,9 @@ class HomeController: ScrollableViewController {
     
     
     @objc func addGrowthInfo(){
-        present(AddInfoGrowthController(), animated: true) {
+        let vc = AddInfoGrowthController()
+        vc.delegate = self
+        present(vc, animated: true) {
             
         }
     }
@@ -87,4 +98,12 @@ class HomeController: ScrollableViewController {
         
     }
 
+}
+
+extension HomeController : AddInfoGrowthControllerDelegate {
+    func addInfoSuccess() {
+        self.header.update()
+    }
+    
+    
 }

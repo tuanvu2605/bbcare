@@ -11,7 +11,7 @@ import Alamofire
 
 public enum AppRouter: URLRequestConvertible {
     
-    static let baseURLPath = "http://localhost:3000/"
+    static let baseURLPath = "http://172.20.10.2:3000/"
     
     case login(Dictionary<String,Any>)
     case register(Dictionary<String,Any>)
@@ -22,14 +22,16 @@ public enum AppRouter: URLRequestConvertible {
     case taskByMonth(Dictionary<String,Any>)
     case createTask(Dictionary<String,Any>)
     case allGrowthInfo(Dictionary<String,Any>)
+    case createBlog(Dictionary<String,Any>)
+    case lastGrowthInfo
     
   //tasks/bymonth
     
     var method: HTTPMethod {
         switch self {
-        case .login ,.userInfo , .babyInfo , .register , .addGrowthInfo , .taskByMonth , .createTask , .allGrowthInfo:
+        case .login ,.userInfo , .babyInfo , .register , .addGrowthInfo , .taskByMonth , .createTask , .allGrowthInfo , .createBlog:
             return .post
-        case .allPost:
+        case .allPost , .lastGrowthInfo:
             return .get
         default:
             return .get
@@ -56,6 +58,10 @@ public enum AppRouter: URLRequestConvertible {
             return "tasks/create"
         case .allGrowthInfo:
             return "growthinfo/all"
+        case .lastGrowthInfo:
+            return "growthinfo/lastginfo"
+        case .createBlog:
+            return "post/create"
         default:
             return ""
         }
@@ -64,7 +70,7 @@ public enum AppRouter: URLRequestConvertible {
     public func asURLRequest() throws -> URLRequest {
         let parameters: [String: Any]! = {
             switch self {
-            case .login(let dict) , .addGrowthInfo(let dict) , .register(let dict) , .babyInfo(let dict) ,.taskByMonth(let dict) , .createTask(let dict) , .userInfo(let dict) , .allGrowthInfo(let dict):
+            case .login(let dict) , .addGrowthInfo(let dict) , .register(let dict) , .babyInfo(let dict) ,.taskByMonth(let dict) , .createTask(let dict) , .userInfo(let dict) , .allGrowthInfo(let dict) , .createBlog(let dict):
                 return dict;
                 
             default:

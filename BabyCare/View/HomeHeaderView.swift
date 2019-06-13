@@ -22,14 +22,17 @@ class HomeHeaderView: UIView {
         container.layer.masksToBounds = true
         container.layer.cornerRadius = 6.0
         container.dropShadow()
+        imgAvatar.layer.cornerRadius = 26.0
+        imgAvatar.layer.masksToBounds = true
+        update()
+        
+    }
+    
+    func update(){
         lblBabyName.text = Defaults[.babyName]
         lblHeight.text = "\(Defaults[.lastHeight])"
         lblWeight.text = "\(Defaults[.lastWeight])"
         lblTime.text = Defaults[.babyBirthDay].toDate(dateFormat:"dd/MM/yyyy")?.timeAgoSinceNow
-        
-        
-        imgAvatar.layer.cornerRadius = 26.0
-        imgAvatar.layer.masksToBounds = true
     }
     
     class func makeView()->HomeHeaderView{
