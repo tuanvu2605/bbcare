@@ -41,6 +41,7 @@ class AddInfoGrowthController: ScrollableViewController {
         let carbonTabSwipeNavigation = CarbonTabSwipeNavigation(items: items, delegate: self)
         let view = UIView(frame: CGRect(x: 0, y: 0, width: Size.screen.width, height: Size.screen.height - header.height))
         scrollView.addMoreView(view: view)
+        carbonTabSwipeNavigation.carbonSegmentedControl?.indicatorPosition = .top
         carbonTabSwipeNavigation.carbonSegmentedControl!.backgroundColor = .white
         carbonTabSwipeNavigation.insert(intoRootViewController: self, andTargetView: view)
         carbonTabSwipeNavigation.setSelectedColor(R.color.garadient_start()!, font: AppFont.style.medium(size: 18)!)

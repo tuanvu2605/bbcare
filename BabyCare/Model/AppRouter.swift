@@ -11,7 +11,7 @@ import Alamofire
 
 public enum AppRouter: URLRequestConvertible {
     
-    static let baseURLPath = "http://172.20.10.2:3000/"
+    static let baseURLPath = "http://localhost:3000/"
     
     case login(Dictionary<String,Any>)
     case register(Dictionary<String,Any>)
